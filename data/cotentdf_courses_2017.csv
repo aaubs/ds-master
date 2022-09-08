@@ -1,0 +1,714 @@
+course_id,course_title,url,is_paid,price,num_subscribers,num_reviews,num_lectures,level,content_duration,subject,year,revenue
+1070968,Ultimate Investment Banking Course,https://www.udemy.com/ultimate-investment-banking-course/,True,200,2147,23.0,51.0,All Levels,1.5,Business Finance,2017,429400
+1113822,Complete GST Course & Certification - Grow Your CA Practice,https://www.udemy.com/goods-and-services-tax/,True,75,2792,923.0,274.0,All Levels,,Business Finance,2017,209400
+1210588,Beginner to Pro - Financial Analysis in Excel 2017,https://www.udemy.com/complete-excel-finance-course-from-beginner-to-pro/,True,95,2451,11.0,36.0,All Levels,3.0,Business Finance,2017,232845
+1167710,The Only Investment Strategy You Need For Your Retirement,https://www.udemy.com/the-only-investment-strategy-you-need-for-your-retirement/,True,200,827,14.0,15.0,All Levels,1.0,Business Finance,2017,165400
+1196544,Python Algo Trading: Sentiment Trading with News,https://www.udemy.com/hedge-fund-strategy-trading-with-sentiment-analysis/,True,200,294,19.0,42.0,All Levels,7.0,Business Finance,2017,58800
+1242604,Winning Forex Trading with Live Forex Trading Examples,https://www.udemy.com/forexmacross/,True,200,809,3.0,25.0,All Levels,2.0,Business Finance,2017,161800
+1266306,Forex Trading: Your Complete Guide to Get Started Like a Pro,https://www.udemy.com/forex-trading-your-complete-guide-to-get-started-like-a-pro/,True,140,1026,25.0,37.0,Beginner Level,3.0,Business Finance,2017,143640
+1170894,Python Algo Stock Trading: Automate Your Trading!,https://www.udemy.com/algorithmic-stock-trading-bootcamp-automate-your-trading/,True,95,1165,21.0,41.0,Beginner Level,2.5,Business Finance,2017,110675
+1217778,Mastering High Probability Iron Condor Options Trading,https://www.udemy.com/mastering-high-probability-iron-condor-options-trading/,True,200,1030,11.0,,All Levels,2.0,Business Finance,2017,206000
+1246208,The Complete Short Course on Ethereum,https://www.udemy.com/ethereum1/,True,200,1041,,28.0,All Levels,1.5,Business Finance,2017,208200
+1035472,Python for Finance: Investment Fundamentals & Data Analytics,https://www.udemy.com/python-for-finance-investment-fundamentals-data-analytics/,True,195,3811,278.0,103.0,All Levels,6.5,Business Finance,2017,743145
+1154754,Financial Modeling for Startups & Small Businesses,https://www.udemy.com/financial-modeling-for-startups-small-businesses/,True,195,4991,137.0,79.0,Beginner Level,11.5,Business Finance,2017,973245
+1247394,Cryptocurrency Trading: Complete Guide To Trading Altcoins,https://www.udemy.com/cryptocurrency-trading/,True,95,367,42.0,35.0,All Levels,5.0,Business Finance,2017,34865
+1214702,Three Steps Trading - Live Trading - Real Account,https://www.udemy.com/three-steps-trading-live-trading-real-account/,True,190,1197,11.0,46.0,All Levels,,Business Finance,2017,227430
+1142570,How I Learned Stock Trading (and How You Can Too),https://www.udemy.com/best-stock-traders/,True,200,1580,12.0,53.0,Expert Level,2.0,Business Finance,2017,316000
+885974,Four Fundamentals of Financial Planning,https://www.udemy.com/four-fundamentals-of-financial-planning/,True,30,6219,23.0,20.0,All Levels,1.0,Business Finance,2017,186570
+1151092,Options Trading - Calendar Spread Course for Every Trader,https://www.udemy.com/options-trading-calendar-spread-course-for-every-trader/,True,200,1113,11.0,17.0,All Levels,1.5,Business Finance,2017,222600
+1171994,A Beginner's Guide to Quantopian Futures API,https://www.udemy.com/quantopian-futures/,True,20,936,6.0,11.0,Intermediate Level,1.5,Business Finance,2017,18720
+1239068,How to Buy Cheap Options - Options Trading Pricing Model,https://www.udemy.com/options-black-scholes-model/,True,200,658,2.0,19.0,All Levels,1.0,Business Finance,2017,131600
+1122792,The Almost Perfect Options Trading Strategy System - Unique,https://www.udemy.com/the-almost-perfect-options-trading-strategy-system-unique/,True,200,1793,,15.0,All Levels,1.0,Business Finance,2017,358600
+1135126,The Most Powerful Options Spread Trading Front Ratio Spread,https://www.udemy.com/the-most-powerful-options-spread-trading-front-ratio-spread/,True,200,1487,16.0,18.0,All Levels,2.0,Business Finance,2017,297400
+1057242,Learn How to Set Up an Incubator Hedge Fund - Step-by-Step,https://www.udemy.com/hedge-fund-startup/,True,200,1406,71.0,54.0,Expert Level,1.5,Business Finance,2017,281200
+1102462,FOREX Trading with Price Action,https://www.udemy.com/forex-trading-system/,True,195,484,57.0,19.0,Beginner Level,1.0,Business Finance,2017,94380
+1062092,Emini ES Futures - Advanced Non Directional Options Trading,https://www.udemy.com/emini-es-futures-advanced-non-directional-options-trading/,True,200,1057,,14.0,All Levels,1.5,Business Finance,2017,211400
+1217064,How To Invest With Tiny Capital In Stocks ?,https://www.udemy.com/howtoinvest5k/,True,20,1239,5.0,6.0,Beginner Level,0.7,Business Finance,2017,24780
+1148774,Options Trading 101: The Basics,https://www.udemy.com/options-trading-101-the-basics/,False,0,1514,66.0,11.0,Beginner Level,0.55,Business Finance,2017,0
+1233350,Bitcoin Profits for Beginners,https://www.udemy.com/bitcoin-profits-for-beginners/,True,100,61,18.0,30.0,Beginner Level,1.5,Business Finance,2017,6100
+1191504,How to create a routine Trading,https://www.udemy.com/how-to-create-a-trading-routine/,True,25,307,8.0,5.0,All Levels,0.133333333,Business Finance,2017,7675
+1105344,Quantitative Aptitude for Banking & Competitive Examinations,https://www.udemy.com/quantitative-aptitude-for-competitive-examinations-part-i/,True,50,1056,1.0,42.0,All Levels,3.0,Business Finance,2017,52800
+1100054,FOREX TRADING - Learn in a quick + profitable way + support,https://www.udemy.com/forex-the-only-simple-trading-your-ever-need-bank-trading/,True,100,271,48.0,47.0,All Levels,3.5,Business Finance,2017,27100
+1245244,Building Financial Statements in Excel,https://www.udemy.com/guide-to-building-financial-statements/,True,35,1181,1.0,18.0,Beginner Level,1.0,Business Finance,2017,41335
+1188178,Forex Trading for Beginners - Basics,https://www.udemy.com/complete-forex-trading-for-beginners-in-1-course-basics/,True,50,989,9.0,11.0,All Levels,1.0,Business Finance,2017,49450
+1147458,Complete Trading Plan Course for Stocks & Forex (10 Hours),https://www.udemy.com/killer-trading-plan-6-year-old-can-invest-10-hours-stocks-forex-etf/,True,200,1087,14.0,61.0,All Levels,9.5,Business Finance,2017,217400
+1243448,Forex Trading with Fixed Risk through Options Trading,https://www.udemy.com/forexoptions/,True,200,611,4.0,26.0,Beginner Level,1.0,Business Finance,2017,122200
+1198166,Top 10 Trading Ideas in the Equities Market,https://www.udemy.com/top-10-trading-ideas-in-the-equities-market/,True,20,661,4.0,12.0,All Levels,1.0,Business Finance,2017,13220
+1070886,Python Algo Trading: FX Trading with Oanda,https://www.udemy.com/python-algo-trading-fx-trading-with-oanda/,True,200,453,42.0,33.0,Intermediate Level,3.0,Business Finance,2017,90600
+377370,Learn to Trade the Stock Market without Blowing Your Profits,https://www.udemy.com/learn-to-trade-the-stock-market-without-blowing-your-profits/,True,60,6967,16.0,34.0,All Levels,1.0,Business Finance,2017,418020
+1175694,Get a Credit Repair Publication On Amazon and Live LIFE..,https://www.udemy.com/get-a-credit-repair-publication-on-amazon-and-live-life/,True,20,727,11.0,25.0,Beginner Level,3.0,Business Finance,2017,14540
+1085580,RSI Options Trading & Technical Analysis (3 Course Bundle),https://www.udemy.com/charting-rsi-options-stock-trading-for-beginners-newtechnical-analysis/,True,200,1047,9.0,46.0,All Levels,,Business Finance,2017,209400
+1188410,Basics of Mutual Funds for CA / CMA / CS / CFA Exams,https://www.udemy.com/basics-of-mutual-funds-for-ca-cma-cs-cfa-exams/,True,125,1045,2.0,17.0,Intermediate Level,1.0,Business Finance,2017,130625
+1076920,Stock Market investment: Practical Accounting,https://www.udemy.com/stock-market-investment-practical-accounting/,True,125,1120,6.0,43.0,Beginner Level,3.0,Business Finance,2017,140000
+1103272,How to remove 'Risk from Penny Stocks - Options Trading,https://www.udemy.com/best-penny-stock-options-to-buy-hot-stocks-put-call-stock-options/,True,200,668,12.0,22.0,All Levels,1.0,Business Finance,2017,133600
+1022108,Tax Accounting: Difficult Topic Made Easy to Understand,https://www.udemy.com/taxaccounting/,True,200,1033,10.0,29.0,All Levels,2.0,Business Finance,2017,206600
+1105216,Bank Financial Management A Comprehensive Study,https://www.udemy.com/bank-financial-management-a-comprehensive-study/,True,50,1081,6.0,21.0,All Levels,1.5,Business Finance,2017,54050
+1103718,Naked Put Options Trade Covered Call & Poor Man Covered Call,https://www.udemy.com/naked-put-options-trade-covered-call-poor-man-covered-call/,True,200,939,7.0,19.0,All Levels,1.5,Business Finance,2017,187800
+1188742,Introduction to Cryptocurrencies and Blockchain,https://www.udemy.com/introduction-to-cryptocurrencies/,False,0,3775,138.0,11.0,Beginner Level,2.0,Business Finance,2017,0
+1224262,Introduction to Futures Trading and Live Trade Demonstration,https://www.udemy.com/introduction-to-futures-trading-and-live-trading-futures/,True,60,54,,6.0,Expert Level,0.716666667,Business Finance,2017,3240
+1266148,Preparation of Consolidated Financial Statements (Basic),https://www.udemy.com/preparation-of-consolidated-financial-statements-basic/,False,0,965,0.0,18.0,Intermediate Level,1.5,Business Finance,2017,0
+791422,Succeed in Bonds Even if You Don't Know Where to Start,https://www.udemy.com/succeed-in-bonds-even-if-you-dont-know-where-to-start/,True,200,1113,6.0,8.0,All Levels,1.0,Business Finance,2017,222600
+791436,Succeed in Lotto Even if You Don't Know Where to Start!,https://www.udemy.com/succeed-in-lotto-even-if-you-dont-know-where-to-start/,True,20,1201,12.0,18.0,All Levels,1.5,Business Finance,2017,24020
+1218552,Forex for Beginners: Easy Forex Trading for Beginners,https://www.udemy.com/forex-for-beginners-easy-forex-trading-for-beginners/,False,0,1780,32.0,9.0,Beginner Level,1.0,Business Finance,2017,0
+1117834,Learn How To Trade Gold In 2017,https://www.udemy.com/learn-how-to-trade-gold-in-2017/,True,200,2,1.0,16.0,All Levels,1.0,Business Finance,2017,400
+831940,Fundamentals of Accounting for Business Owners,https://www.udemy.com/fundamentals-of-accounting-for-business-owners/,True,20,217,0.0,47.0,Beginner Level,2.5,Business Finance,2017,4340
+833770,Practical Financial Statement Analysis,https://www.udemy.com/practical-financial-statement-analysis/,True,75,22,5.0,45.0,All Levels,4.5,Business Finance,2017,1650
+707224,Financial Statement Review 101:  How to Find Errors,https://www.udemy.com/financial-statement-review-101-how-to-find-errors/,True,30,5,2.0,15.0,Beginner Level,2.0,Business Finance,2017,150
+1030976,The Complete Financial Statement Analysis Course,https://www.udemy.com/the-complete-financial-statement-analysis-course/,True,150,912,12.0,37.0,Beginner Level,3.0,Business Finance,2017,136800
+1122146,Penny Stocks Value & Chart Pattern Trading (2 Course Bundle),https://www.udemy.com/basics-investing-penny-stocks-beginners-hot-best-penny-stocks-trading/,True,200,1033,2.0,31.0,Beginner Level,1.5,Business Finance,2017,206600
+1103590,Trading con retrocesos de Fibonacci,https://www.udemy.com/trading-con-retrocesos-de-fibonacci/,True,25,14,4.0,15.0,All Levels,2.5,Business Finance,2017,350
+1172370,Mit Finanzwissen zu besserem Unternehmertum,https://www.udemy.com/mit-finanzwissen-zu-besserem-unternehmertum/,True,50,49,3.0,23.0,Beginner Level,3.0,Business Finance,2017,2450
+1128662,Volatility Trading Analysis with R,https://www.udemy.com/volatility-trading-analysis-with-r/,True,50,190,13.0,45.0,Expert Level,6.0,Business Finance,2017,9500
+1068986,How To Profit From Stock Market Volatility,https://www.udemy.com/how-to-trade-stock-market-volatility/,False,0,1736,36.0,11.0,All Levels,0.6,Business Finance,2017,0
+1222836,Case Studies in Macro Economics,https://www.udemy.com/case-studies-in-macro-economics/,True,50,114,1.0,22.0,Beginner Level,4.0,Business Finance,2017,5700
+1225686,Learn Options on Futures for Hedging Options and Stocks,https://www.udemy.com/learn-options-on-futures-for-hedging-options-and-stocks/,True,60,51,2.0,6.0,Expert Level,0.7,Business Finance,2017,3060
+1209694,Become A Forex Trader - Forex trading like a professional,https://www.udemy.com/become-a-forex-trader/,False,0,1735,31.0,19.0,All Levels,2.5,Business Finance,2017,0
+1194426,The Binary Institute - Introductory Course in Binary Options,https://www.udemy.com/the-binary-institute-introductory-course-in-binary-options-trading/,False,0,1121,12.0,6.0,All Levels,,Business Finance,2017,0
+1053272,The Financial Analyst Skills Training (FAST) course 2017,https://www.udemy.com/the-financial-analyst-skills-training-fast-course-2017/,True,100,589,31.0,138.0,All Levels,10.0,Business Finance,2017,58900
+1273896,Covered Calls - Powerful Income Strategy for Stock Traders,https://www.udemy.com/covered-calls-income-strategy-for-stock-traders/,True,60,22,0.0,8.0,Beginner Level,1.0,Business Finance,2017,1320
+1110470,The Passive Investing Blueprint - Build Wealth Passively,https://www.udemy.com/how-to-start-passive-investing-in-1-day/,True,200,338,32.0,66.0,All Levels,3.5,Business Finance,2017,67600
+1084642,Chart Patterns Trading Demystified,https://www.udemy.com/stock-chart-patterns-forecasting-explosive-gains-technical-analysis/,True,200,1023,8.0,29.0,All Levels,,Business Finance,2017,204600
+1134864,Simple things you must know before start FOREX (OFFER),https://www.udemy.com/forex-simple-things/,True,200,1053,20.0,15.0,Beginner Level,0.733333333,Business Finance,2017,210600
+1079040,Leaps Options Trading System - Diagonal Leaps Options Spread,https://www.udemy.com/leaps-options-trading-system-diagonal-leaps-options-spread/,True,200,993,19.0,16.0,All Levels,1.0,Business Finance,2017,198600
+1095116,Penny Stocks King: How 2 really Trade Penny Stocks (6 Hours),https://www.udemy.com/charting-for-penny-stocks-technical-analysis-best-penny-stocks-buy/,True,200,1085,17.0,48.0,All Levels,6.0,Business Finance,2017,217000
+1249164,Corporate Internal Controls and Fraud Controls,https://www.udemy.com/corporate-internal-controls-fraud-controls/,True,50,1,0.0,12.0,Intermediate Level,2.0,Business Finance,2017,50
+1208148,Coaching Course:Investment Analysis for your clients,https://www.udemy.com/coaching-courseinvestment-analysis-for-your-clientsjoanne/,True,200,1,0.0,6.0,Intermediate Level,0.566666667,Business Finance,2017,200
+1072156,Binary Beginners Mastery Strategy.,https://www.udemy.com/binary-beginners-mastery-strategy/,False,0,927,8.0,,Beginner Level,1.0,Business Finance,2017,0
+1069866,High-Frequency Trading & Dark Pools,https://www.udemy.com/high-frequency-trading-dark-pools/,True,40,19,11.0,22.0,Beginner Level,2.0,Business Finance,2017,760
+1225674,The Advantages of ETF Options and Index Options Trading,https://www.udemy.com/learn-etf-options-and-index-options-trading/,True,60,52,3.0,9.0,Intermediate Level,1.0,Business Finance,2017,3120
+1167536,Learn to Trade Forex - from Beginner to Professional,https://www.udemy.com/learn-to-trade-forex-from-only-10-minutes-a-day/,True,195,89,7.0,64.0,All Levels,12.5,Business Finance,2017,17355
+980408,Introduction to the economics of public services regulation,https://www.udemy.com/introduction-to-the-economics-of-public-services-regulation/,True,80,98,35.0,69.0,Intermediate Level,8.0,Business Finance,2017,7840
+1157298,Introduction to Forex Trading Business For Beginners,https://www.udemy.com/introduction-to-forex-trading-business-for-beginners/,True,20,0,0.0,27.0,Beginner Level,1.5,Business Finance,2017,0
+1282064,Cryptocurrency (BTC & ETH) Investment & Trading Course 2017,https://www.udemy.com/cryptocurrency-btc-eth-investment-trading-course-2017/,True,20,0,0.0,7.0,Beginner Level,2.5,Business Finance,2017,0
+1247992,Introduction to Project Management for Finance and Acct'g,https://www.udemy.com/introduction-to-project-management-m/,True,50,0,0.0,9.0,Beginner Level,2.0,Business Finance,2017,0
+1251582,Best Practices in Corporate Budgeting,https://www.udemy.com/best-practices-corporate-budgeting/,True,50,0,0.0,9.0,Intermediate Level,2.0,Business Finance,2017,0
+1258666,Financial Statement Auditing Cycles,https://www.udemy.com/financial-statement-auditing-cycles/,True,50,0,0.0,9.0,Intermediate Level,2.0,Business Finance,2017,0
+1168172,Case studies on credit appraisal for bankers,https://www.udemy.com/case-studies-on-credit-appraisal-for-bankers/,True,20,0,0.0,15.0,Beginner Level,3.5,Business Finance,2017,0
+1233314,Building a Balanced Scorecard,https://www.udemy.com/building-balanced-scorecard/,True,50,0,0.0,11.0,Intermediate Level,2.0,Business Finance,2017,0
+1276182,Options Trading Foundation: Your journey to competency...,https://www.udemy.com/option-trading-foundation-your-journey-to-competency/,True,95,0,0.0,,Intermediate Level,1.0,Business Finance,2017,0
+1187084,Forex how traders beat the markest with little experience,https://www.udemy.com/forex-how-traders-beat-the-markest-with-little-experience/,True,100,0,0.0,16.0,All Levels,1.0,Business Finance,2017,0
+1084454,CFA Level 2- Quantitative Methods,https://www.udemy.com/cfa-level-2-quantitative-methods/,True,40,0,,35.0,All Levels,5.5,Business Finance,2017,0
+1220862,The True Secret Sauce  For Stock Market Success,https://www.udemy.com/stockmarketsuccesssecretsauce/,True,200,23,2.0,30.0,All Levels,3.0,Business Finance,2017,4600
+1107904,Financial Reporting A Comprehensive Study,https://www.udemy.com/financial-reporting-a-comprehensive-study/,True,50,45,1.0,72.0,All Levels,8.0,Business Finance,2017,2250
+1095700,Using Xero for your bookkeeping needs  do beautiful business,https://www.udemy.com/xero-101/,True,95,39,6.0,28.0,Beginner Level,1.0,Business Finance,2017,3705
+1078520,Internal Controls - Design Implementation and Monitoring,https://www.udemy.com/internal-controls/,True,195,62,6.0,27.0,Beginner Level,6.5,Business Finance,2017,12090
+591724,Financial Market Environment & Investment Strategies,https://www.udemy.com/financial-market-environment-investment-strategies/,True,105,1,0.0,25.0,All Levels,1.5,Business Finance,2017,105
+1064904,Evolution and Features of ETFs,https://www.udemy.com/evolution-and-features-of-etfs/,True,100,0,0.0,10.0,All Levels,0.716666667,Business Finance,2017,0
+1046940,Trade RSI Breakout Strategy: Great Risk/Reward Ratio (Forex),https://www.udemy.com/trade-rsi-breakout-strategy-great-riskreward-ratio-forex/,True,200,66,12.0,19.0,All Levels,2.0,Business Finance,2017,13200
+1107954,Day trading strategy for all level with 72% success rate,https://www.udemy.com/1-shot-1kill/,True,95,51,,15.0,All Levels,0.533333333,Business Finance,2017,4845
+1263966,Advanced Technical Analysis PART1!,https://www.udemy.com/advanced-technical-analysis-part1/,True,100,9,1.0,19.0,Intermediate Level,3.0,Business Finance,2017,900
+925854,No Bull Investing: Investing 101 For Financial Freedom,https://www.udemy.com/no-bull-investing-investing-101-for-financial-freedom/,True,100,1213,12.0,25.0,Beginner Level,6.5,Business Finance,2017,121300
+1225564,Short Straddles - Exploit Earnings Option Volatility Crush,https://www.udemy.com/short-straddles-exploit-option-volatility-crush/,True,60,59,8.0,7.0,Expert Level,0.583333333,Business Finance,2017,3540
+1000136,Basics of Fixed Income Valuation CFA Level I 2017 Prep,https://www.udemy.com/basics-of-fixed-income-valuation-cfa-level-i-2017-prep/,True,20,4,0.0,14.0,Beginner Level,3.5,Business Finance,2017,80
+1232382,Intro to Financial Statement Audits,https://www.udemy.com/intro-financial-statement-audits/,True,50,1,0.0,9.0,Intermediate Level,1.5,Business Finance,2017,50
+1058530,How to Get Growing Passive Income from the Fortune 500!,https://www.udemy.com/how-to-get-growing-passive-income-from-the-fortune-500/,True,25,4,0.0,12.0,All Levels,1.0,Business Finance,2017,100
+994118,Managing Budgets in the Public and Non Profit Sector,https://www.udemy.com/managing-budgets-in-the-public-and-non-profit-sector/,True,95,4,0.0,20.0,All Levels,2.0,Business Finance,2017,380
+1165780,Ratio analysis for bankers and credit analysts,https://www.udemy.com/ratio-analysis-for-bankers-and-credit-analysts/,True,20,1,0.0,13.0,Beginner Level,3.0,Business Finance,2017,20
+1246684,Dash Crypto Currency Technical and Trading Overview Bootcamp,https://www.udemy.com/introduction-to-dash-crypto-currency-technical-overview/,True,20,4,1.0,14.0,All Levels,1.0,Business Finance,2017,80
+1185936,الدروس التعليمية لسوق الفوركس والأسواق المالية الأخرى,https://www.udemy.com/arabic-forex-education-by-pforex/,False,0,368,3.0,69.0,All Levels,20.5,Business Finance,2017,0
+753610,Trading mit kleinen Konten - Grundlagen die du kennen musst,https://www.udemy.com/werden-sie-privater-trader-im-forex-cfd-oder-rohstoffmarkt/,True,80,74,4.0,20.0,Beginner Level,3.5,Business Finance,2017,5920
+1264512,Trading Forex  - L'analyse des volumes,https://www.udemy.com/trading-forex-lanalyse-des-volumes/,True,70,4,3.0,13.0,All Levels,2.0,Business Finance,2017,280
+1210062,Wie funktionieren Bitcoin? Ein Einführungskurs.,https://www.udemy.com/wie-funktionieren-bitcoin-ein-einfuhrungskurs/,True,20,14,4.0,14.0,Beginner Level,0.616666667,Business Finance,2017,280
+1180960,Estruturação Financeira,https://www.udemy.com/estruturacao-financeira/,True,45,18,3.0,18.0,All Levels,3.5,Business Finance,2017,810
+1162656,Introduction to Bitcoin for Beginners,https://www.udemy.com/introduction-to-bitcoin-for-beginners/,True,20,2,1.0,7.0,Beginner Level,0.566666667,Business Finance,2017,40
+1050168,Forex Trading : Power Of Moving Averages,https://www.udemy.com/forex-trading-learn-moving-averages-from-scratch-to-pro/,True,200,100,24.0,33.0,All Levels,4.0,Business Finance,2017,20000
+1179546,An Introduction to Financial Markets on Wall Street,https://www.udemy.com/an-introduction-to-financial-markets-on-wall-street/,True,30,7,1.0,29.0,All Levels,2.0,Business Finance,2017,210
+1239206,Win 90% of Trades; Quantitative Investments Models in Excel,https://www.udemy.com/quantitative-investments/,True,200,4,1.0,16.0,Beginner Level,1.5,Business Finance,2017,800
+1149564,The Forex Pivot Points Trading Strategy,https://www.udemy.com/the-forex-pivot-points-trading-strategy/,True,20,21,,12.0,All Levels,2.0,Business Finance,2017,420
+1276364,Bitcoin & Ethereum Course (2 Course Bundle),https://www.udemy.com/bitcoin-ethereum-bundle/,True,200,1,0.0,52.0,All Levels,2.5,Business Finance,2017,200
+1237912,Create Trading Robot Without Coding Skills!,https://www.udemy.com/algotrading/,True,145,5,0.0,13.0,All Levels,1.0,Business Finance,2017,725
+1021760,MQL5 - Beginner To Expert,https://www.udemy.com/mql5-beginner-to-expert/,True,45,16,1.0,16.0,Beginner Level,1.5,Business Finance,2017,720
+1073430,Xero Bookkeeping Course & Certification by Accounting Firm,https://www.udemy.com/online-bookkeeping-with-practice-and-job-recommendation/,True,20,7,3.0,15.0,Beginner Level,2.0,Business Finance,2017,140
+1136912,Financial Accounting - The Ultimate Beginner Course,https://www.udemy.com/financial-accounting-the-ultimate-beginner-course/,True,100,9,2.0,101.0,Beginner Level,10.0,Business Finance,2017,900
+1036456,Basics of Private Equity,https://www.udemy.com/basics-of-private-equity/,True,60,9,2.0,6.0,Intermediate Level,0.666666667,Business Finance,2017,540
+1151398,Trading Forex - Trader avec les figures harmoniques,https://www.udemy.com/trading-forex-trader-avec-les-figures-harmoniques/,True,90,57,11.0,23.0,Beginner Level,2.0,Business Finance,2017,5130
+1178820,Aprenda a Investir no Tesouro Direto Passo a Passo,https://www.udemy.com/tesouro-direto-passo-a-passo/,True,35,62,10.0,19.0,All Levels,1.0,Business Finance,2017,2170
+933394,The Complete Guide to Forex Trading,https://www.udemy.com/the-complete-guide-to-forex-trading/,True,20,1329,12.0,33.0,All Levels,5.0,Business Finance,2017,26580
+1090408,Learn How to Trade Binary Options Professionally,https://www.udemy.com/freebinaryoptions/,False,0,5144,169.0,7.0,All Levels,1.0,Business Finance,2017,0
+1196728,From 0 to 1: Investments and Portfolio Theory,https://www.udemy.com/from-0-to-1-investments-and-portfolio-theory/,True,50,230,0.0,,Beginner Level,4.5,Business Finance,2017,11500
+1196816,From 0 to 1: Bond Theory and Valuation,https://www.udemy.com/from-0-to-1-bond-theory-and-valuation/,True,50,223,2.0,29.0,Beginner Level,4.0,Business Finance,2017,11150
+1275790,Advanced Butterfly Spreads for Options Income Strategies,https://www.udemy.com/advanced-butterfly-spread-option-strategies/,True,60,16,1.0,8.0,Expert Level,1.0,Business Finance,2017,960
+1131122,IPO Fundamentals,https://www.udemy.com/ipo-fundamentals-basics-definition-tutorial/,True,20,1122,13.0,6.0,Beginner Level,1.0,Business Finance,2017,22440
+1269590,Advanced Options Trading Course,https://www.udemy.com/advanced-option-trading-course/,True,40,1252,2.0,6.0,Intermediate Level,0.533333333,Business Finance,2017,50080
+1119920,Financial Ratios Using Excel,https://www.udemy.com/financialratios/,True,100,1223,14.0,29.0,Beginner Level,1.0,Business Finance,2017,122300
+987682,Stocks: Quick Method to get started Investing,https://www.udemy.com/quick-method-investing/,False,0,718,13.0,7.0,Beginner Level,1.0,Business Finance,2017,0
+1123226,MasterClass-Japanese &  Heiken Ashi CandleStick Patterns,https://www.udemy.com/power-of-engulfing-candlestick-patterns-in-forex-trading/,True,195,375,10.0,26.0,All Levels,3.5,Business Finance,2017,73125
+1170626,Start Trading Stocks Using Technical Analysis! Part 2,https://www.udemy.com/start-trading-stocks-using-technical-analysis-part-2/,True,95,94,11.0,25.0,All Levels,2.0,Business Finance,2017,8930
+1016996,Introduction to Corporate Finance (Mergers & Acquisitions),https://www.udemy.com/introduction-to-corporate-finance/,False,0,2080,83.0,30.0,Beginner Level,1.5,Business Finance,2017,0
+1046992,Forex & Financial Market Trading Tutorial- Online Strategies,https://www.udemy.com/forex-education-school-pforex/,False,0,3137,30.0,69.0,All Levels,9.0,Business Finance,2017,0
+1088656,Quantitative Trading Analysis with Python,https://www.udemy.com/quantitative-trading-analysis-with-python/,True,50,256,17.0,49.0,All Levels,5.5,Business Finance,2017,12800
+1187758,Options Trading Essentials: The ULTIMATE Guides,https://www.udemy.com/options-trading-essentials/,False,0,1352,6.0,20.0,All Levels,4.0,Business Finance,2017,0
+1257502,The Complete Litecoin Crypto Currency Bootcamp,https://www.udemy.com/the-complete-litecoin-crypto-currency-bootcamp/,True,20,7,3.0,24.0,All Levels,1.0,Business Finance,2017,140
+1215926,Kickstarter success in 5 easy steps,https://www.udemy.com/kickstarter-success-in-5-easy-steps/,True,20,0,0.0,12.0,All Levels,0.516666667,Business Finance,2017,0
+1249146,Planning and Executing a Financial Statement Audit,https://www.udemy.com/planning-executing-financial-statement-audit/,True,50,0,0.0,,Intermediate Level,2.0,Business Finance,2017,0
+1233894,The Latest Updates 2016 Financial Accounting Standards Board,https://www.udemy.com/2016-fasb-updates/,True,50,1,0.0,9.0,Intermediate Level,2.0,Business Finance,2017,50
+1221942,Basic Bookkeeping,https://www.udemy.com/basic-bookkeeping-course/,True,35,0,0.0,12.0,Beginner Level,0.733333333,Business Finance,2017,0
+1169196,Credit concepts and checklist for bankers credit analyst,https://www.udemy.com/credit-concepts-and-checklist-for-bankers-credit-analyst/,True,20,0,0.0,10.0,Beginner Level,2.5,Business Finance,2017,0
+1271182,Practical Film Financing: Finding & Pitching Investors,https://www.udemy.com/indiefilm-financing/,True,100,0,0.0,9.0,Beginner Level,1.0,Business Finance,2017,0
+1233302,Ratio Analysis for Financial Statements,https://www.udemy.com/ratio-analysis-financial-statements/,True,50,0,0.0,6.0,Beginner Level,2.0,Business Finance,2017,0
+1231958,60 Minutes to Fundamental Accounting Skills,https://www.udemy.com/60-minute-fundamental-accounting-skills/,True,75,0,0.0,9.0,Beginner Level,2.5,Business Finance,2017,0
+1209556,Hedge Fund Trading Systems Part Two - Stocks & ETFs,https://www.udemy.com/hedge-fund-trading-systems-two/,True,200,56,10.0,23.0,Expert Level,2.5,Business Finance,2017,11200
+696342,FOREX: From Zero To Hero,https://www.udemy.com/forex-from-zero-to-hero/,True,150,152,,26.0,All Levels,3.0,Business Finance,2017,22800
+745832,Succeed at Options Even If You Don't Know Where to Start,https://www.udemy.com/succeed-at-options-even-if-you-dont-know-where-to-start/,True,200,36,1.0,12.0,All Levels,1.5,Business Finance,2017,7200
+1101382,Binary Options Masterclass,https://www.udemy.com/binary-options-masterclass/,True,200,70,11.0,16.0,All Levels,2.0,Business Finance,2017,14000
+1169188,Energiespar-Formel // Mehr Geld durch Wasser sparen Zuhause,https://www.udemy.com/energiespar-formel-mehr-geld-durch-wasser-sparen-zuhause/,True,50,21,2.0,54.0,All Levels,1.5,Business Finance,2017,1050
+1201912,high swing - كورس لتعليم جميع مراحل احتراف تداول الفوركس,https://www.udemy.com/wiqvfsmc/,True,100,12,4.0,17.0,Intermediate Level,2.5,Business Finance,2017,1200
+1225194,Zoho Books Gestion Financière d'Entreprise pas à pas,https://www.udemy.com/zoho-books-gestion-financiere-dentreprise-pas-a-pas/,False,0,229,0.0,33.0,All Levels,2.0,Business Finance,2017,0
+1164568,Psicología del trading,https://www.udemy.com/psicologia-del-trading/,True,20,1,1.0,6.0,All Levels,0.6,Business Finance,2017,20
+1057040,Teeter-Totter Accounting,https://www.udemy.com/teeter-totter-accounting/,True,90,0,0.0,12.0,Beginner Level,1.0,Business Finance,2017,0
+1087466,Stop Creditors from Harassing you and Avoid Bankruptcy,https://www.udemy.com/stop-creditor-harassment-and-avoid-bankruptcy/,True,20,0,,7.0,Beginner Level,0.616666667,Business Finance,2017,0
+1058852,Learn to trade using technical analysis,https://www.udemy.com/learn-to-trade-using-technical-analysis/,True,50,0,0.0,6.0,Intermediate Level,0.533333333,Business Finance,2017,0
+1083744,How to Invest Using ETFs from Former Wall Street Trader,https://www.udemy.com/etf-master-class/,True,200,0,0.0,10.0,All Levels,2.0,Business Finance,2017,0
+1271430,Workshop on Banking Credit Analysis Process,https://www.udemy.com/workshop-on-banking-credit-analysis-process/,True,100,0,0.0,7.0,All Levels,1.5,Business Finance,2017,0
+1219820,Accounting - The 6 most important rules you must learn,https://www.udemy.com/accounting-the-6-most-important-rules-you-must-learn/,True,20,0,0.0,9.0,All Levels,1.0,Business Finance,2017,0
+1136038,Free Ways to Create Passive Income Online,https://www.udemy.com/how-to-make-passive-income-online/,True,25,0,0.0,27.0,Beginner Level,1.0,Business Finance,2017,0
+1232282,The Cash Flow Statement - An Introduction,https://www.udemy.com/cash-flow-statement-introduction/,True,50,0,0.0,10.0,Beginner Level,1.5,Business Finance,2017,0
+1039442,How To Trade RSI Pullback Strategy: Entry To Exit (Forex),https://www.udemy.com/how-to-trade-rsi-pullback-strategy-entry-to-exit/,True,150,104,10.0,21.0,All Levels,2.0,Business Finance,2017,15600
+1214144,¡Triunfar en La Bolsa de Valores No Requiere de Experiencia!,https://www.udemy.com/triunfar-en-la-bolsa-de-valores-no-requiere-de-experiencia/,False,0,338,7.0,6.0,Beginner Level,1.0,Business Finance,2017,0
+1138162,Le basi del Trading,https://www.udemy.com/le-basi-del-trading/,True,200,22,5.0,18.0,All Levels,3.5,Business Finance,2017,4400
+1163242,Profit and Loss Account for bankers and credit analysts,https://www.udemy.com/profit-and-loss-account-for-bankers-and-credit-analysts/,True,20,1,0.0,,Beginner Level,7.5,Business Finance,2017,20
+954842,Black Scholes Option Pricing Model,https://www.udemy.com/black-scholes-option-pricing-model/,True,25,3,0.0,10.0,Beginner Level,,Business Finance,2017,75
+1056242,Practical Accounts Training A,https://www.udemy.com/mobile-practical-accounts-training-a/,True,35,2,0.0,127.0,Intermediate Level,31.5,Business Finance,2017,70
+1113702,Intro. to Asset-Backed Securities CFA Level I  2017 Prep,https://www.udemy.com/intro-to-asset-backed-securities-cfa-level-i-2017-prep/,True,20,1,0.0,13.0,All Levels,3.0,Business Finance,2017,20
+1072220,Reach Your Personal Financial Goals the Easy Way (2017 UK),https://www.udemy.com/reach-your-personal-financial-goals-the-easy-way-2017-uk/,True,95,2,0.0,59.0,All Levels,4.5,Business Finance,2017,190
+1022796,Trading for winning,https://www.udemy.com/charting-for-beginners-for-dummies-newbies-technical-analysis/,True,200,168,7.0,27.0,All Levels,2.0,Business Finance,2017,33600
+793084,Succeed in Stocks Even if you Don't Know Where to Start,https://www.udemy.com/succeed-in-stocks-even-if-you-dont-know-where-to-start/,False,0,2554,20.0,10.0,Beginner Level,1.0,Business Finance,2017,0
+1088102,The Psychology of Trading,https://www.udemy.com/the-psychology-of-trading/,True,20,95,3.0,20.0,All Levels,1.0,Business Finance,2017,1900
+1113442,Beginners Chart Patterns Trading for Penny Stocks,https://www.udemy.com/beginners-chart-patterns-for-penny-stocks-part-2/,True,200,40,,26.0,Beginner Level,1.5,Business Finance,2017,8000
+1110256,QuickBooks Online : Inventory Management For Non-Finance,https://www.udemy.com/quickbooks-online-inventory-management-for-non-finance/,True,35,8,4.0,10.0,All Levels,0.666666667,Business Finance,2017,280
+773502,Financial Accounting Part 2 - Passing The Class,https://www.udemy.com/financial-accounting-part-2-passing-the-class/,True,20,15,4.0,36.0,Beginner Level,,Business Finance,2017,300
+1153876,Term Loan Appraisal for bankers credit analysts,https://www.udemy.com/term-loan-appraisal-for-bankers-credit-analysts/,True,20,11,2.0,28.0,Beginner Level,6.5,Business Finance,2017,220
+1089610,3 Little Pigs: A Multiple Timeframe Forex Trading Strategy,https://www.udemy.com/3-little-pigs-a-multiple-timeframe-forex-trading-strategy/,True,20,18,0.0,6.0,All Levels,1.5,Business Finance,2017,360
+1153854,Working Capital assessment for bankers credit analysts,https://www.udemy.com/working-capital-assessment-for-bankers-credit-analysts/,True,20,4,0.0,29.0,Beginner Level,7.0,Business Finance,2017,80
+1156530,How to trade in the Forex market,https://www.udemy.com/forex-market/,True,200,6,,39.0,Intermediate Level,2.5,Business Finance,2017,1200
+1097288,Bookkeeping Practicals with Software,https://www.udemy.com/bookkeeping-practical-with-software/,True,35,1,0.0,130.0,Intermediate Level,31.5,Business Finance,2017,35
+1082352,Trading Basics in 30 minutes,https://www.udemy.com/trading-basics-in-30-minutes/,True,50,1,0.0,6.0,Beginner Level,0.533333333,Business Finance,2017,50
+1010988,Economics for beginners - Various Concepts,https://www.udemy.com/economics-forms-of-market-and-perfect-competition/,True,25,2,0.0,34.0,Beginner Level,2.5,Business Finance,2017,50
+1174084,Formação de preços em serviços,https://www.udemy.com/formacao-de-precos-em-servicos/,True,35,77,5.0,28.0,Intermediate Level,2.0,Business Finance,2017,2695
+1250742,Complete GST Course For Small and Medium Enterprises,https://www.udemy.com/complete-gst-course-for-small-and-medium-enterprises/,True,75,8,,45.0,Beginner Level,6.0,Business Finance,2017,600
+1124276,Le bitcoin et la blockchain,https://www.udemy.com/le-bitcoin-et-la-blockchain/,True,80,13,3.0,12.0,All Levels,0.733333333,Business Finance,2017,1040
+1227792,Contabilità Generale,https://www.udemy.com/contabilita-generale/,True,200,4,1.0,40.0,All Levels,,Business Finance,2017,800
+1196700,Le basi del trading online,https://www.udemy.com/le-basi-del-trading-online/,True,45,7,1.0,27.0,Beginner Level,3.5,Business Finance,2017,315
+1137310,自分に合った投資信託を見つけよう！,https://www.udemy.com/kabucom_toushin/,True,25,859,49.0,23.0,Beginner Level,2.0,Business Finance,2017,21475
+1080466,Curso Completo de Bitcoin - Ganhe 0.00005 Bitcoin,https://www.udemy.com/curso-bitcoin/,True,30,394,109.0,73.0,All Levels,5.5,Business Finance,2017,11820
+1062144,Aprende a invertir sin capital,https://www.udemy.com/aprende-a-invertir-sin-capital/,True,130,649,37.0,29.0,Beginner Level,1.5,Business Finance,2017,84370
+1097486,Apprendre à trader sur le marché du Forex - guide complet,https://www.udemy.com/apprendre-a-trader-sur-le-marche-du-forex-guide-complet/,True,140,187,47.0,38.0,Beginner Level,3.0,Business Finance,2017,26180
+1141708,Managerial Accounting - The Ultimate Beginner Course!,https://www.udemy.com/managerial-accounting-the-ultimate-beginner-course/,True,100,11,0.0,121.0,Beginner Level,11.0,Business Finance,2017,1100
+1240408,Forex Trading for Beginners Vol 1:A Forex Course Made Simple,https://www.udemy.com/forex-trading-for-beginners-vol-1a-forex-course-made-simple/,True,175,3,0.0,27.0,Beginner Level,1.0,Business Finance,2017,525
+1178150,Double Your Salary With Free Local Job Training Courses,https://www.udemy.com/how-to-search-the-internet-to-get-free-training-education/,True,20,8,1.0,8.0,All Levels,1.0,Business Finance,2017,160
+429080,Understanding Financial Derivatives,https://www.udemy.com/understanding-financial-derivatives/,True,20,16,1.0,11.0,Intermediate Level,2.0,Business Finance,2017,320
+1230950,The Fast Route to a Faster Financial Close,https://www.udemy.com/faster-financial-close/,True,50,2,0.0,8.0,Intermediate Level,1.5,Business Finance,2017,100
+1027678,Depreciation Amortization and Depletion,https://www.udemy.com/depreciation-amor/,True,25,7,1.0,13.0,Intermediate Level,1.0,Business Finance,2017,175
+1078254,Tally ERP Complete Training in Urdu / Hindi,https://www.udemy.com/tally-erp-complete-training-in-urdu/,True,30,5,2.0,51.0,All Levels,5.0,Business Finance,2017,150
+1193288,Accounting Simplified,https://www.udemy.com/accounting-simplified/,True,30,3,0.0,41.0,All Levels,8.5,Business Finance,2017,90
+1106148,Series 7: Intermediate Options,https://www.udemy.com/series-7-intermediate-options/,True,55,5,0.0,11.0,Intermediate Level,1.0,Business Finance,2017,275
+1029322,Accounting and Business Basics,https://www.udemy.com/accounting-and-business-basics/,True,200,5,0.0,10.0,All Levels,2.0,Business Finance,2017,1000
+1174086,Precificação - Calculando valor de venda baseado nos custos,https://www.udemy.com/formacao-de-precos-em-projetos/,True,35,32,3.0,46.0,All Levels,3.0,Business Finance,2017,1120
+1132162,Investimento em Ações,https://www.udemy.com/investimento-em-acoes/,True,20,16,4.0,,Beginner Level,4.5,Business Finance,2017,320
+1206414,Excelを使ってビジネスシミュレーション：基礎編,https://www.udemy.com/excel-zw/,True,85,22,5.0,47.0,Beginner Level,5.0,Business Finance,2017,1870
+1232390,Corporate Ethics,https://www.udemy.com/corporate-ethics/,True,100,0,0.0,13.0,Beginner Level,3.5,Business Finance,2017,0
+1232312,Core Financial Statement Concepts,https://www.udemy.com/financial-statement-concepts/,True,50,0,0.0,9.0,Intermediate Level,1.5,Business Finance,2017,0
+1251654,Understand Core Finance Principles in 60 Minutes,https://www.udemy.com/core-finance-principles-in-60-minutes/,True,75,0,0.0,13.0,Beginner Level,2.5,Business Finance,2017,0
+1024862,Making Tax Digital - UK HMRC Legislation Explained,https://www.udemy.com/making-tax-digital/,False,0,743,0.0,,All Levels,1.0,Business Finance,2017,0
+1268616,Condor Broken Wing Butterfly Options Trading Course System,https://www.udemy.com/condor-broken-wing-butterfly-options-trading-course-system/,False,0,16,0.0,15.0,All Levels,1.5,Business Finance,2017,0
+1100746,≪虎の巻≫証券取引の「税金のお悩み」解消,https://www.udemy.com/kabucom_zeise/,True,25,3840,296.0,33.0,Intermediate Level,1.5,Business Finance,2017,96000
+1005312,【１日でマスター！】今日からはじめる資産形成,https://www.udemy.com/kabucom_start/,True,20,7183,,14.0,Beginner Level,1.0,Business Finance,2017,143660
+323916,Learn How To use Channels to find amazing Forex Entries,https://www.udemy.com/learn-how-to-use-channels-to-find-amazing-forex-entries/,True,45,172,48.0,15.0,All Levels,1.0,Business Finance,2017,7740
+1189592,Learn How To Successfully Trade Forex: In 5 Simple Steps,https://www.udemy.com/learn-how-to-successfully-trade-forex-in-5-simple-steps/,True,95,64,7.0,44.0,All Levels,8.5,Business Finance,2017,6080
+791574,Succeed in Futures Even if You Don't Know Where to Start,https://www.udemy.com/succeed-in-futures-even-if-you-dont-know-where-to-start/,False,0,3014,19.0,15.0,All Levels,1.0,Business Finance,2017,0
+1041926,How to Trade Forex like a Hedge Fund: Long FX Strategies,https://www.udemy.com/how-to-trade-forex-like-a-hedge-fund/,True,115,504,5.0,32.0,All Levels,1.5,Business Finance,2017,57960
+1253868,Complete Short Financial Ratio Course for Financial Analysis,https://www.udemy.com/financialratio/,True,200,15,1.0,56.0,All Levels,3.0,Business Finance,2017,3000
+1250694,カードゲームでカンタンに理解する！経済とお金のキホン,https://www.udemy.com/kabucom_keizai/,True,20,103,3.0,18.0,Beginner Level,,Business Finance,2017,2060
+1021104,Aprenda a Investir seu Dinheiro,https://www.udemy.com/aprenda-a-investir-seu-dinheiro/,True,85,150,28.0,19.0,All Levels,2.5,Business Finance,2017,12750
+1193056,Trader sur le Forex avec Ichimoku,https://www.udemy.com/apprendre-a-trader-le-forex-avec-ichimoku/,True,90,48,12.0,18.0,Beginner Level,2.5,Business Finance,2017,4320
+1223000,Innovators and innovation: Travel through time!,https://www.udemy.com/innovators-and-innovation-travel-through-time/,True,50,101,0.0,31.0,Beginner Level,6.0,Business Finance,2017,5050
+1197206,Illustrator CC MasterClass,https://www.udemy.com/illustrator-cc-masterclass/,True,95,462,50.0,86.0,All Levels,12.0,Graphic Design,2017,43890
+1117796,Typographic Logo Design in Illustrator - Beginners & Beyond,https://www.udemy.com/typographical-logo-design/,True,150,1720,40.0,,All Levels,1.5,Graphic Design,2017,258000
+1219520,Adobe Illustrator T-Shirt Design for Merch by Amazon,https://www.udemy.com/merchbyamazondesign/,True,20,390,44.0,15.0,All Levels,1.0,Graphic Design,2017,7800
+1216132,Learn Adobe Illustrator: Semi-Automatic Mandalas Drawing,https://www.udemy.com/learn-adobe-illustrator-semi-automatic-mandalas-drawing/,True,200,1076,15.0,15.0,All Levels,1.0,Graphic Design,2017,215200
+1145736,Create Professional Looking Infographics With No Experience,https://www.udemy.com/create-professional-looking-infographics/,True,180,9367,,21.0,Beginner Level,2.0,Graphic Design,2017,1686060
+1120554,Canva Graphics Design Essential Training For Everyone,https://www.udemy.com/canva-graphics-design-essential-training/,True,200,12340,124.0,46.0,All Levels,2.5,Graphic Design,2017,2468000
+1151326,Triangulated Bird: Origami Styled Bird in Adobe Illustrator,https://www.udemy.com/triangulated-bird-origami-styled-bird-in-adobe-illustrator/,True,195,2027,11.0,9.0,Intermediate Level,0.5,Graphic Design,2017,395265
+1181578,Deinen Roman setzen mit PagePlus in 10 einfachen Schritten,https://www.udemy.com/deinen-roman-setzen-mit-pageplus-in-10-einfachen-schritten/,False,0,69,6.0,25.0,All Levels,3.5,Graphic Design,2017,0
+1261122,画像加工の初心者でも「１日」で初歩を覚えられる無料講座,https://www.udemy.com/1-tuqndy/,False,0,21,0.0,18.0,Beginner Level,1.0,Graphic Design,2017,0
+874012,The Ultimate Drawing Course - Beginner to Advanced,https://www.udemy.com/the-ultimate-drawing-course-beginner-to-advanced/,True,150,26742,2379.0,62.0,Beginner Level,11.0,Graphic Design,2017,4011300
+1046722,Ultimate Photoshop Training: From Beginner to Pro,https://www.udemy.com/ultimate-photoshop-training-from-beginner-to-pro/,True,200,5326,447.0,150.0,Beginner Level,11.5,Graphic Design,2017,1065200
+1047436,How to Draw and Sketch for Beginners,https://www.udemy.com/drawing-and-sketching-for-beginners/,True,150,1360,175.0,79.0,Beginner Level,,Graphic Design,2017,204000
+1067516,Vector Logo Design in Affinity Designer,https://www.udemy.com/logoaffinitydesigner/,True,150,1789,102.0,57.0,All Levels,3.0,Graphic Design,2017,268350
+1184664,Design Business Card in Photoshop: Earn Money by Doing It,https://www.udemy.com/design-business-card-in-photoshop-earn-money-by-doing-it/,True,50,120,10.0,29.0,Beginner Level,3.5,Graphic Design,2017,6000
+1185898,Photoshop - Creación de Efectos 2,https://www.udemy.com/photoshop-creacion-de-efectos-2/,True,30,0,0.0,9.0,Beginner Level,1.0,Graphic Design,2017,0
+1177156,Como Criar Logos de Sucesso - Start Designer,https://www.udemy.com/como-criar-logos-de-sucesso-start-designer/,True,25,0,0.0,29.0,Beginner Level,6.0,Graphic Design,2017,0
+1128984,Photoshop - Aprende a Transformar Imágenes,https://www.udemy.com/photoshop-aprende-a-transformar-imagenes/,True,20,0,0.0,14.0,Beginner Level,1.0,Graphic Design,2017,0
+1137738,Photoshop - Creación de Efectos,https://www.udemy.com/photoshop-creacion-de-efectos/,True,20,0,0.0,11.0,Beginner Level,1.0,Graphic Design,2017,0
+1185535,Cómo crear maquetas con Adobe XD,https://www.udemy.com/como-crear-maquetas-con-adobe-xd/,False,0,217,2.0,21.0,Beginner Level,3.0,Graphic Design,2017,0
+1085646,How to Doodle: Basics and Lettering,https://www.udemy.com/how-to-doodle-basics-and-lettering/,True,185,2358,28.0,12.0,All Levels,1.0,Graphic Design,2017,436230
+1062048,Mastering Photoshop CC 2017 - The Art of Design & Technology,https://www.udemy.com/mastering-basics-of-photoshopcc-a-complete-beginners-guide/,True,20,3721,95.0,46.0,All Levels,6.5,Graphic Design,2017,74420
+1160004,Design a logo for FREE in Inkscape,https://www.udemy.com/logoinkscape/,True,100,1148,26.0,42.0,All Levels,2.0,Graphic Design,2017,114800
+1087244,Foundation Skills on Adobe Illustrator: Learn Fast!,https://www.udemy.com/foundation_skills_illustrator/,True,50,2489,39.0,16.0,Beginner Level,2.0,Graphic Design,2017,124450
+1169062,How To Create Amazing Cinemagraphs with Microsoft PowerPoint,https://www.udemy.com/how-to-create-amazing-cinemagraphs-with-microsoft-powerpoint/,True,30,1782,18.0,10.0,Beginner Level,1.0,Graphic Design,2017,53460
+1196852,Photoshop: How to create stunning collages,https://www.udemy.com/photoshop-how-to-create-stunning-collages-in-5-minutes/,True,20,2044,17.0,15.0,Beginner Level,1.5,Graphic Design,2017,40880
+1149656,Mastering advance Photoshop,https://www.udemy.com/advanced-photoshop-practical-projectspsd-files/,True,20,5787,40.0,21.0,Intermediate Level,2.0,Graphic Design,2017,115740
+1094930,DIY Design Professional Web Banners in Photoshop 4 Beginners,https://www.udemy.com/design-professional-web-banners-in-photoshop-for-beginners/,True,200,6944,30.0,24.0,Beginner Level,1.0,Graphic Design,2017,1388800
+1219326,Diventa un professionista del Graphic Design,https://www.udemy.com/diventa-un-professionista-del-graphic-design/,True,200,185,10.0,94.0,All Levels,17.5,Graphic Design,2017,37000
+1029554,Formação em Design Gráfico com Corel Draw Versões X8 / 2017.,https://www.udemy.com/formacao-design-grafico-com-corel-draw-x8/,True,45,418,85.0,71.0,Beginner Level,11.0,Graphic Design,2017,18810
+1276020,Photoshop para iniciante - o básico,https://www.udemy.com/photoshop-para-iniciante-o-basico/,True,30,23,2.0,20.0,Beginner Level,3.0,Graphic Design,2017,690
+1202746,Curso Online de Adobe Illustrator CC e CS6,https://www.udemy.com/curso-online-de-adobe-illustrator-cc/,True,80,126,18.0,119.0,All Levels,13.0,Graphic Design,2017,10080
+1226518,Photoshop & Illustrator CC Essentials in Arabic,https://www.udemy.com/photoshop-illustrator-cc-essentials-arabic/,False,0,3329,193.0,33.0,Beginner Level,3.5,Graphic Design,2017,0
+1223336,Photoshop Essentials - Uma Introdução Detalhada,https://www.udemy.com/photoshop-introducao/,False,0,800,39.0,24.0,Beginner Level,2.5,Graphic Design,2017,0
+1257870,Photoshop CC 2015 Top New Features,https://www.udemy.com/photoshop-cc-2015-top-new-features/,False,0,1477,3.0,13.0,All Levels,0.65,Graphic Design,2017,0
+1165016,Surface Pattern Design : Create Scandinavian Patterns,https://www.udemy.com/surface-pattern-design-scandinavian-art-research-to-finished-design/,True,40,390,6.0,8.0,All Levels,0.7,Graphic Design,2017,15600
+1211198,Illustrative Surface Patterns Design : From Life To Products,https://www.udemy.com/illustrative-surface-patterns-design-from-life-moments-to-products/,True,40,253,1.0,14.0,All Levels,1.0,Graphic Design,2017,10120
+1168910,Easy Illustration and 2D Animation,https://www.udemy.com/easy-illustration-and-2d-animation/,True,65,56,16.0,7.0,All Levels,0.566666667,Graphic Design,2017,3640
+1260674,Learn Comic Book Color Flatting! (Coloring Assistant role),https://www.udemy.com/flatting/,False,0,946,3.0,6.0,Beginner Level,0.666666667,Graphic Design,2017,0
+1265678,CORSO COMPLETO DI E-ON VUE X-STREAM PER TUTTI,https://www.udemy.com/corso-completo-di-e-on-vue-x-stream-per-tutti/,True,70,3,1.0,20.0,All Levels,3.5,Graphic Design,2017,210
+1164570,调色高级讲解,https://www.udemy.com/dezepioy/,True,200,4,2.0,8.0,Beginner Level,1.0,Graphic Design,2017,800
+1007622,Infodesign,https://www.udemy.com/infodesign/,True,50,2,1.0,12.0,Beginner Level,1.5,Graphic Design,2017,100
+1069348,Affinity Designer - tworzenie wzorków,https://www.udemy.com/affinity-designer-tworzenie-wzorkow/,True,20,1,1.0,11.0,Beginner Level,1.5,Graphic Design,2017,20
+1177670,Texturing For Designers - Bring Life to Design With Textures,https://www.udemy.com/texturing-for-designers-bring-life-to-design-with-textures/,True,60,201,0.0,12.0,All Levels,1.0,Graphic Design,2017,12060
+1101806,캔바(Canva)로 SNS 콘텐츠 만들기,https://www.udemy.com/canvasns/,True,30,44,13.0,19.0,Beginner Level,2.0,Graphic Design,2017,1320
+1246168,Illustrator para criação de peças gráficas Design Gráfico,https://www.udemy.com/aula-de-illustrator-como-fazer-um-infografico/,True,100,33,3.0,41.0,Beginner Level,1.5,Graphic Design,2017,3300
+1242692,Photoshop Workflow - Manipulação de imagem para Publicidade,https://www.udemy.com/photoshop-workflow-profissional/,True,135,20,8.0,53.0,Expert Level,12.5,Graphic Design,2017,2700
+1185390,Como Produzir Ebook e Livros com Adobe Indesign CC e CS6,https://www.udemy.com/como-produzir-ebook-e-livros-com-adobe-indesign-cc/,True,80,37,,131.0,All Levels,12.5,Graphic Design,2017,2960
+1245392,Voxel 3D Model Creation Course,https://www.udemy.com/voxel-3d-model-creation-course/,False,0,1031,9.0,8.0,All Levels,0.65,Graphic Design,2017,0
+1199928,The Complete Canva Course,https://www.udemy.com/the-complete-canva-course-for-beginners/,True,200,68,11.0,48.0,All Levels,4.5,Graphic Design,2017,13600
+1106490,The Design Theory Blitz,https://www.udemy.com/graphic-design-theory-blitz/,True,35,142,35.0,9.0,Beginner Level,0.7,Graphic Design,2017,4970
+1156778,How to stylize your photos in Photoshop with color overlays,https://www.udemy.com/how-to-stylize-your-photos-in-photoshop-with-color-overlays/,False,0,3512,58.0,17.0,Beginner Level,1.5,Graphic Design,2017,0
+1246636,Photoshop - Como criar Fusão de forma profissional,https://www.udemy.com/curso-de-photoshop-composicao-bombeiros/,True,30,38,6.0,34.0,All Levels,4.0,Graphic Design,2017,1140
+1243016,Photoshop - Tratamento de pele profissional,https://www.udemy.com/como-fazer-retoque-de-pele-profissional-em-10-passos/,True,100,50,5.0,16.0,Intermediate Level,1.5,Graphic Design,2017,5000
+1266468,Indesign - Para quem quer trabalhar com Design Gráfico,https://www.udemy.com/indesign-como-criar-layouts-pecas-graficas/,True,100,27,7.0,12.0,Intermediate Level,2.5,Graphic Design,2017,2700
+1274846,Photoshop Avançado - Pós Produção e fusão com 3D,https://www.udemy.com/photoshop-avancado-pos-producao-e-fusao-com-3d/,True,135,15,0.0,6.0,Expert Level,1.0,Graphic Design,2017,2025
+1093446,ABC do Adobe Illustrator,https://www.udemy.com/abc-do-adobe-illustrator/,True,35,115,15.0,56.0,Beginner Level,5.5,Graphic Design,2017,4025
+1197810,Gestalt Principles & Pattern Design : Create Festive Pattern,https://www.udemy.com/gestalt-principles-surface-pattern-design-create-festive-pattern/,True,50,327,0.0,14.0,All Levels,1.0,Graphic Design,2017,16350
+998580,Mobile App Design: From Beginner to Intermediate,https://www.udemy.com/mobile-app-design-from-beginner-to-intermediate/,True,140,896,21.0,108.0,All Levels,10.0,Graphic Design,2017,125440
+1132572,How to Design an Awesome Letterhead in Adobe Illustrator,https://www.udemy.com/letterheaddesign/,False,0,4776,115.0,18.0,All Levels,0.566666667,Graphic Design,2017,0
+1029436,Learn Cinema 4D: Create an Abstract Background,https://www.udemy.com/create-an-abstract-background/,True,20,2004,4.0,9.0,Beginner Level,0.566666667,Graphic Design,2017,40080
+1165588,The Art of Icon Design: Create Custom Flat Icon Designs,https://www.udemy.com/the-art-of-icon-design-create-custom-flat-icon-designs/,True,90,778,2.0,24.0,All Levels,1.5,Graphic Design,2017,70020
+1226182,Design Tickets and Vouchers in Photoshop and Illustrator,https://www.udemy.com/design-tickets-and-vouchers-in-photoshop-and-illustrator/,True,45,502,0.0,15.0,Beginner Level,2.5,Graphic Design,2017,22590
+1027480,Create Animated Gif Advertising Banners in Photoshop CC,https://www.udemy.com/learn-how-to-create-animated-gif-advertising-banners-in-photoshop-cc/,True,85,1310,9.0,20.0,All Levels,1.0,Graphic Design,2017,111350
+1219814,Photo Manipulation: Master Photo Editing,https://www.udemy.com/photo-manipulation-master-photo-editing/,True,75,326,6.0,,All Levels,1.0,Graphic Design,2017,24450
+1035402,Learn Adobe Illustrator CC - All Essentials In 1 Hour!,https://www.udemy.com/learn-adobe-illustrator-cc-all-essentials-in-1-hour/,True,55,324,7.0,14.0,Beginner Level,1.0,Graphic Design,2017,17820
+785328,Quickly Batch Export & Package Logo Files for Clients,https://www.udemy.com/quickly-batch-export-package-logo-files-for-clients/,True,20,489,10.0,5.0,Intermediate Level,0.683333333,Graphic Design,2017,9780
+1151342,How to Design Simple Promotional Materials in Photoshop,https://www.udemy.com/how-to-design-simple-promotional-materials-in-photoshop/,True,55,521,5.0,23.0,Beginner Level,2.5,Graphic Design,2017,28655
+1049380,画像加工の初心者だとしても、１週間でホームページのトップ画像を製作できるようになる画像製作講座,https://www.udemy.com/layeqrqk/,True,65,37,0.0,49.0,Beginner Level,4.0,Graphic Design,2017,2405
+1216164,Photoshop - Automatização com Adobe Script,https://www.udemy.com/adobe-photoshop-scripting/,True,195,7,0.0,87.0,Intermediate Level,8.5,Graphic Design,2017,1365
+1024800,دورة شامل لبرنامج إلستريتور للمبتدئين - Adobe illustrator CC,https://www.udemy.com/illustrator-basics/,True,30,1,1.0,24.0,Beginner Level,4.5,Graphic Design,2017,30
+1262470,Corel Draw X8 Başlangıç Eğitimi (YENİ),https://www.udemy.com/coreldraw-x8-temel-egitimi-yeni/,True,65,1,0.0,66.0,Beginner Level,6.5,Graphic Design,2017,65
+1164832,Formation Photoshop,https://www.udemy.com/formation-photoshop/,True,200,6,0.0,11.0,Beginner Level,1.0,Graphic Design,2017,1200
+1126016,Portrait Typography in Photoshop - Anyone can do Typography,https://www.udemy.com/portrait-typography-in-photoshop-anyone-can-do-typography/,True,95,941,2.0,26.0,All Levels,2.5,Graphic Design,2017,89395
+628786,Adobe Illustrator Advanced Vector Artwork,https://www.udemy.com/adobe-illustrator-advance-vector-artwork/,True,90,1538,117.0,74.0,All Levels,7.5,Graphic Design,2017,138420
+1246518,Photoshop - Composição vintage,https://www.udemy.com/curso-de-photoshop-composicao-vintage/,True,30,35,4.0,9.0,All Levels,1.0,Graphic Design,2017,1050
+1181652,Photoshop: Automatiza invitaciones con bloc de notas y Excel,https://www.udemy.com/curso-photoshop-automatiza-invitaciones-bloc-de-notas-excel/,True,30,86,2.0,18.0,All Levels,1.5,Graphic Design,2017,2580
+1161864,Diseño impreso - Preimpresión para offset en Illustrator,https://www.udemy.com/diseno-impreso/,True,100,33,9.0,29.0,All Levels,1.5,Graphic Design,2017,3300
+1163644,Master Terrazzo: Creating Vector Tiles with Adobe Illustrati,https://www.udemy.com/master-terrazzo/,True,20,2,1.0,11.0,Intermediate Level,1.0,Graphic Design,2017,40
+1088924,Mastering Photoshop Elements 15 Made Easy Training Tutorial,https://www.udemy.com/mastering-photoshop-elements-15-made-easy-training-tutorial/,True,30,13,4.0,185.0,Beginner Level,6.5,Graphic Design,2017,390
+1228900,Learn Professional Book-Cover Designing Photoshop 4 Beginner,https://www.udemy.com/learn-professional-book-cover-designing-photoshop/,True,200,6428,21.0,54.0,Beginner Level,3.0,Graphic Design,2017,1285600
+933888,Adobe Illustrator: How to Draw Squared Animals Icons,https://www.udemy.com/adobe-illustrator-how-to-draw-squared-animals-icons/,True,180,2873,38.0,13.0,Beginner Level,0.533333333,Graphic Design,2017,517140
+1195812,Getting Started With Digital Painting Using Krita,https://www.udemy.com/getting-started-with-digital-painting-using-krita/,True,20,1011,15.0,11.0,Beginner Level,0.6,Graphic Design,2017,20220
+1163768,Fundamentals of Character Design: From Concept to Vector,https://www.udemy.com/fundamentals-of-character-design-from-concept-to-vector/,True,50,1452,10.0,11.0,Beginner Level,1.0,Graphic Design,2017,72600
+1131780,Whiteboard Animation Beginner To Expert - In 1 Hour!,https://www.udemy.com/whiteboardanimation/,True,20,1343,25.0,16.0,All Levels,1.0,Graphic Design,2017,26860
+1093760,Photoshop From Scratch to Logos Digital Drawing & Projects,https://www.udemy.com/photoshop-from-scratch-to-logos-digital-drawing-projects/,True,20,91,,21.0,Beginner Level,1.5,Graphic Design,2017,1820
+1115504,How to Make Your Own Children's Interactive eBook!,https://www.udemy.com/make-your-own-childrens-interactive-picture-ebook/,True,95,33,2.0,17.0,Beginner Level,1.5,Graphic Design,2017,3135
+1068664,Create a Majestic Bear on Adobe Illustrator,https://www.udemy.com/bear-adobe-illustrator/,True,55,3,0.0,10.0,All Levels,1.0,Graphic Design,2017,165
+1136446,Adobe Illustrator CC Beginner,https://www.udemy.com/adobe-illustrator-beginner/,True,30,2,0.0,37.0,Beginner Level,4.0,Graphic Design,2017,60
+1125728,Create Beveled Lettering in Adobe Illustrator,https://www.udemy.com/create-beveled-lettering/,True,20,2,0.0,8.0,Intermediate Level,0.583333333,Graphic Design,2017,40
+1228708,Learn Adobe Illustrator and Premiere Pro in 1 hour,https://www.udemy.com/learn-adobe-illustrator-and-premiere-pro-in-1-hour/,True,20,1,0.0,19.0,All Levels,,Graphic Design,2017,20
+1095488,Adobe photoshop The  Flying Land compositing,https://www.udemy.com/adobe-photoshop-the-flying-land-compositing/,True,70,2,0.0,23.0,All Levels,2.5,Graphic Design,2017,140
+1125814,Mastering Text Animation in After Effect,https://www.udemy.com/master-text-animation-in-ae/,True,20,1,1.0,9.0,Intermediate Level,1.0,Graphic Design,2017,20
+1105636,How to Design A 2D Character in Illustrator,https://www.udemy.com/2d-character-in-illustrator/,True,20,1,1.0,9.0,Beginner Level,1.0,Graphic Design,2017,20
+1080584,Adobe Photoshop CC for Photographers Advanced,https://www.udemy.com/adobe-photoshop-cc-for-photographers-advanced/,True,30,1,0.0,43.0,Expert Level,2.5,Graphic Design,2017,30
+1077836,Ecover Mastery in 30 Minutes with NO photoshop skills needed,https://www.udemy.com/ecover-mastery-in-30-minutes/,True,20,1,0.0,10.0,Beginner Level,0.633333333,Graphic Design,2017,20
+1171720,Learn to Create Deliverable Brand Identity Package,https://www.udemy.com/learn-to-create-deliverable-brand-identity-package/,True,20,915,5.0,15.0,All Levels,1.0,Graphic Design,2017,18300
+1091360,How to Draw Majestic Animals: Cats,https://www.udemy.com/draw-majestic-cats/,True,35,1356,4.0,11.0,All Levels,1.0,Graphic Design,2017,47460
+1142428,Photoshop CC 2017 Full Course,https://www.udemy.com/photoshop-cc-2017-full-course/,True,90,655,18.0,150.0,Beginner Level,3.5,Graphic Design,2017,58950
+1114164,Affinity Designer - making seamless patterns,https://www.udemy.com/affinity-designer-making-seamless-patterns/,True,20,35,13.0,11.0,All Levels,1.0,Graphic Design,2017,700
+1127944,Designing With Halftones: Create a Dot Pattern Portrait!,https://www.udemy.com/halftones/,True,20,228,0.0,7.0,Intermediate Level,1.0,Graphic Design,2017,4560
+1114470,Adobe Photoshop CS6 para Iniciantes,https://www.udemy.com/adobe-photoshop-cs6-para-iniciantes/,True,40,5,0.0,63.0,Beginner Level,7.0,Graphic Design,2017,200
+1143148,PHOTOSHOP: Dessiner l'affiche du film Rogue One en style BD,https://www.udemy.com/photoshop-dessiner-laffiche-du-film-rogue-one-en-style-bd/,True,50,4,0.0,20.0,Intermediate Level,,Graphic Design,2017,200
+1141560,Débuter avec KRITA,https://www.udemy.com/debuter-avec-krita/,True,25,3,0.0,14.0,Intermediate Level,2.0,Graphic Design,2017,75
+1139792,会声会影深度教学,https://www.udemy.com/nice-ppt/,True,200,3,2.0,12.0,Beginner Level,0.6,Graphic Design,2017,600
+1221032,Criando um poster com foto colagem digital,https://www.udemy.com/criando-poster-digital-foto-colagem/,True,25,1,,8.0,Beginner Level,0.683333333,Graphic Design,2017,25
+1075366,Adobe InDesign CC 2017 Quick Start,https://www.udemy.com/adobe-indesign-cc-2017-quick-start/,True,35,2,0.0,29.0,Beginner Level,2.5,Graphic Design,2017,70
+1164488,Interiores Sostenibles 101,https://www.udemy.com/interiores-sostenibles-101/,True,30,1,0.0,5.0,Beginner Level,1.0,Graphic Design,2017,30
+1122306,Wordpress: Comment utiliser le thème FABLE,https://www.udemy.com/wordpress-comment-utiliser-le-theme-fable/,True,20,1,0.0,10.0,Beginner Level,0.65,Graphic Design,2017,20
+1182330,Learn Logo Designing: 5 Types of Logo Designs in Illustrator,https://www.udemy.com/learn-logo-design-tutorial-in-illustrator-beginners/,True,30,106,2.0,19.0,Beginner Level,3.0,Graphic Design,2017,3180
+987865,Make Patterns in Illustrator,https://www.udemy.com/make-patterns-in-illustrator/,True,20,0,0.0,32.0,Beginner Level,3.5,Graphic Design,2017,0
+1252410,Beginners Guide to Kindle Ebook Covers Design With Fireworks,https://www.udemy.com/beginners-guide-to-kindle-ebook-covers-design-with-fireworks/,True,20,0,0.0,16.0,All Levels,1.5,Graphic Design,2017,0
+1216554,Photoshop isn't like what you imagine A to Z .,https://www.udemy.com/photoshop-a-to-z/,True,35,343,0.0,24.0,All Levels,3.5,Graphic Design,2017,12005
+1275872,The Complete Adobe Spark Course,https://www.udemy.com/the-complete-adobe-spark-course/,True,150,0,0.0,29.0,All Levels,2.0,Graphic Design,2017,0
+1133764,The Art of Logo Design : Everything You Need to Know,https://www.udemy.com/the-art-of-logo-design/,True,20,0,,18.0,All Levels,1.0,Graphic Design,2017,0
+1200856,Hand Lettering para Iniciantes,https://www.udemy.com/hand-lettering-para-iniciantes/,True,40,384,92.0,18.0,All Levels,0.716666667,Graphic Design,2017,15360
+1226332,Aprende a utilizar Canva,https://www.udemy.com/aprende-a-utilizar-canva/,True,20,677,45.0,11.0,Beginner Level,0.666666667,Graphic Design,2017,13540
+950894,photoshop - CURSO DE PHOTOSHOP DO BÁSICO AO AVANÇADO,https://www.udemy.com/photoshop-do-basico-ao-avancado/,True,100,1110,183.0,77.0,All Levels,10.0,Graphic Design,2017,111000
+1245356,Photoshop - Revelando os segredos das Fusões,https://www.udemy.com/curso-de-photoshop-gratuito/,True,20,858,25.0,17.0,Expert Level,3.5,Graphic Design,2017,17160
+1092766,Create Mobile App Design from Scratch in Photoshop,https://www.udemy.com/create-mobile-app-design-from-scratch-in-photoshop/,True,125,1359,7.0,24.0,Beginner Level,2.5,Graphic Design,2017,169875
+1234108,How to Draw Majestic Animals: Dogs,https://www.udemy.com/how-to-draw-dogs/,True,35,1524,5.0,11.0,All Levels,1.0,Graphic Design,2017,53340
+1068902,Learn How To Design a Logo in Adobe Illustrator in 30 Mins,https://www.udemy.com/30minlogo/,True,50,1270,53.0,14.0,Beginner Level,0.5,Graphic Design,2017,63500
+1076222,The most popular techniques in Photoshop,https://www.udemy.com/the-most-popular-techniques-in-photoshop/,True,20,1753,18.0,15.0,Intermediate Level,1.0,Graphic Design,2017,35060
+1013676,Adobe Illustrator CC 2017 for beginners,https://www.udemy.com/adobe-illustrator-cc-2017/,True,195,2489,39.0,12.0,Beginner Level,1.5,Graphic Design,2017,485355
+1182900,How to Create awesome Cinema-graph With Adobe Photoshop?,https://www.udemy.com/how-to-create-awesome-cinema-graph-with-adobe-photoshop/,True,20,1602,8.0,16.0,Beginner Level,1.0,Graphic Design,2017,32040
+1178226,Learn to Create a Mandala with Adobe Illustrator,https://www.udemy.com/learn-to-create-a-mandala-with-adobe-illustrator/,True,50,7,0.0,28.0,All Levels,4.5,Graphic Design,2017,350
+1165268,15  Motion Graphic Elements in After Effect (Series 2),https://www.udemy.com/15-motion-graphic-elements-in-after-effect-series-2/,True,30,8,0.0,20.0,Intermediate Level,3.0,Graphic Design,2017,240
+1133648,Fantasy map design,https://www.udemy.com/fantasy-map-design/,True,30,7,2.0,18.0,All Levels,2.5,Graphic Design,2017,210
+1055424,Stencil - Simple Graphic Design For Entrepreneurs,https://www.udemy.com/stencil-graphic-design/,True,95,11,0.0,10.0,All Levels,1.0,Graphic Design,2017,1045
+1153326,Getting the Life of an Instructional Designer,https://www.udemy.com/getting-the-life-of-an-instructional-designer/,True,40,5,0.0,16.0,All Levels,1.5,Graphic Design,2017,200
+1104858,Photoshop Tools 101,https://www.udemy.com/photoshoptools101/,True,50,6,0.0,49.0,All Levels,3.0,Graphic Design,2017,300
+1036766,How to Color Comic Books... with a Mouse,https://www.udemy.com/how-to-color-comic-books-with-a-mouse/,True,30,7,0.0,8.0,All Levels,2.0,Graphic Design,2017,210
+1134692,Learn Inkscape : Design Logos and Game Arts,https://www.udemy.com/design-logos-and-game-arts-inkscape/,True,20,1675,20.0,12.0,Beginner Level,1.0,Graphic Design,2017,33500
+1153710,Learn Adobe Photoshop from scratch to professional,https://www.udemy.com/learn-adobe-photoshop-hot-skill-of-today/,True,20,1276,3.0,19.0,Beginner Level,3.5,Graphic Design,2017,25520
+1269190,7 Secrets To Designing In Black and White,https://www.udemy.com/secrets-to-designing-in-black-and-white/,True,100,1000,1.0,12.0,All Levels,1.5,Graphic Design,2017,100000
+1164720,调色中级课程,https://www.udemy.com/ixlnjjvn/,True,200,5,3.0,7.0,Beginner Level,1.0,Graphic Design,2017,1000
+1147664,Photoshop CC Eğitim Seti (YENİ),https://www.udemy.com/photoshop-cc-egitim-seti-yeni/,True,100,27,5.0,202.0,All Levels,16.0,Graphic Design,2017,2700
+1246252,Aula de Photoshop - Aprenda como recortar imagens,https://www.udemy.com/aula-de-photoshop-aprenda-como-recortar-imagens/,True,65,15,1.0,14.0,Beginner Level,2.0,Graphic Design,2017,975
+1158854,Affinity Designer for beginners,https://www.udemy.com/affinity-designer-for-beginners-dc/,True,20,30,6.0,23.0,Beginner Level,4.5,Graphic Design,2017,600
+1146166,LaTeX A-Z: from beginner to advance in less than 3 hour,https://www.udemy.com/become-a-good-latex-user-to-create-professional-documents/,True,95,623,14.0,30.0,Beginner Level,3.0,Graphic Design,2017,59185
+1190334,Course Bundle | Exploring Art : Silhouette & Linear Line Art,https://www.udemy.com/course-bundle-exploring-art-silhouette-linear-line-art/,True,80,827,1.0,15.0,All Levels,1.0,Graphic Design,2017,66160
+1100628,Canva: Design and Sell Your Own Professional Canva Designs,https://www.udemy.com/canva-design-and-sell-your-own-professional-graphic-designs/,True,200,793,26.0,52.0,All Levels,3.0,Graphic Design,2017,158600
+1164876,3DS MAX - Learn 3Ds MAX tutorial for Beginners in Urdu Hindi,https://www.udemy.com/learn-3ds-max-tutorial-for-beginners-in-urdu-hindi/,True,20,785,2.0,29.0,All Levels,4.5,Graphic Design,2017,15700
+1046540,How to draw professional manga artwork by Punix,https://www.udemy.com/punix_drawface/,True,35,83,3.0,17.0,Beginner Level,1.5,Graphic Design,2017,2905
+1083784,Crie seu Cartão de Visita no CorelDRAW X8,https://www.udemy.com/crie-seu-cartao-de-visita-no-coreldraw-x8/,True,20,28,3.0,38.0,Beginner Level,4.0,Graphic Design,2017,560
+1092632,The Complete Motion Graphic Course,https://www.udemy.com/complete-motion-graphic-course/,True,65,50,6.0,115.0,All Levels,9.5,Graphic Design,2017,3250
+1249378,AutoCAD Course - Learn Online AutoCAD in Urdu Hindi,https://www.udemy.com/autocad-course-in-urdu-hindi/,False,0,105,2.0,22.0,All Levels,2.0,Graphic Design,2017,0
+1240730,Architectural Drawing For Creatives,https://www.udemy.com/architectural-drawing-for-website-and-logo-designers/,True,195,5,0.0,156.0,All Levels,24.0,Graphic Design,2017,975
+1236254,Character Design,https://www.udemy.com/character-design/,True,75,5,0.0,24.0,Intermediate Level,2.0,Graphic Design,2017,375
+1201118,Icon Design Masterclass: Learn Icon Design Principles,https://www.udemy.com/icon-design-masterclass-learn-icon-design-principles/,True,40,6,0.0,15.0,Beginner Level,2.5,Graphic Design,2017,240
+1227748,create stunning Photoshop compositions in minutes,https://www.udemy.com/create-impressive-photoshop-compositions-in-minutes/,True,20,5,0.0,29.0,All Levels,2.0,Graphic Design,2017,100
+1258402,Canva Complete Course For Graphics Design | 20 Projects,https://www.udemy.com/canva-course-graphics-design/,True,20,3,3.0,27.0,All Levels,2.5,Graphic Design,2017,60
+1089062,Add realistic car paint to your pencil drawing in Photoshop!,https://www.udemy.com/colorize-your-pencil-drawing-in-photoshop/,True,25,17,3.0,8.0,Beginner Level,1.0,Graphic Design,2017,425
+709160,T-Shirt Sales - Merch By Amazon Profit Formula With Canva,https://www.udemy.com/merch-by-amazon-quick-start-t-shirt-sales-using-canva-design/,True,20,380,,26.0,All Levels,1.0,Graphic Design,2017,7600
+1133716,Adobe Illustrator CC Advanced,https://www.udemy.com/adobe-illustrator-advanced/,True,30,11,1.0,,Beginner Level,1.5,Graphic Design,2017,330
+1143032,Silhouettes that Sells,https://www.udemy.com/silhouettes-that-sells/,True,25,9,1.0,13.0,Beginner Level,1.0,Graphic Design,2017,225
+1257976,Your First 10 Guitar Lessons - Learn how to play guitar,https://www.udemy.com/your-first-10-guitar-lessons-learn-how-to-play-guitar/,False,0,924,4.0,18.0,Beginner Level,1.0,Musical Instruments,2017,0
+1253224,Pentatonic Scale Crash Course for Bass Guitar,https://www.udemy.com/pentatonic-scale-crash-course-for-bass-guitar/,False,0,898,6.0,24.0,Intermediate Level,1.0,Musical Instruments,2017,0
+1048302,Learn Travis Picking From Scratch,https://www.udemy.com/learn-travis-picking-from-scratch/,True,40,219,30.0,25.0,Intermediate Level,1.5,Musical Instruments,2017,8760
+1200374,Strumming from scratch - Rhythm guitar lesson for Beginners,https://www.udemy.com/strumming-from-scratch-rhythm-guitar-lesson-for-beginners/,False,0,530,11.0,13.0,Beginner Level,2.0,Musical Instruments,2017,0
+1101522,Cajon Step-by-Step: Beginner > Intermediate > Advanced,https://www.udemy.com/cajon-step-by-step/,True,35,73,9.0,45.0,All Levels,3.0,Musical Instruments,2017,2555
+1108666,Worship Piano: From Beginner to Pro,https://www.udemy.com/worship-piano-from-beginner-to-pro/,True,80,117,11.0,32.0,All Levels,3.0,Musical Instruments,2017,9360
+1254852,How to Play Piano - Your First Lesson!,https://www.udemy.com/how-to-play-piano-course/,False,0,662,7.0,13.0,Beginner Level,0.516666667,Musical Instruments,2017,0
+953442,Blues School! A Course For Beginners in Blues Piano & Improv,https://www.udemy.com/blues-piano-improvisation-amaze-yourself/,True,120,326,44.0,54.0,All Levels,3.0,Musical Instruments,2017,39120
+1186514,Learn to Play Harp: Beginners Course,https://www.udemy.com/learn-to-play-harp-beginners-course/,False,0,408,,10.0,Beginner Level,0.683333333,Musical Instruments,2017,0
+1104494,Instant Harmonica - play this classic 8 bar blues tune!,https://www.udemy.com/instant-harmonica-play-trouble-in-mind-basic-8-bar-blues/,True,40,43,4.0,13.0,All Levels,1.0,Musical Instruments,2017,1720
+1045886,Learn Acoustic Guitar for Worship,https://www.udemy.com/learn-acoustic-guitar-for-worship/,True,40,86,18.0,26.0,Beginner Level,2.0,Musical Instruments,2017,3440
+933818,Instant Harmonica - play the groovy Irish Washerwoman now!,https://www.udemy.com/instant-harmonica-play-the-groovy-irish-washerwoman-now/,True,40,55,8.0,13.0,Beginner Level,1.0,Musical Instruments,2017,2200
+1182624,Play Thousands of Songs On The Guitar | Cheater Chords,https://www.udemy.com/how-to-play-any-song-on-the-guitar-secret-chords/,True,100,97,5.0,12.0,Beginner Level,1.0,Musical Instruments,2017,9700
+1158690,Instant Harmonica - Basic 12 Bar Blues course easy and fun!,https://www.udemy.com/instant-harmonica-basic-12-bar-blues-course-easy-and-fun/,True,40,124,8.0,14.0,Beginner Level,1.0,Musical Instruments,2017,4960
+1105794,Piano Music Theory (Back To Basics) by JFilt,https://www.udemy.com/piano-music-theory-back-to-basics-by-jfilt/,False,0,4967,308.0,12.0,Beginner Level,0.5,Musical Instruments,2017,0
+1051856,Classical Guitar Essentials - The Basics Part 2,https://www.udemy.com/classical-guitar-essentials-the-basics-part-2/,True,95,1030,1.0,44.0,Intermediate Level,4.5,Musical Instruments,2017,97850
+1010274,Drumming Accelerator: How To Get The Best Start Possible,https://www.udemy.com/drummingaccelerator/,True,200,1594,4.0,34.0,Beginner Level,1.5,Musical Instruments,2017,318800
+1033670,Beginner's Guitar Lessons - Crash Course for Busy Adults,https://www.udemy.com/guitar-crash-course-for-adult-beginners-who-want-to-play-now/,True,50,1194,9.0,29.0,Beginner Level,2.0,Musical Instruments,2017,59700
+1266892,Getting Started with the Guitar in 5 Days,https://www.udemy.com/guitarin5days/,False,0,270,1.0,24.0,Beginner Level,1.5,Musical Instruments,2017,0
+1105904,Learn How To Play 25 Classic Hip Hop Songs,https://www.udemy.com/learn-how-to-play-25-classic-hip-hop-songs/,True,25,153,9.0,27.0,All Levels,2.5,Musical Instruments,2017,3825
+1132694,Introduction to Gypsy Jazz Guitar,https://www.udemy.com/gypsy-jazz-guitar-lessons/,True,95,452,10.0,18.0,All Levels,2.5,Musical Instruments,2017,42940
+1236562,The Piano Chord Ladder | Learn to Play Thousands of Songs,https://www.udemy.com/the-piano-chord-ladder-learn-to-play-thousands-of-songs/,True,100,103,2.0,11.0,All Levels,1.0,Musical Instruments,2017,10300
+1191750,Jazz Guitar Tips Tricks and Licks,https://www.udemy.com/jazz-guitar-tips-tricks-and-licks/,False,0,9351,331.0,21.0,Intermediate Level,2.0,Musical Instruments,2017,0
+1170198,Beginner Guitar Lessons: Learn To Play Guitar Today (WAVE 1),https://www.udemy.com/beginner-guitar-lessons-learn-to-play-guitar-today/,True,45,65,18.0,56.0,Beginner Level,10.0,Musical Instruments,2017,2925
+1132342,Ultimate Beginner Guitar Masterclass,https://www.udemy.com/beginner-guitar-masterclass/,True,200,8113,79.0,,Beginner Level,11.5,Musical Instruments,2017,1622600
+1119092,Learn guitar the Right way! Complete KickStarter course,https://www.udemy.com/learn-guitar-the-right-way/,True,150,2102,33.0,99.0,Beginner Level,9.0,Musical Instruments,2017,315300
+1193886,#12 Hand Coordination: Let your Hands dance with Ballad 9,https://www.udemy.com/12-hand-coordination-let-your-hands-dance-with-ballad-9/,True,75,482,1.0,47.0,Intermediate Level,1.5,Musical Instruments,2017,36150
+647338,How To Make Money With A Cover Band,https://www.udemy.com/coverband/,True,50,2498,12.0,25.0,All Levels,3.5,Musical Instruments,2017,124900
+1194244,How To Play Guitar - For Absolute Beginners,https://www.udemy.com/how-to-play-guitar-for-absolute-beginners/,True,35,478,3.0,18.0,Beginner Level,1.0,Musical Instruments,2017,16730
+1119610,Harmonica Jamz: The Only Course on Jammin' with Friends,https://www.udemy.com/harmonicajamz/,True,60,568,8.0,65.0,Beginner Level,5.0,Musical Instruments,2017,34080
+1159988,Electric Guitar for Beginners - RockStarter Level 1,https://www.udemy.com/electric-guitar-for-beginners-rockstarter-level-1/,True,40,491,5.0,29.0,Beginner Level,2.5,Musical Instruments,2017,19640
+1116196,Essential Theory and Technique for Guitar,https://www.udemy.com/essential-theory-and-technique-for-guitar/,False,0,2285,34.0,22.0,Beginner Level,2.0,Musical Instruments,2017,0
+1123250,Master Class Piano Techniques: Tips To EZ Coordinate 2 Hands,https://www.udemy.com/master-class-piano-techniques-tips-to-ez-coordinate-2-hands/,True,95,2026,,62.0,Intermediate Level,2.5,Musical Instruments,2017,192470
+1240148,Learn all Piano Chords in all Piano Scales with logic,https://www.udemy.com/how-to-find-scales-and-major-minor-chords-on-piano/,True,45,969,2.0,17.0,Beginner Level,1.0,Musical Instruments,2017,43605
+1111630,Learn to play the piano or keyboard from scratch,https://www.udemy.com/learn-to-play-the-piano-from-scratch/,True,145,1987,11.0,161.0,Beginner Level,14.0,Musical Instruments,2017,288115
+1170074,#10 Hand Coordination - Transfer Chord Ballad 9 - C & Bb Key,https://www.udemy.com/10-hand-coordination-transfer-chord-ballad-9-he-is-lord/,True,75,1593,1.0,41.0,Intermediate Level,1.0,Musical Instruments,2017,119475
+993510,Piano Technique Exercises Vol.1,https://www.udemy.com/piano-skills-improve-your-piano-technique/,True,50,1674,4.0,24.0,All Levels,1.0,Musical Instruments,2017,83700
+1255114,Instant Harmonica - Learning the Basic 12 Bar Blues Bassline,https://www.udemy.com/instant-harmonica-learning-the-basic-12-bar-blues-bassline/,True,40,54,6.0,10.0,All Levels,1.0,Musical Instruments,2017,2160
+1120410,#5  Piano Hand Coordination:  Piano Runs in 2 Beats Eb Key,https://www.udemy.com/learn-piano-technique-5-piano-runs-in-2-beats-in-eb-key/,True,75,940,3.0,32.0,Intermediate Level,0.616666667,Musical Instruments,2017,70500
+1048188,Modern Country Guitar: Technique Booster,https://www.udemy.com/modern-country-guitar/,True,30,1152,16.0,42.0,Intermediate Level,2.5,Musical Instruments,2017,34560
+1116700,#4 Piano Hand Coordination: Fun Piano Runs in 2 Beats C Key,https://www.udemy.com/learn-piano-technique-4-piano-run-in-2-beats-in-c-key-song/,True,75,850,3.0,43.0,Intermediate Level,1.0,Musical Instruments,2017,63750
+1229488,Learn to play your favorite guitar songs by ear,https://www.udemy.com/play-by-ear/,True,50,4733,11.0,15.0,All Levels,1.5,Musical Instruments,2017,236650
+1098994,Fun Ukulele Strumming Course,https://www.udemy.com/fun-ukulele-strumming-course/,True,45,3141,,15.0,Beginner Level,1.0,Musical Instruments,2017,141345
+1122832,#6 Piano Hand Coordination: Play Open 10 Ballad to 9/4 Song,https://www.udemy.com/piano-hand-coordination-6-play-open-10th-ballad-to-94-song/,True,65,2015,3.0,21.0,Intermediate Level,0.733333333,Musical Instruments,2017,130975
+1123184,#7 Piano Hand Coordination: Play Piano Runs in 3 Beats 9/4,https://www.udemy.com/learn-piano-hand-coordination-7-piano-runs-in-3-beats-94/,True,65,2015,2.0,25.0,Intermediate Level,1.0,Musical Instruments,2017,130975
+1217408,Drums for Beginners,https://www.udemy.com/drums-for-beginner/,False,0,1618,4.0,15.0,Beginner Level,3.0,Musical Instruments,2017,0
+1146368,The Easy Beginner Drum Course,https://www.udemy.com/the-easy-beginner-drum-course/,True,25,21,4.0,12.0,Beginner Level,0.5,Musical Instruments,2017,525
+1149202,Guitar Solo - Theory and Improvisation Lessons,https://www.udemy.com/holistic-guitar-solo-essentials/,True,60,12,4.0,34.0,Intermediate Level,1.5,Musical Instruments,2017,720
+1223570,Learn How To Play 25 Classic Hip Hop Songs Ch.2,https://www.udemy.com/learn-how-to-play-25-hip-hop-classic-songs-ch2/,True,25,7,1.0,27.0,All Levels,3.5,Musical Instruments,2017,175
+1036400,Piano Unbound. Piano learning method a course for beginners,https://www.udemy.com/piano-unbound/,True,195,32,1.0,39.0,All Levels,2.5,Musical Instruments,2017,6240
+1124590,Learn How To Play The Trumpet,https://www.udemy.com/learn-how-to-play-the-trumpet/,True,75,2,0.0,24.0,All Levels,1.5,Musical Instruments,2017,150
+917176,Violin for Beginners,https://www.udemy.com/violin-for-beginners/,True,50,4,0.0,18.0,Beginner Level,0.733333333,Musical Instruments,2017,200
+1216752,Curso de Bateria - Explorando Diferentes Divisões,https://www.udemy.com/diegogil-edd/,True,55,5,2.0,19.0,Intermediate Level,2.0,Musical Instruments,2017,275
+1193536,Escalas Pentatónicas para guitarristas,https://www.udemy.com/escalas-pentatonicas-para-guitarristas/,True,25,11,3.0,23.0,All Levels,0.6,Musical Instruments,2017,275
+1243162,Aprende a tocar las escalas en el acordeón de botones.,https://www.udemy.com/las-escalas-en-el-acordeon-de-botones/,True,20,2,0.0,21.0,Beginner Level,1.0,Musical Instruments,2017,40
+1174974,Curso de Violão Prático,https://www.udemy.com/harmonia-tonal/,True,70,5,0.0,10.0,Beginner Level,,Musical Instruments,2017,350
+1102396,Instant Harmonica - play 'Can't Help Falling in Love' now!,https://www.udemy.com/instant-harmonica-play-cant-help-falling-in-love-now/,True,40,32,3.0,11.0,All Levels,1.0,Musical Instruments,2017,1280
+1173716,Arpeggios for Guitar made Easy! Dominate the Fretboard,https://www.udemy.com/arpeggios-for-guitar-made-easy/,True,65,26,5.0,23.0,All Levels,3.0,Musical Instruments,2017,1690
+1190448,Learn Lion (Saroo) Soundtrack On The Piano By Ear,https://www.udemy.com/learn-lion-saroo-soundtrack-on-the-piano-by-ear/,True,20,104,0.0,9.0,All Levels,,Musical Instruments,2017,2080
+1113170,Walking Bass Fundamentals,https://www.udemy.com/walking-bass-fundamentals/,True,50,44,3.0,34.0,All Levels,2.0,Musical Instruments,2017,2200
+1114722,Complete Beginners Introduction to Guitar,https://www.udemy.com/complete-beginners-introduction-to-guitar/,True,40,10,4.0,35.0,Beginner Level,1.5,Musical Instruments,2017,400
+1102436,Learn 10 Scottish Tunes Piano Easy Level,https://www.udemy.com/learn-10-scottish-tunes-piano-easy-level/,True,45,103,,46.0,Beginner Level,3.5,Musical Instruments,2017,4635
+1141614,The Fun and Effective Piano Course,https://www.udemy.com/the-serious-piano-course/,True,30,24,2.0,38.0,All Levels,3.5,Musical Instruments,2017,720
+961774,ABC DO VIOLÃO E GUITARRA,https://www.udemy.com/abc-do-violao-e-guitarra/,True,85,25,2.0,30.0,Beginner Level,2.5,Musical Instruments,2017,2125
+1261210,Suonare la Chitarra,https://www.udemy.com/suonare-la-chitarra/,True,200,1,1.0,22.0,All Levels,1.0,Musical Instruments,2017,200
+1144780,Curso de batería online de Patricio Iglesias (Santa Sabina),https://www.udemy.com/cursodebateriaonlinedepatricioiglesias/,True,35,5,1.0,17.0,Intermediate Level,4.0,Musical Instruments,2017,175
+1236576,Learn to play and improve 12 bar blues harmonica solos,https://www.udemy.com/learn-to-play-and-improve-12-bar-blues-harmonica-solos/,True,40,4,1.0,27.0,Beginner Level,1.0,Musical Instruments,2017,160
+1040596,'Greensleeves' Creative Piano Lessons Course,https://www.udemy.com/greensleeves-creative-piano-lessons-course/,True,20,10,,8.0,All Levels,2.0,Musical Instruments,2017,200
+1104496,Instant Harmonica - play this classic GAME OF THRONES theme!,https://www.udemy.com/instant-harmonica-play-this-classic-game-of-thrones-theme/,True,40,21,2.0,13.0,Beginner Level,1.0,Musical Instruments,2017,840
+1198302,Traditional-Style Electric Blues Guitar For Beginners,https://www.udemy.com/traditional-style-electric-blues-guitar-for-beginners/,True,25,9,2.0,36.0,Beginner Level,3.0,Musical Instruments,2017,225
+1207112,30 Day Guitar Jump Start for Success,https://www.udemy.com/30-day-guitar-jump-start-for-success/,True,105,31,4.0,92.0,Beginner Level,4.0,Musical Instruments,2017,3255
+1244302,Guitar Strumming 101 - Have More Fun Playing Songs You Love,https://www.udemy.com/guitar-strumming-101-have-more-fun-playing-songs-you-love/,True,50,8,2.0,16.0,Beginner Level,1.0,Musical Instruments,2017,400
+1144288,Poldark TV series Soundtracks for Piano-Quicklessons,https://www.udemy.com/poldark-tv-series-soundtracks-for-piano-quicklessons/,True,20,8,1.0,9.0,Beginner Level,1.0,Musical Instruments,2017,160
+1031698,You Can Play Jazz Saxophone,https://www.udemy.com/you-can-play-jazz-saxophone/,True,20,37,7.0,6.0,Beginner Level,1.5,Musical Instruments,2017,740
+1113008,Building Up To Barre Chords,https://www.udemy.com/building-up-to-barre-chords/,True,20,20,6.0,12.0,All Levels,0.716666667,Musical Instruments,2017,400
+1076244,Practical Guitar Theory: Level 1,https://www.udemy.com/practical-guitar-theory-level-1/,True,60,14,3.0,41.0,All Levels,1.5,Musical Instruments,2017,840
+1160066,Classical Guitar Technique: 80/20,https://www.udemy.com/classical-guitar-technique-8020/,True,175,54,0.0,18.0,All Levels,2.5,Musical Instruments,2017,9450
+1189926,Ukulele lernen für Papas mit Bruder Jakob,https://www.udemy.com/ukulele-lernen-fuer-papas/,True,55,12,1.0,38.0,Beginner Level,1.0,Musical Instruments,2017,660
+1143414,Tin Whistle Básico,https://www.udemy.com/tin-whistle-basico/,True,20,11,2.0,53.0,Beginner Level,1.5,Musical Instruments,2017,220
+1066002,Leve a sua técnica de pedal duplo para um novo patamar,https://www.udemy.com/leve-a-sua-tecnica-de-pedal-duplo-para-um-novo-patamar/,True,40,42,4.0,196.0,Intermediate Level,5.5,Musical Instruments,2017,1680
+1129652,【すぐに覚える！】ASALATO-アサラト(打楽器)初心者向け入門講座,https://www.udemy.com/haqzhind/,True,20,5,1.0,7.0,Beginner Level,0.583333333,Musical Instruments,2017,100
+1152334,Aprende a tocar el acordeón de botones,https://www.udemy.com/aprende-a-tocar-el-acordeon-de-botones-i/,True,50,20,6.0,24.0,Beginner Level,2.0,Musical Instruments,2017,1000
+1134842,Easy Guitar Songwriting And Harmony,https://www.udemy.com/easy-guitar-songwriting/,True,20,82,3.0,62.0,Beginner Level,,Musical Instruments,2017,1640
+1104492,Instant Harmonica - play the Irish anthem Danny Boy today!,https://www.udemy.com/instant-harmonica-play-the-irish-anthem-danny-boy-today/,True,40,8,1.0,15.0,All Levels,1.0,Musical Instruments,2017,320
+1196538,Piano Building Blocks: Learn Chord Additions & Variations,https://www.udemy.com/pbbchordvariations/,False,0,375,0.0,9.0,Beginner Level,1.0,Musical Instruments,2017,0
+809492,Drumming 101: The Essential Elements,https://www.udemy.com/drums-101/,True,50,4,0.0,17.0,Beginner Level,1.5,Musical Instruments,2017,200
+545036,Saxophone Essentials: Beginners Course,https://www.udemy.com/saxophone-essentials-beginners-course/,True,40,3,0.0,16.0,Beginner Level,1.5,Musical Instruments,2017,120
+1111562,Instant Harmonica - play 'I just called to say I love you',https://www.udemy.com/instant-harmonica-play-i-just-called-to-say-i-love-you/,True,40,15,0.0,11.0,All Levels,1.0,Musical Instruments,2017,600
+681390,Practice guitar with no previous experience and become a pro,https://www.udemy.com/practice-guitar-with-no-previous-experience-and-become-a-pro/,True,30,26,0.0,14.0,Beginner Level,1.0,Musical Instruments,2017,780
+1195742,The Music Coach Online Spirit Drum Course,https://www.udemy.com/the-music-coach-online-spirit-drum-course-i/,True,95,2,0.0,86.0,Beginner Level,5.5,Musical Instruments,2017,190
+1232728,Learn Loreena McKennitt Songs-Quicklessons Piano Course,https://www.udemy.com/learn-loreena-mckennitt-songs-quicklessons-piano-course/,True,20,1,0.0,6.0,All Levels,0.566666667,Musical Instruments,2017,20
+1058262,Major Scales and Modes for Chromatic Harmonica,https://www.udemy.com/the-major-scales-for-chromatic-harmonica/,True,20,6,1.0,14.0,All Levels,1.5,Musical Instruments,2017,120
+730702,Ukulele 3:  Intermediate,https://www.udemy.com/ukulele-3-songs-to-learn-in-7-days/,True,25,1,0.0,11.0,Intermediate Level,0.65,Musical Instruments,2017,25
+1026760,Coaching Course: Rhythm Instruction for Music Educators P1,https://www.udemy.com/coaching-bundle-rhythm-instruction-for-music-educators-p1/,True,130,0,0.0,6.0,All Levels,0.533333333,Musical Instruments,2017,0
+1223240,Learn Pirates of the Caribbean by Ear on the Piano,https://www.udemy.com/learn-pirates-of-the-caribbean-by-ear-on-the-piano/,True,20,0,0.0,6.0,All Levels,0.533333333,Musical Instruments,2017,0
+1026762,Coaching Course: Rhythm Instruction for Music Educators P2,https://www.udemy.com/coaching-bundle-rhythm-instruction-for-music-educators-p2/,True,125,0,0.0,7.0,All Levels,0.633333333,Musical Instruments,2017,0
+1234656,4 Week Rhythm Mastery,https://www.udemy.com/4-week-rhythm-mastery/,True,20,0,0.0,28.0,Beginner Level,2.5,Musical Instruments,2017,0
+1214670,Tune that Sour Note on Your Piano,https://www.udemy.com/how-to-tune-your-own-piano/,True,20,0,0.0,6.0,All Levels,0.55,Musical Instruments,2017,0
+1272282,Learn Vikings Soundtracks on the Piano by Ear,https://www.udemy.com/learn-vikings-soundtracks-on-the-piano-by-ear/,True,20,0,0.0,8.0,All Levels,0.583333333,Musical Instruments,2017,0
+1224186,Learn to Play Piano Like a Pro - Easy Piano Course 1,https://www.udemy.com/learn-to-play-piano-like-a-pro/,True,35,0,0.0,13.0,Beginner Level,0.516666667,Musical Instruments,2017,0
+1265814,ABRSM Grade III Piano Class - Handel Sonatina in G 2017-2018,https://www.udemy.com/abrsm-grade-iii-piano-class-handel-sonatina-in-g-2017-2018/,True,20,0,0.0,5.0,Beginner Level,0.516666667,Musical Instruments,2017,0
+1104500,Instant Harmonica - play 12 bar blues Big Walter style now!,https://www.udemy.com/instant-harmonica-play-12-bar-blues-big-walter-style-now/,True,40,31,2.0,14.0,All Levels,1.0,Musical Instruments,2017,1240
+1216340,Learn to Play Sweet Child of Mine,https://www.udemy.com/learn-to-play-sweet-child-of-mine/,True,20,0,,23.0,Intermediate Level,1.5,Musical Instruments,2017,0
+968026,Learn to Play Tabla - The Indian drums,https://www.udemy.com/learn-to-play-tabla/,False,0,1,0.0,20.0,Beginner Level,1.5,Musical Instruments,2017,0
+1193950,Sintetizadores e Síntese Subtrativa,https://www.udemy.com/sintetizadores-e-sintese-subtrativa/,True,85,38,12.0,83.0,All Levels,5.0,Musical Instruments,2017,3230
+1232356,Curso de ejercicios técnicos al piano Vol.2,https://www.udemy.com/curso-de-ejercicios-tecnicos-al-piano-vol2/,True,50,62,1.0,22.0,All Levels,1.0,Musical Instruments,2017,3100
+1223310,Aprende escalas y arpegios Vol.2 : Modo menor,https://www.udemy.com/aprende-escalas-y-arpegios-vol2-modo-menor/,True,50,62,1.0,,All Levels,2.5,Musical Instruments,2017,3100
+1191088,Learn to play in the Key of G on any Bluegrass Instrument,https://www.udemy.com/how-to-improvise-in-the-key-of-g-on-any-bluegrass-instrument/,False,0,349,3.0,36.0,All Levels,2.5,Musical Instruments,2017,0
+1146288,Jews Harp - Advanced course,https://www.udemy.com/jews-harp-advanced-course/,True,30,26,1.0,,Expert Level,3.5,Musical Instruments,2017,780
+1065198,GUITAR #1: Beginner Basics and Beyond,https://www.udemy.com/guitar-1-beginner-basics-and-beyond/,True,20,111,12.0,64.0,Beginner Level,3.0,Musical Instruments,2017,2220
+1103526,Pure Modal Magic: The Complete Guitar Modes Solution,https://www.udemy.com/pure-modal-magic/,True,50,52,3.0,18.0,All Levels,2.0,Musical Instruments,2017,2600
+1150468,Ukulele lernen für Papas mit Aram sam sam,https://www.udemy.com/ukulele-lernen-fur-papas-mit-aram-sam-sam/,True,55,1,0.0,37.0,Beginner Level,0.7,Musical Instruments,2017,55
+1086834,How To Make A Wordpress Website 2017 | Divi Theme Tutorial,https://www.udemy.com/how-to-make-a-wordpress-website-2017-divi-theme-tutorial/,True,40,3541,202.0,37.0,Beginner Level,4.0,Web Development,2017,141640
+1094964,Build Your Own Backend REST API using Django REST Framework,https://www.udemy.com/django-python/,True,50,2669,112.0,72.0,Intermediate Level,5.5,Web Development,2017,133450
+1078208,Spring Boot Tutorial For Beginners,https://www.udemy.com/spring-boot-tutorial-for-beginners/,True,40,2578,210.0,39.0,Beginner Level,5.5,Web Development,2017,103120
+1146014,Learn JavaScript for beginners,https://www.udemy.com/learn-javascript-course/,True,200,15276,167.0,19.0,Beginner Level,1.5,Web Development,2017,3055200
+1089744,How To Make A Wordpress Website 2017 - Divi Theme Tutorial,https://www.udemy.com/how-to-make-a-wordpress-website-2017-divi-theme-tutorial-for-beginners/,True,40,2780,94.0,29.0,Beginner Level,3.0,Web Development,2017,111200
+1247828,Angular 4 (2+) Crash Course for Beginners,https://www.udemy.com/angular-crash-course-for-beginners/,True,120,12366,506.0,120.0,Beginner Level,9.0,Web Development,2017,1483920
+1078522,React JS and Redux - Mastering Web Apps,https://www.udemy.com/react-js-and-redux-mastering-web-apps/,True,60,16829,820.0,77.0,All Levels,5.0,Web Development,2017,1009740
+1002030,Web Development w/ Google’s Go (golang) Programming Language,https://www.udemy.com/go-programming-language/,True,65,4872,662.0,171.0,Intermediate Level,19.0,Web Development,2017,316680
+1252318,The Complete HTML and CSS Course For Beginners,https://www.udemy.com/the-complete-html-and-css-course-for-beginners/,True,85,733,,50.0,All Levels,3.0,Web Development,2017,62305
+1052118,Dissecting Ruby on Rails 5 - Become a Professional Developer,https://www.udemy.com/professional-rails-5-development-course/,True,195,2804,418.0,212.0,All Levels,37.5,Web Development,2017,546780
+1103954,Node.js: The Essentials + API Frameworks Express KOA Sails,https://www.udemy.com/nodejs-up-and-running/,True,20,2760,52.0,34.0,Beginner Level,1.0,Web Development,2017,55200
+1017568,The Complete PHP Bootcamp Course With Video Sharing Project,https://www.udemy.com/php-bootcamp/,True,195,9831,56.0,74.0,Beginner Level,,Web Development,2017,1917045
+1111844,Build a Single Page Application with jQuery & AJAX,https://www.udemy.com/jquery-ajax/,True,60,486,59.0,27.0,Intermediate Level,2.0,Web Development,2017,29160
+1073793,Start Writing JavaScript Today - Beginner JavaScript Course,https://www.udemy.com/start-writing-javascript-today/,True,100,9067,41.0,27.0,Beginner Level,3.0,Web Development,2017,906700
+1256136,Angular 4 Development Decoded,https://www.udemy.com/marutiangular4/,True,20,1802,13.0,8.0,Intermediate Level,1.0,Web Development,2017,36040
+1124970,Javascript ES6! A Complete Reference Guide to Javascript ES6,https://www.udemy.com/javascript-es6-a-complete-reference-guide-to-javascript-es6/,True,175,4783,41.0,48.0,Intermediate Level,7.0,Web Development,2017,837025
+1250824,Projects in Laravel: Learn Laravel Building 10 Projects,https://www.udemy.com/projects-in-laravel-learn-laravel-building-10-projects/,True,50,119,6.0,70.0,Intermediate Level,10.5,Web Development,2017,5950
+1260288,Master JavaScript Programming 3 Projects Included !!,https://www.udemy.com/master-javascript-programming-extended-course/,True,20,3903,53.0,107.0,All Levels,10.5,Web Development,2017,78060
+1027016,Complete Codeigniter: From Beginner to Advanced,https://www.udemy.com/complete-codeigniter-course-from-basic-to-advanced/,True,200,2786,31.0,20.0,All Levels,3.0,Web Development,2017,557200
+1134390,Complete React JS web developer with ES6 - Build 10 projects,https://www.udemy.com/complete-react-js-course/,True,200,952,121.0,75.0,Beginner Level,12.0,Web Development,2017,190400
+1165096,Vue JS - Mastering Web Apps,https://www.udemy.com/vue-web-apps/,True,80,13457,215.0,,All Levels,4.5,Web Development,2017,1076560
+1045942,Angular NgRx Store Masterclass - Covers Angular 4,https://www.udemy.com/angular-ngrx-course/,True,150,1399,212.0,89.0,Intermediate Level,8.5,Web Development,2017,209850
+1070976,Complete E-Commerce Course - JavaSpringHibernate and MySQL,https://www.udemy.com/complete-e-commerce-course-javaspringhibernate-and-mysql/,True,195,1371,,83.0,All Levels,20.0,Web Development,2017,267345
+1042110,Beginner Full Stack Web Development: HTML CSS React & Node,https://www.udemy.com/ultimate-web/,True,200,2687,331.0,138.0,Beginner Level,25.5,Web Development,2017,537400
+1128050,Server API Development in Swift Kitura & Bluemix,https://www.udemy.com/swift-kitura/,True,200,1827,129.0,66.0,Beginner Level,20.5,Web Development,2017,365400
+1218130,React VR - Creating Virtual Reality Apps,https://www.udemy.com/react-vr/,True,80,5026,72.0,43.0,All Levels,3.0,Web Development,2017,402080
+1123098,RxJs & Reactive Programming Angular Masterclass - Angular 4,https://www.udemy.com/rxjs-reactive-angular-course/,True,150,1301,179.0,,All Levels,7.5,Web Development,2017,195150
+1122224,How To Make A Web Page With No Code,https://www.udemy.com/how-to-make-a-web-page-with-no-code/,False,0,2214,20.0,23.0,Beginner Level,2.0,Web Development,2017,0
+1127048,ASP.NET C# - Enterprise Web Systems From Novice to Expert,https://www.udemy.com/aspnet-c-enterprise-web-systems-from-novice-to-expert/,True,20,604,8.0,43.0,All Levels,3.5,Web Development,2017,12080
+1198654,How to set up a Web Server From Scratch to One Fully Managed,https://www.udemy.com/how-to-setup-a-web-server/,True,200,1673,31.0,24.0,All Levels,3.0,Web Development,2017,334600
+1171966,The Complete PHP MySQL Professional Course with 5 Projects,https://www.udemy.com/the-complete-php-mysql-professional-course/,True,200,16158,159.0,125.0,All Levels,19.5,Web Development,2017,3231600
+1115222,Learn and Understand React,https://www.udemy.com/learn-and-understand-react-and-redux-i/,True,30,4848,105.0,123.0,All Levels,16.5,Web Development,2017,145440
+1189288,Drupal Tutorial : Drupal 8 Beginner to Expert in 8 PROJECTS,https://www.udemy.com/drupal-tutorial/,True,200,1270,16.0,73.0,Beginner Level,7.0,Web Development,2017,254000
+1052304,JavaScript For Beginners : Learn JavaScript From Scratch,https://www.udemy.com/javascript-course-for-beginners/,True,195,11285,102.0,77.0,All Levels,5.5,Web Development,2017,2200575
+1223012,Mastering Native CSS Shapes To Build Modern Web Pages,https://www.udemy.com/mastering-native-css-shapes/,True,195,1040,5.0,30.0,All Levels,3.5,Web Development,2017,202800
+1033686,WordPress local server setup and site migration online,https://www.udemy.com/wordpress-local-install-and-two-methods-to-migrate-online/,True,55,3801,43.0,12.0,All Levels,1.0,Web Development,2017,209055
+1181900,Interactive Dynamic JavaScript for beginners DOM,https://www.udemy.com/javascript-dom/,True,200,5559,35.0,21.0,Beginner Level,2.0,Web Development,2017,1111800
+1079370,Sublime Text for Rapid Web Development,https://www.udemy.com/sublime-text-for-rapid-web-development/,True,20,2104,69.0,14.0,All Levels,1.0,Web Development,2017,42080
+1155262,Angular 2 Complete E-Commerce App Course - JavaSpringMySQL,https://www.udemy.com/build-angular-2-complete-e-comerce-app-java-spring-mysql/,True,195,949,129.0,89.0,All Levels,20.5,Web Development,2017,185055
+1049092,React JS - Build real world JS apps & deploy on cloud,https://www.udemy.com/reactjs-for-beginners-build-real-world-react-apps-deploy-on-cloud/,True,175,12815,262.0,53.0,All Levels,8.5,Web Development,2017,2242625
+1277924,Angular 4 Front To Back,https://www.udemy.com/angular-4-front-to-back/,True,40,44,0.0,68.0,All Levels,8.5,Web Development,2017,1760
+1158572,Learn Angular 4 from Scratch,https://www.udemy.com/learn-angular-from-scratch/,False,0,8693,,11.0,Beginner Level,1.5,Web Development,2017,0
+1093734,HTML5 and CSS3 for beginners: Create a Website from Scratch,https://www.udemy.com/html5-and-css3-for-beginners-create-a-website-from-scratch/,True,200,9945,101.0,43.0,Beginner Level,2.0,Web Development,2017,1989000
+1139400,Fix Google's New 'Not Secure' Warning with Let's Encrypt!,https://www.udemy.com/fix-googles-new-not-secure-warning-with-lets-encrypt/,True,95,1437,24.0,20.0,Beginner Level,1.0,Web Development,2017,136515
+1034520,WordPress Domination #2: Leads & Scarcity,https://www.udemy.com/wordpress-domination-2-leads-and-scarcity/,True,95,2362,4.0,13.0,Beginner Level,1.0,Web Development,2017,224390
+1065250,Up and Running with jQuery,https://www.udemy.com/up-and-running-with-jquery/,False,0,3324,138.0,19.0,All Levels,5.0,Web Development,2017,0
+1241518,Node Package Manager Course: Build and Publish NPM Modules,https://www.udemy.com/node-package-manager-course-build-and-publish-npm-modules/,True,30,7196,8.0,38.0,All Levels,6.5,Web Development,2017,215880
+1199774,JavaScript 2017: Become Top Rated Web Developer,https://www.udemy.com/become-professional-javascript-developer/,True,115,1346,330.0,32.0,All Levels,3.0,Web Development,2017,154790
+1252630,React JS - Mastering Redux,https://www.udemy.com/react-js-mastering-redux/,True,100,7059,116.0,58.0,All Levels,5.0,Web Development,2017,705900
+1000010,Professional Ruby on Rails Developer with Rails 5,https://www.udemy.com/pro-ruby-on-rails-rails5/,True,200,3179,214.0,174.0,All Levels,20.5,Web Development,2017,635800
+1169378,Build a complete Fiverr clone with Node + Algolia + Paypal,https://www.udemy.com/web-developer-build-fiverr-twitter-and-mvp-with-nodejs/,True,30,1741,26.0,87.0,All Levels,9.0,Web Development,2017,52230
+1068590,Wordpress Website Mastery 2017,https://www.udemy.com/wordpress-website-mastery-2017/,False,0,5181,64.0,22.0,Beginner Level,,Web Development,2017,0
+1203894,How To Make an eCommerce Website With Wordpress 2017,https://www.udemy.com/how-to-make-an-ecommerce-website-with-wordpress-2017/,False,0,3493,43.0,26.0,Beginner Level,4.5,Web Development,2017,0
+1113036,Mastering CSS 3.0 Selectors,https://www.udemy.com/css3-selectors/,False,0,4115,,13.0,Intermediate Level,2.0,Web Development,2017,0
+1197650,Boost your website speed without any coding!,https://www.udemy.com/boost-your-website-speed-without-any-coding/,True,50,1337,28.0,12.0,All Levels,1.0,Web Development,2017,66850
+1205894,Create a MEAN App by Example - Full Stack Course,https://www.udemy.com/full-stack-course-mean-app/,True,50,421,26.0,33.0,Intermediate Level,3.5,Web Development,2017,21050
+1229274,WP Plugin Development - Build your own plugin!,https://www.udemy.com/wp-plugin-development-build-your-own-plugin/,True,200,5439,22.0,24.0,Beginner Level,4.0,Web Development,2017,1087800
+1121580,WordPress Blog : Create a WordPress Website for Beginners,https://www.udemy.com/wordpress-website-for-beginners/,True,20,2076,8.0,20.0,Beginner Level,2.0,Web Development,2017,41520
+1225030,Learning Path: Magento: Master and Test Magento 2 with Ease,https://www.udemy.com/learning-path-magento-master-and-test-magento-2-with-ease/,True,200,155,9.0,37.0,Expert Level,6.0,Web Development,2017,31000
+1236746,WordPress Tips and Tricks,https://www.udemy.com/wordpress-tips-and-tricks/,True,200,1117,10.0,37.0,Intermediate Level,2.5,Web Development,2017,223400
+1110756,HTML Tutorials : HTML Code for Website Creating,https://www.udemy.com/html-code-for-website/,True,20,2401,,27.0,All Levels,3.0,Web Development,2017,48020
+1231872,Web Development With HTML CSS BOOTSTRAP JQUERY for Beginners,https://www.udemy.com/web-development-with-html-css-bootstrap-jquery-for-beginners/,True,35,1156,4.0,59.0,Beginner Level,5.0,Web Development,2017,40460
+1111552,Build a Complete JQuery Plugin (Image Pop-up Dialog),https://www.udemy.com/build-a-complete-jquery-plugin-image-pop-up-dialog/,True,20,1126,10.0,12.0,All Levels,1.0,Web Development,2017,22520
+1183094,ASP.NET Core MVC Quick and Practical,https://www.udemy.com/aspnet-core-mvc-quick-and-practical/,True,20,387,,30.0,Intermediate Level,2.5,Web Development,2017,7740
+997750,ASP NET CORE - ANGULAR 2 E-Commerce App,https://www.udemy.com/build-a-full-e-commerce-app-in-aspnet-core-mvc-6/,True,200,897,129.0,171.0,All Levels,13.0,Web Development,2017,179400
+1062686,Complete RESPONSIVE Website Design with HTML5 & CSS3,https://www.udemy.com/website_design/,True,20,2204,6.0,97.0,Beginner Level,9.0,Web Development,2017,44080
+1082996,Pimcore Developer: Implement a Blog from a Bootstrap Theme,https://www.udemy.com/enterprise-cms-applied-implement-a-website-with-pimcore/,True,95,1212,15.0,39.0,All Levels,4.5,Web Development,2017,115140
+1124244,JavaScript Tutorial: Learn JavaScript Code for Beginners,https://www.udemy.com/javascript-tutorial-for-beginners/,True,20,2074,14.0,22.0,Beginner Level,1.5,Web Development,2017,41480
+941998,Master Electron: Desktop Apps using HTML JavaScript & CSS,https://www.udemy.com/master-electron/,True,165,1902,224.0,47.0,Intermediate Level,5.5,Web Development,2017,313830
+1204208,Mastering Micro Services Using Java Spring Boot,https://www.udemy.com/mastering-micro-services-using-java-sprint-boot/,True,195,1649,34.0,25.0,All Levels,2.0,Web Development,2017,321555
+1270392,The Complete JavaScript HTML and CSS Tutorial For Beginners,https://www.udemy.com/the-complete-javascript-html-and-css-tutorial-for-beginners/,True,35,244,44.0,21.0,Beginner Level,3.0,Web Development,2017,8540
+991094,Build Modern Responsive Website With HTML5 CSS3 & Bootstrap,https://www.udemy.com/build-modern-responsive-website-with-html5-css3-bootstrap/,True,195,1472,210.0,,All Levels,13.0,Web Development,2017,287040
+1174446,Email Marketing: Send Unlimited Emails via Own Mail Server,https://www.udemy.com/email-marketing-send-unlimited-emails-via-own-mail-server/,True,35,3539,43.0,20.0,Beginner Level,1.0,Web Development,2017,123865
+1267892,Getting started with JavaScript,https://www.udemy.com/javascript-code/,True,200,1415,17.0,23.0,Beginner Level,1.5,Web Development,2017,283000
+1149334,Learn the basics of the Web development: Coding Tactics,https://www.udemy.com/learn-the-basics-of-the-web-development-in-2-hours/,True,40,2965,17.0,30.0,Beginner Level,2.0,Web Development,2017,118600
+1109150,RESTful API with Laravel 5.4: Definitive Guide,https://www.udemy.com/restful-api-with-laravel-php-homestead-passport-hateoas/,True,145,655,95.0,195.0,All Levels,12.5,Web Development,2017,94975
+987666,Learn React : The World's Most Lucrative JavaScript Library,https://www.udemy.com/learn-react-the-worlds-most-lucrative-javascript-library/,True,50,1591,99.0,74.0,Beginner Level,9.5,Web Development,2017,79550
+1134330,Master Regular Expressions from scratch - All languages,https://www.udemy.com/master-regular-expressions-from-scratch/,True,70,1925,27.0,38.0,All Levels,2.0,Web Development,2017,134750
+1140532,Explore JavaScript Beginners Guide to Coding JavaScript,https://www.udemy.com/javascript-beginners-course/,True,200,5739,26.0,29.0,Beginner Level,2.5,Web Development,2017,1147800
+978852,Beginning Web development Learn the basics of HTML,https://www.udemy.com/learn-the-basics-of-html-in-less-than-a-week/,True,95,9832,71.0,59.0,Beginner Level,2.0,Web Development,2017,934040
+1148342,Step by Step Build Your Template by Bootstrap 4 from scratch,https://www.udemy.com/bootstrap-v4/,True,80,2184,15.0,24.0,Beginner Level,3.0,Web Development,2017,174720
+1199780,Hosting your static website on Amazon AWS S3 service,https://www.udemy.com/hosting-a-static-website-on-amazon-aws-s3-service/,True,20,2853,47.0,16.0,Beginner Level,1.5,Web Development,2017,57060
+1103448,Learn how to convert PSD to HTML and CSS responsive,https://www.udemy.com/learn-how-to-convert-psd-to-html-and-css-responsive/,True,30,5324,,14.0,All Levels,2.5,Web Development,2017,159720
+1004008,Introduction to web programming for GIS applications,https://www.udemy.com/introduction-to-web-programming-for-gis-applications/,True,100,205,38.0,97.0,Beginner Level,13.5,Web Development,2017,20500
+1071060,Django by Example,https://www.udemy.com/django-by-example/,True,125,170,21.0,78.0,Expert Level,9.0,Web Development,2017,21250
+1112844,The Complete Web Developer Masterclass: Beginner To Advanced,https://www.udemy.com/web-development-course-learn-in-just-1-day-by-pooja-thakar/,True,20,1030,,30.0,All Levels,,Web Development,2017,20600
+1182108,Symfony 3: Build a PHP Application with Symfony,https://www.udemy.com/learn-symfony/,True,20,466,,25.0,All Levels,2.0,Web Development,2017,9320
+1156648,Learn ASP.Net Web API 2 for Absolute Beginner,https://www.udemy.com/learn-aspnet-web-api-2-for-absolute-beginner/,True,30,1355,14.0,29.0,All Levels,3.5,Web Development,2017,40650
+1121696,Google Blogger : How to Create a Blog,https://www.udemy.com/google-blogger-how-to-create-a-blog/,True,20,1763,17.0,30.0,Beginner Level,2.0,Web Development,2017,35260
+1226008,Superb jQuery Course - Become Certified jQuery Developer,https://www.udemy.com/superb-jquery-course/,True,95,817,6.0,32.0,All Levels,1.5,Web Development,2017,77615
+1211960,How To Build A Facebook Messenger Chat Bot From Scratch,https://www.udemy.com/how-to-build-a-facebook-messenger-chat-bot-from-scratch/,True,120,1798,20.0,24.0,Beginner Level,,Web Development,2017,215760
+1169848,Build Your Own Calculator App with Javascript HTML5 & CSS,https://www.udemy.com/create-a-calculator-web-app-with-javascript-html-css/,True,50,3688,49.0,11.0,All Levels,1.0,Web Development,2017,184400
+1145206,Develop Competitive Plugins for WordPress and WooCommerce,https://www.udemy.com/develop-competitive-plugins-for-wordpress-and-woocommerce/,True,150,2063,18.0,12.0,All Levels,1.0,Web Development,2017,309450
+1243474,Ultimate Css & JQuery Form Designing From Beginner to Expert,https://www.udemy.com/ultimate-css-web-form-designing-from-beginner-to-expert/,True,115,783,5.0,13.0,All Levels,1.0,Web Development,2017,90045
+1147064,WordPress For Beginners | No Coding Required,https://www.udemy.com/wordpress-for-beginners-no-coding-required/,True,20,3106,31.0,13.0,All Levels,1.0,Web Development,2017,62120
+1189280,Introduction to Node.js for Beginners,https://www.udemy.com/introduction-to-nodejs-for-beginners/,True,125,1367,17.0,58.0,Beginner Level,6.0,Web Development,2017,170875
+959604,Angular JS Essentials,https://www.udemy.com/angular-js-crash-course/,True,195,4687,99.0,24.0,Beginner Level,4.0,Web Development,2017,913965
+1089652,Web Application Development using Redis Express and Socket,https://www.udemy.com/web-application-development-using-redis-express-and-socket/,True,200,300,16.0,66.0,Beginner Level,6.0,Web Development,2017,60000
+1049344,How to Start a WordPress Blog - Complete Beginners Guide!,https://www.udemy.com/how-to-start-a-blog-complete-beginners-guide/,False,0,3784,,32.0,Beginner Level,2.0,Web Development,2017,0
+1085064,Let's JavaScript!  Code a calculator,https://www.udemy.com/lets-javascript-beginners-coding-projects/,True,35,380,10.0,,Beginner Level,2.0,Web Development,2017,13300
+1148412,Building a eCommerce Startup in 4 Hours [Livestream],https://www.udemy.com/4-hour-startup-building-an-ecommerce-startup-and-marketing-it/,True,50,1114,8.0,23.0,Beginner Level,3.0,Web Development,2017,55700
+1254172,Responsive PHP Registration Form: From Scratch,https://www.udemy.com/responsive-php-registration-form/,True,95,5738,9.0,35.0,All Levels,4.0,Web Development,2017,545110
+1105778,A-Frame WebVR Programming Tutorial Series (Virtual Reality),https://www.udemy.com/a-frame-webvr/,True,40,6648,16.0,22.0,Beginner Level,1.5,Web Development,2017,265920
+1240522,Learn Bootstrap And Make Responsive Websites,https://www.udemy.com/learn-bootstrap-and-make-responsive-websites/,True,25,1605,,32.0,All Levels,3.5,Web Development,2017,40125
+1030440,Projects with JSON and APIs,https://www.udemy.com/projects-with-json-and-apis/,True,20,1520,,23.0,All Levels,2.0,Web Development,2017,30400
+1140232,Devtools 2017: Beginner to Expert w/ Chrome Developer Tools,https://www.udemy.com/master-google-chrome-developer-tools/,True,125,430,54.0,39.0,All Levels,2.5,Web Development,2017,53750
+854756,Learn Drupal 8 - With a Live Project,https://www.udemy.com/learn-drupal-8-with-a-live-project/,True,55,2012,15.0,59.0,All Levels,3.5,Web Development,2017,110660
+1121650,Angular 2 Routing: Up And Running,https://www.udemy.com/angular-2-routing-up-and-running/,False,0,3357,,13.0,Intermediate Level,0.616666667,Web Development,2017,0
+405840,Regular Expressions for Beginners - Universal,https://www.udemy.com/regular-expressions-for-beginners-universal/,True,100,1975,141.0,,All Levels,3.0,Web Development,2017,197500
+1211160,The Complete Wordpress Theme Development Guide,https://www.udemy.com/the-complete-wordpress-theme-development-guide/,True,25,1011,2.0,19.0,Beginner Level,2.0,Web Development,2017,25275
+1051672,Learn PHP from scratch!!,https://www.udemy.com/learn-php-from-scratch-by-niveditajain/,True,25,1908,12.0,17.0,Beginner Level,1.5,Web Development,2017,47700
+1055322,Learn Laravel PHP Framework Building Multi User SEO Blog APP,https://www.udemy.com/learn-laravel-php-framework-building-multi-user-seo-blog-app/,True,100,557,92.0,133.0,All Levels,9.5,Web Development,2017,55700
+1112604,Javascript Specialist,https://www.udemy.com/javascript-specialist/,True,200,408,39.0,80.0,Beginner Level,8.0,Web Development,2017,81600
+1064104,Laravel the complete guide with real world projects,https://www.udemy.com/best-laravel/,True,200,676,119.0,125.0,All Levels,14.0,Web Development,2017,135200
+1056848,Joomla for Beginners - Learn how to build a website with CMS,https://www.udemy.com/joomla-for-beginners-build-a-website-with-joomla-cms/,True,95,583,7.0,35.0,Beginner Level,3.5,Web Development,2017,55385
+1178762,WordPress Development - Themes and Plugins Complete Guide,https://www.udemy.com/wordpress-theme-and-plugin-development-course/,True,200,103,11.0,72.0,All Levels,5.5,Web Development,2017,20600
+1076424,The Ultimate Guide to the Best WordPress Plugins Part 1,https://www.udemy.com/wordpress-plugins-a-guide-on-the-best-plugins-part-1/,True,50,122,10.0,,All Levels,10.5,Web Development,2017,6100
+1075808,JSON Crash Course for Beginners,https://www.udemy.com/json-crash-course-for-beginners-learn-json-in-one-hour/,True,45,3323,90.0,7.0,Beginner Level,0.633333333,Web Development,2017,149535
+1142202,Master Angular 4 by Example - Build 7 Awesome Apps!,https://www.udemy.com/learn-angular-4/,True,195,596,32.0,84.0,All Levels,8.0,Web Development,2017,116220
+1099956,Bootstrap 4 Theme Development Masterclass,https://www.udemy.com/bootstrap-theme-development-masterclass/,True,150,2641,28.0,15.0,All Levels,0.65,Web Development,2017,396150
+1211800,Wordpress Theme Development for Beginners,https://www.udemy.com/wordpress-theme-development-for-beginners/,True,20,1052,14.0,47.0,All Levels,8.0,Web Development,2017,21040
+1172740,Learn how to use Javascript Components with PHP and Symfony,https://www.udemy.com/learn-how-to-use-javascript-components-with-php-and-symfony/,True,90,1822,4.0,25.0,All Levels,2.0,Web Development,2017,163980
+1072248,The All-In-One Web Development Course,https://www.udemy.com/the-all-in-one-web-development-course/,True,85,538,13.0,113.0,All Levels,18.5,Web Development,2017,45730
+1097778,ASP.NET MVC 5 Project - Facebook Clone,https://www.udemy.com/aspnet-mvc-5-project-facebook-clone/,True,30,210,19.0,41.0,All Levels,5.0,Web Development,2017,6300
+1170690,Introduction to Elm,https://www.udemy.com/introduction-to-elm/,False,0,1519,28.0,20.0,Intermediate Level,1.0,Web Development,2017,0
+1128560,JavaScript - Become Higly Paid Front End Developer,https://www.udemy.com/javascript-become-higly-paid-front-end-developer/,True,105,710,137.0,49.0,Beginner Level,3.5,Web Development,2017,74550
+1109736,Beginners Introduction to Web Development,https://www.udemy.com/explore-web-development/,True,200,7331,55.0,18.0,Beginner Level,1.5,Web Development,2017,1466200
+1251786,Redux in Angular (2 and 4+),https://www.udemy.com/redux-in-angular/,True,70,909,16.0,13.0,Intermediate Level,1.5,Web Development,2017,63630
+1115348,Full stack Universal React with Redux Node js and MongoDB,https://www.udemy.com/full-stack-universal-react-with-redux-express-and-mongodb/,True,195,1121,174.0,62.0,Intermediate Level,5.0,Web Development,2017,218595
+1253650,Learn Coding as RF or Telecom Engineer - Build Real Program,https://www.udemy.com/learn-coding-as-rf-or-telecom-engineer-build-real-program/,True,25,1006,4.0,8.0,Beginner Level,2.0,Web Development,2017,25150
+1217948,Learn How To Become a Web Developer From Scratch,https://www.udemy.com/learn-how-to-become-a-front-end-web-developer-from-scratch/,True,200,7062,72.0,172.0,Beginner Level,11.0,Web Development,2017,1412400
+1027276,Earn Big Profits With Web Development Simple and Easy!,https://www.udemy.com/earn-big-profits-by-building-simple-and-easy-websites/,True,90,3073,27.0,13.0,Beginner Level,1.5,Web Development,2017,276570
+1053406,Java Web Services Part 2,https://www.udemy.com/javawebservicespart2/,True,20,959,51.0,74.0,Intermediate Level,3.0,Web Development,2017,19180
+1107524,The Complete NodeJS Course: Build a Full Business Rating App,https://www.udemy.com/learn-nodejs-by-building-an-employee-to-business-rating-app/,True,195,17784,,61.0,All Levels,12.5,Web Development,2017,3467880
+1090788,First Web Application with Spring Boot,https://www.udemy.com/spring-boot-first-web-application/,True,40,2865,95.0,32.0,Beginner Level,4.0,Web Development,2017,114600
+1210652,HTML5 and CSS3: Learn Web Design with HTML + CSS + Bootstrap,https://www.udemy.com/html-css-bootstrap-build-your-first-website-today/,True,200,346,28.0,74.0,Beginner Level,8.5,Web Development,2017,69200
+1075662,Learning Docker and Kubernetes by Lab,https://www.udemy.com/learning-docker-and-k8s-by-practice/,True,30,586,54.0,56.0,All Levels,,Web Development,2017,17580
+1035940,Professional RESTful API Design using Python Flask,https://www.udemy.com/restful-api-flask-course/,True,120,578,25.0,36.0,Intermediate Level,4.5,Web Development,2017,69360
+1063722,Learn Python Django - A Hands-On Course,https://www.udemy.com/learn-python-django-a-hands-on-course/,True,50,1339,21.0,18.0,Beginner Level,2.0,Web Development,2017,66950
+1101204,Security for your WordPress site,https://www.udemy.com/security-for-your-wordpress-site/,True,85,1096,8.0,7.0,Beginner Level,0.633333333,Web Development,2017,93160
+1241254,AWS Serverless APIs & Apps - A Complete Introduction,https://www.udemy.com/aws-serverless-a-complete-introduction/,True,145,2145,166.0,136.0,All Levels,8.0,Web Development,2017,311025
+822444,Python and Django Full Stack Web Developer Bootcamp,https://www.udemy.com/python-and-django-full-stack-web-developer-bootcamp/,True,200,11832,1883.0,191.0,All Levels,31.5,Web Development,2017,2366400
+1144726,Build a Real-world App with ASP.NET Core and Angular 2 (4+),https://www.udemy.com/aspnet-core-angular/,True,190,5332,828.0,160.0,Intermediate Level,10.5,Web Development,2017,1013080
+981600,HTML and CSS BootCamp for Beginners,https://www.udemy.com/html-and-css-bootcamp-for-beginners/,True,30,1777,35.0,48.0,Beginner Level,6.5,Web Development,2017,53310
+1204590,Angular Advanced MasterClass & FREE E-Book,https://www.udemy.com/angular-advanced-masterclass/,True,150,228,9.0,72.0,Intermediate Level,6.5,Web Development,2017,34200
+1200530,Electron for Desktop Apps: The Complete Developer's Guide,https://www.udemy.com/electron-react-tutorial/,True,50,2606,241.0,77.0,Beginner Level,8.0,Web Development,2017,130300
+1208638,React JS Angular & Vue JS - Quickstart & Comparison,https://www.udemy.com/angular-reactjs-vuejs-quickstart-comparison/,True,160,2273,,142.0,Beginner Level,8.0,Web Development,2017,363680
+1107986,Building Data Visualizations with D3 and Angular 2,https://www.udemy.com/building-data-visualizations-with-d3-and-angular-2/,True,125,293,30.0,31.0,Beginner Level,3.5,Web Development,2017,36625
+1161118,Dive Into Docker: The Docker Course for Developers,https://www.udemy.com/dive-into-docker-the-complete-docker-course-for-developers/,False,0,6437,313.0,22.0,Beginner Level,1.5,Web Development,2017,0
+1093608,The Most Comprehensive Web Development Course,https://www.udemy.com/comprehensive-web-developer-course/,True,200,333,22.0,353.0,All Levels,42.0,Web Development,2017,66600
+1039062,Webpack 2: The Complete Developer's Guide,https://www.udemy.com/webpack-2-the-complete-developers-guide/,True,75,8964,1893.0,56.0,All Levels,5.5,Web Development,2017,672300
+1145430,Angular Styling & Animations (for Angular 2 and Angular 4),https://www.udemy.com/angular-styling-animations-for-angular-2-and-angular-4/,True,120,4138,307.0,107.0,Intermediate Level,6.0,Web Development,2017,496560
+1109926,GraphQL with React: The Complete Developers Guide,https://www.udemy.com/graphql-with-react-course/,True,150,6412,987.0,114.0,Intermediate Level,13.0,Web Development,2017,961800
+1134456,Create a Simple Photo Gallery with Dropzonejs Slick and PHP,https://www.udemy.com/create-a-simple-photo-gallery-with-dropzonejs-slick-and-php/,False,0,2464,17.0,9.0,All Levels,0.733333333,Web Development,2017,0
+1193538,HTML5 And CSS3 - Build Modern Responsive Websites,https://www.udemy.com/html5-and-css3-build-modern-responsive-websites/,True,175,109,17.0,69.0,All Levels,9.5,Web Development,2017,19075
+1179104,Learning Path: React: Make Stunning React Websites,https://www.udemy.com/learning-path-react-make-stunning-react-websites/,True,200,91,5.0,53.0,Expert Level,6.5,Web Development,2017,18200
+1152012,Adobe Experience Manager CMS Basics,https://www.udemy.com/adobe-experience-manager-basics/,True,35,81,14.0,33.0,Beginner Level,1.0,Web Development,2017,2835
+1160196,Flexbox: The complete guide,https://www.udemy.com/flexbox-the-complete-guide/,True,35,189,7.0,16.0,All Levels,1.0,Web Development,2017,6615
+1127988,Angular Tutorial For Beginners,https://www.udemy.com/angular-tutorial-for-beginners/,False,0,5397,112.0,36.0,Beginner Level,2.5,Web Development,2017,0
+1079624,HTML and CSS for Absolute Beginners,https://www.udemy.com/html-and-css-for-absolute-beginners-with-examples/,False,0,4410,52.0,26.0,All Levels,3.0,Web Development,2017,0
+1106646,Laravel Blog Development Starter,https://www.udemy.com/laravel-blog-development/,False,0,4499,138.0,20.0,All Levels,2.0,Web Development,2017,0
+1239022,How To Create A Real Estate Website With Wordpress 2017,https://www.udemy.com/how-to-create-a-real-estate-website-with-wordpress-2017/,False,0,3782,32.0,11.0,Beginner Level,1.5,Web Development,2017,0
+1227322,React vs Angular vs Vue.js by Example,https://www.udemy.com/react-vs-angular-vs-vuejs-by-example/,False,0,6958,132.0,30.0,Beginner Level,3.5,Web Development,2017,0
+1246622,Build and Deploy a LAMP server on AWS,https://www.udemy.com/build-and-deploy-a-lamp-server-on-aws/,False,0,3571,18.0,8.0,Beginner Level,1.0,Web Development,2017,0
+1248974,Learn Bootstrap 4 by Example,https://www.udemy.com/learn-bootstrap-4-by-example/,False,0,5542,54.0,9.0,All Levels,1.0,Web Development,2017,0
+1090870,Complete WooCommerce Plugin Tutorial For Wordpress 2017,https://www.udemy.com/complete-woocommerce-plugin-tutorial-for-wordpress-2017/,False,0,7922,183.0,16.0,Beginner Level,1.5,Web Development,2017,0
+1041426,How To Build And Make A Wordpress Website From Scratch 2017,https://www.udemy.com/how-to-build-and-make-a-wordpress-website-from-scratch-2017/,False,0,7055,166.0,24.0,All Levels,2.0,Web Development,2017,0
+1102962,Angular Material - Quickstart,https://www.udemy.com/styling-angular-applications-with-angular-material/,False,0,3766,135.0,14.0,Beginner Level,0.7,Web Development,2017,0
+1050632,Complete Web Development with HTML CSS and Javascript,https://www.udemy.com/complete-web-development-with-html-css-and-javascript/,False,0,2097,16.0,10.0,Intermediate Level,2.0,Web Development,2017,0
+1063430,How to Build WordPress Themes: A Web Designer's Guide,https://www.udemy.com/how-to-build-wordpress-themes/,True,165,183,30.0,47.0,Intermediate Level,5.5,Web Development,2017,30195
+1116366,HTML and CSS Foundations,https://www.udemy.com/html-and-css-foundations/,False,0,1544,15.0,29.0,Beginner Level,1.0,Web Development,2017,0
+884988,Build a Complete Registration and Login System using PHP MVC,https://www.udemy.com/php-mvc-login/,True,80,325,50.0,106.0,All Levels,5.0,Web Development,2017,26000
+1211366,ES6 / EcmaScript 6 for beginners an introduction,https://www.udemy.com/es6-ecmascript-6-for-beginners/,False,0,3227,19.0,21.0,Intermediate Level,2.0,Web Development,2017,0
+1075570,Perfect React JS Course - Understand Relevant Details,https://www.udemy.com/perfect-react-js-course/,True,200,653,20.0,25.0,Beginner Level,1.0,Web Development,2017,130600
+1166070,Complete Bootstrap 4 course - build 3 projects,https://www.udemy.com/bootstrap-4-tutorials/,False,0,7865,241.0,36.0,All Levels,5.0,Web Development,2017,0
+1201054,Build CRUD Application - PHP & Mysql,https://www.udemy.com/build-crud-application-php-mysql/,False,0,4405,71.0,12.0,Beginner Level,1.5,Web Development,2017,0
+1031780,Ready for Production with Spring Boot Actuator,https://www.udemy.com/ready-for-production-with-spring-boot-actuator/,True,55,361,26.0,49.0,Intermediate Level,2.5,Web Development,2017,19855
+1194232,Learning Path: Akka: Building Applications and Microservices,https://www.udemy.com/learning-path-akka-building-applications-and-microservices/,True,200,88,8.0,55.0,Intermediate Level,4.5,Web Development,2017,17600
+1131732,Set up a localhost Web Server for Faster Website Development,https://www.udemy.com/localhost-web-server/,True,30,55,13.0,31.0,All Levels,1.5,Web Development,2017,1650
+1270222,Learning Path: Web Applications with Spring and Angular,https://www.udemy.com/learning-path-web-applications-with-spring-and-angular/,True,200,19,2.0,33.0,Expert Level,4.0,Web Development,2017,3800
+1178394,Devtools 2017: The Basics of Chrome Developer Tools,https://www.udemy.com/devtools-2017-the-basics-of-chrome-developer-tools/,False,0,4569,108.0,18.0,Beginner Level,1.0,Web Development,2017,0
+1084894,Chrome Extensions : Develop 5 chrome extensions from scratch,https://www.udemy.com/chrome-extension-dev/,False,0,3655,85.0,44.0,Beginner Level,2.0,Web Development,2017,0
+990532,Advance Unix : File Processing: AWK | SED | GREP | CUT | VIM,https://www.udemy.com/advance-unix-commands/,True,75,578,40.0,84.0,Expert Level,5.5,Web Development,2017,43350
+1158836,PHP Specialist (2017 Edition),https://www.udemy.com/php-specialist-2017/,True,100,197,11.0,53.0,Beginner Level,3.5,Web Development,2017,19700
+1176460,Create Ajax Chat App with PHP & Mysql,https://www.udemy.com/create-ajax-chat-app-with-php-mysql/,True,45,540,11.0,19.0,Beginner Level,1.0,Web Development,2017,24300
+1198704,How to become an App Developer,https://www.udemy.com/how-to-become-an-app-developer/,True,200,1935,17.0,10.0,Beginner Level,1.0,Web Development,2017,387000
+1115126,XML XSLT - Crash Course for Beginners,https://www.udemy.com/xml-xslt-crash-course-for-beginners/,True,45,426,4.0,9.0,All Levels,1.0,Web Development,2017,19170
+1114060,Flask Tutorial Step by Step,https://www.udemy.com/python-flask-tutorial-step-by-step/,False,0,4645,171.0,19.0,Intermediate Level,2.0,Web Development,2017,0
+1176686,Mastering Basic CSS Selectors.,https://www.udemy.com/mastering-basic-css-selectors/,False,0,3933,23.0,14.0,Beginner Level,3.0,Web Development,2017,0
+1115128,XML DOM - Crash Course for Beginners,https://www.udemy.com/xml-dom-crash-course-for-beginners/,True,45,396,6.0,8.0,All Levels,0.566666667,Web Development,2017,17820
+1259422,Learn JavaScript From Scratch:Become Top Rated Web Developer,https://www.udemy.com/learnjsandbecometopratedwebdeveloper/,True,65,2570,17.0,87.0,All Levels,5.0,Web Development,2017,167050
+1172166,WordPress for Beginners 2017 + Google AdSense Implementation,https://www.udemy.com/wordpress-tutorial-for-beginners-and-google-adsense-implementation/,True,195,2225,14.0,64.0,All Levels,6.5,Web Development,2017,433875
+1210098,HTML5 and CSS for Beginner To Expert,https://www.udemy.com/html5-and-css-for-beginner-to-expert/,True,20,1732,15.0,48.0,All Levels,4.5,Web Development,2017,34640
+1189508,Create a social network using PHP Mysqli HTML Css and JQuery,https://www.udemy.com/create-a-social-network-using-php-mysqli-html-css-and-jquery/,True,40,1477,17.0,27.0,Intermediate Level,6.0,Web Development,2017,59080
+1054814,Learn to Create Responsive Layouts in 30 Minutes,https://www.udemy.com/learn-to-create-responsive-layouts-in-30-minutes/,False,0,5301,174.0,6.0,Beginner Level,0.5,Web Development,2017,0
+1191946,Getting Started with Angular 2+,https://www.udemy.com/getting-started-with-angular-2/,False,0,6909,401.0,14.0,Beginner Level,2.0,Web Development,2017,0
+1030774,Master all PHP ideas 2017 to build any project,https://www.udemy.com/master-all-php-ideas-2017-to-build-any-project/,True,50,376,19.0,49.0,Beginner Level,3.0,Web Development,2017,18800
+1031620,Learn Laravel with Database Migration & Seeding & Faker,https://www.udemy.com/laravel-53-migra-migration-seeding-faker-tinker/,True,20,263,14.0,7.0,All Levels,1.0,Web Development,2017,5260
+1200874,Become PHP Facebook Developer: Password-Less Authentication,https://www.udemy.com/php-facebook-developer-password-less-authentication/,True,195,4001,8.0,37.0,All Levels,4.0,Web Development,2017,780195
+1274210,Learn JSON for beginners with JavaScript,https://www.udemy.com/json-javascript-course/,True,200,3193,10.0,23.0,Beginner Level,1.5,Web Development,2017,638600
+1249968,JQuery Basics - Learn JQuery From Scratch,https://www.udemy.com/jquery-basics-learn-jquery-from-scratch/,True,100,3559,24.0,18.0,Beginner Level,1.0,Web Development,2017,355900
+1090194,All in one HTML CSS and JQuery,https://www.udemy.com/all-in-one-html-css-and-jquery/,True,20,3444,35.0,16.0,All Levels,3.0,Web Development,2017,68880
+1036170,Laravel : CRUD Application Using AJAX In Laravel 5.3,https://www.udemy.com/laravel-53-crud-application-with-ajax/,True,20,362,19.0,8.0,Intermediate Level,1.0,Web Development,2017,7240
+1037666,Webpack 1 & 2 - The Complete Guide,https://www.udemy.com/webpack-complete-guide/,True,40,252,46.0,79.0,All Levels,6.5,Web Development,2017,10080
+1163894,Build a Chatbot integrated Website using Bootstrap 4,https://www.udemy.com/build-a-chatbot-integrated-website-using-bootstrap-4/,True,50,165,13.0,28.0,All Levels,3.0,Web Development,2017,8250
+1207382,Optimizing Wordpress for More Speed and Revenue,https://www.udemy.com/optimizing-wordpress-for-more-speed-and-revenue/,False,0,2649,16.0,7.0,Intermediate Level,0.583333333,Web Development,2017,0
+1203040,Google Blogger Course,https://www.udemy.com/free-blogger-course/,True,60,1343,11.0,22.0,Intermediate Level,3.5,Web Development,2017,80580
+1124280,PHP Tutorial: Learn PHP Basic Programming for Beginners,https://www.udemy.com/php-tutorial-beginners/,True,20,2510,21.0,23.0,Beginner Level,1.5,Web Development,2017,50200
+1135712,Mastering Modern Web Development Using React,https://www.udemy.com/mastering-modern-web-development-using-react/,True,195,1537,8.0,29.0,All Levels,2.5,Web Development,2017,299715
+1250934,Display and analyze GIS data on the web with Leaflet.js,https://www.udemy.com/display-and-analyze-gis-data-on-the-web/,True,100,25,4.0,66.0,Intermediate Level,12.5,Web Development,2017,2500
+572270,Angularjs-WebApi2-EFCodeFirst Web App On 3-Tier Architecture,https://www.udemy.com/angularjs-webapi2-efcodefirst-web-app-on-3-tier-architecture/,True,60,652,48.0,46.0,Intermediate Level,6.5,Web Development,2017,39120
+1031626,Bootstrap 4 Responsive Web Design and Development,https://www.udemy.com/bootstrap-4-responsive-web-design-and-development/,True,20,3086,17.0,73.0,Beginner Level,7.5,Web Development,2017,61720
+990284,Advance Unix : File Processing: AWK | GREP | VIM,https://www.udemy.com/advance-unix-file-processing/,True,20,458,2.0,12.0,All Levels,1.0,Web Development,2017,9160
+1009236,Web Development With Google Maps,https://www.udemy.com/webdevelopmentwithgooglemaps/,True,50,222,9.0,60.0,Beginner Level,8.5,Web Development,2017,11100
+1227578,Learning Path: The Road to Elasticsearch,https://www.udemy.com/learning-path-the-road-to-elasticsearch/,True,200,50,5.0,60.0,Beginner Level,5.0,Web Development,2017,10000
+1170920,Node:js : Building Rest Apis with Sails.js,https://www.udemy.com/building-rest-apis-with-sailsjs-and-nodejs/,True,100,61,9.0,44.0,Beginner Level,2.0,Web Development,2017,6100
+1115132,XML XQuery - Crash Course for Beginners,https://www.udemy.com/xml-xquery-crash-course-for-beginners/,True,45,426,4.0,10.0,All Levels,1.0,Web Development,2017,19170
+1159822,Mastering Unix : AWK Commands,https://www.udemy.com/mastering-unix-commands/,True,20,358,0.0,23.0,All Levels,2.0,Web Development,2017,7160
+1079078,Drupal 8 Site Building,https://www.udemy.com/drupal-8-site-building/,False,0,1942,23.0,48.0,All Levels,4.5,Web Development,2017,0
+919354,Learn Bootstrap 4 The Most Popular HTML5 CSS3 & JS Framework,https://www.udemy.com/learn-bootstrap-4-the-most-popular-html5-css3-js-framework/,True,200,279,37.0,119.0,All Levels,10.0,Web Development,2017,55800
+1248172,Essentials of Spring 5.0 for Developers,https://www.udemy.com/essentials-of-spring-50-for-developers/,True,125,34,2.0,21.0,Expert Level,1.5,Web Development,2017,4250
+1115064,XML DTD - Crash Course for Beginners,https://www.udemy.com/xml-dtd-crash-course-for-beginners/,True,45,944,1.0,10.0,All Levels,1.0,Web Development,2017,42480
+1088178,How To Design A WordPress Website With No Coding At All,https://www.udemy.com/how-to-make-a-wordpress-website-course/,True,25,306,3.0,42.0,Beginner Level,3.5,Web Development,2017,7650
