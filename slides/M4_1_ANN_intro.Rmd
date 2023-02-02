@@ -61,6 +61,7 @@ In this session, you will:
 * In the past few years, artificial intelligence (AI) has been a subject of intense media hype.
 * We're promised a future of intelligent chatbots, self-driving cars, and virtual assistants
 * A future sometimes painted in a grim light and other times as utopian, where human jobs will be scarce, and most economic activity will be handled by robots or AI agents. 
+* Just now: DALL-E, ChatGTP etc. amazes & frightens society, hinting towards great socio-technical-economic disruption top come.
 
 ## AI, ML & DL in context {.smaller}
 
@@ -70,7 +71,7 @@ In this session, you will:
 
 * Notice: ML is just a particular subset of the realm of AI technologies and algorithms.  
 * Artificial Neural Networks in turn are just a subset of ML techniques. 
-* Deep Learning, again, is a subsey of ML, refering to a particular type of neural networks.
+* Deep Learning, again, is a subset, refering to a particular type of neural networks.
 
 
 ## Historical trends {.smaller}
@@ -96,7 +97,7 @@ Long and rich history dating back to the 1940s. Three major waves of development
 * Around 2010, only a number of people where still working on neural networks started to make important breakthroughs: the groups of **Geoffrey Hinton** at the University of Toronto, **Yoshua Bengio** at the University of Montreal, **Yann LeCun** at New York University, **Dan Ciresan** and IDSIA.
 * In 2011, Dan Ciresan started winning image-classification competitions (ImageNet) with GPU-trained deep NNs. Then, Hinton's group entered with convolutional neural networks, which dominated the competition ever since.
 * Since, deep learning has also found applications in many other types of problems, such as NLP, and completely replaced SVMs and tree models in a wide range of applications. 
-* 2017: Combination of encoder/decoder architecture and self-attention mechanism in transformer models. Now the dominant architecture for all type of sequential/spatial problems.
+* 2017: Combination of encoder/decoder architecture and self-attention mechanism in **transformer** models. Now the dominant architecture for all type of sequential/spatial problems.
 
 
 ## Why today?{.smaller}
@@ -120,6 +121,7 @@ Long and rich history dating back to the 1940s. Three major waves of development
 * However, this refers to an *abstract and simplified inspiration*, rather than the mimicing of human brain activity. They share some very basics, but are highly stilized. 
 * Its like saying a paper airplane is an artificial F20 fighter jet. 
 * Today, there is broad agreement in the scientific community that deep learning cannot be seen as an accurate model of how the brain actually works.
+* Research trying to morre accurately mimic the brain architecture in DL models by now did not yield results.
 
 ----
 
@@ -143,7 +145,7 @@ Analogies with human brain:
    * Take input cells (neurons or units), and connect them to some output cell (in neuroscience, via a synapse)
    * The receiving cell's input is equal to the submitting cell's output, weighted by the strength of the connection
    * The cell transforms this input via a non-linear activation function to an output, which it in turn submits to other connected cells
-* We refer to networks because the final architecture is obtained by composing together many different functions
+* We refer to **networks** because the final architecture is obtained by composing together many different functions
 
 ## Feedforward NNs
 
@@ -173,7 +175,7 @@ Analogies with human brain:
 * During neural network training, we drive $f(x)$ to match $f^*(x)$
 * Because the training data does not show the desired output for each of the intermediate layers, these layers are called hidden layers
 * The dimensionality of the hidden layers determines the *width* of the network 
-* Deep NNs overcome an obvious defect of linear models, that is their limited capacity to linear functions approximation; NN understand complex interactions between input variables
+* Deep NNs overcome an obvious defect of linear models, that is their limited capacity to linear functions approximation; NN understand complex interactions between input variables.
 
 ----
 
@@ -184,11 +186,13 @@ Analogies with human brain:
 
 # Deep Learning
 
-## Deep Learning: Definition
+## Deep Learning
 
-* Deep learning can be viewed as a subset of machine learning methods aimed at processing large and complex datasets through networks of synthetic neurons. Here, subsequent layers learn increasingly abstract representations of the data that eventually become an input into predictions (Goodfellow, Bengio, and Courville, 2016)	
-* Deep learning allows computational models that are composed of multiple processing layers to learn representations of data with multiple levels of abstraction (LeCun, Bengio, and Hinton, 2015)
-* Deep learning, as it is primarily used, is essentially a statistical technique for classifying patterns, based on sample data, using neural networks with multiple layers [...] Deep learning is a perfectly fine way of optimizing a complex system for representing a mapping between inputs and outputs, given a sufficiently large data set (Markus, 2018)
+Some common definitions:
+
+* Deep learning can be viewed as a subset of machine learning methods aimed at **processing large and complex datasets through networks of synthetic neurons**. Here, subsequent layers learn increasingly abstract representations of the data that eventually become an input into predictions (Goodfellow, Bengio, and Courville, 2016)	
+* Deep learning allows computational models that are composed of multiple processing **layers to learn representations of data with multiple levels of abstraction.** (LeCun, Bengio, and Hinton, 2015)
+* Deep learning, as it is primarily used, is essentially a statistical technique for classifying patterns, based on sample data, using neural networks with multiple layers [...] Deep learning is a perfectly fine way of **optimizing a complex system for representing a mapping** between inputs and outputs, given a sufficiently large data set (Markus, 2018)
 
 ## Why 'deep'?{.smaller}
 
@@ -223,7 +227,7 @@ Analogies with human brain:
 
 * Machine learning methods generally construct hypotheses directly from the data through *inductive inference*	
    * If a large data set contains several instances of white swans and no instances of swans of other colours, a machine learning algorithm may infer that 'all swans are white'
-   * Inductive inferences consists of hypotheses which are always subject to falsification by additional data, i.e. there may still be an undiscovered island of black swans!
+   * **Inductive inferences** consists of hypotheses which are always **subject to falsification** by additional data, i.e. there may still be an undiscovered island of black swans!
    
 * Suppose the goal of a machine learning algorithm is to recognize a face in a picture, then the algorithm could use the presence of a nose as a feature.	
    * Describing exactly what a nose is in terms of pixel composition can be difficult as there are countless different shapes, shadows can modify and obscure part of the nose, view angles, etc.

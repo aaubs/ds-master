@@ -3136,13 +3136,13 @@ ul.task-list{list-style: none;}
       <h1 data-config-title><!-- populated from slide_config.json --></h1>
       
       <p data-config-presenter><!-- populated from slide_config.json --></p>
-            <p style="margin-top: 6px; margin-left: -2px;">Updated February 01, 2023</p>
+            <p style="margin-top: 6px; margin-left: -2px;">Updated February 02, 2023</p>
           </hgroup>
   </slide>
 
 <style type="text/css">
   .img_tiny{
-    width: 25%;
+    width: 30%;
   }
   .img_small{
     width: 50%;
@@ -3171,7 +3171,7 @@ ul.task-list{list-style: none;}
 
 <ul>
 <li>Most current DL frameworks use <strong>tensors</strong> as their basic data structure.</li>
-<li>Tensors are fundamental to the field-so fundamental that Google’s <strong>TensorFlow</strong> was named after them. So what’s a tensor?</li>
+<li>Tensors are fundamental to the field-so fundamental that Google’s <em>TensorFlow</em> was named after them. So what’s a tensor?</li>
 <li>Tensors are a generalization of vectors and matrices to an arbitrary number of dimensions (note that in the context of tensors, a dimension is often called an axis). * A tensor is defined by three key attributes:
 
 <ol>
@@ -3277,8 +3277,8 @@ ul.task-list{list-style: none;}
 </article></slide><slide class=""><hgroup><h2>Layers: the building blocks of deep learning</h2></hgroup><article  id="layers-the-building-blocks-of-deep-learning" class="smaller ">
 
 <ul>
-<li>A layer is a data-processing module that takes as input one or more tensors and that outputs one or more tensors.</li>
-<li>Some layers are stateless, but more frequently layers have a state: the layer’s weights, one or several tensors learned with stochastic gradient descent, which together contain the network’s knowledge.</li>
+<li>A layer is a <strong>data-processing module</strong> that takes as input one or more tensors and that outputs one or more tensors.</li>
+<li>Some layers are stateless, but more frequently layers have a state: the layer’s <strong>weights</strong>, one or several tensors learned with stochastic gradient descent, which together contain the network’s knowledge.</li>
 <li>Different layers are appropriate for different tensor formats and different types of data processing. For instance, simple vector data, stored in 2D tensors of shape <code>(samples, features)</code>, is often processed by <strong>densely connected layers</strong>, also called fully connected or dense layers (the <code>layer_dense</code> function in Keras).</li>
 <li>Sequence data, stored in 3D tensors of shape (samples, timesteps, features), is typically processed by recurrent layers such as <code>layer_lstm</code>. Image data, stored in 4D tensors, is usually processed by 2D convolution layers (<code>layer_conv_2d</code>). All that will be introduced in later sessions.</li>
 </ul>
@@ -3292,8 +3292,8 @@ ul.task-list{list-style: none;}
 </center>
 
 <ul>
-<li>You can think of layers as the LEGO bricks of deep learning, a metaphor that is made explicit by frameworks like <code>Keras</code>.</li>
-<li>Building deep-learning models in Keras is done by clipping together compatible layers to form useful data-transformation pipelines.</li>
+<li>You can think of layers as the LEGO bricks of deep learning, a metaphor that is made explicit by frameworks like <code>Keras</code>. <code>Pytorch</code> has a more functional programming aspproach and abstraction, but still has the <em>layeer-stacking</em> narrative inbuilt.</li>
+<li>Building deep-learning models in the different DL framework is done by clipping together compatible layers to form useful data-transformation pipelines.</li>
 <li>The notion of layer compatibility here refers specifically to the fact that every layer will only accept input tensors of a certain shape and will return output tensors of a certain shape. Consider the example above.</li>
 </ul>
 
@@ -3346,9 +3346,7 @@ ul.task-list{list-style: none;}
 <li>\(h_i = g(z,\alpha_i) = \text{max}(0,z_i) + \alpha_i \text{min}(0, z_i)\)</li>
 <li><strong>Absolute value rectification</strong> fixes \(\alpha_i = -1\) to obtain \(g(z) = |z|\)</li>
 <li><strong>Leaky ReLU</strong> fixes \(\alpha_i\) to a small value (e.g. 0.01)</li>
-<li><strong>Parametric ReLU</strong> (or PReLU) treats \(\alpha_i\) as a learnable parameter
-
-</li>
+<li><strong>Parametric ReLU</strong> (or PReLU) treats \(\alpha_i\) as a learnable parameter</li>
 </ul></li>
 </ul>
 

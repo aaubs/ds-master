@@ -3136,7 +3136,7 @@ ul.task-list{list-style: none;}
       <h1 data-config-title><!-- populated from slide_config.json --></h1>
       
       <p data-config-presenter><!-- populated from slide_config.json --></p>
-            <p style="margin-top: 6px; margin-left: -2px;">Updated February 01, 2023</p>
+            <p style="margin-top: 6px; margin-left: -2px;">Updated February 02, 2023</p>
           </hgroup>
   </slide>
 
@@ -3180,6 +3180,7 @@ ul.task-list{list-style: none;}
 <li>In the past few years, artificial intelligence (AI) has been a subject of intense media hype.</li>
 <li>We’re promised a future of intelligent chatbots, self-driving cars, and virtual assistants</li>
 <li>A future sometimes painted in a grim light and other times as utopian, where human jobs will be scarce, and most economic activity will be handled by robots or AI agents.</li>
+<li>Just now: DALL-E, ChatGTP etc. amazes &amp; frightens society, hinting towards great socio-technical-economic disruption top come.</li>
 </ul>
 
 </article></slide><slide class=""><hgroup><h2>AI, ML &amp; DL in context</h2></hgroup><article  id="ai-ml-dl-in-context" class="smaller smaller">
@@ -3193,7 +3194,7 @@ ul.task-list{list-style: none;}
 <ul>
 <li>Notice: ML is just a particular subset of the realm of AI technologies and algorithms.<br/></li>
 <li>Artificial Neural Networks in turn are just a subset of ML techniques.</li>
-<li>Deep Learning, again, is a subsey of ML, refering to a particular type of neural networks.</li>
+<li>Deep Learning, again, is a subset, refering to a particular type of neural networks.</li>
 </ul>
 
 </article></slide><slide class=""><hgroup><h2>Historical trends</h2></hgroup><article  id="historical-trends" class="smaller smaller">
@@ -3224,7 +3225,7 @@ ul.task-list{list-style: none;}
 <li>Around 2010, only a number of people where still working on neural networks started to make important breakthroughs: the groups of <strong>Geoffrey Hinton</strong> at the University of Toronto, <strong>Yoshua Bengio</strong> at the University of Montreal, <strong>Yann LeCun</strong> at New York University, <strong>Dan Ciresan</strong> and IDSIA.</li>
 <li>In 2011, Dan Ciresan started winning image-classification competitions (ImageNet) with GPU-trained deep NNs. Then, Hinton’s group entered with convolutional neural networks, which dominated the competition ever since.</li>
 <li>Since, deep learning has also found applications in many other types of problems, such as NLP, and completely replaced SVMs and tree models in a wide range of applications.</li>
-<li>2017: Combination of encoder/decoder architecture and self-attention mechanism in transformer models. Now the dominant architecture for all type of sequential/spatial problems.</li>
+<li>2017: Combination of encoder/decoder architecture and self-attention mechanism in <strong>transformer</strong> models. Now the dominant architecture for all type of sequential/spatial problems.</li>
 </ul>
 
 </article></slide><slide class=""><hgroup><h2>Why today?</h2></hgroup><article  id="why-today" class="smaller smaller">
@@ -3252,6 +3253,7 @@ ul.task-list{list-style: none;}
 <li>However, this refers to an <em>abstract and simplified inspiration</em>, rather than the mimicing of human brain activity. They share some very basics, but are highly stilized.</li>
 <li>Its like saying a paper airplane is an artificial F20 fighter jet.</li>
 <li>Today, there is broad agreement in the scientific community that deep learning cannot be seen as an accurate model of how the brain actually works.</li>
+<li>Research trying to morre accurately mimic the brain architecture in DL models by now did not yield results.</li>
 </ul>
 
 </article></slide><slide class=""><hgroup><h2></h2></hgroup><article  class="smaller">
@@ -3286,7 +3288,7 @@ ul.task-list{list-style: none;}
 <li>The receiving cell’s input is equal to the submitting cell’s output, weighted by the strength of the connection</li>
 <li>The cell transforms this input via a non-linear activation function to an output, which it in turn submits to other connected cells</li>
 </ul></li>
-<li>We refer to networks because the final architecture is obtained by composing together many different functions</li>
+<li>We refer to <strong>networks</strong> because the final architecture is obtained by composing together many different functions</li>
 </ul>
 
 </article></slide><slide class=""><hgroup><h2>Feedforward NNs</h2></hgroup><article  id="feedforward-nns" class="smaller ">
@@ -3326,7 +3328,7 @@ ul.task-list{list-style: none;}
 <li><p>During neural network training, we drive \(f(x)\) to match \(f^*(x)\)</p></li>
 <li><p>Because the training data does not show the desired output for each of the intermediate layers, these layers are called hidden layers</p></li>
 <li><p>The dimensionality of the hidden layers determines the <em>width</em> of the network</p></li>
-<li><p>Deep NNs overcome an obvious defect of linear models, that is their limited capacity to linear functions approximation; NN understand complex interactions between input variables</p></li>
+<li><p>Deep NNs overcome an obvious defect of linear models, that is their limited capacity to linear functions approximation; NN understand complex interactions between input variables.</p></li>
 </ul>
 
 </article></slide><slide class=""><hgroup><h2></h2></hgroup><article  class="smaller">
@@ -3339,12 +3341,14 @@ ul.task-list{list-style: none;}
 
 </article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Deep Learning</h2></hgroup><article  id="deep-learning" class="smaller ">
 
-</article></slide><slide class=""><hgroup><h2>Deep Learning: Definition</h2></hgroup><article  id="deep-learning-definition" class="smaller ">
+</article></slide><slide class=""><hgroup><h2>Deep Learning</h2></hgroup><article  id="deep-learning-1" class="smaller ">
+
+<p>Some common definitions:</p>
 
 <ul>
-<li>Deep learning can be viewed as a subset of machine learning methods aimed at processing large and complex datasets through networks of synthetic neurons. Here, subsequent layers learn increasingly abstract representations of the data that eventually become an input into predictions (Goodfellow, Bengio, and Courville, 2016)<br/></li>
-<li>Deep learning allows computational models that are composed of multiple processing layers to learn representations of data with multiple levels of abstraction (LeCun, Bengio, and Hinton, 2015)</li>
-<li>Deep learning, as it is primarily used, is essentially a statistical technique for classifying patterns, based on sample data, using neural networks with multiple layers […] Deep learning is a perfectly fine way of optimizing a complex system for representing a mapping between inputs and outputs, given a sufficiently large data set (Markus, 2018)</li>
+<li>Deep learning can be viewed as a subset of machine learning methods aimed at <strong>processing large and complex datasets through networks of synthetic neurons</strong>. Here, subsequent layers learn increasingly abstract representations of the data that eventually become an input into predictions (Goodfellow, Bengio, and Courville, 2016)<br/></li>
+<li>Deep learning allows computational models that are composed of multiple processing <strong>layers to learn representations of data with multiple levels of abstraction.</strong> (LeCun, Bengio, and Hinton, 2015)</li>
+<li>Deep learning, as it is primarily used, is essentially a statistical technique for classifying patterns, based on sample data, using neural networks with multiple layers […] Deep learning is a perfectly fine way of <strong>optimizing a complex system for representing a mapping</strong> between inputs and outputs, given a sufficiently large data set (Markus, 2018)</li>
 </ul>
 
 </article></slide><slide class=""><hgroup><h2>Why &lsquo;deep&rsquo;?</h2></hgroup><article  id="why-deep" class="smaller smaller">
@@ -3395,7 +3399,7 @@ ul.task-list{list-style: none;}
 
 <ul>
 <li>If a large data set contains several instances of white swans and no instances of swans of other colours, a machine learning algorithm may infer that &lsquo;all swans are white&rsquo;</li>
-<li>Inductive inferences consists of hypotheses which are always subject to falsification by additional data, i.e. there may still be an undiscovered island of black swans!</li>
+<li><strong>Inductive inferences</strong> consists of hypotheses which are always <strong>subject to falsification</strong> by additional data, i.e. there may still be an undiscovered island of black swans!</li>
 </ul></li>
 <li>Suppose the goal of a machine learning algorithm is to recognize a face in a picture, then the algorithm could use the presence of a nose as a feature.
 
