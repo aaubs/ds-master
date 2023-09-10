@@ -9,7 +9,7 @@ import seaborn as sns
 @st.cache_data  # Cache the function to enhance performance
 def load_data():
     # Define the file path
-    file_path = 'HR-Employee-Attrition.csv'
+    file_path = 'https://raw.githubusercontent.com/aaubs/ds-master/main/apps/M1-attrition-streamlit/HR-Employee-Attrition.csv'
     
     # Load the CSV file into a pandas dataframe
     df = pd.read_csv(file_path)
