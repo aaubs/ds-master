@@ -21,7 +21,7 @@ You will have 4 datasets to dive into:
 
 2. **Develop a business application focusing on recommendation (UML) and Prediction (SML):**
 
-  
+
    a. **Objective:**  
       Your primary task is to develop a recommendation (UML) and prediction (SML) system, integrating both unsupervised and supervised learning techniques.
    ---
@@ -34,7 +34,7 @@ You will have 4 datasets to dive into:
    d. **Creativity:**  
       Think creatively—choose appropriate algorithms, such as logistic regression and decision trees, for predictive tasks. For the recommendation system part, perhaps a job recommendation system for job 
  seekers or a segmentation strategy for targeting customers. The possibilities are endless!
-   ---
+   
 ## Deliverables
 
 - A well-commented notebook detailing your analysis.
