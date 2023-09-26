@@ -9,22 +9,21 @@ This dataset contains information about various flight listings.
 ### Structure
 
 - **Total Entries**: 300,153
-- **Total Columns**: 12
+- **Total Columns**: 11
 
 ### Columns
 
-1. **Unnamed: 0** (Integer): An unnamed column, likely representing the row index.
-2. **airline** (String): Name of the airline.
-3. **flight** (String): Flight number or identifier.
-4. **source_city** (String): City where the flight departs from.
-5. **departure_time** (String): Time of day when the flight departs (e.g., Evening, Early_Morning).
-6. **stops** (String): Number of stops or layovers.
-7. **arrival_time** (String): Time of day when the flight arrives at the destination (e.g., Night, Morning).
-8. **destination_city** (String): City where the flight arrives.
-9. **class** (String): Class of the flight (e.g., Economy).
-10. **duration** (Float): Duration of the flight in hours.
-11. **days_left** (Integer): Number of days left until the flight.
-12. **price** (Integer): Price of the flight ticket.
+1. **airline** (String): Name of the airline.
+2. **flight** (String): Flight number or identifier.
+3. **source_city** (String): City where the flight departs from.
+4. **departure_time** (String): Time of day when the flight departs (e.g., Evening, Early_Morning).
+5. **stops** (String): Number of stops or layovers.
+6. **arrival_time** (String): Time of day when the flight arrives at the destination (e.g., Night, Morning).
+7. **destination_city** (String): City where the flight arrives.
+8. **class** (String): Class of the flight (e.g., Economy).
+9. **duration** (Float): Duration of the flight in hours.
+10. **days_left** (Integer): Number of days left until the flight.
+11. **price** (Integer): Price of the flight ticket.
 
 
 ## 2. `business.csv`
