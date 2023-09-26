@@ -63,5 +63,4 @@ This dataset contains information related to bank clients and their responses to
    - yes
    - no
 
-This structured dataset can be used to analyze the characteristics of bank clients and their responses to marketing campaigns, facilitating the development of models to predict client behavior and improve campaign outcomes.
 
