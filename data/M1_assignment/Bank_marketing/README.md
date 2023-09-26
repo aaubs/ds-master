@@ -5,7 +5,8 @@ This dataset contains information about various marketing campaign attributes an
 ## Structure
 
 - **Total Entries**: 41,188
-- **Total Columns**: 21
+- **Total Columns**: 21 (20 input attributes + 1 output attribute)
+
 
 ## Columns
 
