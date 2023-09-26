@@ -20,6 +20,7 @@ You will have 4 datasets to dive into:
    Please refer to the lecture notebooks. Aim for relevant, meaningful visuals instead of trivial ones, like pie-charts simply showing counts of categorical variables.
 
 2. **Develop a business application focusing on recommendation (UML) and Prediction (SML):**
+
    ---
    a. **Objective:**  
       Your primary task is to develop a recommendation (UML) and prediction (SML) system, integrating both unsupervised and supervised learning techniques.
