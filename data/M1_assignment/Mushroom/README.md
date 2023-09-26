@@ -1,37 +1,42 @@
-# Mushroom Dataset Description
+# Mushroom Dataset
 
-This dataset contains information about various attributes of mushrooms, categorized as either poisonous (`p`) or edible (`e`).
+- **Description**: Mushrooms described in terms of physical characteristics; classification: poisonous or edible
+- **Dataset Characteristics**: Multivariate
+- **Subject Area**: Life Science
+- **Associated Tasks**: Classification
+- **Feature Type**: Categorical
+- **# Instances**: 8124
+- **# Features**: 22
 
-## Structure
+## Dataset Information
+This data set includes descriptions of hypothetical samples corresponding to 23 species of gilled mushrooms in the Agaricus and Lepiota Family (pp. 500-525). Each species is identified as definitely edible, definitely poisonous, or of unknown edibility and not recommended. This latter class was combined with the poisonous one. The Guide clearly states that there is no simple rule for determining the edibility of a mushroom; no rule like "leaflets three, let it be" for Poisonous Oak and Ivy.
 
-- **Total Entries**: 8,124
-- **Total Columns**: 23
+- **Has Missing Values?**: Yes
 
-## Columns
+## Variables Table
 
-1. **class** (String): Classification of the mushroom as poisonous (`p`) or edible (`e`).
-2. **cap-shape** (String): Shape of the mushroom cap.
-3. **cap-surface** (String): Surface of the mushroom cap.
-4. **cap-color** (String): Color of the mushroom cap.
-5. **bruises** (String): Presence of bruises on the mushroom.
-6. **odor** (String): Odor of the mushroom.
-7. **gill-attachment** (String): Type of gill attachment.
-8. **gill-spacing** (String): Spacing of the gills.
-9. **gill-size** (String): Size of the gills.
-10. **gill-color** (String): Color of the gills.
-11. **stalk-shape** (String): Shape of the stalk.
-12. **stalk-root** (String): Type of stalk root.
-13. **stalk-surface-above-ring** (String): Surface of the stalk above the ring.
-14. **stalk-surface-below-ring** (String): Surface of the stalk below the ring.
-15. **stalk-color-above-ring** (String): Color of the stalk above the ring.
-16. **stalk-color-below-ring** (String): Color of the stalk below the ring.
-17. **veil-type** (String): Type of veil.
-18. **veil-color** (String): Color of the veil.
-19. **ring-number** (String): Number of rings.
-20. **ring-type** (String): Type of ring.
-21. **spore-print-color** (String): Color of the spore print.
-22. **population** (String): Population type.
-23. **habitat** (String): Type of habitat.
-
-
-
+| Variable Name | Role | Type | Demographic | Description | Units | Missing Values |
+|---------------|------|------|-------------|-------------|-------|----------------|
+| poisonous | Target | Categorical | | eadible=e,poisonous=p| | no |
+| cap-shape | Feature | Categorical | | bell=b,conical=c,convex=x,flat=f, knobbed=k,sunken=s | | no |
+| cap-surface | Feature | Categorical | | fibrous=f,grooves=g,scaly=y,smooth=s | | no |
+| cap-color | Feature | Binary | | brown=n,buff=b,cinnamon=c,gray=g,green=r, pink=p,purple=u,red=e,white=w,yellow=y | | no |
+| bruises | Feature | Categorical | | bruises=t,no=f | | no |
+| odor | Feature | Categorical | | almond=a,anise=l,creosote=c,fishy=y,foul=f, musty=m,none=n,pungent=p,spicy=s | | no |
+| gill-attachment | Feature | Categorical | | attached=a,descending=d,free=f,notched=n | | no |
+| gill-spacing | Feature | Categorical | | close=c,crowded=w,distant=d | | no |
+| gill-size | Feature | Categorical | | broad=b,narrow=n | | no |
+| gill-color | Feature | Categorical | | black=k,brown=n,buff=b,chocolate=h,gray=g, green=r,orange=o,pink=p,purple=u,red=e, white=w,yellow=y | | no |
+| stalk-shape | Feature | Categorical | | enlarging=e,tapering=t | | no |
+| stalk-root | Feature | Categorical | | bulbous=b,club=c,cup=u,equal=e, rhizomorphs=z,rooted=r,missing=? | | yes |
+| stalk-surface-above-ring | Feature | Categorical | | fibrous=f,scaly=y,silky=k,smooth=s | | no |
+| stalk-surface-below-ring | Feature | Categorical | | fibrous=f,scaly=y,silky=k,smooth=s | | no |
+| stalk-color-above-ring | Feature | Categorical | | brown=n,buff=b,cinnamon=c,gray=g,orange=o, pink=p,red=e,white=w,yellow=y | | no |
+| stalk-color-below-ring | Feature | Categorical | | brown=n,buff=b,cinnamon=c,gray=g,orange=o, pink=p,red=e,white=w,yellow=y | | no |
+| veil-type | Feature | Binary | | partial=p,universal=u | | no |
+| veil-color | Feature | Categorical | | brown=n,orange=o,white=w,yellow=y | | no |
+| ring-number | Feature | Categorical | | none=n,one=o,two=t | | no |
+| ring-type | Feature | Categorical | | cobwebby=c,evanescent=e,flaring=f,large=l, none=n,pendant=p,sheathing=s,zone=z | | no |
+| spore-print-color | Feature | Categorical | | black=k,brown=n,buff=b,chocolate=h,green=r, orange=o,purple=u,white=w,yellow=y | | no |
+| population | Feature | Categorical | | abundant=a,clustered=c,numerous=n, scattered=s,several=v,solitary=y | | no |
+| habitat | Feature | Categorical | | grasses=g,leaves=l,meadows=m,paths=p, urban=u,waste=w,woods=d | | no |
