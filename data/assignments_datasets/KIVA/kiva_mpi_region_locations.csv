@@ -1,0 +1,2773 @@
+LocationName,ISO,country,region,world_region,MPI,geo,lat,lon
+"Badakhshan, Afghanistan",AFG,Afghanistan,Badakhshan,South Asia,0.387,"(36.7347725, 70.81199529999999)",36.7347725,70.81199529999998
+"Badghis, Afghanistan",AFG,Afghanistan,Badghis,South Asia,0.466,"(35.1671339, 63.7695384)",35.1671339,63.7695384
+"Baghlan, Afghanistan",AFG,Afghanistan,Baghlan,South Asia,0.3,"(35.8042947, 69.2877535)",35.80429470000001,69.28775350000001
+"Balkh, Afghanistan",AFG,Afghanistan,Balkh,South Asia,0.301,"(36.7550603, 66.8975372)",36.7550603,66.8975372
+"Bamyan, Afghanistan",AFG,Afghanistan,Bamyan,South Asia,0.325,"(34.8100067, 67.8212104)",34.8100067,67.8212104
+"Daykundi, Afghanistan",AFG,Afghanistan,Daykundi,South Asia,0.313,"(33.669495, 66.0463534)",33.669495,66.0463534
+"Farah, Afghanistan",AFG,Afghanistan,Farah,South Asia,0.319,"(32.4464635, 62.1454133)",32.4464635,62.1454133
+"Faryab, Afghanistan",AFG,Afghanistan,Faryab,South Asia,0.25,"(36.0795613, 64.90595499999999)",36.0795613,64.90595499999999
+"Ghazni, Afghanistan",AFG,Afghanistan,Ghazni,South Asia,0.245,"(33.5450587, 68.4173972)",33.5450587,68.41739720000001
+"Ghor, Afghanistan",AFG,Afghanistan,Ghor,South Asia,0.384,"(34.0995776, 64.90595499999999)",34.0995776,64.90595499999999
+"Helmand, Afghanistan",AFG,Afghanistan,Helmand,South Asia,0.261,"(31.3636474, 63.95861110000001)",31.3636474,63.95861110000001
+"Herat, Afghanistan",AFG,Afghanistan,Herat,South Asia,0.353,"(11.6155109, 104.3791912)",11.6155109,104.3791912
+"Jawzjan, Afghanistan",AFG,Afghanistan,Jawzjan,South Asia,0.293,"(36.8969692, 65.6658568)",36.8969692,65.6658568
+"Kabul, Afghanistan",AFG,Afghanistan,Kabul,South Asia,0.11699999999999999,"(34.5553494, 69.207486)",34.5553494,69.207486
+"Kandahar, Afghanistan",AFG,Afghanistan,Kandahar,South Asia,0.4370000000000001,"(31.628871, 65.7371749)",31.628871000000004,65.7371749
+"Kapisa, Afghanistan",AFG,Afghanistan,Kapisa,South Asia,0.28,"(34.9810572, 69.6214562)",34.9810572,69.6214562
+"Khost, Afghanistan",AFG,Afghanistan,Khost,South Asia,0.29600000000000004,"(33.3338472, 69.9371673)",33.3338472,69.9371673
+"Kunarha, Afghanistan",AFG,Afghanistan,Kunarha,South Asia,0.26899999999999996,"(34.8465893, 71.097317)",34.8465893,71.097317
+"Kunduz, Afghanistan",AFG,Afghanistan,Kunduz,South Asia,0.294,"(36.7285907, 68.8680663)",36.7285907,68.8680663
+"Laghman, Afghanistan",AFG,Afghanistan,Laghman,South Asia,0.369,"(34.6897687, 70.1455805)",34.6897687,70.14558050000001
+"Logar, Afghanistan",AFG,Afghanistan,Logar,South Asia,0.187,"(34.0145518, 69.1923916)",34.0145518,69.1923916
+"Nangarhar, Afghanistan",AFG,Afghanistan,Nangarhar,South Asia,0.287,"(34.1718313, 70.6216794)",34.171831299999994,70.6216794
+"Nimroz, Afghanistan",AFG,Afghanistan,Nimroz,South Asia,0.231,"(31.0261488, 62.4504154)",31.0261488,62.4504154
+"Nooristan, Afghanistan",AFG,Afghanistan,Nooristan,South Asia,0.611,"(35.3250223, 70.90712359999999)",35.3250223,70.90712359999998
+"Paktika, Afghanistan",AFG,Afghanistan,Paktika,South Asia,0.13699999999999998,"(32.2645386, 68.52471489999999)",32.2645386,68.52471489999999
+"Paktya, Afghanistan",AFG,Afghanistan,Paktya,South Asia,0.218,"(33.706199, 69.3831079)",33.706199,69.3831079
+"Panjsher, Afghanistan",AFG,Afghanistan,Panjsher,South Asia,0.12,"(35.5025772, 69.9550338)",35.50257720000001,69.9550338
+"Parwan, Afghanistan",AFG,Afghanistan,Parwan,South Asia,0.294,"(34.9630977, 68.81088489999999)",34.9630977,68.81088489999999
+"Samangan, Afghanistan",AFG,Afghanistan,Samangan,South Asia,0.35,"(35.9807296, 67.57085359999999)",35.98072960000001,67.57085359999999
+"Sar-E-Pul, Afghanistan",AFG,Afghanistan,Sar-E-Pul,South Asia,0.341,"(35.6707473, 66.0463534)",35.6707473,66.0463534
+"Takhar, Afghanistan",AFG,Afghanistan,Takhar,South Asia,0.361,"(36.6698013, 69.4784541)",36.6698013,69.4784541
+"Urozgan, Afghanistan",AFG,Afghanistan,Urozgan,South Asia,0.624,"(32.9271287, 66.1415263)",32.927128700000004,66.1415263
+"Wardak, Afghanistan",AFG,Afghanistan,Wardak,South Asia,0.34,"(34.3513494, 68.2385339)",34.351349400000004,68.23853390000001
+"Zabul, Afghanistan",AFG,Afghanistan,Zabul,South Asia,0.175,"(32.1918782, 67.1894488)",32.1918782,67.18944880000001
+,ALB,Albania,,Europe and Central Asia,,"(1000.0, 1000.0)",,
+,ARM,Armenia,,Europe and Central Asia,,"(1000.0, 1000.0)",,
+,AZE,Azerbaijan,,Europe and Central Asia,,"(1000.0, 1000.0)",,
+"Bujumbura Mairie, Burundi",BDI,Burundi,Bujumbura Mairie,Sub-Saharan Africa,0.16399999999999998,"(-3.4146958, 29.3598782)",-3.4146958,29.3598782
+"Nord, Burundi",BDI,Burundi,Nord,Sub-Saharan Africa,0.501,"(-3.373056, 29.918886)",-3.373056,29.918886
+"Centre-Est, Burundi",BDI,Burundi,Centre-Est,Sub-Saharan Africa,0.473,"(9.0630743, 7.464915)",9.0630743,7.464914999999999
+"Ouest, Burundi",BDI,Burundi,Ouest,Sub-Saharan Africa,0.499,"(-3.373056, 29.918886)",-3.373056,29.918886
+"Sud, Burundi",BDI,Burundi,Sud,Sub-Saharan Africa,0.42200000000000004,"(14.6090537, 121.0222565)",14.6090537,121.0222565
+"Alibori, Benin",BEN,Benin,Alibori,Sub-Saharan Africa,0.528,"(10.9681093, 2.7779813)",10.9681093,2.7779813
+"Atacora, Benin",BEN,Benin,Atacora,Sub-Saharan Africa,0.45399999999999996,"(10.7954931, 1.6760691)",10.7954931,1.6760691000000003
+"Atlantique, Benin",BEN,Benin,Atlantique,Sub-Saharan Africa,0.278,"(6.6588391, 2.2236667)",6.658839100000002,2.2236667000000003
+"Borgou, Benin",BEN,Benin,Borgou,Sub-Saharan Africa,0.35100000000000003,"(9.5340864, 2.7779813)",9.5340864,2.7779813
+"Collines, Benin",BEN,Benin,Collines,Sub-Saharan Africa,0.292,"(13.718252, -2.302446)",13.718252,-2.302446
+"Couffo, Benin",BEN,Benin,Couffo,Sub-Saharan Africa,0.345,"(7.003589400000001, 1.7538817)",7.003589400000001,1.7538817
+"Donga, Benin",BEN,Benin,Donga,Sub-Saharan Africa,0.335,"(9.7191867, 1.6760691)",9.7191867,1.6760691000000003
+"Littoral, Benin",BEN,Benin,Littoral,Sub-Saharan Africa,0.083,"(6.3806973, 2.4406387)",6.3806973,2.4406387
+"Mono, Benin",BEN,Benin,Mono,Sub-Saharan Africa,0.259,"(6.6607182, 1.7538817)",6.6607182,1.7538817
+"Ouðmð, Benin",BEN,Benin,Ouðmð,Sub-Saharan Africa,0.23800000000000002,"(1000.0, 1000.0)",,
+"Plateau, Benin",BEN,Benin,Plateau,Sub-Saharan Africa,0.34700000000000003,"(7.3445141, 2.539603)",7.3445141,2.539603
+"Zou, Benin",BEN,Benin,Zou,Sub-Saharan Africa,0.33399999999999996,"(7.346926799999999, 2.0665197)",7.3469267999999985,2.0665197
+"Boucle de mouhoun, Burkina Faso",BFA,Burkina Faso,Boucle de mouhoun,Sub-Saharan Africa,0.591,"(8.8556838, 7.179025999999999)",8.8556838,7.179025999999999
+"Cascades, Burkina Faso",BFA,Burkina Faso,Cascades,Sub-Saharan Africa,0.493,"(10.4072992, -4.5624426)",10.4072992,-4.5624426
+"Centre, Burkina Faso",BFA,Burkina Faso,Centre,Sub-Saharan Africa,0.207,"(12.3425897, -1.443469)",12.3425897,-1.443469
+"Centre-est, Burkina Faso",BFA,Burkina Faso,Centre-est,Sub-Saharan Africa,0.58,"(11.5247674, -0.1494988)",11.5247674,-0.1494988
+"Centre-nord, Burkina Faso",BFA,Burkina Faso,Centre-nord,Sub-Saharan Africa,0.575,"(13.1724464, -0.9056623)",13.1724464,-0.9056623
+"Centre-ouest, Burkina Faso",BFA,Burkina Faso,Centre-ouest,Sub-Saharan Africa,0.5539999999999999,"(11.8798466, -2.302446)",11.8798466,-2.302446
+"Centre-sud, Burkina Faso",BFA,Burkina Faso,Centre-sud,Sub-Saharan Africa,0.513,"(11.5228911, -1.0586135)",11.5228911,-1.0586135
+"Est, Burkina Faso",BFA,Burkina Faso,Est,Sub-Saharan Africa,0.698,"(12.4365526, 0.9056623)",12.4365526,0.9056623
+"Hauts basins, Burkina Faso",BFA,Burkina Faso,Hauts basins,Sub-Saharan Africa,0.45899999999999996,"(11.4942003, -4.2333355)",11.4942003,-4.2333355
+"Nord, Burkina Faso",BFA,Burkina Faso,Nord,Sub-Saharan Africa,0.581,"(1000.0, 1000.0)",,
+"Plateau central, Burkina Faso",BFA,Burkina Faso,Plateau central,Sub-Saharan Africa,0.524,"(12.2537648, -0.7532808999999999)",12.2537648,-0.7532808999999999
+"Sahel, Burkina Faso",BFA,Burkina Faso,Sahel,Sub-Saharan Africa,0.69,"(14.1000865, -0.1494988)",14.1000865,-0.1494988
+"Sud-ouest, Burkina Faso",BFA,Burkina Faso,Sud-ouest,Sub-Saharan Africa,0.655,"(10.4231493, -3.2583626)",10.4231493,-3.2583626
+"Barisal, Bangladesh",BGD,Bangladesh,Barisal,South Asia,0.22399999999999998,"(22.7029212, 90.3465971)",22.7029212,90.3465971
+"Chittagong, Bangladesh",BGD,Bangladesh,Chittagong,South Asia,0.18600000000000005,"(22.3475365, 91.8123324)",22.3475365,91.8123324
+"Dhaka, Bangladesh",BGD,Bangladesh,Dhaka,South Asia,0.174,"(23.810332, 90.4125181)",23.810332,90.4125181
+"Khulna, Bangladesh",BGD,Bangladesh,Khulna,South Asia,0.156,"(22.845641, 89.5403279)",22.845641,89.54032790000002
+"Rajshahi, Bangladesh",BGD,Bangladesh,Rajshahi,South Asia,0.192,"(24.3635886, 88.62413509999999)",24.363588600000003,88.62413509999998
+"Rangpur, Bangladesh",BGD,Bangladesh,Rangpur,South Asia,0.20600000000000002,"(25.7438916, 89.275227)",25.7438916,89.275227
+"Sylhet, Bangladesh",BGD,Bangladesh,Sylhet,South Asia,0.32,"(24.904539, 91.8611011)",24.904539,91.8611011
+,BIH,Bosnia and Herzegovina,,Europe and Central Asia,,"(1000.0, 1000.0)",,
+"Corozal, Belize",BLZ,Belize,Corozal,Latin America and Caribbean,0.026000000000000002,"(18.4030802, -88.3967536)",18.4030802,-88.3967536
+"Orange Walk, Belize",BLZ,Belize,Orange Walk,Latin America and Caribbean,0.019,"(18.0842472, -88.5710266)",18.0842472,-88.5710266
+"Belize (excluding Belize City South Side), Belize",BLZ,Belize,Belize (excluding Belize City South Side),Latin America and Caribbean,0.005,"(30.7326622, 31.7195459)",30.7326622,31.7195459
+"Stann Creek, Belize",BLZ,Belize,Stann Creek,Latin America and Caribbean,0.013000000000000001,"(16.8116631, -88.4016041)",16.811663100000004,-88.4016041
+"Toledo, Belize",BLZ,Belize,Toledo,Latin America and Caribbean,0.019,"(16.2491923, -88.86469799999999)",16.2491923,-88.86469799999998
+"Cayo, Belize",BLZ,Belize,Cayo,Latin America and Caribbean,0.054000000000000006,"(17.0984445, -88.94138650000001)",17.0984445,-88.94138650000002
+"Belize City South Side, Belize",BLZ,Belize,Belize City South Side,Latin America and Caribbean,0.005,"(17.4891317, -88.188656)",17.489131699999998,-88.18865600000002
+"Chuquisaca, Bolivia, Plurinational State of",BOL,"Bolivia, Plurinational State of",Chuquisaca,Latin America and Caribbean,0.145,"(-20.0249144, -64.1478236)",-20.0249144,-64.14782360000001
+"La Paz, Bolivia, Plurinational State of",BOL,"Bolivia, Plurinational State of",La Paz,Latin America and Caribbean,0.077,"(-16.489689, -68.11929359999999)",-16.489689000000002,-68.11929359999999
+"Cochabamba, Bolivia, Plurinational State of",BOL,"Bolivia, Plurinational State of",Cochabamba,Latin America and Caribbean,0.105,"(-17.4139766, -66.1653224)",-17.4139766,-66.1653224
+"Oruro, Bolivia, Plurinational State of",BOL,"Bolivia, Plurinational State of",Oruro,Latin America and Caribbean,0.073,"(26.9373041, 90.4879916)",26.9373041,90.4879916
+"Potosð, Bolivia, Plurinational State of",BOL,"Bolivia, Plurinational State of",Potosð,Latin America and Caribbean,0.168,"(1000.0, 1000.0)",,
+"Tarija, Bolivia, Plurinational State of",BOL,"Bolivia, Plurinational State of",Tarija,Latin America and Caribbean,0.081,"(-21.5213825, -64.7280952)",-21.5213825,-64.7280952
+"Santa Cruz, Bolivia, Plurinational State of",BOL,"Bolivia, Plurinational State of",Santa Cruz,Latin America and Caribbean,0.043,"(-17.8145819, -63.1560853)",-17.8145819,-63.1560853
+"Beni, Bolivia, Plurinational State of",BOL,"Bolivia, Plurinational State of",Beni,Latin America and Caribbean,0.099,"(-14.3782747, -65.0957792)",-14.3782747,-65.0957792
+"Pando, Bolivia, Plurinational State of",BOL,"Bolivia, Plurinational State of",Pando,Latin America and Caribbean,0.087,"(-10.7988901, -66.9988011)",-10.7988901,-66.99880110000001
+"Acre, Brazil",BRA,Brazil,Acre,Latin America and Caribbean,0.07200000000000001,"(-9.0237964, -70.81199529999999)",-9.0237964,-70.81199529999998
+"Alagoas, Brazil",BRA,Brazil,Alagoas,Latin America and Caribbean,0.042,"(-9.5713058, -36.7819505)",-9.5713058,-36.7819505
+"Amapð, Brazil",BRA,Brazil,Amapð,Latin America and Caribbean,0.022000000000000002,"(1000.0, 1000.0)",,
+"Amazonas, Brazil",BRA,Brazil,Amazonas,Latin America and Caribbean,0.044000000000000004,"(-3.4168427, -65.8560646)",-3.4168427,-65.85606460000001
+"Bahia, Brazil",BRA,Brazil,Bahia,Latin America and Caribbean,0.028999999999999998,"(-12.579738, -41.7007272)",-12.579738,-41.7007272
+"Cearð, Brazil",BRA,Brazil,Cearð,Latin America and Caribbean,0.028999999999999998,"(-21.3223397, -46.36941789999999)",-21.3223397,-46.36941789999999
+"Distrito Federal, Brazil",BRA,Brazil,Distrito Federal,Latin America and Caribbean,0.008,"(-15.7997654, -47.8644715)",-15.7997654,-47.8644715
+"Espðrito Santo, Brazil",BRA,Brazil,Espðrito Santo,Latin America and Caribbean,0.018000000000000002,"(1000.0, 1000.0)",,
+"Goiðs, Brazil",BRA,Brazil,Goiðs,Latin America and Caribbean,0.017,"(1000.0, 1000.0)",,
+"Maranhðo, Brazil",BRA,Brazil,Maranhðo,Latin America and Caribbean,0.046,"(-8.722408399999999, 125.5712576)",-8.722408399999999,125.57125759999998
+"Mato Grosso, Brazil",BRA,Brazil,Mato Grosso,Latin America and Caribbean,0.019,"(-12.6818712, -56.921099)",-12.6818712,-56.921099
+"Mato Grosso do Sul, Brazil",BRA,Brazil,Mato Grosso do Sul,Latin America and Caribbean,0.019,"(-20.7722295, -54.7851531)",-20.7722295,-54.7851531
+"Minas Gerais, Brazil",BRA,Brazil,Minas Gerais,Latin America and Caribbean,0.021,"(-18.512178, -44.5550308)",-18.512178,-44.5550308
+"Paranð, Brazil",BRA,Brazil,Paranð,Latin America and Caribbean,0.016,"(1000.0, 1000.0)",,
+"Paraðba, Brazil",BRA,Brazil,Paraðba,Latin America and Caribbean,0.032,"(1000.0, 1000.0)",,
+"Parð, Brazil",BRA,Brazil,Parð,Latin America and Caribbean,0.035,"(1000.0, 1000.0)",,
+"Pernambuco, Brazil",BRA,Brazil,Pernambuco,Latin America and Caribbean,0.027000000000000003,"(-8.8137173, -36.954107)",-8.8137173,-36.954107
+"Piauð, Brazil",BRA,Brazil,Piauð,Latin America and Caribbean,0.039,"(1000.0, 1000.0)",,
+"Rio Grande do Norte, Brazil",BRA,Brazil,Rio Grande do Norte,Latin America and Caribbean,0.03,"(-5.402580299999999, -36.954107)",-5.402580299999999,-36.954107
+"Rio Grande do Sul, Brazil",BRA,Brazil,Rio Grande do Sul,Latin America and Caribbean,0.012,"(-30.0346316, -51.2176986)",-30.0346316,-51.21769860000001
+"Rio de Janeiro, Brazil",BRA,Brazil,Rio de Janeiro,Latin America and Caribbean,0.011000000000000001,"(-22.9068467, -43.1728965)",-22.9068467,-43.1728965
+"Rondðnia, Brazil",BRA,Brazil,Rondðnia,Latin America and Caribbean,0.024,"(-17.8251657, 31.03351)",-17.8251657,31.03351
+"Roraima, Brazil",BRA,Brazil,Roraima,Latin America and Caribbean,0.028999999999999998,"(2.7375971, -62.0750998)",2.7375971000000003,-62.0750998
+"Santa Catarina, Brazil",BRA,Brazil,Santa Catarina,Latin America and Caribbean,0.019,"(-27.2423392, -50.2188556)",-27.2423392,-50.21885560000001
+"Sergipe, Brazil",BRA,Brazil,Sergipe,Latin America and Caribbean,0.034,"(-10.5740934, -37.3856581)",-10.5740934,-37.3856581
+"Sðo Paulo, Brazil",BRA,Brazil,Sðo Paulo,Latin America and Caribbean,0.012,"(-23.5671844, -46.7387185)",-23.5671844,-46.7387185
+"Tocantins, Brazil",BRA,Brazil,Tocantins,Latin America and Caribbean,0.03,"(-10.17528, -48.2982474)",-10.17528,-48.2982474
+,BRB,Barbados,,Latin America and Caribbean,,"(1000.0, 1000.0)",,
+"Bumthang, Bhutan",BTN,Bhutan,Bumthang,South Asia,0.042,"(27.641839, 90.6773046)",27.641839,90.6773046
+"Chukha, Bhutan",BTN,Bhutan,Chukha,South Asia,0.121,"(27.0784304, 89.4742177)",27.0784304,89.4742177
+"Dagana, Bhutan",BTN,Bhutan,Dagana,South Asia,0.222,"(27.0322861, 89.8879304)",27.032286100000004,89.8879304
+"Haa, Bhutan",BTN,Bhutan,Haa,South Asia,0.059000000000000004,"(27.2651669, 89.1705998)",27.2651669,89.1705998
+"Lhuntse, Bhutan",BTN,Bhutan,Lhuntse,South Asia,0.151,"(27.8264989, 91.13530200000001)",27.8264989,91.135302
+"Mongar, Bhutan",BTN,Bhutan,Mongar,South Asia,0.165,"(27.2617059, 91.28910359999999)",27.261705900000006,91.28910359999999
+"Paro, Bhutan",BTN,Bhutan,Paro,South Asia,0.026000000000000002,"(27.428684, 89.41636539999999)",27.428684000000004,89.41636539999998
+"Pemagatshel, Bhutan",BTN,Bhutan,Pemagatshel,South Asia,0.128,"(27.98785, 86.9250261)",27.98785,86.9250261
+"Punakha, Bhutan",BTN,Bhutan,Punakha,South Asia,0.08800000000000001,"(27.5920869, 89.87974589999999)",27.5920869,89.87974589999996
+"Samdrup Jongkhar, Bhutan",BTN,Bhutan,Samdrup Jongkhar,South Asia,0.149,"(26.8035682, 91.5039207)",26.8035682,91.5039207
+"Samtse, Bhutan",BTN,Bhutan,Samtse,South Asia,0.19699999999999998,"(27.0291832, 89.0561532)",27.0291832,89.0561532
+"Sarpang, Bhutan",BTN,Bhutan,Sarpang,South Asia,0.102,"(-2.5546618, 29.6035495)",-2.5546618,29.6035495
+"Thimphu, Bhutan",BTN,Bhutan,Thimphu,South Asia,0.016,"(27.4727924, 89.6392863)",27.4727924,89.6392863
+"Trashigang, Bhutan",BTN,Bhutan,Trashigang,South Asia,0.132,"(27.3325014, 91.55234349999999)",27.3325014,91.5523435
+"Trashiyangtse, Bhutan",BTN,Bhutan,Trashiyangtse,South Asia,0.121,"(-20.3446313, 44.7006138)",-20.3446313,44.7006138
+"Trongsa, Bhutan",BTN,Bhutan,Trongsa,South Asia,0.14800000000000002,"(27.5002269, 90.5080634)",27.5002269,90.5080634
+"Tsirang, Bhutan",BTN,Bhutan,Tsirang,South Asia,0.196,"(27.032207, 90.1869644)",27.032207,90.1869644
+"Wangdi, Bhutan",BTN,Bhutan,Wangdi,South Asia,0.099,"(27.4879018, 89.8996196)",27.4879018,89.8996196
+"Zhemgang, Bhutan",BTN,Bhutan,Zhemgang,South Asia,0.184,"(27.076975, 90.8294002)",27.076975,90.8294002
+"Ombella-M'poko, Central African Republic",CAF,Central African Republic,Ombella-M'poko,Sub-Saharan Africa,0.40299999999999997,"(5.1188825, 18.4276047)",5.1188825,18.4276047
+"Lobaye, Central African Republic",CAF,Central African Republic,Lobaye,Sub-Saharan Africa,0.494,"(4.3525981, 17.4795173)",4.3525981,17.4795173
+"Mambðrð-Kadði, Central African Republic",CAF,Central African Republic,Mambðrð-Kadði,Sub-Saharan Africa,0.4970000000000001,"(8.154077, 123.258793)",8.154077000000001,123.258793
+"Nana-Mambðrð, Central African Republic",CAF,Central African Republic,Nana-Mambðrð,Sub-Saharan Africa,0.52,"(1000.0, 1000.0)",,
+"Sangha-Mbaðrð, Central African Republic",CAF,Central African Republic,Sangha-Mbaðrð,Sub-Saharan Africa,0.505,"(15.341806, -84.6060449)",15.341806,-84.6060449
+"Ouham-Pendð, Central African Republic",CAF,Central African Republic,Ouham-Pendð,Sub-Saharan Africa,0.479,"(1000.0, 1000.0)",,
+"Ouham, Central African Republic",CAF,Central African Republic,Ouham,Sub-Saharan Africa,0.5329999999999999,"(7.090910999999999, 17.668887)",7.0909109999999975,17.668886999999994
+"Kðmo, Central African Republic",CAF,Central African Republic,Kðmo,Sub-Saharan Africa,0.501,"(1000.0, 1000.0)",,
+"Nana-Grðbizi, Central African Republic",CAF,Central African Republic,Nana-Grðbizi,Sub-Saharan Africa,0.419,"(1000.0, 1000.0)",,
+"Ouaka, Central African Republic",CAF,Central African Republic,Ouaka,Sub-Saharan Africa,0.47100000000000003,"(6.3168216, 20.7122465)",6.316821599999999,20.7122465
+"Haute-Kotto, Central African Republic",CAF,Central African Republic,Haute-Kotto,Sub-Saharan Africa,0.42,"(7.7964379, 23.3823545)",7.7964379,23.3823545
+"Bamingui-Bangoran, Central African Republic",CAF,Central African Republic,Bamingui-Bangoran,Sub-Saharan Africa,0.364,"(8.2733455, 20.7122465)",8.2733455,20.7122465
+"Basse-Kotto, Central African Republic",CAF,Central African Republic,Basse-Kotto,Sub-Saharan Africa,0.544,"(4.8719319, 21.2845025)",4.8719319,21.2845025
+"Mbomou, Central African Republic",CAF,Central African Republic,Mbomou,Sub-Saharan Africa,0.491,"(5.356142699999999, -3.9666402)",5.356142699999999,-3.9666402
+"Haut-Mbomou, Central African Republic",CAF,Central African Republic,Haut-Mbomou,Sub-Saharan Africa,0.418,"(6.2537134, 25.4733554)",6.2537134000000005,25.4733554
+"Bangui, Central African Republic",CAF,Central African Republic,Bangui,Sub-Saharan Africa,0.19699999999999998,"(4.3946735, 18.5581899)",4.3946735,18.5581899
+"East, China",CHN,China,East,East Asia and the Pacific,0.008,"(42.4708101, -92.35780319999999)",42.4708101,-92.3578032
+"Central, China",CHN,China,Central,East Asia and the Pacific,0.013000000000000001,"(29.70534, -95.5483893)",29.705340000000003,-95.5483893
+"West, China",CHN,China,West,East Asia and the Pacific,0.034,"(35.86166, 104.195397)",35.86166,104.195397
+"Centre, Cote d'Ivoire",CIV,Cote d'Ivoire,Centre,Sub-Saharan Africa,0.359,"(-8.6529334, 117.3616476)",-8.6529334,117.3616476
+"Centre-Est, Cote d'Ivoire",CIV,Cote d'Ivoire,Centre-Est,Sub-Saharan Africa,0.297,"(1000.0, 1000.0)",,
+"Centre-Nord, Cote d'Ivoire",CIV,Cote d'Ivoire,Centre-Nord,Sub-Saharan Africa,0.322,"(13.4540922, -16.6733441)",13.4540922,-16.673344099999998
+"Centre-Ouest, Cote d'Ivoire",CIV,Cote d'Ivoire,Centre-Ouest,Sub-Saharan Africa,0.33399999999999996,"(1000.0, 1000.0)",,
+"Nord, Cote d'Ivoire",CIV,Cote d'Ivoire,Nord,Sub-Saharan Africa,0.47700000000000004,"(5.361844, -4.0231596)",5.3618440000000005,-4.0231596
+"Nord-Est, Cote d'Ivoire",CIV,Cote d'Ivoire,Nord-Est,Sub-Saharan Africa,0.374,"(5.308612999999999, -3.9468284)",5.308612999999999,-3.9468284
+"Nord-Ouest, Cote d'Ivoire",CIV,Cote d'Ivoire,Nord-Ouest,Sub-Saharan Africa,0.518,"(7.702782699999999, -5.036833)",7.7027826999999975,-5.0368330000000014
+"Ouest, Cote d'Ivoire",CIV,Cote d'Ivoire,Ouest,Sub-Saharan Africa,0.38,"(7.539988999999999, -5.547079999999999)",7.5399889999999985,-5.547079999999999
+"Sud sans Abidjan, Cote d'Ivoire",CIV,Cote d'Ivoire,Sud sans Abidjan,Sub-Saharan Africa,0.264,"(1000.0, 1000.0)",,
+"Sud-ouest, Cote d'Ivoire",CIV,Cote d'Ivoire,Sud-ouest,Sub-Saharan Africa,0.39399999999999996,"(4.7459773, -6.6143386)",4.7459773,-6.6143386
+"Ville d'Abidjan, Cote d'Ivoire",CIV,Cote d'Ivoire,Ville d'Abidjan,Sub-Saharan Africa,0.109,"(5.3428333, -4.0264183)",5.3428333,-4.0264183
+"Adamaoua, Cameroon",CMR,Cameroon,Adamaoua,Sub-Saharan Africa,0.26899999999999996,"(6.9181954, 12.8054753)",6.9181954,12.8054753
+"Centre (sans Yaoundð), Cameroon",CMR,Cameroon,Centre (sans Yaoundð),Sub-Saharan Africa,0.179,"(1000.0, 1000.0)",,
+"Douala, Cameroon",CMR,Cameroon,Douala,Sub-Saharan Africa,0.024,"(4.0510564, 9.7678687)",4.0510564,9.7678687
+"Est, Cameroon",CMR,Cameroon,Est,Sub-Saharan Africa,0.27399999999999997,"(3.950512799999999, 13.914399)",3.950512799999999,13.914399
+"Extrðme-Nord, Cameroon",CMR,Cameroon,Extrðme-Nord,Sub-Saharan Africa,0.54,"(1000.0, 1000.0)",,
+"Littoral (sans Douala), Cameroon",CMR,Cameroon,Littoral (sans Douala),Sub-Saharan Africa,0.091,"(4.0134386, 9.717007299999999)",4.0134386,9.7170073
+"Nord, Cameroon",CMR,Cameroon,Nord,Sub-Saharan Africa,0.45799999999999996,"(8.580901299999999, 13.914399)",8.580901299999999,13.914399
+"Nord-Ouest, Cameroon",CMR,Cameroon,Nord-Ouest,Sub-Saharan Africa,0.16699999999999998,"(6.470373899999999, 10.439656)",6.470373899999999,10.439656
+"Ouest, Cameroon",CMR,Cameroon,Ouest,Sub-Saharan Africa,0.146,"(5.4638158, 10.8000051)",5.4638158,10.8000051
+"Sud, Cameroon",CMR,Cameroon,Sud,Sub-Saharan Africa,0.131,"(2.7202832, 11.7068294)",2.7202832000000003,11.7068294
+"Sud-Ouest, Cameroon",CMR,Cameroon,Sud-Ouest,Sub-Saharan Africa,0.129,"(5.1573493, 9.367308399999999)",5.1573493,9.3673084
+"Yaoundð, Cameroon",CMR,Cameroon,Yaoundð,Sub-Saharan Africa,0.026000000000000002,"(1000.0, 1000.0)",,
+"Kinshasa, Congo, Democratic Republic of the",COD,"Congo, Democratic Republic of the",Kinshasa,Sub-Saharan Africa,0.102,"(-4.4419311, 15.2662931)",-4.4419311,15.2662931
+"Bandundu, Congo, Democratic Republic of the",COD,"Congo, Democratic Republic of the",Bandundu,Sub-Saharan Africa,0.435,"(-4.163679, 18.8076195)",-4.163679,18.8076195
+"Bas-Congo, Congo, Democratic Republic of the",COD,"Congo, Democratic Republic of the",Bas-Congo,Sub-Saharan Africa,0.39299999999999996,"(-5.2365685, 13.914399)",-5.2365685,13.914399
+"ðquateur, Congo, Democratic Republic of the",COD,"Congo, Democratic Republic of the",ðquateur,Sub-Saharan Africa,0.48,"(1000.0, 1000.0)",,
+"Kasað-Occidental, Congo, Democratic Republic of the",COD,"Congo, Democratic Republic of the",Kasað-Occidental,Sub-Saharan Africa,0.49,"(1000.0, 1000.0)",,
+"Kasað-Oriental, Congo, Democratic Republic of the",COD,"Congo, Democratic Republic of the",Kasað-Oriental,Sub-Saharan Africa,0.431,"(1000.0, 1000.0)",,
+"Katanga, Congo, Democratic Republic of the",COD,"Congo, Democratic Republic of the",Katanga,Sub-Saharan Africa,0.4,"(-8.8851145, 26.419389)",-8.8851145,26.419389
+"Maniema, Congo, Democratic Republic of the",COD,"Congo, Democratic Republic of the",Maniema,Sub-Saharan Africa,0.409,"(-3.0730929, 26.0413889)",-3.0730929,26.0413889
+"Nord-Kivu, Congo, Democratic Republic of the",COD,"Congo, Democratic Republic of the",Nord-Kivu,Sub-Saharan Africa,0.349,"(1000.0, 1000.0)",,
+"Orientale, Congo, Democratic Republic of the",COD,"Congo, Democratic Republic of the",Orientale,Sub-Saharan Africa,0.401,"(1.6406296, 26.419389)",1.6406296000000002,26.419389
+"Sud-Kivu, Congo, Democratic Republic of the",COD,"Congo, Democratic Republic of the",Sud-Kivu,Sub-Saharan Africa,0.462,"(-3.011658, 28.299435)",-3.011658,28.299435
+"Kouilou, Congo, Republic of",COG,"Congo, Republic of",Kouilou,Sub-Saharan Africa,0.35200000000000004,"(-4.1428413, 11.8891721)",-4.1428413,11.8891721
+"Niari, Congo, Republic of",COG,"Congo, Republic of",Niari,Sub-Saharan Africa,0.23800000000000002,"(5.430892099999999, 7.524724300000001)",5.430892099999999,7.524724300000001
+"Lðkoumou, Congo, Republic of",COG,"Congo, Republic of",Lðkoumou,Sub-Saharan Africa,0.32299999999999995,"(1000.0, 1000.0)",,
+"Bouenza, Congo, Republic of",COG,"Congo, Republic of",Bouenza,Sub-Saharan Africa,0.27399999999999997,"(1000.0, 1000.0)",,
+"Pool, Congo, Republic of",COG,"Congo, Republic of",Pool,Sub-Saharan Africa,0.299,"(-3.7762628, 14.8454619)",-3.7762628,14.8454619
+"Plateaux, Congo, Republic of",COG,"Congo, Republic of",Plateaux,Sub-Saharan Africa,0.35700000000000004,"(-2.0680088, 15.4068079)",-2.0680088,15.4068079
+"Cuvette, Congo, Republic of",COG,"Congo, Republic of",Cuvette,Sub-Saharan Africa,0.24600000000000002,"(-0.2877446, 16.1580937)",-0.2877446,16.158093700000002
+"Cuvette-Ouest, Congo, Republic of",COG,"Congo, Republic of",Cuvette-Ouest,Sub-Saharan Africa,0.312,"(0.144755, 14.4723301)",0.144755,14.4723301
+"Sangha, Congo, Republic of",COG,"Congo, Republic of",Sangha,Sub-Saharan Africa,0.285,"(1.4662328, 15.4068079)",1.4662328000000002,15.4068079
+"Likouala, Congo, Republic of",COG,"Congo, Republic of",Likouala,Sub-Saharan Africa,0.304,"(2.043924000000001, 17.668887)",2.043924000000001,17.668886999999994
+"Brazzaville, Congo, Republic of",COG,"Congo, Republic of",Brazzaville,Sub-Saharan Africa,0.10300000000000001,"(18.8679349, -71.12255309999999)",18.8679349,-71.12255309999998
+"Pointe-Noire, Congo, Republic of",COG,"Congo, Republic of",Pointe-Noire,Sub-Saharan Africa,0.094,"(-4.7691623, 11.866362)",-4.7691623,11.866362
+"Guajira, Cesar, Magdalena, Colombia",COL,Colombia,"Guajira, Cesar, Magdalena",Latin America and Caribbean,0.055999999999999994,"(10.7582091, -72.8451323)",10.7582091,-72.8451323
+"Barranquilla A. M., Colombia",COL,Colombia,Barranquilla A. M.,Latin America and Caribbean,0.009000000000000001,"(11.0041072, -74.80698129999999)",11.004107199999998,-74.80698129999998
+"Atlantico, San Andres, Bolivar Norte, Colombia",COL,Colombia,"Atlantico, San Andres, Bolivar Norte",Latin America and Caribbean,0.012,"(12.5450153, -81.7075787)",12.5450153,-81.7075787
+"Bolivar Sur, Sucre, Cordoba, Colombia",COL,Colombia,"Bolivar Sur, Sucre, Cordoba",Latin America and Caribbean,0.061,"(8.5705151, 8.3088441)",8.5705151,8.3088441
+"Santanderes, Colombia",COL,Colombia,Santanderes,Latin America and Caribbean,0.022000000000000002,"(6.6437076, -73.65362089999999)",6.6437076,-73.65362089999998
+"Boyaca, Cmarca, Meta, Colombia",COL,Colombia,"Boyaca, Cmarca, Meta",Latin America and Caribbean,0.018000000000000002,"(17.2317561, -13.1740348)",17.231756100000002,-13.1740348
+"Medellin A.M., Colombia",COL,Colombia,Medellin A.M.,Latin America and Caribbean,0.005,"(6.244203, -75.5812119)",6.244203,-75.5812119
+"Antioquia Sin Medellin, Colombia",COL,Colombia,Antioquia Sin Medellin,Latin America and Caribbean,0.037000000000000005,"(6.244203, -75.5812119)",6.244203,-75.5812119
+"Caldas, Risaralda, Quindio, Colombia",COL,Colombia,"Caldas, Risaralda, Quindio",Latin America and Caribbean,0.009000000000000001,"(1000.0, 1000.0)",,
+"Tolima, Huila, Caqueta, Colombia",COL,Colombia,"Tolima, Huila, Caqueta",Latin America and Caribbean,0.027000000000000003,"(1000.0, 1000.0)",,
+"Cali A.M., Colombia",COL,Colombia,Cali A.M.,Latin America and Caribbean,0.005,"(3.4516467, -76.5319854)",3.4516467000000004,-76.53198540000002
+"Valle Sin Cali Ni Litoral, Colombia",COL,Colombia,Valle Sin Cali Ni Litoral,Latin America and Caribbean,0.012,"(1000.0, 1000.0)",,
+"Cauca Y Nariðo Sin Litoral, Colombia",COL,Colombia,Cauca Y Nariðo Sin Litoral,Latin America and Caribbean,0.039,"(1000.0, 1000.0)",,
+"Litoral Pacifico, Colombia",COL,Colombia,Litoral Pacifico,Latin America and Caribbean,0.059000000000000004,"(5.2954172, -3.9835142)",5.2954172,-3.9835142
+"Bogota, Colombia",COL,Colombia,Bogota,Latin America and Caribbean,0.003,"(13.4595508, -15.5401101)",13.4595508,-15.5401101
+"Orinoquia Y Amazonia, Colombia",COL,Colombia,Orinoquia Y Amazonia,Latin America and Caribbean,0.027999999999999997,"(49.2647481, -122.7471312)",49.26474810000001,-122.7471312
+"Mwali (Mohðli), Comoros",COM,Comoros,Mwali (Mohðli),Sub-Saharan Africa,0.213,"(13.4929172, -16.0904721)",13.4929172,-16.0904721
+"Ndzuwani (Ndzouani or Anjouan), Comoros",COM,Comoros,Ndzuwani (Ndzouani or Anjouan),Sub-Saharan Africa,0.22,"(1000.0, 1000.0)",,
+"Ngazidja (Grande Comore), Comoros",COM,Comoros,Ngazidja (Grande Comore),Sub-Saharan Africa,0.11599999999999999,"(-17.1927361, -70.93281379999999)",-17.1927361,-70.93281379999998
+"Djibouti, Djibouti",DJI,Djibouti,Djibouti,Arab States,0.125,"(11.825138, 42.590275)",11.825138,42.590275
+"Other Districts, Djibouti",DJI,Djibouti,Other Districts,Arab States,0.214,"(1000.0, 1000.0)",,
+"Cibao Nordeste, Dominican Republic",DOM,Dominican Republic,Cibao Nordeste,Latin America and Caribbean,0.027999999999999997,"(1000.0, 1000.0)",,
+"Cibao Noroeste, Dominican Republic",DOM,Dominican Republic,Cibao Noroeste,Latin America and Caribbean,0.047,"(4.695135, 96.7493993)",4.695135,96.7493993
+"Cibao Norte, Dominican Republic",DOM,Dominican Republic,Cibao Norte,Latin America and Caribbean,0.027999999999999997,"(18.8679349, -71.12255309999999)",18.8679349,-71.12255309999998
+"Cibao Sur, Dominican Republic",DOM,Dominican Republic,Cibao Sur,Latin America and Caribbean,0.03,"(18.8679349, -71.12255309999999)",18.8679349,-71.12255309999998
+"Del Yuma, Dominican Republic",DOM,Dominican Republic,Del Yuma,Latin America and Caribbean,0.039,"(18.4296612, -68.67525499999999)",18.4296612,-68.67525499999999
+"El Valle, Dominican Republic",DOM,Dominican Republic,El Valle,Latin America and Caribbean,0.078,"(18.9771643, -69.37863829999999)",18.9771643,-69.37863829999999
+"Enriquillo, Dominican Republic",DOM,Dominican Republic,Enriquillo,Latin America and Caribbean,0.055,"(18.4787964, -71.59613279999999)",18.4787964,-71.59613279999998
+"Higuamo, Dominican Republic",DOM,Dominican Republic,Higuamo,Latin America and Caribbean,0.043,"(18.4901651, -69.9602108)",18.4901651,-69.9602108
+"Metropolitana, Dominican Republic",DOM,Dominican Republic,Metropolitana,Latin America and Caribbean,0.027999999999999997,"(18.4870314, -69.93797239999999)",18.4870314,-69.93797239999999
+"Valdesia, Dominican Republic",DOM,Dominican Republic,Valdesia,Latin America and Caribbean,0.04,"(18.41386, -70.277748)",18.41386,-70.277748
+,DZA,Algeria,,Arab States,,"(1000.0, 1000.0)",,
+"Mountains, Ecuador",ECU,Ecuador,Mountains,Latin America and Caribbean,0.013999999999999999,"(-1.4693018, -78.8169396)",-1.4693018,-78.8169396
+"Coast, Ecuador",ECU,Ecuador,Coast,Latin America and Caribbean,0.01,"(34.352865, 62.20402869999999)",34.352865,62.20402869999999
+"Amazon, Ecuador",ECU,Ecuador,Amazon,Latin America and Caribbean,0.046,"(-3.4653053, -62.21588049999999)",-3.4653053,-62.21588049999999
+"Galapagos Island, Ecuador",ECU,Ecuador,Galapagos Island,Latin America and Caribbean,0.003,"(-0.2051725, -78.4896935)",-0.2051725,-78.4896935
+"Cairo, Egypt",EGY,Egypt,Cairo,Arab States,0.006,"(30.0444196, 31.2357116)",30.0444196,31.235711600000005
+"Alexandria, Egypt",EGY,Egypt,Alexandria,Arab States,0.004,"(31.2000924, 29.9187387)",31.2000924,29.9187387
+"Port Said, Egypt",EGY,Egypt,Port Said,Arab States,0.003,"(10.9691601, 20.7122465)",10.9691601,20.7122465
+"Suez, Egypt",EGY,Egypt,Suez,Arab States,0.008,"(29.9668343, 32.5498069)",29.9668343,32.54980689999999
+"Damietta, Egypt",EGY,Egypt,Damietta,Arab States,0.011000000000000001,"(31.4175388, 31.81444339999999)",31.417538800000006,31.81444339999999
+"Dakahlia, Egypt",EGY,Egypt,Dakahlia,Arab States,0.005,"(31.0832017, 31.4913182)",31.0832017,31.4913182
+"Sharkia, Egypt",EGY,Egypt,Sharkia,Arab States,0.01,"(1000.0, 1000.0)",,
+"Kalyubia, Egypt",EGY,Egypt,Kalyubia,Arab States,0.005,"(30.3292368, 31.2168466)",30.3292368,31.2168466
+"Kafr El-Sheikh, Egypt",EGY,Egypt,Kafr El-Sheikh,Arab States,0.006,"(31.1063198, 30.9419751)",31.106319800000005,30.9419751
+"Gharbia, Egypt",EGY,Egypt,Gharbia,Arab States,0.006,"(10.911057, -84.3172642)",10.911057,-84.3172642
+"Menoufia, Egypt",EGY,Egypt,Menoufia,Arab States,0.008,"(41.26666669999999, 69.21666669999999)",41.26666669999999,69.21666669999999
+"Behera, Egypt",EGY,Egypt,Behera,Arab States,0.012,"(30.8480986, 30.3435506)",30.848098600000004,30.3435506
+"Ismailia, Egypt",EGY,Egypt,Ismailia,Arab States,0.009000000000000001,"(30.5964923, 32.2714587)",30.5964923,32.2714587
+"Giza, Egypt",EGY,Egypt,Giza,Arab States,0.018000000000000002,"(30.0130557, 31.2088526)",30.0130557,31.2088526
+"Beni Suef, Egypt",EGY,Egypt,Beni Suef,Arab States,0.017,"(29.0661274, 31.0993845)",29.0661274,31.0993845
+"Fayoum, Egypt",EGY,Egypt,Fayoum,Arab States,0.022000000000000002,"(29.3084021, 30.8428497)",29.3084021,30.8428497
+"Menya, Egypt",EGY,Egypt,Menya,Arab States,0.022000000000000002,"(28.0870967, 30.7618397)",28.0870967,30.7618397
+"Assuit, Egypt",EGY,Egypt,Assuit,Arab States,0.038,"(27.1783117, 31.1859257)",27.1783117,31.1859257
+"Souhag, Egypt",EGY,Egypt,Souhag,Arab States,0.035,"(26.5590737, 31.6956705)",26.559073699999995,31.6956705
+"Qena, Egypt",EGY,Egypt,Qena,Arab States,0.015,"(26.155061, 32.7160121)",26.155061,32.71601210000001
+"Aswan, Egypt",EGY,Egypt,Aswan,Arab States,0.013000000000000001,"(24.088938, 32.8998293)",24.088938,32.8998293
+"Luxor, Egypt",EGY,Egypt,Luxor,Arab States,0.015,"(25.6872431, 32.6396357)",25.6872431,32.6396357
+"Red Sea, Egypt",EGY,Egypt,Red Sea,Arab States,0.015,"(25.1076838, 33.7964613)",25.1076838,33.7964613
+"New Valley, Egypt",EGY,Egypt,New Valley,Arab States,0.003,"(24.5455638, 27.1735316)",24.5455638,27.1735316
+"Matroh, Egypt",EGY,Egypt,Matroh,Arab States,0.036000000000000004,"(6.829501899999999, -9.367308399999999)",6.829501899999999,-9.3673084
+"Tigray, Ethiopia",ETH,Ethiopia,Tigray,Sub-Saharan Africa,0.537,"(14.0323336, 38.3165725)",14.0323336,38.3165725
+"Affar, Ethiopia",ETH,Ethiopia,Affar,Sub-Saharan Africa,0.6629999999999999,"(11.7559388, 40.958688)",11.7559388,40.958688
+"Amhara, Ethiopia",ETH,Ethiopia,Amhara,Sub-Saharan Africa,0.588,"(11.3494247, 37.9784585)",11.349424699999998,37.9784585
+"Oromiya, Ethiopia",ETH,Ethiopia,Oromiya,Sub-Saharan Africa,0.5920000000000001,"(7.546037699999999, 40.6346851)",7.5460376999999985,40.63468510000001
+"Somali, Ethiopia",ETH,Ethiopia,Somali,Sub-Saharan Africa,0.647,"(6.6612293, 43.7908453)",6.6612293000000005,43.7908453
+"Benishangul-Gumuz, Ethiopia",ETH,Ethiopia,Benishangul-Gumuz,Sub-Saharan Africa,0.584,"(10.7802889, 35.5657862)",10.7802889,35.56578620000001
+"Southern Nations, Nationalities, and People's Region, Ethiopia",ETH,Ethiopia,"Southern Nations, Nationalities, and People's Region",Sub-Saharan Africa,0.574,"(6.5156911, 36.954107)",6.515691099999999,36.954107
+"Gambela, Ethiopia",ETH,Ethiopia,Gambela,Sub-Saharan Africa,0.474,"(8.2471899, 34.5915966)",8.2471899,34.5915966
+"Harari, Ethiopia",ETH,Ethiopia,Harari,Sub-Saharan Africa,0.33299999999999996,"(9.314866, 42.1967716)",9.314866,42.1967716
+"Addis Ababa, Ethiopia",ETH,Ethiopia,Addis Ababa,Sub-Saharan Africa,0.085,"(8.9806034, 38.7577605)",8.9806034,38.7577605
+"Dire Dawa, Ethiopia",ETH,Ethiopia,Dire Dawa,Sub-Saharan Africa,0.33799999999999997,"(9.6008747, 41.850142)",9.6008747,41.850142
+"Libreville/Port-Gentil, Gabon",GAB,Gabon,Libreville/Port-Gentil,Sub-Saharan Africa,0.024,"(0.456963, 9.409852)",0.456963,9.409852
+"Estuaire (sans Libreville), Gabon",GAB,Gabon,Estuaire (sans Libreville),Sub-Saharan Africa,0.063,"(0.456963, 9.409852)",0.456963,9.409852
+"Haut-Ogoouð, Gabon",GAB,Gabon,Haut-Ogoouð,Sub-Saharan Africa,0.092,"(1000.0, 1000.0)",,
+"Moyen-Ogoouð, Gabon",GAB,Gabon,Moyen-Ogoouð,Sub-Saharan Africa,0.138,"(1000.0, 1000.0)",,
+"Ngounið, Gabon",GAB,Gabon,Ngounið,Sub-Saharan Africa,0.184,"(1000.0, 1000.0)",,
+"Nyanga, Gabon",GAB,Gabon,Nyanga,Sub-Saharan Africa,0.16,"(-2.8821033, 11.1617356)",-2.8821033,11.1617356
+"Ogoouð Maritime (sans Port-Gentil), Gabon",GAB,Gabon,Ogoouð Maritime (sans Port-Gentil),Sub-Saharan Africa,0.076,"(1000.0, 1000.0)",,
+"Ogoouð-Ivindo, Gabon",GAB,Gabon,Ogoouð-Ivindo,Sub-Saharan Africa,0.264,"(1000.0, 1000.0)",,
+"Ogoouð-Lolo, Gabon",GAB,Gabon,Ogoouð-Lolo,Sub-Saharan Africa,0.152,"(1000.0, 1000.0)",,
+"Woleu-Nðtem, Gabon",GAB,Gabon,Woleu-Nðtem,Sub-Saharan Africa,0.096,"(1000.0, 1000.0)",,
+"Ashanti, Ghana",GHA,Ghana,Ashanti,Sub-Saharan Africa,0.10099999999999999,"(6.7470436, -1.5208624)",6.7470436000000005,-1.5208624
+"Brong Ahafo, Ghana",GHA,Ghana,Brong Ahafo,Sub-Saharan Africa,0.16,"(7.9559247, -1.6760691)",7.9559247000000015,-1.6760691000000003
+"Central, Ghana",GHA,Ghana,Central,Sub-Saharan Africa,0.171,"(5.5607846, -1.0586135)",5.5607846,-1.0586135
+"Eastern, Ghana",GHA,Ghana,Eastern,Sub-Saharan Africa,0.155,"(31.2652893, 32.3018661)",31.2652893,32.301866100000005
+"Greater Accra, Ghana",GHA,Ghana,Greater Accra,Sub-Saharan Africa,0.057999999999999996,"(5.8142836, 0.0746767)",5.8142836,0.0746767
+"Northern, Ghana",GHA,Ghana,Northern,Sub-Saharan Africa,0.382,"(9.543926899999999, -0.9056623)",9.5439269,-0.9056623
+"Upper East, Ghana",GHA,Ghana,Upper East,Sub-Saharan Africa,0.289,"(10.7082499, -0.9820667999999999)",10.7082499,-0.9820668
+"Upper West, Ghana",GHA,Ghana,Upper West,Sub-Saharan Africa,0.259,"(10.2529757, -2.1450245)",10.2529757,-2.1450245
+"Volta, Ghana",GHA,Ghana,Volta,Sub-Saharan Africa,0.138,"(6.5781373, 0.4502368)",6.578137299999999,0.4502368
+"Western, Ghana",GHA,Ghana,Western,Sub-Saharan Africa,0.122,"(5.3901978, -2.1450245)",5.390197799999998,-2.1450245
+"Bokð, Guinea",GIN,Guinea,Bokð,Sub-Saharan Africa,0.418,"(1000.0, 1000.0)",,
+"Conakry, Guinea",GIN,Guinea,Conakry,Sub-Saharan Africa,0.122,"(9.641185499999999, -13.5784012)",9.641185499999999,-13.578401199999998
+"Faranah, Guinea",GIN,Guinea,Faranah,Sub-Saharan Africa,0.599,"(10.0451022, -10.7492466)",10.0451022,-10.7492466
+"Kankan, Guinea",GIN,Guinea,Kankan,Sub-Saharan Africa,0.603,"(10.3827887, -9.311828199999999)",10.3827887,-9.311828199999999
+"Kindia, Guinea",GIN,Guinea,Kindia,Sub-Saharan Africa,0.503,"(10.0406725, -12.8629885)",10.0406725,-12.8629885
+"Labð, Guinea",GIN,Guinea,Labð,Sub-Saharan Africa,0.5539999999999999,"(1000.0, 1000.0)",,
+"Mamou, Guinea",GIN,Guinea,Mamou,Sub-Saharan Africa,0.531,"(10.3785237, -12.0832543)",10.3785237,-12.0832543
+"N'Zðrðkorð, Guinea",GIN,Guinea,N'Zðrðkorð,Sub-Saharan Africa,0.509,"(1000.0, 1000.0)",,
+"Banjul, Gambia",GMB,Gambia,Banjul,Sub-Saharan Africa,0.095,"(13.4548761, -16.5790323)",13.4548761,-16.5790323
+"Kanifing, Gambia",GMB,Gambia,Kanifing,Sub-Saharan Africa,0.157,"(14.6489525, 2.1450245)",14.6489525,2.1450245
+"Brikama, Gambia",GMB,Gambia,Brikama,Sub-Saharan Africa,0.242,"(13.2747943, -16.6409198)",13.2747943,-16.6409198
+"Mansakonko, Gambia",GMB,Gambia,Mansakonko,Sub-Saharan Africa,0.35200000000000004,"(35.1408881, 36.7551993)",35.1408881,36.7551993
+"Kerewan, Gambia",GMB,Gambia,Kerewan,Sub-Saharan Africa,0.397,"(1000.0, 1000.0)",,
+"Kuntaur, Gambia",GMB,Gambia,Kuntaur,Sub-Saharan Africa,0.555,"(12.1844159, 6.2375947)",12.1844159,6.2375947
+"Janjanbureh, Gambia",GMB,Gambia,Janjanbureh,Sub-Saharan Africa,0.46,"(13.5336211, -14.7695962)",13.5336211,-14.7695962
+"Basse, Gambia",GMB,Gambia,Basse,Sub-Saharan Africa,0.524,"(13.3094412, -14.2192475)",13.309441199999998,-14.2192475
+"Bafata, Guinea-Bissau",GNB,Guinea-Bissau,Bafata,Sub-Saharan Africa,0.545,"(12.1735243, -14.652952)",12.1735243,-14.652952
+"Biombo, Guinea-Bissau",GNB,Guinea-Bissau,Biombo,Sub-Saharan Africa,0.382,"(11.8529061, -15.7351171)",11.8529061,-15.7351171
+"Bolama, Guinea-Bissau",GNB,Guinea-Bissau,Bolama,Sub-Saharan Africa,0.35200000000000004,"(11.5891108, -15.5122694)",11.5891108,-15.5122694
+"Cacheu, Guinea-Bissau",GNB,Guinea-Bissau,Cacheu,Sub-Saharan Africa,0.335,"(12.2732631, -16.1669156)",12.2732631,-16.1669156
+"Gabu, Guinea-Bissau",GNB,Guinea-Bissau,Gabu,Sub-Saharan Africa,0.544,"(11.8962488, -14.1001326)",11.8962488,-14.1001326
+"Oio, Guinea-Bissau",GNB,Guinea-Bissau,Oio,Sub-Saharan Africa,0.505,"(12.2760709, -15.3131185)",12.2760709,-15.3131185
+"Quinara, Guinea-Bissau",GNB,Guinea-Bissau,Quinara,Sub-Saharan Africa,0.414,"(11.795562, -15.1726816)",11.795562,-15.1726816
+"Tombali, Guinea-Bissau",GNB,Guinea-Bissau,Tombali,Sub-Saharan Africa,0.43,"(11.3632696, -14.9856176)",11.3632696,-14.9856176
+"Sab, Guinea-Bissau",GNB,Guinea-Bissau,Sab,Sub-Saharan Africa,0.163,"(1000.0, 1000.0)",,
+"Alta Verapaz, Guatemala",GTM,Guatemala,Alta Verapaz,Latin America and Caribbean,0.214,"(7.495263700000001, -10.0807298)",7.4952637000000015,-10.0807298
+"Baja Verapaz, Guatemala",GTM,Guatemala,Baja Verapaz,Latin America and Caribbean,0.147,"(15.0787498, -90.4125181)",15.078749800000002,-90.4125181
+"Chimaltenango, Guatemala",GTM,Guatemala,Chimaltenango,Latin America and Caribbean,0.08199999999999999,"(14.6631591, -90.8246386)",14.663159099999998,-90.8246386
+"Chiquimula, Guatemala",GTM,Guatemala,Chiquimula,Latin America and Caribbean,0.2,"(14.7924897, -89.5450458)",14.7924897,-89.5450458
+"El Progreso, Guatemala",GTM,Guatemala,El Progreso,Latin America and Caribbean,0.07,"(14.8921637, -90.0373201)",14.8921637,-90.03732009999997
+"Escuintla, Guatemala",GTM,Guatemala,Escuintla,Latin America and Caribbean,0.067,"(14.3009252, -90.7881835)",14.300925199999998,-90.7881835
+"Guatemala Municipio, Guatemala",GTM,Guatemala,Guatemala Municipio,Latin America and Caribbean,0.013999999999999999,"(14.6349149, -90.5068824)",14.6349149,-90.5068824
+"Guatemala Resto, Guatemala",GTM,Guatemala,Guatemala Resto,Latin America and Caribbean,0.036000000000000004,"(14.5987203, -90.51491569999999)",14.5987203,-90.5149157
+"Huehuetenango, Guatemala",GTM,Guatemala,Huehuetenango,Latin America and Caribbean,0.187,"(15.3198766, -91.4918235)",15.3198766,-91.4918235
+"Izabal, Guatemala",GTM,Guatemala,Izabal,Latin America and Caribbean,0.106,"(15.5918066, -88.94138650000001)",15.5918066,-88.94138650000002
+"Jalapa, Guatemala",GTM,Guatemala,Jalapa,Latin America and Caribbean,0.165,"(14.5655154, -89.9253233)",14.5655154,-89.9253233
+"Jutiapa, Guatemala",GTM,Guatemala,Jutiapa,Latin America and Caribbean,0.113,"(14.1930802, -89.9253233)",14.1930802,-89.9253233
+"Peten, Guatemala",GTM,Guatemala,Peten,Latin America and Caribbean,0.134,"(16.912033, -90.2995785)",16.912032999999994,-90.2995785
+"Quetzaltenango, Guatemala",GTM,Guatemala,Quetzaltenango,Latin America and Caribbean,0.094,"(14.8520705, -91.5305465)",14.852070499999998,-91.5305465
+"Quiche, Guatemala",GTM,Guatemala,Quiche,Latin America and Caribbean,0.193,"(15.4983808, -90.9820668)",15.4983808,-90.9820668
+"Retalhuleu, Guatemala",GTM,Guatemala,Retalhuleu,Latin America and Caribbean,0.1,"(14.5245485, -91.685788)",14.524548499999998,-91.685788
+"Sacatepequez, Guatemala",GTM,Guatemala,Sacatepequez,Latin America and Caribbean,0.048,"(14.6110576, -90.7152749)",14.6110576,-90.7152749
+"San Marcos, Guatemala",GTM,Guatemala,San Marcos,Latin America and Caribbean,0.12300000000000001,"(-26.9827577, 31.3541631)",-26.9827577,31.3541631
+"Santa Rosa, Guatemala",GTM,Guatemala,Santa Rosa,Latin America and Caribbean,0.09300000000000001,"(14.1928003, -90.37483540000001)",14.1928003,-90.37483540000001
+"Solola, Guatemala",GTM,Guatemala,Solola,Latin America and Caribbean,0.09,"(14.7666085, -91.17850159999999)",14.766608499999998,-91.17850159999999
+"Suchitepequez, Guatemala",GTM,Guatemala,Suchitepequez,Latin America and Caribbean,0.11199999999999999,"(13.3198572, -87.1622344)",13.319857199999998,-87.1622344
+"Totonicapan, Guatemala",GTM,Guatemala,Totonicapan,Latin America and Caribbean,0.121,"(14.9173402, -91.36139229999999)",14.9173402,-91.36139229999999
+"Zacapa, Guatemala",GTM,Guatemala,Zacapa,Latin America and Caribbean,0.11199999999999999,"(14.9676218, -89.5356094)",14.9676218,-89.5356094
+"Barima-Waini, Guyana",GUY,Guyana,Barima-Waini,Latin America and Caribbean,0.057,"(7.488241899999999, -59.6564494)",7.4882418999999985,-59.65644939999999
+"Cuyuni-Mazaruni and Potaro-Siparuni, Guyana",GUY,Guyana,Cuyuni-Mazaruni and Potaro-Siparuni,Latin America and Caribbean,0.095,"(45.47863539999999, -122.640354)",45.47863539999999,-122.640354
+"Demerara-Mahaica, Guyana",GUY,Guyana,Demerara-Mahaica,Latin America and Caribbean,0.004,"(1000.0, 1000.0)",,
+"East Berbice-Corentyne, Guyana",GUY,Guyana,East Berbice-Corentyne,Latin America and Caribbean,0.006,"(2.7477922, -57.4627259)",2.7477922,-57.4627259
+"Essequibo Islands-West Demerara, Guyana",GUY,Guyana,Essequibo Islands-West Demerara,Latin America and Caribbean,0.005,"(6.5720132, -58.4629997)",6.5720132,-58.4629997
+"Mahaica-Berbice, Guyana",GUY,Guyana,Mahaica-Berbice,Latin America and Caribbean,0.006,"(6.238496, -57.9162555)",6.238496,-57.91625550000001
+"Pomeroon-Supenaam, Guyana",GUY,Guyana,Pomeroon-Supenaam,Latin America and Caribbean,0.013999999999999999,"(7.1294166, -58.9206295)",7.1294166,-58.9206295
+"Upper Demerara-Berbice, Guyana",GUY,Guyana,Upper Demerara-Berbice,Latin America and Caribbean,0.004,"(5.3064879, -58.18929209999999)",5.3064879000000005,-58.18929209999999
+"Upper Takutu-Upper Essequibo, Guyana",GUY,Guyana,Upper Takutu-Upper Essequibo,Latin America and Caribbean,0.145,"(2.9239595, -58.73736339999999)",2.9239595,-58.73736339999999
+"Atlðntida, Honduras",HND,Honduras,Atlðntida,Latin America and Caribbean,0.045,"(1000.0, 1000.0)",,
+"Colðn, Honduras",HND,Honduras,Colðn,Latin America and Caribbean,0.057999999999999996,"(1000.0, 1000.0)",,
+"Comayagua, Honduras",HND,Honduras,Comayagua,Latin America and Caribbean,0.077,"(14.4490149, -87.6482474)",14.4490149,-87.6482474
+"Copðn, Honduras",HND,Honduras,Copðn,Latin America and Caribbean,0.161,"(11.7274729, -86.21584969999999)",11.7274729,-86.21584969999998
+"Cortðs, Honduras",HND,Honduras,Cortðs,Latin America and Caribbean,0.026000000000000002,"(1000.0, 1000.0)",,
+"Choluteca, Honduras",HND,Honduras,Choluteca,Latin America and Caribbean,0.10800000000000001,"(13.4726005, -86.4592091)",13.4726005,-86.4592091
+"El Paraðso, Honduras",HND,Honduras,El Paraðso,Latin America and Caribbean,0.095,"(1000.0, 1000.0)",,
+"Francisco Morazðn, Honduras",HND,Honduras,Francisco Morazðn,Latin America and Caribbean,0.031,"(1000.0, 1000.0)",,
+"Gracias a Dios, Honduras",HND,Honduras,Gracias a Dios,Latin America and Caribbean,0.124,"(33.1870471, -4.2333355)",33.1870471,-4.2333355
+"Intibucð, Honduras",HND,Honduras,Intibucð,Latin America and Caribbean,0.139,"(1000.0, 1000.0)",,
+"Islas de la Bahða, Honduras",HND,Honduras,Islas de la Bahða,Latin America and Caribbean,0.017,"(1000.0, 1000.0)",,
+"La Paz, Honduras",HND,Honduras,La Paz,Latin America and Caribbean,0.107,"(14.3271237, -87.6729074)",14.3271237,-87.6729074
+"Lempira, Honduras",HND,Honduras,Lempira,Latin America and Caribbean,0.201,"(14.1887698, -88.55653099999999)",14.1887698,-88.55653099999998
+"Ocotepeque, Honduras",HND,Honduras,Ocotepeque,Latin America and Caribbean,0.109,"(14.5170347, -89.0561532)",14.517034699999998,-89.0561532
+"Olancho, Honduras",HND,Honduras,Olancho,Latin America and Caribbean,0.08900000000000001,"(14.8067406, -85.76666449999999)",14.8067406,-85.76666449999998
+"Santa Bðrbara, Honduras",HND,Honduras,Santa Bðrbara,Latin America and Caribbean,0.076,"(1000.0, 1000.0)",,
+"Valle, Honduras",HND,Honduras,Valle,Latin America and Caribbean,0.068,"(13.5782936, -87.5791287)",13.5782936,-87.5791287
+"Yoro, Honduras",HND,Honduras,Yoro,Latin America and Caribbean,0.073,"(15.1369653, -87.1273253)",15.136965300000002,-87.12732530000002
+"Aire Mðtropolitaine/Reste-Ouest, Haiti",HTI,Haiti,Aire Mðtropolitaine/Reste-Ouest,Latin America and Caribbean,0.162,"(1000.0, 1000.0)",,
+"Sud-Est, Haiti",HTI,Haiti,Sud-Est,Latin America and Caribbean,0.307,"(27.6825285, 91.4821482)",27.6825285,91.4821482
+"Nord, Haiti",HTI,Haiti,Nord,Latin America and Caribbean,0.244,"(19.5687715, -72.189)",19.5687715,-72.189
+"Nord-Est, Haiti",HTI,Haiti,Nord-Est,Latin America and Caribbean,0.32299999999999995,"(19.4889723, -71.8571331)",19.4889723,-71.85713309999998
+"Artibonite, Haiti",HTI,Haiti,Artibonite,Latin America and Caribbean,0.316,"(19.362902, -72.4258145)",19.362902,-72.4258145
+"Centre, Haiti",HTI,Haiti,Centre,Latin America and Caribbean,0.391,"(18.9582742, -72.0468164)",18.9582742,-72.04681640000003
+"Sud, Haiti",HTI,Haiti,Sud,Latin America and Caribbean,0.249,"(18.3320005, -73.7007088)",18.3320005,-73.7007088
+"Grande-Anse, Haiti",HTI,Haiti,Grande-Anse,Latin America and Caribbean,0.37799999999999995,"(18.5489259, -74.07701)",18.5489259,-74.07701
+"Nord-Ouest, Haiti",HTI,Haiti,Nord-Ouest,Latin America and Caribbean,0.311,"(19.8374009, -73.0405277)",19.8374009,-73.0405277
+"Nippes, Haiti",HTI,Haiti,Nippes,Latin America and Caribbean,0.257,"(18.3990735, -73.4180211)",18.3990735,-73.41802109999998
+"Aceh, Indonesia",IDN,Indonesia,Aceh,East Asia and the Pacific,0.077,"(12.4315534, -86.87221459999999)",12.4315534,-86.87221459999998
+"North Sumatera, Indonesia",IDN,Indonesia,North Sumatera,East Asia and the Pacific,0.071,"(2.1153547, 99.54509739999999)",2.1153547,99.5450974
+"West Sumatera, Indonesia",IDN,Indonesia,West Sumatera,East Asia and the Pacific,0.055999999999999994,"(-0.7399397, 100.8000051)",-0.7399397,100.8000051
+"Riau, Indonesia",IDN,Indonesia,Riau,East Asia and the Pacific,0.053,"(0.2933469, 101.7068294)",0.2933469,101.70682940000002
+"Jambi, Indonesia",IDN,Indonesia,Jambi,East Asia and the Pacific,0.07200000000000001,"(-1.6101229, 103.6131203)",-1.6101229,103.6131203
+"South Sumatera, Indonesia",IDN,Indonesia,South Sumatera,East Asia and the Pacific,0.054000000000000006,"(-3.3194374, 103.914399)",-3.3194373999999995,103.914399
+"Bengkulu, Indonesia",IDN,Indonesia,Bengkulu,East Asia and the Pacific,0.059000000000000004,"(14.7546303, 46.516262)",14.754630300000002,46.516262
+"Lampung, Indonesia",IDN,Indonesia,Lampung,East Asia and the Pacific,0.065,"(-4.5585849, 105.4068079)",-4.5585849000000005,105.40680790000002
+"Bangka Belitung, Indonesia",IDN,Indonesia,Bangka Belitung,East Asia and the Pacific,0.053,"(-2.7410513, 106.4405872)",-2.7410513,106.4405872
+"Riau Islands, Indonesia",IDN,Indonesia,Riau Islands,East Asia and the Pacific,0.040999999999999995,"(3.9456514, 108.1428669)",3.9456514,108.1428669
+"DKI Jakarta, Indonesia",IDN,Indonesia,DKI Jakarta,East Asia and the Pacific,0.028999999999999998,"(-6.17511, 106.8650395)",-6.17511,106.8650395
+"West Java, Indonesia",IDN,Indonesia,West Java,East Asia and the Pacific,0.057,"(-7.090910999999999, 107.668887)",-7.0909109999999975,107.668887
+"Central Java, Indonesia",IDN,Indonesia,Central Java,East Asia and the Pacific,0.053,"(-7.150975, 110.1402594)",-7.150975,110.1402594
+"DI Yogyakarta, Indonesia",IDN,Indonesia,DI Yogyakarta,East Asia and the Pacific,0.025,"(-7.875384899999999, 110.4262088)",-7.8753848999999985,110.4262088
+"East Java, Indonesia",IDN,Indonesia,East Java,East Asia and the Pacific,0.055,"(-7.5360639, 112.2384017)",-7.536063900000001,112.2384017
+"Banten, Indonesia",IDN,Indonesia,Banten,East Asia and the Pacific,0.075,"(-6.4058172, 106.0640179)",-6.4058172,106.0640179
+"Bali, Indonesia",IDN,Indonesia,Bali,East Asia and the Pacific,0.042,"(-8.4095178, 115.188916)",-8.409517800000001,115.188916
+"West Nusa Tenggara, Indonesia",IDN,Indonesia,West Nusa Tenggara,East Asia and the Pacific,0.121,"(-17.9646772, -67.1060353)",-17.9646772,-67.1060353
+"East Nusa Tenggara, Indonesia",IDN,Indonesia,East Nusa Tenggara,East Asia and the Pacific,0.16399999999999998,"(-8.657381899999999, 121.0793705)",-8.657381899999999,121.0793705
+"West Kalimantan, Indonesia",IDN,Indonesia,West Kalimantan,East Asia and the Pacific,0.086,"(-0.2787808, 111.4752851)",-0.2787808,111.4752851
+"Central Kalimantan, Indonesia",IDN,Indonesia,Central Kalimantan,East Asia and the Pacific,0.084,"(-1.6814878, 113.3823545)",-1.6814878,113.3823545
+"South Kalimantan, Indonesia",IDN,Indonesia,South Kalimantan,East Asia and the Pacific,0.085,"(-3.0926415, 115.2837585)",-3.0926415,115.2837585
+"East Kalimantan, Indonesia",IDN,Indonesia,East Kalimantan,East Asia and the Pacific,0.057999999999999996,"(0.5386586, 116.419389)",0.5386586,116.419389
+"North Sulawesi, Indonesia",IDN,Indonesia,North Sulawesi,East Asia and the Pacific,0.059000000000000004,"(0.6246932, 123.9750018)",0.6246932,123.9750018
+"Central Sulawesi, Indonesia",IDN,Indonesia,Central Sulawesi,East Asia and the Pacific,0.132,"(-1.4300254, 121.4456179)",-1.4300254,121.4456179
+"South Sulawesi, Indonesia",IDN,Indonesia,South Sulawesi,East Asia and the Pacific,0.063,"(-3.6687994, 119.9740534)",-3.6687994,119.9740534
+"Southeast Sulawesi, Indonesia",IDN,Indonesia,Southeast Sulawesi,East Asia and the Pacific,0.109,"(-4.144909999999999, 122.174605)",-4.144909999999999,122.174605
+"Gorontalo, Indonesia",IDN,Indonesia,Gorontalo,East Asia and the Pacific,0.128,"(0.6999371999999999, 122.4467238)",0.6999371999999999,122.4467238
+"West Sulawesi, Indonesia",IDN,Indonesia,West Sulawesi,East Asia and the Pacific,0.161,"(34.5337527, 43.483738)",34.5337527,43.483738
+"Maluku, Indonesia",IDN,Indonesia,Maluku,East Asia and the Pacific,0.105,"(-2.8614979, 129.5765974)",-2.8614979,129.57659740000003
+"North Maluku, Indonesia",IDN,Indonesia,North Maluku,East Asia and the Pacific,0.129,"(1.5709993, 127.8087693)",1.5709993,127.8087693
+"West Papua, Indonesia",IDN,Indonesia,West Papua,East Asia and the Pacific,0.122,"(-4.185235, 136.8252838)",-4.185235,136.82528380000002
+"Papua, Indonesia",IDN,Indonesia,Papua,East Asia and the Pacific,0.23399999999999999,"(-4.269928, 138.0803529)",-4.269928,138.0803529
+,IND,India,,South Asia,,"(1000.0, 1000.0)",,
+"Dohuk, Iraq",IRQ,Iraq,Dohuk,Arab States,0.031,"(36.8679054, 42.9488574)",36.8679054,42.9488574
+"Ninewa, Iraq",IRQ,Iraq,Ninewa,Arab States,0.054000000000000006,"(36.229574, 42.2362435)",36.229574,42.2362435
+"Suleimaniya, Iraq",IRQ,Iraq,Suleimaniya,Arab States,0.01,"(35.5570454, 45.4359425)",35.5570454,45.4359425
+"Kirkuk, Iraq",IRQ,Iraq,Kirkuk,Arab States,0.035,"(35.4655761, 44.38039209999999)",35.4655761,44.38039209999999
+"Erbil, Iraq",IRQ,Iraq,Erbil,Arab States,0.031,"(36.2062933, 44.0088697)",36.2062933,44.00886970000001
+"Diyala, Iraq",IRQ,Iraq,Diyala,Arab States,0.038,"(33.7733487, 45.1494505)",33.7733487,45.1494505
+"Al-Anbar, Iraq",IRQ,Iraq,Al-Anbar,Arab States,0.052000000000000005,"(32.5597614, 41.9196471)",32.5597614,41.9196471
+"Baghdad, Iraq",IRQ,Iraq,Baghdad,Arab States,0.027000000000000003,"(33.3128057, 44.3614875)",33.3128057,44.3614875
+"Babil, Iraq",IRQ,Iraq,Babil,Arab States,0.042,"(32.468191, 44.5501935)",32.468191,44.5501935
+"Karbala, Iraq",IRQ,Iraq,Karbala,Arab States,0.053,"(32.6068464, 44.0103922)",32.606846399999995,44.01039220000001
+"Wasit, Iraq",IRQ,Iraq,Wasit,Arab States,0.057999999999999996,"(32.6024094, 45.7520985)",32.6024094,45.7520985
+"Salahaddin, Iraq",IRQ,Iraq,Salahaddin,Arab States,0.054000000000000006,"(-0.9422027, -80.7303634)",-0.9422027,-80.7303634
+"Al-Najaf, Iraq",IRQ,Iraq,Al-Najaf,Arab States,0.055,"(32.027376, 44.3331165)",32.027376000000004,44.3331165
+"Al-Qadisiya, Iraq",IRQ,Iraq,Al-Qadisiya,Arab States,0.08199999999999999,"(32.043691, 45.1494505)",32.043690999999995,45.1494505
+"Al-Muthanna, Iraq",IRQ,Iraq,Al-Muthanna,Arab States,0.079,"(-23.5819954, 47.2923893)",-23.5819954,47.2923893
+"Thi-Qar, Iraq",IRQ,Iraq,Thi-Qar,Arab States,0.06,"(31.1042292, 46.3624686)",31.1042292,46.3624686
+"Missan, Iraq",IRQ,Iraq,Missan,Arab States,0.098,"(31.8734002, 47.1362125)",31.8734002,47.1362125
+"Basrah, Iraq",IRQ,Iraq,Basrah,Arab States,0.045,"(30.5081033, 47.7834888)",30.5081033,47.7834888
+"Kingston, Jamaica",JAM,Jamaica,Kingston,Latin America and Caribbean,0.009000000000000001,"(18.0178743, -76.8099041)",18.017874300000006,-76.8099041
+"St.  Andrew, Jamaica",JAM,Jamaica,St.  Andrew,Latin America and Caribbean,0.006999999999999999,"(18.0391345, -76.7567368)",18.0391345,-76.7567368
+"St. Thomas, Jamaica",JAM,Jamaica,St. Thomas,Latin America and Caribbean,0.006,"(17.9700261, -76.4331698)",17.970026100000005,-76.4331698
+"Portland, Jamaica",JAM,Jamaica,Portland,Latin America and Caribbean,0.004,"(18.0844274, -76.4100267)",18.0844274,-76.4100267
+"St. Mary, Jamaica",JAM,Jamaica,St. Mary,Latin America and Caribbean,0.009000000000000001,"(18.3092711, -76.964306)",18.3092711,-76.96430600000002
+"St. Ann, Jamaica",JAM,Jamaica,St. Ann,Latin America and Caribbean,0.004,"(27.002382, 91.3469247)",27.002382,91.3469247
+"Trelawny, Jamaica",JAM,Jamaica,Trelawny,Latin America and Caribbean,0.016,"(18.3526143, -77.6077865)",18.352614300000006,-77.6077865
+"St. James, Jamaica",JAM,Jamaica,St. James,Latin America and Caribbean,0.003,"(18.3923184, -77.85959629999999)",18.3923184,-77.85959629999998
+"Hanover, Jamaica",JAM,Jamaica,Hanover,Latin America and Caribbean,0.006999999999999999,"(18.4097707, -78.13363799999999)",18.4097707,-78.13363799999998
+"Westmoreland, Jamaica",JAM,Jamaica,Westmoreland,Latin America and Caribbean,0.004,"(18.2944378, -78.1564432)",18.2944378,-78.1564432
+"St. Elizabeth, Jamaica",JAM,Jamaica,St. Elizabeth,Latin America and Caribbean,0.013000000000000001,"(18.0788461, -77.69941969999999)",18.0788461,-77.69941969999998
+"Manchester, Jamaica",JAM,Jamaica,Manchester,Latin America and Caribbean,0.006,"(18.0669654, -77.5160788)",18.0669654,-77.51607879999997
+"Clarendon, Jamaica",JAM,Jamaica,Clarendon,Latin America and Caribbean,0.013999999999999999,"(1000.0, 1000.0)",,
+"St. Catherine, Jamaica",JAM,Jamaica,St. Catherine,Latin America and Caribbean,0.004,"(18.0364134, -77.0564464)",18.0364134,-77.0564464
+"Central, Jordan",JOR,Jordan,Central,Arab States,0.005,"(31.957151, 35.930865)",31.957151,35.93086500000001
+"North, Jordan",JOR,Jordan,North,Arab States,0.006,"(10.3009641, 9.8236533)",10.3009641,9.823653300000002
+"South, Jordan",JOR,Jordan,South,Arab States,0.008,"(40.5621704, -111.929658)",40.5621704,-111.929658
+,KAZ,Kazakhstan,,Europe and Central Asia,,"(1000.0, 1000.0)",,
+"Central, Kenya",KEN,Kenya,Central,Sub-Saharan Africa,0.075,"(-4.0627412, 39.6771481)",-4.0627412000000005,39.6771481
+"Coast, Kenya",KEN,Kenya,Coast,Sub-Saharan Africa,0.242,"(-3.2096898, 40.1169399)",-3.2096898,40.1169399
+"Eastern, Kenya",KEN,Kenya,Eastern,Sub-Saharan Africa,0.19,"(0.7137256, 35.517938)",0.7137256,35.517938
+"Nairobi, Kenya",KEN,Kenya,Nairobi,Sub-Saharan Africa,0.02,"(-1.2920659, 36.8219462)",-1.2920659,36.821946200000006
+"North Eastern, Kenya",KEN,Kenya,North Eastern,Sub-Saharan Africa,0.509,"(-0.0190061, 37.6480812)",-0.0190061,37.6480812
+"Nyanza, Kenya",KEN,Kenya,Nyanza,Sub-Saharan Africa,0.21100000000000002,"(-1.2849963, 36.8272273)",-1.2849963,36.8272273
+"Rift Valley, Kenya",KEN,Kenya,Rift Valley,Sub-Saharan Africa,0.205,"(-18.382333, 47.2923893)",-18.382333,47.2923893
+"Western, Kenya",KEN,Kenya,Western,Sub-Saharan Africa,0.223,"(-0.115003, 34.851379)",-0.115003,34.851379
+,KGZ,Kyrgyzstan,,Europe and Central Asia,,"(1000.0, 1000.0)",,
+"Banteay Mean Chey, Cambodia",KHM,Cambodia,Banteay Mean Chey,East Asia and the Pacific,0.09699999999999999,"(13.6672596, 102.8975098)",13.6672596,102.8975098
+"Battambang & Pailin, Cambodia",KHM,Cambodia,Battambang & Pailin,East Asia and the Pacific,0.10400000000000001,"(1000.0, 1000.0)",,
+"Kampong Cham, Cambodia",KHM,Cambodia,Kampong Cham,East Asia and the Pacific,0.16,"(11.9924294, 105.4645408)",11.9924294,105.4645408
+"Kampong Chhnang, Cambodia",KHM,Cambodia,Kampong Chhnang,East Asia and the Pacific,0.193,"(12.1392352, 104.5655273)",12.1392352,104.5655273
+"Kampong Speu, Cambodia",KHM,Cambodia,Kampong Speu,East Asia and the Pacific,0.182,"(6.0673327, -59.6146737)",6.0673327000000015,-59.61467370000001
+"Kampong Thom, Cambodia",KHM,Cambodia,Kampong Thom,East Asia and the Pacific,0.183,"(-15.5997929, 34.5140637)",-15.5997929,34.5140637
+"Kampot & Kep, Cambodia",KHM,Cambodia,Kampot & Kep,East Asia and the Pacific,0.155,"(10.4790637, 104.2941991)",10.4790637,104.2941991
+"Kandal, Cambodia",KHM,Cambodia,Kandal,East Asia and the Pacific,0.121,"(11.2237383, 105.1258955)",11.2237383,105.1258955
+"Kratie, Cambodia",KHM,Cambodia,Kratie,East Asia and the Pacific,0.27399999999999997,"(12.4896877, 106.0287512)",12.4896877,106.02875120000002
+"Mondol Kiri & Rattanak Kiri, Cambodia",KHM,Cambodia,Mondol Kiri & Rattanak Kiri,East Asia and the Pacific,0.28,"(12.4534492, 107.1771291)",12.4534492,107.1771291
+"Otdar Mean Chey, Cambodia",KHM,Cambodia,Otdar Mean Chey,East Asia and the Pacific,0.196,"(14.1717195, 103.6362715)",14.1717195,103.6362715
+"Phnom Penh, Cambodia",KHM,Cambodia,Phnom Penh,East Asia and the Pacific,0.026000000000000002,"(11.5448729, 104.8921668)",11.5448729,104.8921668
+"Preah Sihanouk & Kaoh Kong, Cambodia",KHM,Cambodia,Preah Sihanouk & Kaoh Kong,East Asia and the Pacific,0.091,"(10.5669833, 103.3039198)",10.566983300000002,103.3039198
+"Preah Vihear & Steung Treng, Cambodia",KHM,Cambodia,Preah Vihear & Steung Treng,East Asia and the Pacific,0.304,"(1000.0, 1000.0)",,
+"Prey Veng, Cambodia",KHM,Cambodia,Prey Veng,East Asia and the Pacific,0.12,"(11.3802442, 105.5005483)",11.3802442,105.5005483
+"Pursat, Cambodia",KHM,Cambodia,Pursat,East Asia and the Pacific,0.221,"(12.3663211, 103.6362715)",12.3663211,103.6362715
+"Siem Reap, Cambodia",KHM,Cambodia,Siem Reap,East Asia and the Pacific,0.204,"(13.3670968, 103.8448134)",13.3670968,103.8448134
+"Svay Rieng, Cambodia",KHM,Cambodia,Svay Rieng,East Asia and the Pacific,0.1,"(11.142722, 105.8290298)",11.142722,105.8290298
+"Takeo, Cambodia",KHM,Cambodia,Takeo,East Asia and the Pacific,0.106,"(10.9321519, 104.798771)",10.9321519,104.798771
+"Vientiane Capital, Lao People's Democratic Republic",LAO,Lao People's Democratic Republic,Vientiane Capital,East Asia and the Pacific,0.012,"(17.9757058, 102.6331035)",17.975705800000004,102.6331035
+"Phongsaly, Lao People's Democratic Republic",LAO,Lao People's Democratic Republic,Phongsaly,East Asia and the Pacific,0.311,"(21.5919377, 102.2547919)",21.5919377,102.2547919
+"Luangnamtha, Lao People's Democratic Republic",LAO,Lao People's Democratic Republic,Luangnamtha,East Asia and the Pacific,0.165,"(20.9170187, 101.1617356)",20.9170187,101.1617356
+"Oudomxay, Lao People's Democratic Republic",LAO,Lao People's Democratic Republic,Oudomxay,East Asia and the Pacific,0.248,"(20.4921929, 101.8891721)",20.4921929,101.8891721
+"Bokeo, Lao People's Democratic Republic",LAO,Lao People's Democratic Republic,Bokeo,East Asia and the Pacific,0.212,"(20.2872662, 100.7097867)",20.2872662,100.7097867
+"Luangprabang, Lao People's Democratic Republic",LAO,Lao People's Democratic Republic,Luangprabang,East Asia and the Pacific,0.18,"(20.0656229, 102.6216211)",20.0656229,102.62162109999998
+"Huaphanh, Lao People's Democratic Republic",LAO,Lao People's Democratic Republic,Huaphanh,East Asia and the Pacific,0.184,"(14.4215982, -91.4048249)",14.421598199999998,-91.4048249
+"Xayabury, Lao People's Democratic Republic",LAO,Lao People's Democratic Republic,Xayabury,East Asia and the Pacific,0.079,"(19.1945799, 101.483498)",19.1945799,101.483498
+"Xiengkhuang, Lao People's Democratic Republic",LAO,Lao People's Democratic Republic,Xiengkhuang,East Asia and the Pacific,0.16399999999999998,"(19.6093003, 103.7289167)",19.6093003,103.7289167
+"Vientiane, Lao People's Democratic Republic",LAO,Lao People's Democratic Republic,Vientiane,East Asia and the Pacific,0.063,"(17.9757058, 102.6331035)",17.975705800000004,102.6331035
+"Borikhamxay, Lao People's Democratic Republic",LAO,Lao People's Democratic Republic,Borikhamxay,East Asia and the Pacific,0.063,"(18.4362924, 104.4723301)",18.4362924,104.4723301
+"Khammuane, Lao People's Democratic Republic",LAO,Lao People's Democratic Republic,Khammuane,East Asia and the Pacific,0.2,"(17.6384066, 105.2194808)",17.638406600000003,105.2194808
+"Savannakhet, Lao People's Democratic Republic",LAO,Lao People's Democratic Republic,Savannakhet,East Asia and the Pacific,0.262,"(16.5722464, 104.7705509)",16.5722464,104.7705509
+"Saravane, Lao People's Democratic Republic",LAO,Lao People's Democratic Republic,Saravane,East Asia and the Pacific,0.359,"(15.8171073, 106.2522143)",15.8171073,106.2522143
+"Sekong, Lao People's Democratic Republic",LAO,Lao People's Democratic Republic,Sekong,East Asia and the Pacific,0.254,"(15.5767446, 107.0067031)",15.5767446,107.0067031
+"Champasack, Lao People's Democratic Republic",LAO,Lao People's Democratic Republic,Champasack,East Asia and the Pacific,0.149,"(14.6578664, 105.9699878)",14.6578664,105.9699878
+"Attapeu, Lao People's Democratic Republic",LAO,Lao People's Democratic Republic,Attapeu,East Asia and the Pacific,0.215,"(14.93634, 107.1011931)",14.93634,107.1011931
+"Bomi, Liberia",LBR,Liberia,Bomi,Sub-Saharan Africa,0.40700000000000003,"(6.7562926, -10.8451467)",6.756292599999999,-10.8451467
+"Bong, Liberia",LBR,Liberia,Bong,Sub-Saharan Africa,0.508,"(-5.115146, -78.11082789999999)",-5.115146,-78.11082789999998
+"Gbarpolu, Liberia",LBR,Liberia,Gbarpolu,Sub-Saharan Africa,0.505,"(48.963603, 89.935224)",48.963603000000006,89.935224
+"Grand Bassa, Liberia",LBR,Liberia,Grand Bassa,Sub-Saharan Africa,0.527,"(6.2308452, -9.8124935)",6.2308452,-9.8124935
+"Grand Cape Mount, Liberia",LBR,Liberia,Grand Cape Mount,Sub-Saharan Africa,0.48200000000000004,"(7.0467758, -11.0711758)",7.0467758,-11.0711758
+"Grand Gedeh, Liberia",LBR,Liberia,Grand Gedeh,Sub-Saharan Africa,0.349,"(5.9222078, -8.2212979)",5.9222078,-8.221297900000001
+"Grand Kru, Liberia",LBR,Liberia,Grand Kru,Sub-Saharan Africa,0.48,"(4.7613862, -8.2212979)",4.7613862000000005,-8.221297900000001
+"Lofa, Liberia",LBR,Liberia,Lofa,Sub-Saharan Africa,0.457,"(1000.0, 1000.0)",,
+"Margibi, Liberia",LBR,Liberia,Margibi,Sub-Saharan Africa,0.364,"(6.5151875, -10.3048897)",6.5151875,-10.3048897
+"Maryland, Liberia",LBR,Liberia,Maryland,Sub-Saharan Africa,0.38799999999999996,"(4.7258878, -7.741670300000001)",4.7258878,-7.741670300000001
+"Montserrado, Liberia",LBR,Liberia,Montserrado,Sub-Saharan Africa,0.25,"(6.5525815, -10.5296115)",6.5525815000000005,-10.5296115
+"Nimba, Liberia",LBR,Liberia,Nimba,Sub-Saharan Africa,0.377,"(6.8427612, -8.6600586)",6.842761200000001,-8.6600586
+"River Cess, Liberia",LBR,Liberia,River Cess,Sub-Saharan Africa,0.536,"(5.902532799999999, -9.456155)",5.902532799999999,-9.456155
+"River Gee, Liberia",LBR,Liberia,River Gee,Sub-Saharan Africa,0.433,"(5.2604894, -7.872159999999999)",5.2604894,-7.872159999999999
+"Sinoe, Liberia",LBR,Liberia,Sinoe,Sub-Saharan Africa,0.445,"(5.49871, -8.6600586)",5.49871,-8.6600586
+,LCA,Saint Lucia,,Latin America and Caribbean,,"(1000.0, 1000.0)",,
+"Berea, Lesotho",LSO,Lesotho,Berea,Sub-Saharan Africa,0.106,"(-29.1746723, 27.8311428)",-29.1746723,27.8311428
+"Botha-Bothe, Lesotho",LSO,Lesotho,Botha-Bothe,Sub-Saharan Africa,0.149,"(-28.7653754, 28.2468148)",-28.7653754,28.2468148
+"Leribe, Lesotho",LSO,Lesotho,Leribe,Sub-Saharan Africa,0.106,"(-28.95107729999999, 28.2526623)",-28.95107729999999,28.2526623
+"Mafeteng, Lesotho",LSO,Lesotho,Mafeteng,Sub-Saharan Africa,0.131,"(-29.8224312, 27.2388161)",-29.8224312,27.2388161
+"Maseru, Lesotho",LSO,Lesotho,Maseru,Sub-Saharan Africa,0.08199999999999999,"(-29.36321879999999, 27.5143603)",-29.36321879999999,27.5143603
+"Mohale'S Hoek, Lesotho",LSO,Lesotho,Mohale'S Hoek,Sub-Saharan Africa,0.17800000000000002,"(-30.1425917, 27.4673845)",-30.1425917,27.4673845
+"Mokhotlong, Lesotho",LSO,Lesotho,Mokhotlong,Sub-Saharan Africa,0.29100000000000004,"(17.9557183, -77.2405153)",17.9557183,-77.2405153
+"Qacha'S-Nek, Lesotho",LSO,Lesotho,Qacha'S-Nek,Sub-Saharan Africa,0.17300000000000001,"(-30.1114565, 28.678979)",-30.1114565,28.678979
+"Quthing, Lesotho",LSO,Lesotho,Quthing,Sub-Saharan Africa,0.151,"(-30.4015687, 27.7080133)",-30.4015687,27.708013300000005
+"Thaba Tseka, Lesotho",LSO,Lesotho,Thaba Tseka,Sub-Saharan Africa,0.267,"(-29.5238975, 28.6089752)",-29.5238975,28.6089752
+"Sahara, Morocco",MAR,Morocco,Sahara,Arab States,0.017,"(31.791702, -7.092619999999999)",31.791702,-7.0926199999999975
+"Souss-Massa-Draa, Morocco",MAR,Morocco,Souss-Massa-Draa,Arab States,0.102,"(31.12001849999999, -6.0679194)",31.12001849999999,-6.0679194
+"El Gharb-Chrarda Bni Hssen, Morocco",MAR,Morocco,El Gharb-Chrarda Bni Hssen,Arab States,0.084,"(34.302131, -6.302078)",34.302131,-6.302078
+"Chaouia Ourdigha, Morocco",MAR,Morocco,Chaouia Ourdigha,Arab States,0.066,"(33.0473251, -7.265285799999999)",33.0473251,-7.265285799999999
+"Marrakech-Tensift-El Haouz, Morocco",MAR,Morocco,Marrakech-Tensift-El Haouz,Arab States,0.131,"(31.5628076, -7.959286299999999)",31.5628076,-7.959286299999999
+"Rðgion Oriental, Morocco",MAR,Morocco,Rðgion Oriental,Arab States,0.049,"(1000.0, 1000.0)",,
+"Grand Casablanca, Morocco",MAR,Morocco,Grand Casablanca,Arab States,0.003,"(33.52059330000001, -7.5680595)",33.52059330000001,-7.5680595
+"Rabat-Salð-Zemmour-Zair, Morocco",MAR,Morocco,Rabat-Salð-Zemmour-Zair,Arab States,0.016,"(33.8175173, -6.2375947)",33.8175173,-6.2375947
+"Doukkala-Abda, Morocco",MAR,Morocco,Doukkala-Abda,Arab States,0.06,"(32.5997754, -8.6600586)",32.5997754,-8.6600586
+"Tadla-Azilal, Morocco",MAR,Morocco,Tadla-Azilal,Arab States,0.07,"(32.004262, -6.5783387)",32.004262,-6.5783387000000015
+"Meknes-Tafilalet, Morocco",MAR,Morocco,Meknes-Tafilalet,Arab States,0.037000000000000005,"(31.9051275, -4.7277528)",31.905127500000006,-4.7277528
+"Fes-Boulemane, Morocco",MAR,Morocco,Fes-Boulemane,Arab States,0.042,"(-4.2633597, 15.2428853)",-4.2633597000000005,15.2428853
+"Taza-Al Hoceima-Taounate, Morocco",MAR,Morocco,Taza-Al Hoceima-Taounate,Arab States,0.12300000000000001,"(34.2581709, -4.2333355)",34.2581709,-4.2333355
+"Tanger-Tetouan, Morocco",MAR,Morocco,Tanger-Tetouan,Arab States,0.083,"(35.2629558, -5.5617279)",35.26295579999999,-5.5617279
+,MDA,"Moldova, Republic of",,Europe and Central Asia,,"(1000.0, 1000.0)",,
+"Analamanga, Madagascar",MDG,Madagascar,Analamanga,Sub-Saharan Africa,0.17800000000000002,"(30.8753556, 31.03351)",30.8753556,31.03351
+"Vakinankaratra, Madagascar",MDG,Madagascar,Vakinankaratra,Sub-Saharan Africa,0.35700000000000004,"(-19.7184663, 46.670534)",-19.7184663,46.670534
+"Itasy, Madagascar",MDG,Madagascar,Itasy,Sub-Saharan Africa,0.397,"(-18.9006786, 46.9805103)",-18.900678600000006,46.98051029999999
+"Bongolava, Madagascar",MDG,Madagascar,Bongolava,Sub-Saharan Africa,0.319,"(-18.6336864, 46.0563212)",-18.6336864,46.056321200000006
+"Haute Matsiatra, Madagascar",MDG,Madagascar,Haute Matsiatra,Sub-Saharan Africa,0.4,"(-21.3390868, 46.516262)",-21.3390868,46.516262
+"Anamoroni'i Mania, Madagascar",MDG,Madagascar,Anamoroni'i Mania,Sub-Saharan Africa,0.409,"(1000.0, 1000.0)",,
+"Vatovavy Fitovinany, Madagascar",MDG,Madagascar,Vatovavy Fitovinany,Sub-Saharan Africa,0.514,"(-21.3205653, 47.92182039999999)",-21.3205653,47.92182039999999
+"Ihorombe, Madagascar",MDG,Madagascar,Ihorombe,Sub-Saharan Africa,0.44799999999999995,"(-22.6558058, 46.3624686)",-22.655805800000003,46.3624686
+"Atsimo Atsinanana, Madagascar",MDG,Madagascar,Atsimo Atsinanana,Sub-Saharan Africa,0.531,"(0.3148253, 32.5808788)",0.3148253,32.5808788
+"Atsinanana, Madagascar",MDG,Madagascar,Atsinanana,Sub-Saharan Africa,0.26899999999999996,"(-18.8131481, 48.8799972)",-18.813148100000006,48.8799972
+"Analanjirofo, Madagascar",MDG,Madagascar,Analanjirofo,Sub-Saharan Africa,0.38299999999999995,"(-16.507537, 49.5279996)",-16.507537,49.5279996
+"Alaotra Mangoro, Madagascar",MDG,Madagascar,Alaotra Mangoro,Sub-Saharan Africa,0.309,"(-18.0284909, 48.2393528)",-18.0284909,48.2393528
+"Boeny, Madagascar",MDG,Madagascar,Boeny,Sub-Saharan Africa,0.31,"(-16.3645202, 45.9039689)",-16.364520199999998,45.9039689
+"Sofia, Madagascar",MDG,Madagascar,Sofia,Sub-Saharan Africa,0.32,"(-15.4135578, 48.0803529)",-15.4135578,48.0803529
+"Betsiboka, Madagascar",MDG,Madagascar,Betsiboka,Sub-Saharan Africa,0.433,"(-16.3296686, 46.6226097)",-16.329668599999998,46.6226097
+"Melaky, Madagascar",MDG,Madagascar,Melaky,Sub-Saharan Africa,0.509,"(-17.3776488, 44.7006138)",-17.377648800000006,44.7006138
+"Atsimo Andrefana, Madagascar",MDG,Madagascar,Atsimo Andrefana,Sub-Saharan Africa,0.4270000000000001,"(-23.1485269, 44.3992892)",-23.1485269,44.39928920000001
+"Androy, Madagascar",MDG,Madagascar,Androy,Sub-Saharan Africa,0.547,"(-24.7497835, 45.4498065)",-24.7497835,45.4498065
+"Anosy, Madagascar",MDG,Madagascar,Anosy,Sub-Saharan Africa,0.486,"(-23.5579591, 45.9039689)",-23.5579591,45.9039689
+"Menabe, Madagascar",MDG,Madagascar,Menabe,Sub-Saharan Africa,0.41700000000000004,"(30.5972455, 30.9876321)",30.597245500000003,30.9876321
+"Diana, Madagascar",MDG,Madagascar,Diana,Sub-Saharan Africa,0.294,"(-13.4086535, 49.2030851)",-13.4086535,49.2030851
+"Sava, Madagascar",MDG,Madagascar,Sava,Sub-Saharan Africa,0.327,"(-14.4407175, 49.8547266)",-14.440717499999998,49.8547266
+,MDV,Maldives,,South Asia,,"(1000.0, 1000.0)",,
+,MEX,Mexico,,Latin America and Caribbean,,"(1000.0, 1000.0)",,
+,MKD,"Macedonia, The former Yugoslav Republic of",,Europe and Central Asia,,"(1000.0, 1000.0)",,
+"Kayes, Mali",MLI,Mali,Kayes,Sub-Saharan Africa,0.485,"(14.4367876, -11.4452717)",14.4367876,-11.4452717
+"Koulikoro, Mali",MLI,Mali,Koulikoro,Sub-Saharan Africa,0.44,"(13.8018074, -7.4381355)",13.8018074,-7.4381355
+"Sikasso, Mali",MLI,Mali,Sikasso,Sub-Saharan Africa,0.484,"(11.3223834, -5.6983979)",11.3223834,-5.698397900000002
+"Sðgou, Mali",MLI,Mali,Sðgou,Sub-Saharan Africa,0.498,"(1000.0, 1000.0)",,
+"Mopti, Mali",MLI,Mali,Mopti,Sub-Saharan Africa,0.594,"(14.4874284, -4.1974627)",14.4874284,-4.1974627
+"Bamako, Mali",MLI,Mali,Bamako,Sub-Saharan Africa,0.168,"(12.6392316, -8.0028892)",12.6392316,-8.0028892
+"Ayeyarwaddy, Myanmar",MMR,Myanmar,Ayeyarwaddy,East Asia and the Pacific,0.171,"(17.0342125, 95.22666749999999)",17.0342125,95.2266675
+"Bago, Myanmar",MMR,Myanmar,Bago,East Asia and the Pacific,0.129,"(17.3220711, 96.4663286)",17.322071100000002,96.4663286
+"Chin, Myanmar",MMR,Myanmar,Chin,East Asia and the Pacific,0.152,"(22.3896751, 93.5812692)",22.3896751,93.5812692
+"Kachin, Myanmar",MMR,Myanmar,Kachin,East Asia and the Pacific,0.083,"(25.850904, 97.4381355)",25.850904,97.4381355
+"Kayah, Myanmar",MMR,Myanmar,Kayah,East Asia and the Pacific,0.099,"(19.2342061, 97.26528580000002)",19.2342061,97.26528580000002
+"Kayin, Myanmar",MMR,Myanmar,Kayin,East Asia and the Pacific,0.183,"(16.9459346, 97.9592863)",16.9459346,97.9592863
+"Magway, Myanmar",MMR,Myanmar,Magway,East Asia and the Pacific,0.114,"(20.1544305, 94.9454803)",20.1544305,94.9454803
+"Mandalay, Myanmar",MMR,Myanmar,Mandalay,East Asia and the Pacific,0.099,"(21.9588282, 96.0891032)",21.9588282,96.0891032
+"Mon, Myanmar",MMR,Myanmar,Mon,East Asia and the Pacific,0.109,"(17.0626039, 97.35165579999999)",17.0626039,97.3516558
+"Naypyitaw, Myanmar",MMR,Myanmar,Naypyitaw,East Asia and the Pacific,0.11,"(19.7633057, 96.07851040000001)",19.7633057,96.0785104
+"Rakhine, Myanmar",MMR,Myanmar,Rakhine,East Asia and the Pacific,0.258,"(19.810093, 93.9878427)",19.810093,93.9878427
+"Sagaing, Myanmar",MMR,Myanmar,Sagaing,East Asia and the Pacific,0.134,"(21.9159702, 95.9621106)",21.9159702,95.9621106
+"Shan, Myanmar",MMR,Myanmar,Shan,East Asia and the Pacific,0.19399999999999998,"(22.0361985, 98.1338558)",22.0361985,98.1338558
+"Taninthayi, Myanmar",MMR,Myanmar,Taninthayi,East Asia and the Pacific,0.129,"(12.0896327, 99.0115113)",12.0896327,99.0115113
+"Yangon, Myanmar",MMR,Myanmar,Yangon,East Asia and the Pacific,0.051,"(16.8660694, 96.19513200000002)",16.866069399999994,96.19513200000002
+,MNE,Montenegro,,Europe and Central Asia,,"(1000.0, 1000.0)",,
+"Central, Mongolia",MNG,Mongolia,Central,East Asia and the Pacific,0.040999999999999995,"(47.2124056, 106.41541)",47.2124056,106.41541
+"Eastern, Mongolia",MNG,Mongolia,Eastern,East Asia and the Pacific,0.044000000000000004,"(47.4658154, 115.392712)",47.4658154,115.39271200000002
+"Khangai, Mongolia",MNG,Mongolia,Khangai,East Asia and the Pacific,0.075,"(47.5, 100)",47.5,100.0
+"Ulaanbaatar, Mongolia",MNG,Mongolia,Ulaanbaatar,East Asia and the Pacific,0.006,"(47.88639879999999, 106.9057439)",47.88639879999999,106.9057439
+"Western, Mongolia",MNG,Mongolia,Western,East Asia and the Pacific,0.09,"(3.6567382, -56.2035387)",3.6567382,-56.2035387
+"Niassa, Mozambique",MOZ,Mozambique,Niassa,Sub-Saharan Africa,0.44299999999999995,"(-12.7826202, 36.6093926)",-12.782620199999998,36.60939260000001
+"Cabo Delgado, Mozambique",MOZ,Mozambique,Cabo Delgado,Sub-Saharan Africa,0.525,"(-12.3335474, 39.3206241)",-12.3335474,39.3206241
+"Nampula, Mozambique",MOZ,Mozambique,Nampula,Sub-Saharan Africa,0.4,"(-15.1266347, 39.2687161)",-15.1266347,39.2687161
+"Zambðzia, Mozambique",MOZ,Mozambique,Zambðzia,Sub-Saharan Africa,0.528,"(1000.0, 1000.0)",,
+"Tete, Mozambique",MOZ,Mozambique,Tete,Sub-Saharan Africa,0.466,"(-16.1328104, 33.6063855)",-16.1328104,33.606385499999995
+"Manica, Mozambique",MOZ,Mozambique,Manica,Sub-Saharan Africa,0.301,"(-18.9438274, 32.8648538)",-18.9438274,32.8648538
+"Sofala, Mozambique",MOZ,Mozambique,Sofala,Sub-Saharan Africa,0.381,"(-19.2039073, 34.8624166)",-19.2039073,34.8624166
+"Inhambane, Mozambique",MOZ,Mozambique,Inhambane,Sub-Saharan Africa,0.295,"(-23.8879561, 35.3959879)",-23.8879561,35.39598789999999
+"Gaza, Mozambique",MOZ,Mozambique,Gaza,Sub-Saharan Africa,0.306,"(41.2994958, 69.2400734)",41.2994958,69.2400734
+"Maputo Provðncia, Mozambique",MOZ,Mozambique,Maputo Provðncia,Sub-Saharan Africa,0.133,"(-3.18427, 12.2547919)",-3.18427,12.2547919
+"Maputo Cidade, Mozambique",MOZ,Mozambique,Maputo Cidade,Sub-Saharan Africa,0.043,"(-25.891968, 32.6051351)",-25.891968,32.605135100000005
+"Hodh Charghy, Mauritania",MRT,Mauritania,Hodh Charghy,Sub-Saharan Africa,0.41200000000000003,"(1000.0, 1000.0)",,
+"Hodh Gharby, Mauritania",MRT,Mauritania,Hodh Gharby,Sub-Saharan Africa,0.43799999999999994,"(16.6912149, -9.5450974)",16.691214900000002,-9.5450974
+"Assaba, Mauritania",MRT,Mauritania,Assaba,Sub-Saharan Africa,0.419,"(16.7759558, -11.5248055)",16.775955800000002,-11.5248055
+"Gorgol, Mauritania",MRT,Mauritania,Gorgol,Sub-Saharan Africa,0.46,"(15.9717357, -12.6216211)",15.971735699999998,-12.6216211
+"Brakna, Mauritania",MRT,Mauritania,Brakna,Sub-Saharan Africa,0.307,"(15.5006544, 32.5598994)",15.5006544,32.5598994
+"Trarza, Mauritania",MRT,Mauritania,Trarza,Sub-Saharan Africa,0.18100000000000002,"(17.8664964, -14.6587821)",17.8664964,-14.6587821
+"Adrar, Mauritania",MRT,Mauritania,Adrar,Sub-Saharan Africa,0.184,"(19.8652176, -12.8054753)",19.8652176,-12.8054753
+"Dakhlett Nouadibou, Mauritania",MRT,Mauritania,Dakhlett Nouadibou,Sub-Saharan Africa,0.039,"(20.5985588, -16.2522143)",20.598558800000006,-16.252214300000002
+"Tagant, Mauritania",MRT,Mauritania,Tagant,Sub-Saharan Africa,0.322,"(18.5467527, -9.9018131)",18.5467527,-9.9018131
+"Guidimagha, Mauritania",MRT,Mauritania,Guidimagha,Sub-Saharan Africa,0.499,"(15.2557331, -12.2547919)",15.2557331,-12.2547919
+"Tirs-Ezemour, Mauritania",MRT,Mauritania,Tirs-Ezemour,Sub-Saharan Africa,0.085,"(24.5773764, -9.9018131)",24.5773764,-9.9018131
+"Nouakchott, Mauritania",MRT,Mauritania,Nouakchott,Sub-Saharan Africa,0.102,"(18.0735299, -15.9582372)",18.0735299,-15.9582372
+"Balaka, Malawi",MWI,Malawi,Balaka,Sub-Saharan Africa,0.28300000000000003,"(-15.0506595, 35.0828588)",-15.0506595,35.0828588
+"Blantyre City, Malawi",MWI,Malawi,Blantyre City,Sub-Saharan Africa,0.11800000000000001,"(-15.7666707, 35.0167866)",-15.7666707,35.0167866
+"Blantyre Rural, Malawi",MWI,Malawi,Blantyre Rural,Sub-Saharan Africa,0.245,"(1000.0, 1000.0)",,
+"Chikwawa, Malawi",MWI,Malawi,Chikwawa,Sub-Saharan Africa,0.292,"(-16.0437784, 34.8016945)",-16.0437784,34.8016945
+"Chitipa, Malawi",MWI,Malawi,Chitipa,Sub-Saharan Africa,0.161,"(-9.7037655, 33.2700253)",-9.7037655,33.2700253
+"Chradzulu, Malawi",MWI,Malawi,Chradzulu,Sub-Saharan Africa,0.24100000000000002,"(-15.7423151, 35.2587964)",-15.7423151,35.25879639999999
+"Dedza, Malawi",MWI,Malawi,Dedza,Sub-Saharan Africa,0.314,"(-14.3816618, 34.3254842)",-14.381661800000002,34.3254842
+"Dowa, Malawi",MWI,Malawi,Dowa,Sub-Saharan Africa,0.267,"(-13.6514687, 33.9359756)",-13.6514687,33.9359756
+"Karonga, Malawi",MWI,Malawi,Karonga,Sub-Saharan Africa,0.204,"(-9.952536, 33.9248222)",-9.952536,33.9248222
+"Kasungu, Malawi",MWI,Malawi,Kasungu,Sub-Saharan Africa,0.244,"(-13.0356794, 33.4719832)",-13.0356794,33.4719832
+"Likoma, Malawi",MWI,Malawi,Likoma,Sub-Saharan Africa,0.114,"(-12.0584005, 34.7354031)",-12.0584005,34.7354031
+"Lilongwe City, Malawi",MWI,Malawi,Lilongwe City,Sub-Saharan Africa,0.092,"(-13.9626121, 33.7741195)",-13.962612099999998,33.7741195
+"Lilongwe Rural, Malawi",MWI,Malawi,Lilongwe Rural,Sub-Saharan Africa,0.28600000000000003,"(29.9133171, 45.29938620000001)",29.913317100000004,45.29938620000001
+"Machinga, Malawi",MWI,Malawi,Machinga,Sub-Saharan Africa,0.322,"(-14.9407263, 35.4781926)",-14.9407263,35.47819260000001
+"Mangochi, Malawi",MWI,Malawi,Mangochi,Sub-Saharan Africa,0.302,"(-14.4861733, 35.253304)",-14.4861733,35.253304
+"Mchinji, Malawi",MWI,Malawi,Mchinji,Sub-Saharan Africa,0.314,"(-13.8000058, 32.8930441)",-13.800005800000005,32.8930441
+"Mulange, Malawi",MWI,Malawi,Mulange,Sub-Saharan Africa,0.28600000000000003,"(-16.0252339, 35.5083136)",-16.0252339,35.5083136
+"Mwanza, Malawi",MWI,Malawi,Mwanza,Sub-Saharan Africa,0.254,"(1000.0, 1000.0)",,
+"Mzimba, Malawi",MWI,Malawi,Mzimba,Sub-Saharan Africa,0.205,"(-11.7475452, 33.5280072)",-11.7475452,33.5280072
+"Mzuzu City, Malawi",MWI,Malawi,Mzuzu City,Sub-Saharan Africa,0.034,"(-11.4389649, 34.0084395)",-11.4389649,34.0084395
+"Ndanje, Malawi",MWI,Malawi,Ndanje,Sub-Saharan Africa,0.285,"(-16.7288202, 35.1708741)",-16.728820199999998,35.170874100000006
+"Neno, Malawi",MWI,Malawi,Neno,Sub-Saharan Africa,0.316,"(-15.6850711, 34.5749882)",-15.685071100000002,34.57498820000001
+"Nkhatabay, Malawi",MWI,Malawi,Nkhatabay,Sub-Saharan Africa,0.215,"(-11.6085556, 34.2949409)",-11.6085556,34.2949409
+"Nkhota Kota, Malawi",MWI,Malawi,Nkhota Kota,Sub-Saharan Africa,0.245,"(-12.9316863, 34.2810541)",-12.9316863,34.28105410000001
+"Ntcheu, Malawi",MWI,Malawi,Ntcheu,Sub-Saharan Africa,0.21100000000000002,"(-14.9037538, 34.7740793)",-14.9037538,34.7740793
+"Ntchisi, Malawi",MWI,Malawi,Ntchisi,Sub-Saharan Africa,0.259,"(-13.2841992, 33.88577470000001)",-13.2841992,33.885774700000006
+"Phalombe, Malawi",MWI,Malawi,Phalombe,Sub-Saharan Africa,0.293,"(-15.7092038, 35.6532848)",-15.7092038,35.6532848
+"Rumphi, Malawi",MWI,Malawi,Rumphi,Sub-Saharan Africa,0.205,"(-11.0171949, 33.8550829)",-11.017194900000002,33.8550829
+"Salima, Malawi",MWI,Malawi,Salima,Sub-Saharan Africa,0.33399999999999996,"(-13.6809586, 34.4198243)",-13.6809586,34.419824299999995
+"Thyolo, Malawi",MWI,Malawi,Thyolo,Sub-Saharan Africa,0.259,"(-16.069257, 35.1406293)",-16.069257,35.14062929999999
+"Zomba City, Malawi",MWI,Malawi,Zomba City,Sub-Saharan Africa,0.053,"(-15.3765857, 35.3356518)",-15.3765857,35.3356518
+"Zomba Rural, Malawi",MWI,Malawi,Zomba Rural,Sub-Saharan Africa,0.27,"(-15.2807455, 35.3991867)",-15.280745499999998,35.3991867
+"Caprivi, Namibia",NAM,Namibia,Caprivi,Sub-Saharan Africa,0.174,"(-17.8682455, 23.5728501)",-17.8682455,23.5728501
+"Erongo, Namibia",NAM,Namibia,Erongo,Sub-Saharan Africa,0.044000000000000004,"(-22.2565682, 15.4068079)",-22.2565682,15.4068079
+"Hardap, Namibia",NAM,Namibia,Hardap,Sub-Saharan Africa,0.10300000000000001,"(-24.2310134, 17.668887)",-24.2310134,17.668886999999994
+"Karas, Namibia",NAM,Namibia,Karas,Sub-Saharan Africa,0.098,"(-26.8429645, 17.2902839)",-26.8429645,17.2902839
+"Kavango, Namibia",NAM,Namibia,Kavango,Sub-Saharan Africa,0.373,"(-18.271048, 18.4276047)",-18.271048,18.4276047
+"Khomas, Namibia",NAM,Namibia,Khomas,Sub-Saharan Africa,0.06,"(-22.6377854, 17.1011931)",-22.6377854,17.1011931
+"Kunene, Namibia",NAM,Namibia,Kunene,Sub-Saharan Africa,0.23800000000000002,"(-19.4086317, 13.914399)",-19.4086317,13.914399
+"Ohangwena, Namibia",NAM,Namibia,Ohangwena,Sub-Saharan Africa,0.348,"(-17.5979291, 16.8178377)",-17.5979291,16.8178377
+"Omaheke, Namibia",NAM,Namibia,Omaheke,Sub-Saharan Africa,0.23199999999999998,"(-21.8466651, 19.1880047)",-21.846665100000006,19.1880047
+"Omusati, Namibia",NAM,Namibia,Omusati,Sub-Saharan Africa,0.28300000000000003,"(14.9609782, -91.80745859999999)",14.9609782,-91.80745859999999
+"Oshana, Namibia",NAM,Namibia,Oshana,Sub-Saharan Africa,0.156,"(-18.4305064, 15.6881788)",-18.4305064,15.6881788
+"Oshikoto, Namibia",NAM,Namibia,Oshikoto,Sub-Saharan Africa,0.218,"(-18.4152575, 16.912251)",-18.415257500000006,16.912251
+"Otjozondjupa, Namibia",NAM,Namibia,Otjozondjupa,Sub-Saharan Africa,0.11599999999999999,"(-20.5486916, 17.668887)",-20.5486916,17.668886999999994
+"Agadez, Niger",NER,Niger,Agadez,Sub-Saharan Africa,0.405,"(16.9741689, 7.986535)",16.9741689,7.986535000000001
+"Diffa, Niger",NER,Niger,Diffa,Sub-Saharan Africa,0.556,"(13.3132472, 12.6158803)",13.313247199999998,12.6158803
+"Dosso, Niger",NER,Niger,Dosso,Sub-Saharan Africa,0.62,"(13.0504833, 3.2080991)",13.050483300000002,3.2080991
+"Maradi, Niger",NER,Niger,Maradi,Sub-Saharan Africa,0.664,"(13.5009779, 7.103639599999999)",13.5009779,7.1036395999999975
+"Tahoua, Niger",NER,Niger,Tahoua,Sub-Saharan Africa,0.6459999999999999,"(14.8904575, 5.2579968)",14.890457500000002,5.2579968
+"Tillaberi, Niger",NER,Niger,Tillaberi,Sub-Saharan Africa,0.609,"(18.2783598, -72.35479149999999)",18.2783598,-72.35479149999998
+"Zinder, Niger",NER,Niger,Zinder,Sub-Saharan Africa,0.6409999999999999,"(13.8018124, 8.98527)",13.8018124,8.98527
+"Niamey, Niger",NER,Niger,Niamey,Sub-Saharan Africa,0.20600000000000002,"(13.5115963, 2.1253854)",13.511596300000004,2.1253854
+"Sokoto, Nigeria",NGA,Nigeria,Sokoto,Sub-Saharan Africa,0.5479999999999999,"(13.0058731, 5.2475518)",13.0058731,5.247551799999999
+"Zamfara, Nigeria",NGA,Nigeria,Zamfara,Sub-Saharan Africa,0.605,"(6.907529, 3.5812692)",6.9075289999999985,3.5812692000000004
+"Katsina, Nigeria",NGA,Nigeria,Katsina,Sub-Saharan Africa,0.52,"(12.5139317, 7.6114217)",12.5139317,7.6114217
+"Jigawa, Nigeria",NGA,Nigeria,Jigawa,Sub-Saharan Africa,0.552,"(12.4460001, 9.7232673)",12.4460001,9.723267300000002
+"Yobe, Nigeria",NGA,Nigeria,Yobe,Sub-Saharan Africa,0.635,"(12.1871412, 11.7068294)",12.1871412,11.7068294
+"Borno, Nigeria",NGA,Nigeria,Borno,Sub-Saharan Africa,0.401,"(12.1205201, 13.1740348)",12.1205201,13.1740348
+"Adamawa, Nigeria",NGA,Nigeria,Adamawa,Sub-Saharan Africa,0.295,"(9.3250497, 12.4380581)",9.3250497,12.4380581
+"Gombe, Nigeria",NGA,Nigeria,Gombe,Sub-Saharan Africa,0.47100000000000003,"(10.279142, 11.1730615)",10.279142,11.1730615
+"Bauchi, Nigeria",NGA,Nigeria,Bauchi,Sub-Saharan Africa,0.583,"(4.710988599999999, -74.072092)",4.710988599999999,-74.072092
+"Kano, Nigeria",NGA,Nigeria,Kano,Sub-Saharan Africa,0.434,"(12.0021794, 8.591956099999999)",12.0021794,8.591956099999999
+"Kaduna, Nigeria",NGA,Nigeria,Kaduna,Sub-Saharan Africa,0.311,"(10.5104642, 7.4165053)",10.5104642,7.4165053
+"Kebbi, Nigeria",NGA,Nigeria,Kebbi,Sub-Saharan Africa,0.5529999999999999,"(11.6781241, 4.0695454)",11.6781241,4.0695454
+"Niger, Nigeria",NGA,Nigeria,Niger,Sub-Saharan Africa,0.324,"(10.2155388, 5.393955099999999)",10.2155388,5.393955099999999
+"FCT-Abuja, Nigeria",NGA,Nigeria,FCT-Abuja,Sub-Saharan Africa,0.10800000000000001,"(1000.0, 1000.0)",,
+"Nasarawa, Nigeria",NGA,Nigeria,Nasarawa,Sub-Saharan Africa,0.251,"(-4.1128079, 13.7289167)",-4.1128079,13.7289167
+"Plateau, Nigeria",NGA,Nigeria,Plateau,Sub-Saharan Africa,0.273,"(9.244568, 9.367308399999999)",9.244568,9.3673084
+"Taraba, Nigeria",NGA,Nigeria,Taraba,Sub-Saharan Africa,0.44799999999999995,"(8.0054917, 10.2600125)",8.0054917,10.2600125
+"Benue, Nigeria",NGA,Nigeria,Benue,Sub-Saharan Africa,0.28,"(7.350825899999999, 8.8362755)",7.3508258999999985,8.836275500000003
+"Kogi, Nigeria",NGA,Nigeria,Kogi,Sub-Saharan Africa,0.113,"(7.9075486, 6.5783387)",7.907548599999998,6.5783387000000015
+"Kwara, Nigeria",NGA,Nigeria,Kwara,Sub-Saharan Africa,0.099,"(11.833333, 9.6)",11.833333,9.6
+"Oyo, Nigeria",NGA,Nigeria,Oyo,Sub-Saharan Africa,0.155,"(7.842957900000001, 3.9368439)",7.842957900000001,3.9368439
+"Osun, Nigeria",NGA,Nigeria,Osun,Sub-Saharan Africa,0.043,"(7.5875843, 4.5624426)",7.5875843,4.5624426
+"Ekiti, Nigeria",NGA,Nigeria,Ekiti,Sub-Saharan Africa,0.051,"(7.665581299999999, 5.3102505)",7.665581299999999,5.3102505
+"Ondo, Nigeria",NGA,Nigeria,Ondo,Sub-Saharan Africa,0.127,"(6.8959293, 4.893562699999999)",6.8959293000000015,4.893562699999999
+"Edo, Nigeria",NGA,Nigeria,Edo,Sub-Saharan Africa,0.08,"(6.5438101, 5.898713900000001)",6.543810099999999,5.8987139000000015
+"Anambra, Nigeria",NGA,Nigeria,Anambra,Sub-Saharan Africa,0.05,"(6.2757656, 7.0068393)",6.2757656,7.006839299999998
+"Enugu, Nigeria",NGA,Nigeria,Enugu,Sub-Saharan Africa,0.12300000000000001,"(6.4583661, 7.5463885)",6.458366099999999,7.546388499999999
+"Ebonyi, Nigeria",NGA,Nigeria,Ebonyi,Sub-Saharan Africa,0.265,"(6.177973, 7.959286299999999)",6.1779730000000015,7.959286299999999
+"Cross River, Nigeria",NGA,Nigeria,Cross River,Sub-Saharan Africa,0.146,"(1000.0, 1000.0)",,
+"Akwa Ibom, Nigeria",NGA,Nigeria,Akwa Ibom,Sub-Saharan Africa,0.099,"(4.929986899999999, 7.872159999999999)",4.929986899999999,7.872159999999999
+"Abia, Nigeria",NGA,Nigeria,Abia,Sub-Saharan Africa,0.08800000000000001,"(-23.0221928, 32.7181375)",-23.022192800000006,32.7181375
+"Imo, Nigeria",NGA,Nigeria,Imo,Sub-Saharan Africa,0.083,"(5.6038994, 7.0068393)",5.6038994,7.006839299999998
+"Rivers, Nigeria",NGA,Nigeria,Rivers,Sub-Saharan Africa,0.08800000000000001,"(4.8580767, 6.920913499999999)",4.8580767,6.9209134999999975
+"Bayelsa, Nigeria",NGA,Nigeria,Bayelsa,Sub-Saharan Africa,0.12,"(4.867776699999999, 5.898713900000001)",4.867776699999999,5.8987139000000015
+"Delta, Nigeria",NGA,Nigeria,Delta,Sub-Saharan Africa,0.107,"(5.5324624, 5.898713900000001)",5.5324624,5.8987139000000015
+"Lagos, Nigeria",NGA,Nigeria,Lagos,Sub-Saharan Africa,0.035,"(6.5243793, 3.3792057)",6.5243793,3.3792057
+"Ogun, Nigeria",NGA,Nigeria,Ogun,Sub-Saharan Africa,0.11199999999999999,"(12.8463561, 23.0011989)",12.8463561,23.0011989
+"Nueva Segovia, Nicaragua",NIC,Nicaragua,Nueva Segovia,Latin America and Caribbean,0.113,"(13.7894404, -86.0121573)",13.7894404,-86.0121573
+"Jinotega, Nicaragua",NIC,Nicaragua,Jinotega,Latin America and Caribbean,0.195,"(13.0883907, -85.9993997)",13.0883907,-85.9993997
+"Madriz, Nicaragua",NIC,Nicaragua,Madriz,Latin America and Caribbean,0.10400000000000001,"(28.2105741, 84.042456)",28.2105741,84.042456
+"Esteli, Nicaragua",NIC,Nicaragua,Esteli,Latin America and Caribbean,0.048,"(13.0851139, -86.3630197)",13.0851139,-86.36301970000002
+"Chinandega, Nicaragua",NIC,Nicaragua,Chinandega,Latin America and Caribbean,0.047,"(12.6234721, -87.1273253)",12.6234721,-87.12732530000002
+"Leon, Nicaragua",NIC,Nicaragua,Leon,Latin America and Caribbean,0.031,"(28.3998551, 83.6895693)",28.399855100000003,83.6895693
+"Matagalpa, Nicaragua",NIC,Nicaragua,Matagalpa,Latin America and Caribbean,0.099,"(12.9290069, -85.9151211)",12.9290069,-85.9151211
+"Boaco, Nicaragua",NIC,Nicaragua,Boaco,Latin America and Caribbean,0.13,"(12.469284, -85.6614682)",12.469284,-85.6614682
+"Managua, Nicaragua",NIC,Nicaragua,Managua,Latin America and Caribbean,0.021,"(12.1149926, -86.2361744)",12.1149926,-86.23617440000002
+"Masaya, Nicaragua",NIC,Nicaragua,Masaya,Latin America and Caribbean,0.017,"(11.9704485, -86.0886366)",11.9704485,-86.08863659999999
+"Chontales, Nicaragua",NIC,Nicaragua,Chontales,Latin America and Caribbean,0.08199999999999999,"(11.9394717, -85.1894045)",11.9394717,-85.18940450000002
+"Granada, Nicaragua",NIC,Nicaragua,Granada,Latin America and Caribbean,0.035,"(11.9344073, -85.9560005)",11.9344073,-85.9560005
+"Carazo, Nicaragua",NIC,Nicaragua,Carazo,Latin America and Caribbean,0.025,"(1000.0, 1000.0)",,
+"Rivas, Nicaragua",NIC,Nicaragua,Rivas,Latin America and Caribbean,0.036000000000000004,"(11.4326663, -85.8230251)",11.4326663,-85.8230251
+"Rio San Juan, Nicaragua",NIC,Nicaragua,Rio San Juan,Latin America and Caribbean,0.133,"(8.768688599999999, -12.7853522)",8.768688599999999,-12.7853522
+"RAAN, Nicaragua",NIC,Nicaragua,RAAN,Latin America and Caribbean,0.17300000000000001,"(13.8394456, -83.93208059999999)",13.8394456,-83.93208059999998
+"RAAS, Nicaragua",NIC,Nicaragua,RAAS,Latin America and Caribbean,0.132,"(12.1918502, -84.1012861)",12.1918502,-84.1012861
+"Central Hill, Nepal",NPL,Nepal,Central Hill,South Asia,0.05,"(26.8081234, 87.293039)",26.8081234,87.29303900000002
+"Central Mountain, Nepal",NPL,Nepal,Central Mountain,South Asia,0.094,"(27.719887, 85.3175239)",27.719887,85.31752390000003
+"Central Terai, Nepal",NPL,Nepal,Central Terai,South Asia,0.19899999999999998,"(27.656871, 85.326855)",27.656871,85.32685500000002
+"Eastern Hill, Nepal",NPL,Nepal,Eastern Hill,South Asia,0.063,"(45.5456095, -122.5709527)",45.5456095,-122.5709527
+"Eastern Mountain, Nepal",NPL,Nepal,Eastern Mountain,South Asia,0.133,"(-11.7167338, 43.3680788)",-11.7167338,43.36807879999999
+"Eastern Terai, Nepal",NPL,Nepal,Eastern Terai,South Asia,0.13,"(8.3022297, 2.302446)",8.3022297,2.302446
+"Far-Western Hill, Nepal",NPL,Nepal,Far-Western Hill,South Asia,0.226,"(30.48993329999999, -97.76776869999999)",30.48993329999999,-97.7677687
+"Far-Western Mountain, Nepal",NPL,Nepal,Far-Western Mountain,South Asia,0.14400000000000002,"(30.005, 80.92833329999999)",30.005,80.92833329999998
+"Far-WesternTerai, Nepal",NPL,Nepal,Far-WesternTerai,South Asia,0.092,"(1000.0, 1000.0)",,
+"MId-Western Hill, Nepal",NPL,Nepal,MId-Western Hill,South Asia,0.213,"(6.167031499999999, 8.6600586)",6.1670314999999984,8.6600586
+"MId-Western Mountain, Nepal",NPL,Nepal,MId-Western Mountain,South Asia,0.28600000000000003,"(27.8168621, 83.63822669999999)",27.816862100000005,83.63822669999998
+"MId-WesternTerai, Nepal",NPL,Nepal,MId-WesternTerai,South Asia,0.134,"(27.7738805, 84.02917939999999)",27.7738805,84.02917939999998
+"Western  Hill, Nepal",NPL,Nepal,Western  Hill,South Asia,0.07200000000000001,"(1000.0, 1000.0)",,
+"Western  Terai, Nepal",NPL,Nepal,Western  Terai,South Asia,0.11199999999999999,"(27.7738805, 84.02917939999999)",27.7738805,84.02917939999998
+"Western Mountain, Nepal",NPL,Nepal,Western Mountain,South Asia,0.10400000000000001,"(15.4581332, 36.4039629)",15.4581332,36.4039629
+"Punjab, Pakistan",PAK,Pakistan,Punjab,South Asia,0.184,"(31.1704063, 72.7097161)",31.170406300000003,72.7097161
+"Sindh, Pakistan",PAK,Pakistan,Sindh,South Asia,0.294,"(25.8943018, 68.52471489999999)",25.8943018,68.52471489999999
+"Khyber Pakhtunkhwa, Pakistan",PAK,Pakistan,Khyber Pakhtunkhwa,South Asia,0.247,"(34.9526205, 72.331113)",34.9526205,72.331113
+"Balochistan, Pakistan",PAK,Pakistan,Balochistan,South Asia,0.402,"(28.4907332, 65.0957792)",28.4907332,65.0957792
+"Gilgit Baltistan, Pakistan",PAK,Pakistan,Gilgit Baltistan,South Asia,0.233,"(35.80256670000001, 74.9831808)",35.80256670000001,74.9831808
+"Islamabad (ICT), Pakistan",PAK,Pakistan,Islamabad (ICT),South Asia,0.039,"(33.7293882, 73.0931461)",33.7293882,73.09314609999998
+"Amazonas, Peru",PER,Peru,Amazonas,Latin America and Caribbean,0.096,"(-8.5155608, 126.0159255)",-8.515560800000001,126.0159255
+"ðncash, Peru",PER,Peru,ðncash,Latin America and Caribbean,0.044000000000000004,"(1000.0, 1000.0)",,
+"Apurðmac, Peru",PER,Peru,Apurðmac,Latin America and Caribbean,0.091,"(1000.0, 1000.0)",,
+"Arequipa, Peru",PER,Peru,Arequipa,Latin America and Caribbean,0.009000000000000001,"(-16.4090474, -71.53745099999999)",-16.409047400000002,-71.53745099999998
+"Ayacucho, Peru",PER,Peru,Ayacucho,Latin America and Caribbean,0.071,"(-13.1638737, -74.22356409999999)",-13.1638737,-74.22356409999998
+"Cajamarca, Peru",PER,Peru,Cajamarca,Latin America and Caribbean,0.08900000000000001,"(-7.1617465, -78.51278549999999)",-7.1617465,-78.51278549999998
+"Callao, Peru",PER,Peru,Callao,Latin America and Caribbean,0.0,"(-12.0508491, -77.1259843)",-12.0508491,-77.1259843
+"Cusco, Peru",PER,Peru,Cusco,Latin America and Caribbean,0.062,"(-13.53195, -71.96746259999999)",-13.53195,-71.96746259999998
+"Huancavelica, Peru",PER,Peru,Huancavelica,Latin America and Caribbean,0.122,"(-12.7861978, -74.9764024)",-12.7861978,-74.97640240000001
+"Huðnuco, Peru",PER,Peru,Huðnuco,Latin America and Caribbean,0.111,"(1000.0, 1000.0)",,
+"Ica, Peru",PER,Peru,Ica,Latin America and Caribbean,0.009000000000000001,"(-14.07546, -75.7341811)",-14.07546,-75.7341811
+"Junðn, Peru",PER,Peru,Junðn,Latin America and Caribbean,0.042,"(1000.0, 1000.0)",,
+"La Libertad, Peru",PER,Peru,La Libertad,Latin America and Caribbean,0.042,"(-8.143593300000001, -78.4751945)",-8.143593300000001,-78.4751945
+"Lambayeque, Peru",PER,Peru,Lambayeque,Latin America and Caribbean,0.038,"(-6.7197666, -79.9080757)",-6.7197666,-79.9080757
+"Lima, Peru",PER,Peru,Lima,Latin America and Caribbean,0.004,"(-12.0463731, -77.042754)",-12.0463731,-77.042754
+"Loreto, Peru",PER,Peru,Loreto,Latin America and Caribbean,0.147,"(-4.232472899999999, -74.21793260000001)",-4.232472899999999,-74.21793260000003
+"Madre de Dios, Peru",PER,Peru,Madre de Dios,Latin America and Caribbean,0.024,"(-11.7668705, -70.81199529999999)",-11.7668705,-70.81199529999998
+"Moquegua, Peru",PER,Peru,Moquegua,Latin America and Caribbean,0.013999999999999999,"(-0.7917729, 29.0459927)",-0.7917729,29.0459927
+"Pasco, Peru",PER,Peru,Pasco,Latin America and Caribbean,0.064,"(-10.4475753, -75.1545381)",-10.4475753,-75.1545381
+"Piura, Peru",PER,Peru,Piura,Latin America and Caribbean,0.05,"(-5.1782884, -80.6548882)",-5.1782884000000005,-80.6548882
+"Puno, Peru",PER,Peru,Puno,Latin America and Caribbean,0.069,"(-15.8402218, -70.0218805)",-15.8402218,-70.02188050000001
+"San Martðn, Peru",PER,Peru,San Martðn,Latin America and Caribbean,0.061,"(1000.0, 1000.0)",,
+"Tacna, Peru",PER,Peru,Tacna,Latin America and Caribbean,0.008,"(-18.0065679, -70.2462741)",-18.006567899999997,-70.2462741
+"Tumbes, Peru",PER,Peru,Tumbes,Latin America and Caribbean,0.013999999999999999,"(-3.5564921, -80.4270885)",-3.5564921000000003,-80.4270885
+"Ucayali, Peru",PER,Peru,Ucayali,Latin America and Caribbean,0.046,"(-9.8251183, -73.087749)",-9.8251183,-73.087749
+"National Capital Region, Philippines",PHL,Philippines,National Capital Region,East Asia and the Pacific,0.026000000000000002,"(15.5942883, -90.14949879999999)",15.5942883,-90.1494988
+"Cordillera Admin Region, Philippines",PHL,Philippines,Cordillera Admin Region,East Asia and the Pacific,0.039,"(17.3512542, 121.1718851)",17.3512542,121.1718851
+"Ilocos Region, Philippines",PHL,Philippines,Ilocos Region,East Asia and the Pacific,0.027000000000000003,"(16.0832144, 120.6199895)",16.0832144,120.6199895
+"Cagayan Valley, Philippines",PHL,Philippines,Cagayan Valley,East Asia and the Pacific,0.039,"(16.9753758, 121.8107079)",16.975375800000002,121.8107079
+"Central Luzon, Philippines",PHL,Philippines,Central Luzon,East Asia and the Pacific,0.035,"(15.4827722, 120.7120023)",15.482772199999998,120.7120023
+"Calabarzon, Philippines",PHL,Philippines,Calabarzon,East Asia and the Pacific,0.028999999999999998,"(14.1007803, 121.0793705)",14.100780300000002,121.0793705
+"Mimaropa, Philippines",PHL,Philippines,Mimaropa,East Asia and the Pacific,0.091,"(9.843206499999999, 118.7364783)",9.8432065,118.7364783
+"Bicol Region, Philippines",PHL,Philippines,Bicol Region,East Asia and the Pacific,0.068,"(13.4209885, 123.4136736)",13.420988500000002,123.4136736
+"Western Visayas, Philippines",PHL,Philippines,Western Visayas,East Asia and the Pacific,0.055,"(11.0049836, 122.5372741)",11.0049836,122.5372741
+"Central Visayas, Philippines",PHL,Philippines,Central Visayas,East Asia and the Pacific,0.055,"(10.2968562, 123.8886774)",10.2968562,123.8886774
+"Eastern Visayas, Philippines",PHL,Philippines,Eastern Visayas,East Asia and the Pacific,0.054000000000000006,"(12.2445533, 125.0388164)",12.244553300000002,125.03881640000002
+"Zamboanga Peninsula, Philippines",PHL,Philippines,Zamboanga Peninsula,East Asia and the Pacific,0.075,"(-19.0552009, 29.6035495)",-19.0552009,29.6035495
+"Northern Mindanao, Philippines",PHL,Philippines,Northern Mindanao,East Asia and the Pacific,0.09300000000000001,"(8.020163499999999, 124.6856509)",8.020163499999999,124.6856509
+"Davao Peninsula, Philippines",PHL,Philippines,Davao Peninsula,East Asia and the Pacific,0.066,"(6.9581401, 126.2176555)",6.9581401,126.2176555
+"Soccsksargen, Philippines",PHL,Philippines,Soccsksargen,East Asia and the Pacific,0.09,"(6.2706918, 124.6856509)",6.2706918,124.6856509
+"CARAGA, Philippines",PHL,Philippines,CARAGA,East Asia and the Pacific,0.069,"(8.801456199999999, 125.7406882)",8.801456199999997,125.7406882
+"Armm, Philippines",PHL,Philippines,Armm,East Asia and the Pacific,0.14,"(6.956831299999999, 124.2421597)",6.9568312999999975,124.2421597
+,PSE,"Palestine, State ofa",,Arab States,,"(1000.0, 1000.0)",,
+"East, Rwanda",RWA,Rwanda,East,Sub-Saharan Africa,0.292,"(-1.940278, 29.873888)",-1.940278,29.873888
+"Kigali City, Rwanda",RWA,Rwanda,Kigali City,Sub-Saharan Africa,0.11800000000000001,"(-1.9705786, 30.1044288)",-1.9705786,30.1044288
+"North, Rwanda",RWA,Rwanda,North,Sub-Saharan Africa,0.243,"(-1.5009963, 29.6384954)",-1.5009963,29.6384954
+"South, Rwanda",RWA,Rwanda,South,Sub-Saharan Africa,0.295,"(-9.166699999999999, 34.5167)",-9.1667,34.5167
+"West, Rwanda",RWA,Rwanda,West,Sub-Saharan Africa,0.266,"(-2.07649, 29.3250347)",-2.07649,29.3250347
+"Blue Nile, Sudan",SDN,Sudan,Blue Nile,Arab States,0.382,"(11.5860078, 34.1531947)",11.5860078,34.15319470000001
+"Central Darfor, Sudan",SDN,Sudan,Central Darfor,Arab States,0.501,"(1000.0, 1000.0)",,
+"East Darfor, Sudan",SDN,Sudan,East Darfor,Arab States,0.48100000000000004,"(14.3782747, 24.9042208)",14.3782747,24.9042208
+"Gadarif, Sudan",SDN,Sudan,Gadarif,Arab States,0.40399999999999997,"(14.024307, 35.3685679)",14.024307,35.3685679
+"Gezira, Sudan",SDN,Sudan,Gezira,Arab States,0.165,"(14.8859611, 33.438353)",14.8859611,33.438353
+"Kassala, Sudan",SDN,Sudan,Kassala,Arab States,0.36200000000000004,"(-3.373056, 29.918886)",-3.373056,29.918886
+"Khartoum, Sudan",SDN,Sudan,Khartoum,Arab States,0.077,"(1000.0, 1000.0)",,
+"North Darfor, Sudan",SDN,Sudan,North Darfor,Arab States,0.447,"(15.7661969, 24.9042208)",15.7661969,24.9042208
+"North Kordofan, Sudan",SDN,Sudan,North Kordofan,Arab States,0.32799999999999996,"(13.8306441, 29.4179324)",13.8306441,29.4179324
+"Northern, Sudan",SDN,Sudan,Northern,Arab States,0.047,"(18.4448963, 30.1589303)",18.444896300000003,30.1589303
+"Red Sea, Sudan",SDN,Sudan,Red Sea,Arab States,0.223,"(19.4556063, 35.2148469)",19.4556063,35.2148469
+"River Nile, Sudan",SDN,Sudan,River Nile,Arab States,0.092,"(23.5597924, 32.1577074)",23.5597924,32.1577074
+"Sinnar, Sudan",SDN,Sudan,Sinnar,Arab States,0.27699999999999997,"(13.0317108, 33.9750018)",13.0317108,33.9750018
+"South Darfor, Sudan",SDN,Sudan,South Darfor,Arab States,0.42,"(11.6488639, 24.9042208)",11.6488639,24.9042208
+"South Kordofan, Sudan",SDN,Sudan,South Kordofan,Arab States,0.42200000000000004,"(11.1990192, 29.4179324)",11.1990192,29.4179324
+"West Darfor, Sudan",SDN,Sudan,West Darfor,Arab States,0.45799999999999996,"(1000.0, 1000.0)",,
+"West Kordofan, Sudan",SDN,Sudan,West Kordofan,Arab States,0.46799999999999997,"(12.6918384, 28.4341996)",12.6918384,28.434199600000003
+"White Nile, Sudan",SDN,Sudan,White Nile,Arab States,0.267,"(13.2403881, 32.5372741)",13.2403881,32.537274100000005
+"Center, Senegal",SEN,Senegal,Center,Sub-Saharan Africa,0.449,"(14.72001, -17.465533)",14.72001,-17.465532999999994
+"North, Senegal",SEN,Senegal,North,Sub-Saharan Africa,0.373,"(14.497401, -14.452362)",14.497401000000002,-14.452362
+"Ouest, Senegal",SEN,Senegal,Ouest,Sub-Saharan Africa,0.156,"(14.497401, -14.452362)",14.497401000000002,-14.452362
+"South, Senegal",SEN,Senegal,South,Sub-Saharan Africa,0.425,"(14.497401, -14.452362)",14.497401000000002,-14.452362
+"Kailahun, Sierra Leone",SLE,Sierra Leone,Kailahun,Sub-Saharan Africa,0.537,"(8.280219599999999, -10.5718086)",8.280219599999999,-10.5718086
+"Kenema, Sierra Leone",SLE,Sierra Leone,Kenema,Sub-Saharan Africa,0.47700000000000004,"(7.863214699999999, -11.1957172)",7.863214699999999,-11.1957172
+"Kono, Sierra Leone",SLE,Sierra Leone,Kono,Sub-Saharan Africa,0.511,"(8.7663285, -10.8903099)",8.7663285,-10.8903099
+"Bombali, Sierra Leone",SLE,Sierra Leone,Bombali,Sub-Saharan Africa,0.423,"(9.2475837, -12.1632718)",9.2475837,-12.1632718
+"Kambia, Sierra Leone",SLE,Sierra Leone,Kambia,Sub-Saharan Africa,0.58,"(9.126166399999999, -12.9176518)",9.1261664,-12.917651800000002
+"Koinadugu, Sierra Leone",SLE,Sierra Leone,Koinadugu,Sub-Saharan Africa,0.601,"(9.5308619, -11.5248055)",9.5308619,-11.5248055
+"Port Loko, Sierra Leone",SLE,Sierra Leone,Port Loko,Sub-Saharan Africa,0.522,"(5.556837000000001, 23.7632828)",5.5568370000000025,23.7632828
+"Tonkolili, Sierra Leone",SLE,Sierra Leone,Tonkolili,Sub-Saharan Africa,0.541,"(8.7389416, -11.7979613)",8.7389416,-11.7979613
+"Bo, Sierra Leone",SLE,Sierra Leone,Bo,Sub-Saharan Africa,0.449,"(7.9551791, -11.7409946)",7.9551791,-11.7409946
+"Bonthe, Sierra Leone",SLE,Sierra Leone,Bonthe,Sub-Saharan Africa,0.478,"(30.585164, 36.238414)",30.585164,36.238414
+"Moyamba, Sierra Leone",SLE,Sierra Leone,Moyamba,Sub-Saharan Africa,0.569,"(8.1620514, -12.4351923)",8.162051400000001,-12.4351923
+"Pujehun, Sierra Leone",SLE,Sierra Leone,Pujehun,Sub-Saharan Africa,0.537,"(7.372329499999999, -11.6157773)",7.3723294999999975,-11.6157773
+"Western Rural, Sierra Leone",SLE,Sierra Leone,Western Rural,Sub-Saharan Africa,0.319,"(8.3114983, -13.035694)",8.311498299999998,-13.035694
+"Western Urban, Sierra Leone",SLE,Sierra Leone,Western Urban,Sub-Saharan Africa,0.191,"(17.4891317, -88.188656)",17.489131699999998,-88.18865600000002
+"Ahuachapan, El Salvador",SLV,El Salvador,Ahuachapan,Latin America and Caribbean,0.03,"(13.8216148, -89.9253233)",13.8216148,-89.9253233
+"Cabanas, El Salvador",SLV,El Salvador,Cabanas,Latin America and Caribbean,0.046,"(13.8648288, -88.7493998)",13.8648288,-88.7493998
+"Chalatenango, El Salvador",SLV,El Salvador,Chalatenango,Latin America and Caribbean,0.036000000000000004,"(14.0164187, -88.91264489999999)",14.0164187,-88.91264489999998
+"Cuscatlan, El Salvador",SLV,El Salvador,Cuscatlan,Latin America and Caribbean,0.025,"(13.8661957, -89.0561532)",13.8661957,-89.0561532
+"La Libertad, El Salvador",SLV,El Salvador,La Libertad,Latin America and Caribbean,0.017,"(13.6817661, -89.3606298)",13.6817661,-89.3606298
+"La Paz, El Salvador",SLV,El Salvador,La Paz,Latin America and Caribbean,0.03,"(13.495364, -88.9796776)",13.495364000000002,-88.9796776
+"La Union, El Salvador",SLV,El Salvador,La Union,Latin America and Caribbean,0.054000000000000006,"(13.3323464, -87.8500644)",13.3323464,-87.85006440000002
+"Morazan, El Salvador",SLV,El Salvador,Morazan,Latin America and Caribbean,0.04,"(13.7682, -88.1291387)",13.7682,-88.1291387
+"San Miguel, El Salvador",SLV,El Salvador,San Miguel,Latin America and Caribbean,0.03,"(13.4792922, -88.1779182)",13.4792922,-88.17791820000002
+"San Salvador, El Salvador",SLV,El Salvador,San Salvador,Latin America and Caribbean,0.01,"(13.6929403, -89.2181911)",13.692940300000002,-89.2181911
+"San Vicente, El Salvador",SLV,El Salvador,San Vicente,Latin America and Caribbean,0.02,"(13.6390979, -88.7830612)",13.6390979,-88.7830612
+"Santa Ana, El Salvador",SLV,El Salvador,Santa Ana,Latin America and Caribbean,0.027000000000000003,"(13.9778279, -89.56391190000001)",13.9778279,-89.56391190000002
+"Sonsonate, El Salvador",SLV,El Salvador,Sonsonate,Latin America and Caribbean,0.046,"(13.7113876, -89.72390970000001)",13.711387599999998,-89.72390970000002
+"Usulutan, El Salvador",SLV,El Salvador,Usulutan,Latin America and Caribbean,0.03,"(13.4470634, -88.55653099999999)",13.4470634,-88.55653099999998
+,SOM,Somalia,,Arab States,,"(1000.0, 1000.0)",,
+,SRB,Serbia,,Europe and Central Asia,,"(1000.0, 1000.0)",,
+"Upper Nile, South Sudan",SSD,South Sudan,Upper Nile,Sub-Saharan Africa,0.503,"(9.8894202, 32.7181375)",9.889420199999998,32.7181375
+"Jonglei and Unity, South Sudan",SSD,South Sudan,Jonglei and Unity,Sub-Saharan Africa,0.628,"(1000.0, 1000.0)",,
+"Warap, South Sudan",SSD,South Sudan,Warap,Sub-Saharan Africa,0.6609999999999999,"(8.2209308, 28.8596804)",8.2209308,28.8596804
+"Northern Bahr el Ghazal, South Sudan",SSD,South Sudan,Northern Bahr el Ghazal,Sub-Saharan Africa,0.652,"(8.536044900000002, 26.7967849)",8.536044900000002,26.7967849
+"Western Bahr el Ghazal, South Sudan",SSD,South Sudan,Western Bahr el Ghazal,Sub-Saharan Africa,0.491,"(8.6452399, 25.2837585)",8.6452399,25.2837585
+"Lakes, South Sudan",SSD,South Sudan,Lakes,Sub-Saharan Africa,0.605,"(6.6030799, 29.9740534)",6.6030799,29.9740534
+"Western Equatoria, South Sudan",SSD,South Sudan,Western Equatoria,Sub-Saharan Africa,0.456,"(5.3471799, 28.299435)",5.3471799,28.299435
+"Central Equatoria, South Sudan",SSD,South Sudan,Central Equatoria,Sub-Saharan Africa,0.391,"(4.6144063, 31.2626366)",4.6144063,31.262636600000004
+"Eastern Equatoria, South Sudan",SSD,South Sudan,Eastern Equatoria,Sub-Saharan Africa,0.561,"(5.0692995, 33.438353)",5.0692995000000005,33.438353
+"Regio Autonoma de Principe, Sao Tome and Principe",STP,Sao Tome and Principe,Regio Autonoma de Principe,Sub-Saharan Africa,0.092,"(31.3543445, 27.2373159)",31.3543445,27.2373159
+"Regio Centro Este, Sao Tome and Principe",STP,Sao Tome and Principe,Regio Centro Este,Sub-Saharan Africa,0.059000000000000004,"(11.4098737, 41.2808577)",11.4098737,41.28085770000001
+"Regio Norte Oeste, Sao Tome and Principe",STP,Sao Tome and Principe,Regio Norte Oeste,Sub-Saharan Africa,0.132,"(1000.0, 1000.0)",,
+"Regio Sul Este, Sao Tome and Principe",STP,Sao Tome and Principe,Regio Sul Este,Sub-Saharan Africa,0.11699999999999999,"(13.6707177, -14.8899772)",13.6707177,-14.8899772
+"Paramaribo, Suriname",SUR,Suriname,Paramaribo,Latin America and Caribbean,0.006999999999999999,"(5.8520355, -55.2038278)",5.8520355,-55.20382779999999
+"Wanica, Suriname",SUR,Suriname,Wanica,Latin America and Caribbean,0.013000000000000001,"(5.7323762, -55.2701235)",5.7323762,-55.2701235
+"Nickerie, Suriname",SUR,Suriname,Nickerie,Latin America and Caribbean,0.012,"(5.5855469, -56.83111169999999)",5.5855469000000015,-56.8311117
+"Coronie, Suriname",SUR,Suriname,Coronie,Latin America and Caribbean,0.006,"(5.6943271, -56.2929381)",5.6943271,-56.29293810000001
+"Saramacca, Suriname",SUR,Suriname,Saramacca,Latin America and Caribbean,0.011000000000000001,"(5.7240813, -55.6689636)",5.724081299999999,-55.66896360000001
+"Commewijne, Suriname",SUR,Suriname,Commewijne,Latin America and Caribbean,0.008,"(5.740211, -54.8731219)",5.740211,-54.8731219
+"Marowijne, Suriname",SUR,Suriname,Marowijne,Latin America and Caribbean,0.026000000000000002,"(5.6268128, -54.25931180000001)",5.6268128,-54.259311800000006
+"Para, Suriname",SUR,Suriname,Para,Latin America and Caribbean,0.023,"(8.191118399999999, -9.7232673)",8.191118399999999,-9.723267300000002
+"Brokopondo, Suriname",SUR,Suriname,Brokopondo,Latin America and Caribbean,0.057,"(4.752409099999999, -55.0272904)",4.752409099999999,-55.0272904
+"Sipaliwini, Suriname",SUR,Suriname,Sipaliwini,Latin America and Caribbean,0.172,"(6.546425999999999, -58.0982046)",6.546425999999999,-58.0982046
+"Hhohho, Swaziland",SWZ,Swaziland,Hhohho,Sub-Saharan Africa,0.054000000000000006,"(-26.1365662, 31.3541631)",-26.1365662,31.3541631
+"Lubombo, Swaziland",SWZ,Swaziland,Lubombo,Sub-Saharan Africa,0.098,"(-26.7851773, 31.8107079)",-26.7851773,31.8107079
+"Manzini, Swaziland",SWZ,Swaziland,Manzini,Sub-Saharan Africa,0.040999999999999995,"(-26.5081999, 31.3713164)",-26.5081999,31.3713164
+"Shiselweni, Swaziland",SWZ,Swaziland,Shiselweni,Sub-Saharan Africa,0.10099999999999999,"(12.4166, -3.4195527)",12.4166,-3.4195527
+"Damascus, Syrian Arab Republic",SYR,Syrian Arab Republic,Damascus,Arab States,0.003,"(33.5138073, 36.2765279)",33.5138073,36.2765279
+"Halab, Syrian Arab Republic",SYR,Syrian Arab Republic,Halab,Arab States,0.026000000000000002,"(36.2021047, 37.1342603)",36.2021047,37.1342603
+"Rural Damascus, Syrian Arab Republic",SYR,Syrian Arab Republic,Rural Damascus,Arab States,0.009000000000000001,"(33.5167289, 36.954107)",33.5167289,36.954107
+"Hums, Syrian Arab Republic",SYR,Syrian Arab Republic,Hums,Arab States,0.006999999999999999,"(34.2567123, 38.3165725)",34.2567123,38.3165725
+"Hama, Syrian Arab Republic",SYR,Syrian Arab Republic,Hama,Arab States,0.01,"(-3.5778471, 102.3463875)",-3.5778471,102.3463875
+"Latequia, Syrian Arab Republic",SYR,Syrian Arab Republic,Latequia,Arab States,0.004,"(35.5407103, 35.7952667)",35.54071029999999,35.7952667
+"Edlb, Syrian Arab Republic",SYR,Syrian Arab Republic,Edlb,Arab States,0.019,"(1000.0, 1000.0)",,
+"Hasaka, Syrian Arab Republic",SYR,Syrian Arab Republic,Hasaka,Arab States,0.027999999999999997,"(36.507867, 40.7462671)",36.507867,40.7462671
+"Dir Ezor, Syrian Arab Republic",SYR,Syrian Arab Republic,Dir Ezor,Arab States,0.047,"(35.3296518, 40.1350341)",35.3296518,40.1350341
+"Tortous, Syrian Arab Republic",SYR,Syrian Arab Republic,Tortous,Arab States,0.0,"(11.2336911, -60.69889089999999)",11.2336911,-60.69889089999999
+"Raqa, Syrian Arab Republic",SYR,Syrian Arab Republic,Raqa,Arab States,0.027999999999999997,"(35.9594106, 38.9981052)",35.95941060000001,38.99810520000001
+"Daraa, Syrian Arab Republic",SYR,Syrian Arab Republic,Daraa,Arab States,0.011000000000000001,"(32.626434, 36.1033061)",32.626434,36.1033061
+"As-swidaa, Syrian Arab Republic",SYR,Syrian Arab Republic,As-swidaa,Arab States,0.002,"(32.7128968, 36.5662858)",32.7128968,36.5662858
+"Qonitara, Syrian Arab Republic",SYR,Syrian Arab Republic,Qonitara,Arab States,0.011000000000000001,"(1000.0, 1000.0)",,
+"Barh El Gazal, Chad",TCD,Chad,Barh El Gazal,Sub-Saharan Africa,0.654,"(13.6680378, 16.4235227)",13.6680378,16.4235227
+"Batha, Chad",TCD,Chad,Batha,Sub-Saharan Africa,0.659,"(13.9371775, 18.4276047)",13.9371775,18.4276047
+"Borkou/Tibesti, Chad",TCD,Chad,Borkou/Tibesti,Sub-Saharan Africa,0.537,"(20.78, 18.05)",20.78,18.05
+"Chari Baguirmi, Chad",TCD,Chad,Chari Baguirmi,Sub-Saharan Africa,0.6459999999999999,"(11.2564207, 16.1580937)",11.2564207,16.158093700000002
+"Ennedi, Chad",TCD,Chad,Ennedi,Sub-Saharan Africa,0.625,"(17.5414578, 21.8568586)",17.5414578,21.8568586
+"GuðRa, Chad",TCD,Chad,GuðRa,Sub-Saharan Africa,0.643,"(1000.0, 1000.0)",,
+"Hadjer-Lamis, Chad",TCD,Chad,Hadjer-Lamis,Sub-Saharan Africa,0.654,"(12.4577273, 16.7234639)",12.4577273,16.7234639
+"Kanem, Chad",TCD,Chad,Kanem,Sub-Saharan Africa,0.696,"(12.90616, 105.2194808)",12.90616,105.2194808
+"Lac, Chad",TCD,Chad,Lac,Sub-Saharan Africa,0.7440000000000001,"(18.3281428, -77.2405153)",18.3281428,-77.2405153
+"Logone Occidental, Chad",TCD,Chad,Logone Occidental,Sub-Saharan Africa,0.44,"(8.759675999999999, 15.876004)",8.759675999999999,15.876004
+"Logone Oriental, Chad",TCD,Chad,Logone Oriental,Sub-Saharan Africa,0.504,"(-29.2875557, 29.06053889999999)",-29.2875557,29.06053889999999
+"Mandoul, Chad",TCD,Chad,Mandoul,Sub-Saharan Africa,0.529,"(8.603091, 17.4795173)",8.603091000000001,17.4795173
+"Mayo Kebbi Est, Chad",TCD,Chad,Mayo Kebbi Est,Sub-Saharan Africa,0.509,"(9.4046039, 14.8454619)",9.4046039,14.8454619
+"Mayo Kebbi Ouest, Chad",TCD,Chad,Mayo Kebbi Ouest,Sub-Saharan Africa,0.479,"(10.4113014, 15.5943388)",10.4113014,15.5943388
+"Moyen Chari, Chad",TCD,Chad,Moyen Chari,Sub-Saharan Africa,0.41100000000000003,"(9.0639998, 18.4276047)",9.0639998,18.4276047
+"N'DjamðNa, Chad",TCD,Chad,N'DjamðNa,Sub-Saharan Africa,0.257,"(1000.0, 1000.0)",,
+"Ouaddað, Chad",TCD,Chad,Ouaddað,Sub-Saharan Africa,0.6829999999999999,"(1000.0, 1000.0)",,
+"Salamat, Chad",TCD,Chad,Salamat,Sub-Saharan Africa,0.6779999999999999,"(1000.0, 1000.0)",,
+"Sila, Chad",TCD,Chad,Sila,Sub-Saharan Africa,0.6970000000000001,"(12.13074, 21.2845025)",12.13074,21.2845025
+"Tandjilð, Chad",TCD,Chad,Tandjilð,Sub-Saharan Africa,0.48700000000000004,"(8.3149949, 16.3463791)",8.3149949,16.3463791
+"Wadi Fira, Chad",TCD,Chad,Wadi Fira,Sub-Saharan Africa,0.7090000000000001,"(15.0892416, 21.4752851)",15.0892416,21.4752851
+"Commune de Lome, Togo",TGO,Togo,Commune de Lome,Sub-Saharan Africa,0.067,"(6.1724969, 1.2313618)",6.1724969000000005,1.2313618
+"Region Maritime, Togo",TGO,Togo,Region Maritime,Sub-Saharan Africa,0.243,"(6.4913504, 1.2891036)",6.4913504,1.2891036
+"Region des Plateaux, Togo",TGO,Togo,Region des Plateaux,Sub-Saharan Africa,0.325,"(7.6101378, 1.0586135)",7.610137799999999,1.0586135
+"Region Centrale, Togo",TGO,Togo,Region Centrale,Sub-Saharan Africa,0.23600000000000002,"(8.6586029, 1.0586135)",8.658602900000002,1.0586135
+"Region de la Kara, Togo",TGO,Togo,Region de la Kara,Sub-Saharan Africa,0.324,"(9.7216393, 1.0586135)",9.7216393,1.0586135
+"Region des Savanes, Togo",TGO,Togo,Region des Savanes,Sub-Saharan Africa,0.439,"(10.5291781, 0.5257822999999999)",10.5291781,0.5257822999999999
+,THA,Thailand,,East Asia and the Pacific,,"(1000.0, 1000.0)",,
+"Dushanbe, Tajikistan",TJK,Tajikistan,Dushanbe,Europe and Central Asia,0.021,"(38.5597722, 68.7870384)",38.5597722,68.78703840000001
+"Gorno-Badakhshan Autonomous Oblast, Tajikistan",TJK,Tajikistan,Gorno-Badakhshan Autonomous Oblast,Europe and Central Asia,0.048,"(37.84507079999999, 73.0394697)",37.84507079999999,73.0394697
+"Sughd, Tajikistan",TJK,Tajikistan,Sughd,Europe and Central Asia,0.033,"(39.5155326, 69.097023)",39.5155326,69.097023
+"Districts of Republican Subordination, Tajikistan",TJK,Tajikistan,Districts of Republican Subordination,Europe and Central Asia,0.045,"(39.0857902, 70.2408325)",39.0857902,70.2408325
+"Khatlon, Tajikistan",TJK,Tajikistan,Khatlon,Europe and Central Asia,0.086,"(37.9113562, 69.097023)",37.9113562,69.097023
+,TKM,Turkmenistan,,Europe and Central Asia,,"(1000.0, 1000.0)",,
+"Aileu, Timor-Leste",TLS,Timor-Leste,Aileu,East Asia and the Pacific,0.379,"(3.427805, -76.486824)",3.427805,-76.486824
+"Ainaro, Timor-Leste",TLS,Timor-Leste,Ainaro,East Asia and the Pacific,0.444,"(-9.0113171, 125.5220012)",-9.0113171,125.5220012
+"Baucau, Timor-Leste",TLS,Timor-Leste,Baucau,East Asia and the Pacific,0.35700000000000004,"(-8.4731006, 126.4553727)",-8.473100599999999,126.4553727
+"Bobonaro, Timor-Leste",TLS,Timor-Leste,Bobonaro,East Asia and the Pacific,0.406,"(-8.9655406, 125.2587964)",-8.9655406,125.2587964
+"Cova Lima, Timor-Leste",TLS,Timor-Leste,Cova Lima,East Asia and the Pacific,0.31,"(-9.2650375, 125.2587964)",-9.2650375,125.2587964
+"Dili, Timor-Leste",TLS,Timor-Leste,Dili,East Asia and the Pacific,0.127,"(-8.5568557, 125.5603143)",-8.556855699999998,125.5603143
+"Ermera, Timor-Leste",TLS,Timor-Leste,Ermera,East Asia and the Pacific,0.4970000000000001,"(-8.806888299999999, 125.3466253)",-8.806888299999997,125.3466253
+"Liquica, Timor-Leste",TLS,Timor-Leste,Liquica,East Asia and the Pacific,0.387,"(-8.6674095, 125.2587964)",-8.6674095,125.2587964
+"Lautem, Timor-Leste",TLS,Timor-Leste,Lautem,East Asia and the Pacific,0.373,"(-8.5531846, 126.9970831)",-8.5531846,126.9970831
+"Manufahi, Timor-Leste",TLS,Timor-Leste,Manufahi,East Asia and the Pacific,0.353,"(-9.0145495, 125.8279959)",-9.0145495,125.8279959
+"Manatuto, Timor-Leste",TLS,Timor-Leste,Manatuto,East Asia and the Pacific,0.295,"(1000.0, 1000.0)",,
+"Oecussi, Timor-Leste",TLS,Timor-Leste,Oecussi,East Asia and the Pacific,0.508,"(-9.2970576, 124.2866091)",-9.2970576,124.2866091
+"Viqueque, Timor-Leste",TLS,Timor-Leste,Viqueque,East Asia and the Pacific,0.41,"(-8.8597918, 126.3633516)",-8.8597918,126.3633516
+"North West, Trinidad and Tobago",TTO,Trinidad and Tobago,North West,Latin America and Caribbean,0.023,"(10.6527887, -61.4246961)",10.6527887,-61.4246961
+"Eastern, Trinidad and Tobago",TTO,Trinidad and Tobago,Eastern,Latin America and Caribbean,0.026000000000000002,"(11.2979348, -60.55885240000001)",11.297934800000002,-60.558852400000006
+"North Central, Trinidad and Tobago",TTO,Trinidad and Tobago,North Central,Latin America and Caribbean,0.02,"(10.6467643, -61.4227551)",10.6467643,-61.4227551
+"South West, Trinidad and Tobago",TTO,Trinidad and Tobago,South West,Latin America and Caribbean,0.016,"(10.691803, -61.222503)",10.691803,-61.222503
+"Tobago, Trinidad and Tobago",TTO,Trinidad and Tobago,Tobago,Latin America and Caribbean,0.019,"(-16.9620634, 26.419389)",-16.962063399999998,26.419389
+,TUN,Tunisia,,Arab States,,"(1000.0, 1000.0)",,
+"Central, Tanzania, United Republic of",TZA,"Tanzania, United Republic of",Central,Sub-Saharan Africa,0.332,"(0.3215308, 32.5862002)",0.3215308,32.5862002
+"Eastern, Tanzania, United Republic of",TZA,"Tanzania, United Republic of",Eastern,Sub-Saharan Africa,0.145,"(-6.369028, 34.888822)",-6.369028,34.888822
+"Lake, Tanzania, United Republic of",TZA,"Tanzania, United Republic of",Lake,Sub-Saharan Africa,0.34600000000000003,"(-6.2555679, 29.5107708)",-6.2555679,29.5107708
+"Northern, Tanzania, United Republic of",TZA,"Tanzania, United Republic of",Northern,Sub-Saharan Africa,0.2,"(40.7566997, -73.9664629)",40.75669970000001,-73.96646290000002
+"South West Highlands, Tanzania, United Republic of",TZA,"Tanzania, United Republic of",South West Highlands,Sub-Saharan Africa,0.312,"(5.481731799999999, -55.2259207)",5.481731799999999,-55.2259207
+"Southern, Tanzania, United Republic of",TZA,"Tanzania, United Republic of",Southern,Sub-Saharan Africa,0.29600000000000004,"(-34.9478961, 138.5812844)",-34.9478961,138.58128440000002
+"Southern Highlands, Tanzania, United Republic of",TZA,"Tanzania, United Republic of",Southern Highlands,Sub-Saharan Africa,0.226,"(7.525702799999999, -12.5039922)",7.525702799999999,-12.5039922
+"Western, Tanzania, United Republic of",TZA,"Tanzania, United Republic of",Western,Sub-Saharan Africa,0.397,"(28.5954114, 77.181578)",28.5954114,77.181578
+"Zanzibar, Tanzania, United Republic of",TZA,"Tanzania, United Republic of",Zanzibar,Sub-Saharan Africa,0.14300000000000002,"(-6.135729500000001, 39.3621196)",-6.135729500000001,39.3621196
+"Kampala, Uganda",UGA,Uganda,Kampala,Sub-Saharan Africa,0.076,"(0.3475964, 32.5825197)",0.3475964,32.5825197
+"Central 1, Uganda",UGA,Uganda,Central 1,Sub-Saharan Africa,0.3,"(8.4545561, -13.2432632)",8.4545561,-13.243263199999998
+"Central 2, Uganda",UGA,Uganda,Central 2,Sub-Saharan Africa,0.294,"(0.3729261, 32.6357573)",0.3729261,32.6357573
+"East Central, Uganda",UGA,Uganda,East Central,Sub-Saharan Africa,0.371,"(0.2540775, 31.99280779999999)",0.2540775,31.99280779999999
+"Eastern, Uganda",UGA,Uganda,Eastern,Sub-Saharan Africa,0.41700000000000004,"(1.2692186, 33.438353)",1.2692186,33.438353
+"North, Uganda",UGA,Uganda,North,Sub-Saharan Africa,0.431,"(2.8780034, 32.7181375)",2.8780034,32.7181375
+"Karamoja, Uganda",UGA,Uganda,Karamoja,Sub-Saharan Africa,0.634,"(2.8308738, 34.1531947)",2.8308738,34.15319470000001
+"West Nile, Uganda",UGA,Uganda,West Nile,Sub-Saharan Africa,0.484,"(0.3157239, 32.575568)",0.3157239,32.575568
+"Western, Uganda",UGA,Uganda,Western,Sub-Saharan Africa,0.34600000000000003,"(0.2580521, 30.5279096)",0.2580521,30.5279096
+"Southwest, Uganda",UGA,Uganda,Southwest,Sub-Saharan Africa,0.4,"(1.373333, 32.290275)",1.373333,32.290275
+,UKR,Ukraine,,Europe and Central Asia,,"(1000.0, 1000.0)",,
+"Western, Uzbekistan",UZB,Uzbekistan,Western,Europe and Central Asia,0.006999999999999999,"(41.3262326, 69.3249975)",41.3262326,69.3249975
+"Central, Uzbekistan",UZB,Uzbekistan,Central,Europe and Central Asia,0.011000000000000001,"(41.309631, 69.238629)",41.309631,69.238629
+"Southern, Uzbekistan",UZB,Uzbekistan,Southern,Europe and Central Asia,0.016,"(38.9083604, -77.04051009999999)",38.9083604,-77.04051009999998
+"Central-Eastern, Uzbekistan",UZB,Uzbekistan,Central-Eastern,Europe and Central Asia,0.004,"(6.237403599999999, -0.4502368)",6.237403599999999,-0.4502368
+"Eastern, Uzbekistan",UZB,Uzbekistan,Eastern,Europe and Central Asia,0.006,"(13.1078947, 14.4490398)",13.1078947,14.4490398
+"Tashkent, Uzbekistan",UZB,Uzbekistan,Tashkent,Europe and Central Asia,0.001,"(1000.0, 1000.0)",,
+"Red River Delta, Viet Nam",VNM,Viet Nam,Red River Delta,East Asia and the Pacific,0.013000000000000001,"(20.9033868, 105.9699878)",20.903386800000003,105.9699878
+"Northern Midlands and Mountain area, Viet Nam",VNM,Viet Nam,Northern Midlands and Mountain area,East Asia and the Pacific,0.064,"(1000.0, 1000.0)",,
+"North Central and Central Coastal area, Viet Nam",VNM,Viet Nam,North Central and Central Coastal area,East Asia and the Pacific,0.024,"(15.1738009, 108.6175626)",15.1738009,108.6175626
+"Central Highlands, Viet Nam",VNM,Viet Nam,Central Highlands,East Asia and the Pacific,0.057,"(13.0635025, 108.2377519)",13.0635025,108.2377519
+"South East, Viet Nam",VNM,Viet Nam,South East,East Asia and the Pacific,0.017,"(14.058324, 108.277199)",14.058324,108.277199
+"Mekong River Delta, Viet Nam",VNM,Viet Nam,Mekong River Delta,East Asia and the Pacific,0.03,"(10.063363, 105.5943388)",10.063363,105.5943388
+,VUT,Vanuatu,,East Asia and the Pacific,,"(1000.0, 1000.0)",,
+"Ibb, Yemen",YEM,Yemen,Ibb,Arab States,0.2,"(13.9720929, 44.1625338)",13.9720929,44.1625338
+"Abyan, Yemen",YEM,Yemen,Abyan,Arab States,0.136,"(13.6343413, 46.0563212)",13.6343413,46.056321200000006
+"Sanaa City, Yemen",YEM,Yemen,Sanaa City,Arab States,0.057,"(15.3694451, 44.1910066)",15.3694451,44.1910066
+"Al-Baidha, Yemen",YEM,Yemen,Al-Baidha,Arab States,0.191,"(13.9889146, 45.5771002)",13.9889146,45.5771002
+"Taiz, Yemen",YEM,Yemen,Taiz,Arab States,0.207,"(13.5775886, 44.0177989)",13.5775886,44.0177989
+"Al-Jawf, Yemen",YEM,Yemen,Al-Jawf,Arab States,0.214,"(16.7901819, 45.29938620000001)",16.7901819,45.29938620000001
+"Hajjah, Yemen",YEM,Yemen,Hajjah,Arab States,0.447,"(15.7030403, 43.6039301)",15.7030403,43.60393010000001
+"Al-Hodiedah, Yemen",YEM,Yemen,Al-Hodiedah,Arab States,0.34299999999999997,"(14.7909118, 42.9708838)",14.790911800000002,42.9708838
+"Hadramout, Yemen",YEM,Yemen,Hadramout,Arab States,0.12,"(16.9304135, 49.36531489999999)",16.9304135,49.36531489999999
+"Dhamar, Yemen",YEM,Yemen,Dhamar,Arab States,0.325,"(14.5455447, 44.4087348)",14.5455447,44.4087348
+"Shabwah, Yemen",YEM,Yemen,Shabwah,Arab States,0.163,"(-2.8441371, 119.2320784)",-2.8441371,119.2320784
+"Sadah, Yemen",YEM,Yemen,Sadah,Arab States,0.278,"(16.9509413, 43.7477743)",16.9509413,43.7477743
+"Sanaa, Yemen",YEM,Yemen,Sanaa,Arab States,0.255,"(15.3694451, 44.1910066)",15.3694451,44.1910066
+"Aden, Yemen",YEM,Yemen,Aden,Arab States,0.062,"(12.7854969, 45.0186548)",12.7854969,45.01865479999999
+"Lahj, Yemen",YEM,Yemen,Lahj,Arab States,0.17600000000000002,"(13.1489588, 44.8505495)",13.148958800000004,44.8505495
+"Mareb, Yemen",YEM,Yemen,Mareb,Arab States,0.214,"(15.4700312, 45.3228575)",15.4700312,45.3228575
+"Al-Mhweit, Yemen",YEM,Yemen,Al-Mhweit,Arab States,0.349,"(15.4687838, 43.5462744)",15.468783800000002,43.5462744
+"Al-Mhrah, Yemen",YEM,Yemen,Al-Mhrah,Arab States,0.105,"(16.5238423, 51.6834275)",16.523842300000002,51.6834275
+"Amran, Yemen",YEM,Yemen,Amran,Arab States,0.322,"(15.6620639, 43.9341408)",15.6620639,43.9341408
+"Aldhalae, Yemen",YEM,Yemen,Aldhalae,Arab States,0.2,"(1000.0, 1000.0)",,
+"Reimah, Yemen",YEM,Yemen,Reimah,Arab States,0.381,"(14.883333, 43.55)",14.883333,43.55
+,ZAF,South Africa,,Sub-Saharan Africa,,"(1000.0, 1000.0)",,
+"Central, Zambia",ZMB,Zambia,Central,Sub-Saharan Africa,0.292,"(-14.3112263, 28.299435)",-14.3112263,28.299435
+"Copperbelt, Zambia",ZMB,Zambia,Copperbelt,Sub-Saharan Africa,0.158,"(-13.0570073, 27.5495846)",-13.0570073,27.549584600000006
+"Eastern, Zambia",ZMB,Zambia,Eastern,Sub-Saharan Africa,0.369,"(-13.8056187, 31.99280779999999)",-13.8056187,31.99280779999999
+"Luapula, Zambia",ZMB,Zambia,Luapula,Sub-Saharan Africa,0.392,"(-11.564831, 29.0459927)",-11.564831,29.0459927
+"Lusaka, Zambia",ZMB,Zambia,Lusaka,Sub-Saharan Africa,0.11199999999999999,"(-15.3875259, 28.3228165)",-15.3875259,28.3228165
+"Muchinga, Zambia",ZMB,Zambia,Muchinga,Sub-Saharan Africa,0.368,"(-15.3780734, 28.2579161)",-15.3780734,28.257916100000006
+"Northern, Zambia",ZMB,Zambia,Northern,Sub-Saharan Africa,0.397,"(-9.7670177, 30.8958242)",-9.7670177,30.8958242
+"North Western, Zambia",ZMB,Zambia,North Western,Sub-Saharan Africa,0.33399999999999996,"(-13.0050258, 24.9042208)",-13.0050258,24.9042208
+"Southern, Zambia",ZMB,Zambia,Southern,Sub-Saharan Africa,0.301,"(14.8781262, 15.4068079)",14.8781262,15.4068079
+"Western, Zambia",ZMB,Zambia,Western,Sub-Saharan Africa,0.39899999999999997,"(-15.9454906, 23.3823545)",-15.9454906,23.3823545
+"Bulawayo, Zimbabwe",ZWE,Zimbabwe,Bulawayo,Sub-Saharan Africa,0.013999999999999999,"(-20.1325066, 28.626479)",-20.132506600000006,28.626479
+"Harare, Zimbabwe",ZWE,Zimbabwe,Harare,Sub-Saharan Africa,0.038,"(20.3254175, 104.1001326)",20.3254175,104.1001326
+"Manicaland, Zimbabwe",ZWE,Zimbabwe,Manicaland,Sub-Saharan Africa,0.168,"(-18.9216386, 32.174605)",-18.9216386,32.174605
+"Mashonaland Central, Zimbabwe",ZWE,Zimbabwe,Mashonaland Central,Sub-Saharan Africa,0.21,"(-16.7644295, 31.0793705)",-16.764429500000002,31.079370500000003
+"Mashonaland East, Zimbabwe",ZWE,Zimbabwe,Mashonaland East,Sub-Saharan Africa,0.14,"(-18.5871642, 31.2626366)",-18.5871642,31.262636600000004
+"Mashonaland West, Zimbabwe",ZWE,Zimbabwe,Mashonaland West,Sub-Saharan Africa,0.192,"(-17.4851029, 29.7889248)",-17.485102899999998,29.788924800000004
+"Masvingo, Zimbabwe",ZWE,Zimbabwe,Masvingo,Sub-Saharan Africa,0.174,"(-20.0791909, 30.8384093)",-20.0791909,30.8384093
+"Matabeleland North, Zimbabwe",ZWE,Zimbabwe,Matabeleland North,Sub-Saharan Africa,0.23800000000000002,"(-18.5331566, 27.5495846)",-18.5331566,27.549584600000006
+"Matabeleland South, Zimbabwe",ZWE,Zimbabwe,Matabeleland South,Sub-Saharan Africa,0.16399999999999998,"(-21.052337, 29.0459927)",-21.052337,29.0459927
+"Midlands, Zimbabwe",ZWE,Zimbabwe,Midlands,Sub-Saharan Africa,0.17600000000000002,"(-18.4070294, 14.8454619)",-18.4070294,14.8454619
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
+,,,,,,"(1000.0, 1000.0)",,
