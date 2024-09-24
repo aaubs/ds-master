@@ -608,13 +608,43 @@ Explain each step in the image briefly.
 <span id="cb1-8"><a href=""></a>n <span class="op">=</span> <span class="bu">len</span>(y)</span>
 <span id="cb1-9"><a href=""></a>mse <span class="op">=</span> (<span class="dv">1</span><span class="op">/</span>n) <span class="op">*</span> np.<span class="bu">sum</span>((y <span class="op">-</span> y_hat) <span class="op">**</span> <span class="dv">2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p><span class="math display">\[MSE = \frac{1}{n}\sum_{i=1}^{n}(y_i - \hat{y_i})^2\]</span></p>
+</section>
+<section id="python-code-for-loss-functions-ii" class="slide level2 scrollable">
+<h2>Python Code for Loss Functions II</h2>
+<h4 id="cross-entropy-classification-1">Cross-Entropy (Classification)</h4>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href=""></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb2-2"><a href=""></a></span>
+<span id="cb2-3"><a href=""></a><span class="co"># True labels (one-hot encoded) for 3 classes</span></span>
+<span id="cb2-4"><a href=""></a>p <span class="op">=</span> np.array([</span>
+<span id="cb2-5"><a href=""></a>    [<span class="dv">1</span>, <span class="dv">0</span>, <span class="dv">0</span>],  <span class="co"># Class 1</span></span>
+<span id="cb2-6"><a href=""></a>    [<span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">0</span>],  <span class="co"># Class 2</span></span>
+<span id="cb2-7"><a href=""></a>    [<span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">1</span>],  <span class="co"># Class 3</span></span>
+<span id="cb2-8"><a href=""></a>    [<span class="dv">1</span>, <span class="dv">0</span>, <span class="dv">0</span>],  <span class="co"># Class 1</span></span>
+<span id="cb2-9"><a href=""></a>    [<span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">0</span>],  <span class="co"># Class 2</span></span>
+<span id="cb2-10"><a href=""></a>])</span>
+<span id="cb2-11"><a href=""></a></span>
+<span id="cb2-12"><a href=""></a><span class="co"># Predicted probabilities for each class (sum of each row should be 1)</span></span>
+<span id="cb2-13"><a href=""></a>q <span class="op">=</span> np.array([</span>
+<span id="cb2-14"><a href=""></a>    [<span class="fl">0.8</span>, <span class="fl">0.1</span>, <span class="fl">0.1</span>],  <span class="co"># Predicted probabilities for Class 1, 2, 3</span></span>
+<span id="cb2-15"><a href=""></a>    [<span class="fl">0.2</span>, <span class="fl">0.7</span>, <span class="fl">0.1</span>],  <span class="co"># Predicted probabilities for Class 1, 2, 3</span></span>
+<span id="cb2-16"><a href=""></a>    [<span class="fl">0.1</span>, <span class="fl">0.2</span>, <span class="fl">0.7</span>],  <span class="co"># Predicted probabilities for Class 1, 2, 3</span></span>
+<span id="cb2-17"><a href=""></a>    [<span class="fl">0.6</span>, <span class="fl">0.3</span>, <span class="fl">0.1</span>],  <span class="co"># Predicted probabilities for Class 1, 2, 3</span></span>
+<span id="cb2-18"><a href=""></a>    [<span class="fl">0.2</span>, <span class="fl">0.6</span>, <span class="fl">0.2</span>],  <span class="co"># Predicted probabilities for Class 1, 2, 3</span></span>
+<span id="cb2-19"><a href=""></a>])</span>
+<span id="cb2-20"><a href=""></a></span>
+<span id="cb2-21"><a href=""></a><span class="co"># Clip values to avoid log(0)</span></span>
+<span id="cb2-22"><a href=""></a>q <span class="op">=</span> np.clip(q, <span class="fl">1e-12</span>, <span class="dv">1</span> <span class="op">-</span> <span class="fl">1e-12</span>)</span>
+<span id="cb2-23"><a href=""></a></span>
+<span id="cb2-24"><a href=""></a><span class="co"># Calculate cross-entropy for multiclass classification</span></span>
+<span id="cb2-25"><a href=""></a>cross_entropy <span class="op">=</span> <span class="op">-</span>np.<span class="bu">sum</span>(p <span class="op">*</span> np.log(q))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><span class="math display">\[H(p,q) = -\sum_{x}p(x)\log q(x)\]</span></p>
 </section></section>
 <section>
 <section id="model-evaluation-and-generalization" class="title-slide slide level1 center">
 <h1>Model Evaluation and Generalization</h1>
 
 </section>
-<section id="train-test-split" class="slide level2">
+<section id="train-test-split" class="slide level2 smaller">
 <h2>Train-Test Split</h2>
 <ul>
 <li>Split data into training and test sets</li>
@@ -622,19 +652,39 @@ Explain each step in the image briefly.
 <li>Evaluate on test data</li>
 <li>Helps assess generalization</li>
 </ul>
-<aside class="notes">
-<p>Add a simple diagram to illustrate the split.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
+<div class="cell" data-reveal="true" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+    A[("🗄️ Dataset")]
+    B["📊 Training Set\n80%"]
+    C["🧪 Test Set\n20%"]
+    D["🤖 Train the Model&lt;br&gt;Random Forest, XGBoost"]
+    E["📈 Evaluate on Test Set&lt;br&gt;Accuracy, MSE, Precision"]
+    F["🎯 Assess Generalization&lt;br&gt;Performance on unseen data"]
+    
+    A --&gt; B
+    A --&gt; C
+    B --&gt; D
+    D --&gt; E
+    C --&gt; E
+    E --&gt; F
+    
+    classDef cool fill:#8EC5FC,stroke:#4A6FA5,stroke-width:2px,rx:10,ry:10;
+    classDef warm fill:#FBC2EB,stroke:#A66E98,stroke-width:2px,rx:10,ry:10;
+    classDef neutral fill:#E0EAFC,stroke:#8B9FBF,stroke-width:2px,rx:10,ry:10;
+    
+    class A,D cool;
+    class B,C warm;
+    class E,F neutral;
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 </section>
 <section id="cross-validation" class="slide level2">
 <h2>Cross-Validation</h2>
@@ -643,54 +693,34 @@ Explain each step in the image briefly.
 <li>Helps in robust model evaluation</li>
 <li>Reduces overfitting</li>
 </ul>
-<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href=""></a><span class="co"># Example code (not executed)</span></span>
-<span id="cb2-2"><a href=""></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> cross_val_score</span>
-<span id="cb2-3"><a href=""></a>scores <span class="op">=</span> cross_val_score(model, X, y, cv<span class="op">=</span><span class="dv">5</span>)</span>
-<span id="cb2-4"><a href=""></a><span class="bu">print</span>(<span class="ss">f"Cross-validation scores: </span><span class="sc">{</span>scores<span class="sc">}</span><span class="ss">"</span>)</span>
-<span id="cb2-5"><a href=""></a><span class="bu">print</span>(<span class="ss">f"Mean score: </span><span class="sc">{</span>scores<span class="sc">.</span>mean()<span class="sc">:.2f}</span><span class="ss">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<aside class="notes">
-<p>Explain the benefits and potential drawbacks of cross-validation.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href=""></a><span class="co"># Example code (not executed)</span></span>
+<span id="cb3-2"><a href=""></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> cross_val_score</span>
+<span id="cb3-3"><a href=""></a>scores <span class="op">=</span> cross_val_score(model, X, y, cv<span class="op">=</span><span class="dv">5</span>)</span>
+<span id="cb3-4"><a href=""></a><span class="bu">print</span>(<span class="ss">f"Cross-validation scores: </span><span class="sc">{</span>scores<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb3-5"><a href=""></a><span class="bu">print</span>(<span class="ss">f"Mean score: </span><span class="sc">{</span>scores<span class="sc">.</span>mean()<span class="sc">:.2f}</span><span class="ss">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="python-code-for-loss-functions-ii" class="slide level2 scrollable">
-<h2>Python Code for Loss Functions II</h2>
-<h4 id="cross-entropy-classification-1">Cross-Entropy (Classification)</h4>
-<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href=""></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
-<span id="cb3-2"><a href=""></a></span>
-<span id="cb3-3"><a href=""></a><span class="co"># True labels (one-hot encoded) for 3 classes</span></span>
-<span id="cb3-4"><a href=""></a>p <span class="op">=</span> np.array([</span>
-<span id="cb3-5"><a href=""></a>    [<span class="dv">1</span>, <span class="dv">0</span>, <span class="dv">0</span>],  <span class="co"># Class 1</span></span>
-<span id="cb3-6"><a href=""></a>    [<span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">0</span>],  <span class="co"># Class 2</span></span>
-<span id="cb3-7"><a href=""></a>    [<span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">1</span>],  <span class="co"># Class 3</span></span>
-<span id="cb3-8"><a href=""></a>    [<span class="dv">1</span>, <span class="dv">0</span>, <span class="dv">0</span>],  <span class="co"># Class 1</span></span>
-<span id="cb3-9"><a href=""></a>    [<span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">0</span>],  <span class="co"># Class 2</span></span>
-<span id="cb3-10"><a href=""></a>])</span>
-<span id="cb3-11"><a href=""></a></span>
-<span id="cb3-12"><a href=""></a><span class="co"># Predicted probabilities for each class (sum of each row should be 1)</span></span>
-<span id="cb3-13"><a href=""></a>q <span class="op">=</span> np.array([</span>
-<span id="cb3-14"><a href=""></a>    [<span class="fl">0.8</span>, <span class="fl">0.1</span>, <span class="fl">0.1</span>],  <span class="co"># Predicted probabilities for Class 1, 2, 3</span></span>
-<span id="cb3-15"><a href=""></a>    [<span class="fl">0.2</span>, <span class="fl">0.7</span>, <span class="fl">0.1</span>],  <span class="co"># Predicted probabilities for Class 1, 2, 3</span></span>
-<span id="cb3-16"><a href=""></a>    [<span class="fl">0.1</span>, <span class="fl">0.2</span>, <span class="fl">0.7</span>],  <span class="co"># Predicted probabilities for Class 1, 2, 3</span></span>
-<span id="cb3-17"><a href=""></a>    [<span class="fl">0.6</span>, <span class="fl">0.3</span>, <span class="fl">0.1</span>],  <span class="co"># Predicted probabilities for Class 1, 2, 3</span></span>
-<span id="cb3-18"><a href=""></a>    [<span class="fl">0.2</span>, <span class="fl">0.6</span>, <span class="fl">0.2</span>],  <span class="co"># Predicted probabilities for Class 1, 2, 3</span></span>
-<span id="cb3-19"><a href=""></a>])</span>
-<span id="cb3-20"><a href=""></a></span>
-<span id="cb3-21"><a href=""></a><span class="co"># Clip values to avoid log(0)</span></span>
-<span id="cb3-22"><a href=""></a>q <span class="op">=</span> np.clip(q, <span class="fl">1e-12</span>, <span class="dv">1</span> <span class="op">-</span> <span class="fl">1e-12</span>)</span>
-<span id="cb3-23"><a href=""></a></span>
-<span id="cb3-24"><a href=""></a><span class="co"># Calculate cross-entropy for multiclass classification</span></span>
-<span id="cb3-25"><a href=""></a>cross_entropy <span class="op">=</span> <span class="op">-</span>np.<span class="bu">sum</span>(p <span class="op">*</span> np.log(q))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p><span class="math display">\[H(p,q) = -\sum_{x}p(x)\log q(x)\]</span></p>
+<section id="cross-validation-1" class="slide level2">
+<h2>Cross-Validation</h2>
+<div class="cell" data-reveal="true" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">%%{init: { 'logLevel': 'debug', 'theme': 'dark' } }%%
+timeline
+    section Cross-Validation Iterations
+        Train on Folds 2‑k : Test on Fold 1
+        Train on Folds 1, 3‑k : Test on Fold 2
+        Train on Folds 1‑2, 4‑k : Test on Fold 3
+        Train on Folds 1‑3, 5‑k : Test on Fold 4
+        Train on Folds 1‑4, 6‑k : Test on Fold 5
+        %% Add more folds as needed
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 </section>
 <section id="bias-variance-tradeoff" class="slide level2">
 <h2>Bias-Variance Tradeoff</h2>

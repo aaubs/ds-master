@@ -187,38 +187,6 @@ $$MSE = \frac{1}{n}\sum_{i=1}^{n}(y_i - \hat{y_i})^2$$
 
 
 
-
-# Model Evaluation and Generalization
-
-## Train-Test Split
-
-- Split data into training and test sets
-- Train on training data
-- Evaluate on test data
-- Helps assess generalization
-
-::: {.notes}
-Add a simple diagram to illustrate the split.
-:::
-
-## Cross-Validation
-
-- K-fold cross-validation
-- Helps in robust model evaluation
-- Reduces overfitting
-
-```python
-# Example code (not executed)
-from sklearn.model_selection import cross_val_score
-scores = cross_val_score(model, X, y, cv=5)
-print(f"Cross-validation scores: {scores}")
-print(f"Mean score: {scores.mean():.2f}")
-```
-
-::: {.notes}
-Explain the benefits and potential drawbacks of cross-validation.
-:::
-
 ## Python Code for Loss Functions II {.scrollable}
 
 
@@ -254,6 +222,69 @@ cross_entropy = -np.sum(p * np.log(q))
 ```
 $$H(p,q) = -\sum_{x}p(x)\log q(x)$$
 
+
+
+# Model Evaluation and Generalization
+
+## Train-Test Split {.smaller}
+
+- Split data into training and test sets
+- Train on training data
+- Evaluate on test data
+- Helps assess generalization
+
+```{mermaid}
+flowchart LR
+    A[("🗄️ Dataset")]
+    B["📊 Training Set\n80%"]
+    C["🧪 Test Set\n20%"]
+    D["🤖 Train the Model<br>Random Forest, XGBoost"]
+    E["📈 Evaluate on Test Set<br>Accuracy, MSE, Precision"]
+    F["🎯 Assess Generalization<br>Performance on unseen data"]
+    
+    A --> B
+    A --> C
+    B --> D
+    D --> E
+    C --> E
+    E --> F
+    
+    classDef cool fill:#8EC5FC,stroke:#4A6FA5,stroke-width:2px,rx:10,ry:10;
+    classDef warm fill:#FBC2EB,stroke:#A66E98,stroke-width:2px,rx:10,ry:10;
+    classDef neutral fill:#E0EAFC,stroke:#8B9FBF,stroke-width:2px,rx:10,ry:10;
+    
+    class A,D cool;
+    class B,C warm;
+    class E,F neutral;
+```
+
+## Cross-Validation
+
+- K-fold cross-validation
+- Helps in robust model evaluation
+- Reduces overfitting
+
+```python
+# Example code (not executed)
+from sklearn.model_selection import cross_val_score
+scores = cross_val_score(model, X, y, cv=5)
+print(f"Cross-validation scores: {scores}")
+print(f"Mean score: {scores.mean():.2f}")
+```
+
+## Cross-Validation
+
+```{mermaid}
+%%{init: { 'logLevel': 'debug', 'theme': 'dark' } }%%
+timeline
+    section Cross-Validation Iterations
+        Train on Folds 2‑k : Test on Fold 1
+        Train on Folds 1, 3‑k : Test on Fold 2
+        Train on Folds 1‑2, 4‑k : Test on Fold 3
+        Train on Folds 1‑3, 5‑k : Test on Fold 4
+        Train on Folds 1‑4, 6‑k : Test on Fold 5
+        %% Add more folds as needed
+```
 
 
 
