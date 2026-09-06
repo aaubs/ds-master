@@ -1,6 +1,6 @@
 # Validation · 6 September 2026
 
-Both student notebooks passed nbformat validation and executed top to bottom in separate fresh Python kernels in each environment below. The 33 code cells in Part 1 and 47 code cells in Part 2 include the supplied solution cells; exercise placeholders remain intentionally unfilled. Student files have no saved outputs or execution counts.
+Both student notebooks passed nbformat validation and executed top to bottom in separate fresh Python kernels in each environment below. The 33 code cells in Part 1 and 48 code cells in Part 2 include the supplied solution cells; exercise placeholders remain intentionally unfilled. Student files have no saved outputs or execution counts.
 
 | Environment | Python | pandas | NumPy | Result |
 |---|---|---|---|---|
