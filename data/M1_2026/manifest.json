@@ -1,0 +1,16 @@
+{
+  "retrieved_on": "2026-09-06",
+  "upstream_class_commit": "30d6d5d",
+  "files": [
+    {
+      "path": "data/udemy_courses_info.csv",
+      "sha256": "c9e4385185efdaf9d52d1e835d50a18de374a7c07b98e95e7ad221e4ce763c6c",
+      "bytes": 501946
+    },
+    {
+      "path": "data/M1_2026/spotify_songs.csv",
+      "sha256": "9902920cfe4940f0914ebb6716801a42f7f19ac88fbd6693eaae7e2822b16845",
+      "bytes": 7971379
+    }
+  ]
+}
