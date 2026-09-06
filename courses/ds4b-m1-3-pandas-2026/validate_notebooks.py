@@ -18,7 +18,7 @@ OUT = Path(sys.argv[1]).resolve()
 OUT.mkdir(parents=True, exist_ok=True)
 report = {'python':sys.version.split()[0], 'pandas':pd.__version__,
           'numpy':np.__version__, 'matplotlib':matplotlib.__version__, 'notebooks':[]}
-for name in ['M1_01_control_flow_to_pandas.ipynb', 'M1_02_pandas_deep_dive.ipynb']:
+for name in ['M1_01_control_flow_to_pandas.ipynb', 'M1_02_pandas_deep_dive.ipynb', 'M1_instructor_solutions_2026.ipynb']:
     nb = nbformat.read(ROOT/'notebooks'/name, as_version=4)
     nbformat.validate(nb)
     client = NotebookClient(nb, timeout=120, resources={'metadata': {'path':str(ROOT)}})

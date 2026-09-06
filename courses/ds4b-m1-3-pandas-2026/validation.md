@@ -1,13 +1,13 @@
 # Validation · 6 September 2026
 
-Both student notebooks passed nbformat validation and executed top to bottom in separate fresh Python kernels in each environment below. The 33 code cells in Part 1 and 48 code cells in Part 2 include the supplied solution cells; exercise placeholders remain intentionally unfilled. Student files have no saved outputs or execution counts.
+Both student notebooks and the instructor notebook passed nbformat validation and executed top to bottom in separate fresh Python kernels in each environment below. The 33 code cells in Part 1 and 48 code cells in Part 2 include the supplied solution cells; exercise placeholders remain intentionally unfilled. The instructor notebook adds 19 code cells, which replay both student notebooks and then re-run every solution. Delivered files have no saved outputs or execution counts.
 
 | Environment | Python | pandas | NumPy | Result |
 |---|---|---|---|---|
-| Current package environment | 3.12.9 | 3.0.5 | 2.5.3 | Both notebooks passed; no cell errors or stderr |
-| Compatibility environment | 3.12.9 | 2.2.3 | 2.0.2 | Both notebooks passed; no cell errors; one first-use Matplotlib font-cache notice |
+| Current package environment | 3.12.9 | 3.0.5 | 2.5.3 | All three notebooks passed; no cell errors or stderr |
+| Compatibility environment | 3.12.9 | 2.2.3 | 2.0.2 | All three notebooks passed; no cell errors; one first-use Matplotlib font-cache notice |
 
-The executions used the actual repository CSVs through the documented local-file paths. They did not replace the datasets or modify notebook cells for execution. The optional sampling starter remains commented, as delivered, and is not a completed solution.
+The executions used the actual repository CSVs through the documented local-file paths. They did not replace the datasets or modify notebook cells for execution. The optional sampling starter remains commented in the student notebook, as delivered; the instructor notebook carries the worked version.
 
 ## Content and output checks
 

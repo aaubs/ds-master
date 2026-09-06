@@ -3,7 +3,8 @@
 **Session:** 9 September 2026, 12:30–16:15 (Fib15-2.234)<br>
 **Instructor:** Roman Jurowetzki<br>
 **Audience:** MSc Business Data Science students with Python basics<br>
-**Format:** [Notebook 1](../../notebooks/M1_01_control_flow_to_pandas.ipynb) and [Notebook 2](../../notebooks/M1_02_pandas_deep_dive.ipynb), with filenames preserved, plus the supplied sibling `data/` and `media/` structure.
+**Format:** [Notebook 1](../../notebooks/M1_01_control_flow_to_pandas.ipynb) and [Notebook 2](../../notebooks/M1_02_pandas_deep_dive.ipynb), with filenames preserved, plus the supplied sibling `data/` and `media/` structure.<br>
+**Companion:** [Instructor solutions notebook](../../notebooks/M1_instructor_solutions_2026.ipynb) — every exercise with the model solution, the wrong answers to expect, expected numbers from the frozen snapshot, and three live diagnostic cells. This guide holds the timing and teaching intent; that notebook is the runnable half. Rebuild it with `build_instructor_notebook.py` after changing any student solution.
 
 ## Teaching intent
 
@@ -29,7 +30,7 @@ Students should leave able to state the row grain, produce a reproducible summar
 
 Notebook 1 allocates 20 minutes to Python flow, 20 to NumPy, 25 to pandas inspection/selection, and 15 to groupby practice. Notebook 2 allocates 15 minutes to orientation, 15 to the audit, 30 to joins, 25 to grouping, and 25 to reshaping and interpretation. Exercise attempts are included in these times. The second break falls near the end of the join section; finish its checkpoint after the break.
 
-Treat robustness checks and the date-pattern code as supplied support code: explain the decision and output without teaching regular expressions or asking students to reproduce every line. If students need more practice, let pairs attempt two of the four Notebook 2 exercises in class and complete the others after class. Keep the joins, reshape demonstration, and final interpretation. The optional sampling extension is for after class.
+Treat the robustness and date-precision checks as supplied support code: explain the decision and the output rather than every line. The main path now derives date precision from the text length and checks track consistency with `drop_duplicates`, so no regular expressions appear before the appendix; the stricter regex and grouped-`nunique` versions sit at the end of Notebook 2, labelled as later material, and each asserts that it agrees with the short version. If students need more practice, let pairs attempt two of the four Notebook 2 exercises in class and complete the others after class. Keep the joins, reshape demonstration, and final interpretation. The optional sampling extension is for after class.
 
 ## Scaffolding moves
 
