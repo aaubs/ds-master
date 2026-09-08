@@ -72,8 +72,12 @@ Either way the gap is small enough that nobody notices without checking, and
 pairs-versus-pairs-with-genre cell is the direct preparation.
 
 A group that keeps `subgenre` in the grain has 32,833 membership rows; genre only gives
-32,510. Both are defensible if stated. Neither is defensible if the row count is never
-mentioned.
+32,510. **These are not equally usable here.** The family lookup joins on `subgenre`, so a
+group that follows Notebook 2's recipe exactly and drops `subgenre` in Question 1 cannot do
+Question 2 without going back. That rework is legitimate — the grain has to support the
+question you are going to ask, and the lookup is named in the setting before Question 1 —
+but it is the most likely place for a group to lose an evening. If you hear it, the nudge
+is "what does Question 2 join on?", not the answer.
 
 ## Expected answer to Question 3
 
@@ -99,9 +103,37 @@ Three things to listen for:
    from a group that picked ≥ 2. Both are "right"; what matters is that they showed the
    sensitivity, not which cut-off they chose.
 
-Within family: several families are small once you split by travelling, and `latin_rhythm` loses
-`tropical` entirely to the unmatched keys — a group that handled Question 2 honestly will see
-its family counts drop and should say so.
+### The second grain trap, inside Question 3
+
+Grouping by family needs one family per track, and **1,614 tracks have more than one**,
+because a track on playlists of different subgenres lands in different families. Grouping
+naively double-counts them: 2,027 extra rows.
+
+It is not evenly spread, and this is the part worth teaching:
+
+| | share of tracks in more than one family |
+|---|---:|
+| Travelling tracks (reach ≥ 2) | **52.0%** |
+| Non-travelling tracks | 0.6% |
+
+A track that travels is far more likely to cross families — that is close to what
+travelling means. So the naive per-family comparison inflates the travelling side of every
+family, and it does so structurally rather than by accident. It is the Question 1 lesson at
+a new level: *decide what one row is before you group*.
+
+Very few groups will catch this unprompted. It is the best follow-up question you have for
+a group whose Question 3 is otherwise clean, and a good thing to put on the screen in
+class.
+
+### The aggregate hides the biggest family
+
+At a cut-off of 2, overall energy rises 0.698 → 0.705. In `club_electronic`, the largest
+family, it **falls** 0.797 → 0.749 on 1,079 travelling tracks; every other family rises or
+stays flat. A group that reports only the aggregate reports the opposite of what happens in
+the family carrying the most rows.
+
+`latin_rhythm` also loses `tropical` entirely to the unmatched keys, so its counts drop — a
+group that handled Question 2 honestly will see that and should say so.
 
 ## What you will actually receive
 
@@ -116,6 +148,22 @@ its family counts drop and should say so.
 - **Causal drift**: "travelling makes tracks more popular". Push back in feedback.
 - **A notebook that does not restart-and-run**, usually because the lookup fix was applied
   in a cell that was later edited. This is why the checklist item exists.
+
+## Verified by cold-solving it
+
+The three questions were worked through in order against the real files, without pre-known
+answers, on 8 September 2026. Everything above is what that produced. Three things came out
+of it that were not visible when the assignment was designed: the grain constraint in
+Question 2, the multi-family double count, and the `club_electronic` reversal.
+
+Two mechanics worth knowing before you help anyone:
+
+- `validate="many_to_one"` names the offending key in its error text — pandas prints
+  `Duplicates in right: dance pop`. Flaw 1 is therefore handed to the group; the work is
+  deciding what to do about it, not finding it.
+- `set(lookup["subgenre"]) - set(df["subgenre"])` prints `['Neo Soul ']`, trailing space
+  visible inside the quotes. That is the intended discovery route for flaw 2, and the one
+  hint worth giving a stuck group.
 
 ## Feedback, not marks
 
