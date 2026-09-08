@@ -1,88 +1,87 @@
-# Assignment instructor notes — do not hand out
+# Assignment notes for you, not for students
 
-Companion to [assignment.md](assignment.md). Contains the planted flaws, the numbers a
-correct submission lands on, and what to do with the answers you will actually receive.
+Companion to [assignment.md](assignment.md). The traps, the numbers a good submission
+lands on, and what to do with what you'll actually get back.
 
-## The design in one paragraph
+## Why it's built like this
 
-The session taught four checks — state the grain, audit before deciding, validate a
-merge, report counts beside means. A check only teaches if something fails it. So the
-assignment ships a lookup table with three real key problems, asks a question whose
-obvious computation is subtly wrong, and picks a comparison whose headline result
-reverses when you move the threshold. A group that skips the discipline gets a
-plausible, confidently wrong answer, and the video is where that becomes visible.
+The session taught four checks: state the grain, audit before deciding, validate a merge,
+put counts next to means. A check only teaches you anything if something fails it, and in
+class nothing did. Every check passed, which is comfortable and slightly useless.
 
-## Planted flaw 1 — the lookup table
+So this assignment breaks things on purpose. The lookup table has three real key problems.
+The obvious way to count playlists is quietly wrong. The headline comparison flips sign
+depending on where you draw the line. A group that skips the discipline gets a plausible,
+confident, wrong answer, and the video is where that shows up.
 
-`data/M1_2026/subgenre_families.csv` maps 24 subgenres to 6 families. Families cut
-across `playlist_genre` deliberately (`dance pop` is a pop subgenre in the
-`club_electronic` family; `latin hip hop` is a latin subgenre in `hiphop_lineage`), so
-the family label cannot be reconstructed without the join.
+## Trap 1: the lookup table
 
-**It has 24 rows and the data has 24 subgenres.** That coincidence is the trap: a group
-that checks only `len(lookup) == df["subgenre"].nunique()` concludes the table is fine
-and moves on. It contains three distinct problems:
+`data/M1_2026/subgenre_families.csv` maps 24 subgenres to 6 families. The families cross
+`playlist_genre` on purpose (`dance pop` is a pop subgenre sitting in `club_electronic`,
+`latin hip hop` is a latin subgenre in `hiphop_lineage`), so there's no way to reconstruct
+the label without doing the join.
 
-| # | Problem | Where | Effect |
+It has 24 rows. The data has 24 subgenres. That coincidence is deliberate: a group that
+checks `len(lookup) == df["subgenre"].nunique()` decides the table is fine and moves on.
+It isn't fine. There are three separate problems in it.
+
+| # | Problem | Kind | Effect |
 |---|---|---|---|
-| 1 | `dance pop` appears twice, as `club_electronic` **and** `pop_craft` | duplicate key | `validate="many_to_one"` raises `MergeError`; without it the merge silently adds **1,298 rows** |
-| 2 | `neo soul` is written `"Neo Soul "` — title case, trailing space | key that looks present but does not match | **1,637 rows** unmatched, fixable by cleaning the key |
-| 3 | `tropical` is absent entirely | missing key | **1,288 rows** unmatched, not fixable — a decision is required |
+| 1 | `dance pop` appears twice, once as `club_electronic` and once as `pop_craft` | duplicate key | `validate="many_to_one"` raises `MergeError`. Without it, the merge quietly adds **1,298 rows** |
+| 2 | `neo soul` is written `"Neo Soul "`, title case with a trailing space | looks present, doesn't match | **1,637 rows** unmatched, fixable by cleaning the key |
+| 3 | `tropical` isn't in the file at all | missing key | **1,288 rows** unmatched, no fix available, only a decision |
 
-Problems 2 and 3 both surface as `left_only` in the indicator, and telling them apart is
-the analytical work. Problem 2 is the payoff for the header-cleaning step the session
-notebook says is unnecessary on clean data.
+Problems 2 and 3 both show up as `left_only` in the indicator. Telling them apart is the
+work. Problem 2 is where the header-cleaning step pays off, the one Notebook 2 says you
+don't need on clean data.
 
-**Expected numbers.** On a membership table of 32,833 rows (track–playlist–genre–subgenre):
+Numbers, on a membership table of 32,833 rows (track, playlist, genre, subgenre):
 
-- Unvalidated left merge: 34,131 rows, +1,298.
-- `validate="many_to_one"` raises: *Merge keys are not unique in right dataset*.
-- Unmatched before any fix: 2,925 rows — `neo soul` 1,637, `tropical` 1,288.
-- After `.str.strip().str.lower()` on both keys and a decision on the duplicate: 32,833
-  rows, `tropical` (1,288) still unmatched.
+- Unvalidated left merge: 34,131 rows, so +1,298.
+- `validate="many_to_one"` raises *Merge keys are not unique in right dataset*.
+- Unmatched before any fix: 2,925 rows. `neo soul` 1,637, `tropical` 1,288.
+- After `.str.strip().str.lower()` on both keys plus a decision about the duplicate:
+  32,833 rows, with `tropical` (1,288) still unmatched.
 
-**The duplicate has no single right answer**, which is the point. Dropping `pop_craft`,
-dropping `club_electronic`, or keeping both and reporting `dance pop` twice are all
-defensible — what matters is that the choice and its cost are stated, not that they
-match ours. What
-is *not* defensible is `drop_duplicates()` with no comment, which silently keeps
-whichever row sorted first.
+The duplicate has no single right answer, deliberately. Drop `pop_craft`, drop
+`club_electronic`, or keep both and let `dance pop` appear twice: all defensible. What
+matters is that they say which they chose and what it cost, not that it matches ours. The
+one bad answer is a bare `drop_duplicates()` with no comment, which silently keeps
+whichever row happened to sort first.
 
-## Planted flaw 2 — measuring reach
+## Trap 2: counting playlists
 
-Question 1 asks for the number of playlists each track appears on. The two computations that
-disagree:
+Question 1 asks how many playlists each track appears on. The two candidates:
 
 ```python
 membership.groupby("track_id").size()                    # counts rows
 membership.groupby("track_id")["playlist_id"].nunique()  # counts playlists
 ```
 
-How far they differ depends on the grain the group chose. There are 32,251 distinct
-track–playlist pairs; a second genre label adds 259 rows and a second subgenre label adds
-a further 323.
+How badly they differ depends on the grain the group picked. There are 32,251 distinct
+track-playlist pairs. A second genre label adds 259 rows, a second subgenre label another
+323.
 
 | Membership grain | Rows | Tracks where `size` ≠ `nunique` | Mean reach, `size` vs `nunique` |
 |---|---:|---:|---|
-| track–playlist–genre–subgenre | 32,833 | 511 | 1.158 vs 1.137 |
-| track–playlist–genre | 32,510 | 259 | 1.146 vs 1.137 |
+| track, playlist, genre, subgenre | 32,833 | 511 | 1.158 vs 1.137 |
+| track, playlist, genre | 32,510 | 259 | 1.146 vs 1.137 |
 
-Either way the gap is small enough that nobody notices without checking, and
-`nunique` is the number that answers the question as asked. The session's own
-pairs-versus-pairs-with-genre cell is the direct preparation.
+Either way the gap is small enough to go unnoticed, and `nunique` answers the question as
+asked. The session's own pairs-versus-pairs-with-genre cell is the direct preparation for
+spotting it.
 
-A group that keeps `subgenre` in the grain has 32,833 membership rows; genre only gives
-32,510. **These are not equally usable here.** The family lookup joins on `subgenre`, so a
-group that follows Notebook 2's recipe exactly and drops `subgenre` in Question 1 cannot do
-Question 2 without going back. That rework is legitimate — the grain has to support the
-question you are going to ask, and the lookup is named in the setting before Question 1 —
-but it is the most likely place for a group to lose an evening. If you hear it, the nudge
-is "what does Question 2 join on?", not the answer.
+One thing to watch: the two grains are not equally usable here. The lookup joins on
+`subgenre`, so a group that follows Notebook 2's recipe exactly and drops `subgenre` in
+Question 1 can't do Question 2 without going back. That rework is fair (the grain has to
+support the question, and the lookup is named before Question 1 starts) but it's the
+likeliest place to lose an evening. If you hear about it, the nudge is "what does Question
+2 join on?" rather than the answer.
 
-## Expected answer to Question 3
+## What Question 3 should produce
 
-Reach distribution: 25,538 tracks on 1 playlist, 2,113 on 2, 481 on 3, 130 on 4, 51 on 5,
-34 on 6, 7 on 7, 2 on 8.
+Reach distribution: 25,538 tracks on one playlist, 2,113 on two, 481 on three, 130 on
+four, 51 on five, 34 on six, 7 on seven, 2 on eight.
 
 | Cut-off | n travelling | energy (no / yes) | danceability (no / yes) | popularity (no / yes) |
 |---|---:|---|---|---|
@@ -90,169 +89,175 @@ Reach distribution: 25,538 tracks on 1 playlist, 2,113 on 2, 481 on 3, 130 on 4,
 | ≥ 3 | 705 | 0.698 / 0.708 | 0.653 / 0.669 | 38.5 / **71.4** |
 | ≥ 5 | 94 | 0.699 / **0.641** | 0.653 / 0.700 | 39.2 / **84.5** |
 
-Three things to listen for:
+Three things to listen for.
 
-1. **The audio features barely move.** 0.698 → 0.705 on energy is not a finding. Groups
-   that report it as one have not asked whether the difference is worth acting on.
-2. **Popularity moves enormously**, and it is the variable nobody was asked about. The
-   good submissions notice, and then notice that the direction is unclear: curators add
-   popular tracks, and being on many playlists makes tracks popular. This is the best
-   available limitation and the strongest signal of a group that understood the session.
-3. **The energy comparison reverses at ≥ 5** — travelling tracks become *less* energetic,
-   on 94 tracks. A group that picked ≥ 5 and stopped will report the opposite headline
-   from a group that picked ≥ 2. Both are "right"; what matters is that they showed the
-   sensitivity, not which cut-off they chose.
+The audio features barely move. Going from 0.698 to 0.705 on energy is not a finding, and
+a group reporting it as one hasn't asked whether it's big enough to act on.
 
-### The second grain trap, inside Question 3
+Popularity moves enormously, and it's the variable nobody asked about. Good submissions
+notice, then notice the direction is unclear: curators add popular tracks, and sitting on
+many playlists makes tracks popular. This is the best limitation available in the data and
+the clearest sign a group understood the session.
 
-Grouping by family needs one family per track, and **1,614 tracks have more than one**,
-because a track on playlists of different subgenres lands in different families. Grouping
-naively double-counts them: 2,027 extra rows.
+Energy reverses at ≥ 5. Travelling tracks become less energetic, on 94 tracks. A group
+that picked ≥ 5 and stopped reports the opposite headline from a group that picked ≥ 2.
+Both are "right". Showing the sensitivity is what counts, not the cut-off.
 
-It is not evenly spread, and this is the part worth teaching:
+### The second grain trap, hidden in Question 3
 
-| | share of tracks in more than one family |
+Grouping by family needs one family per track, and 1,614 tracks have more than one,
+because a track on playlists of different subgenres lands in different families. Group
+naively and you double-count them: 2,027 extra rows.
+
+The double count isn't evenly spread, and that's the interesting bit:
+
+| | in more than one family |
 |---|---:|
 | Travelling tracks (reach ≥ 2) | **52.0%** |
 | Non-travelling tracks | 0.6% |
 
-A track that travels is far more likely to cross families — that is close to what
-travelling means. So the naive per-family comparison inflates the travelling side of every
-family, and it does so structurally rather than by accident. It is the Question 1 lesson at
-a new level: *decide what one row is before you group*.
+A track that travels is far more likely to cross families, since crossing families is
+close to what travelling means. So the naive per-family comparison inflates the travelling
+side of every family, structurally, not by bad luck. It's the Question 1 lesson again one
+level up: work out what one row is before you group.
 
-Very few groups will catch this unprompted. It is the best follow-up question you have for
-a group whose Question 3 is otherwise clean, and a good thing to put on the screen in
-class.
+Almost nobody will catch this on their own. It's your best follow-up question for a group
+whose Question 3 is otherwise clean, and worth putting on the projector.
 
 ### The aggregate hides the biggest family
 
-At a cut-off of 2, overall energy rises 0.698 → 0.705. In `club_electronic`, the largest
-family, it **falls** 0.797 → 0.749 on 1,079 travelling tracks; every other family rises or
-stays flat. A group that reports only the aggregate reports the opposite of what happens in
-the family carrying the most rows.
+At a cut-off of 2, overall energy rises from 0.698 to 0.705. Inside `club_electronic`, the
+largest family, it falls from 0.797 to 0.749 across 1,079 travelling tracks. Every other
+family rises or stays flat. Report only the aggregate and you report the opposite of what
+happens in the family with the most rows in it.
 
-`latin_rhythm` also loses `tropical` entirely to the unmatched keys, so its counts drop — a
-group that handled Question 2 honestly will see that and should say so.
+`latin_rhythm` also loses `tropical` to the unmatched keys, so its counts drop. A group
+that handled Question 2 honestly will see that and should mention it.
 
-### Release year, and why the audit is no longer decorative
+### Release year, and why the audit isn't decorative any more
 
-Question 1's date audit used to produce a column nothing downstream touched. Question 3
-now asks whether the two groups differ in release year, so the audit has to be right.
+The date audit in Question 1 used to produce a column nothing downstream touched. Question
+3 now asks whether the two groups differ in release year, so the audit has to be right.
 
-Precision is not confounded — 94.1% of tracks carry a full day string in **both** groups —
-so a year derived from the first four characters is safe to use, which is the audit's
-honest conclusion rather than an assumption.
+Precision isn't confounded: 94.1% of tracks carry a full day string in both groups. A year
+taken from the first four characters is safe, and that's a conclusion the audit earns
+rather than an assumption it makes.
 
-The comparison itself returns a **null, and that is the good answer**:
+The comparison comes back null, and null is the good answer here:
 
 | | mean release year | median | tracks |
 |---|---:|---:|---:|
 | Not travelling | 2011.2 | 2016 | 25,538 |
 | Travelling (≥ 2) | 2010.0 | 2016 | 2,818 |
 
-The groups are the same age. So recency does **not** explain the +22 popularity gap, and a
-group that checks this has *strengthened* its own result by ruling out the obvious
-confound. That is the move worth praising in class: a check that comes back negative is
-still a check.
+Same age, near enough. Recency doesn't explain the +22 popularity gap, so a group that
+runs this check has strengthened its own result by ruling out the obvious confound. Praise
+that in class. A check that comes back negative is still a check, and students rarely
+believe this until someone says it.
 
-A curious group that bins the years finds something better, and non-obvious:
+A group that bins the years finds something better:
 
 | Era | tracks | mean popularity | share travelling |
 |---|---:|---:|---:|
 | pre-1990 | 2,166 | 42.9 | **16.0%** |
 | 1990s | 2,153 | 37.5 | 9.3% |
 | 2000s | 4,135 | 32.0 | 6.6% |
-| 2010–14 | 4,977 | 31.9 | 8.0% |
-| 2015–19 | 14,925 | 43.6 | 10.7% |
+| 2010-14 | 4,977 | 31.9 | 8.0% |
+| 2015-19 | 14,925 | 43.6 | 10.7% |
 
-Popularity is U-shaped, not increasing, and **old catalogue tracks travel most**. The
-intuitive story — newer means more popular means more playlists — is simply wrong here.
-Worth putting on screen if a group finds it.
+Popularity is U-shaped rather than rising, and old catalogue tracks travel most. The
+intuitive story (newer, so more popular, so more playlists) is just wrong here. Put it on
+the projector if someone finds it.
 
-## What you will actually receive
+## What you'll actually get back
 
-- **A confident 0.7-versus-0.65 headline** with no counts and no sensitivity. The most
-  common submission you will get, and the one most worth showing the class.
-- **`drop_duplicates()` on the lookup with no comment.** Ask in the video which of the two
-  `dance pop` rows survived and why.
-- **`.dropna()` early**, dropping the unmatched rows before anyone counts them. The count
-  of what you discarded is the deliverable, not the tidy frame.
-- **`size()` for reach**, undetected. Not fatal — the difference is small — but the check
-  was the task. Look for whether they checked, not for which number they got.
-- **Causal drift**: "travelling makes tracks more popular". Push back in feedback.
-- **A notebook that does not restart-and-run**, usually because the lookup fix was applied
-  in a cell that was later edited. This is why the checklist item exists.
+A confident "0.70 versus 0.65" headline with no counts and no sensitivity. This will be
+the most common submission, and it's the most useful one to walk through in class.
 
-## Verified by cold-solving it
+`drop_duplicates()` on the lookup, uncommented. In the video, ask which of the two `dance
+pop` rows survived and why.
 
-The three questions were worked through in order against the real files, without pre-known
-answers, on 8 September 2026. Everything above is what that produced. Three things came out
-of it that were not visible when the assignment was designed: the grain constraint in
-Question 2, the multi-family double count, and the `club_electronic` reversal.
+An early `.dropna()`, throwing away the unmatched rows before anyone counts them. The
+count of what got discarded was the deliverable. The tidy frame wasn't.
+
+`size()` for reach, undetected. Not fatal, the difference is small, but checking was the
+task. Look for whether they checked, not for which number came out.
+
+Causal drift: "travelling makes tracks more popular." Push back.
+
+A notebook that won't restart and run, usually because the lookup fix lives in a cell that
+got edited afterwards. Hence the checklist item.
+
+## This was cold-solved before you got it
+
+The three questions were worked through in order against the real files on 8 September
+2026, without knowing the answers in advance. Everything above came out of that. Three
+things only showed up then and weren't visible when the assignment was designed: the grain
+constraint in Question 2, the multi-family double count, and the `club_electronic`
+reversal.
 
 Two mechanics worth knowing before you help anyone:
 
-- `validate="many_to_one"` names the offending key in its error text — pandas prints
-  `Duplicates in right: dance pop`. Flaw 1 is therefore handed to the group; the work is
-  deciding what to do about it, not finding it.
-- `set(lookup["subgenre"]) - set(df["subgenre"])` prints `['Neo Soul ']`, trailing space
-  visible inside the quotes. That is the intended discovery route for flaw 2, and the one
-  hint worth giving a stuck group.
+`validate="many_to_one"` names the offending key in its error text. Pandas prints
+`Duplicates in right: dance pop`, so trap 1 is handed to the group. The work is deciding
+what to do about it, not finding it.
 
-### One deliberate change after the cold solve
+`set(lookup["subgenre"]) - set(df["subgenre"])` prints `['Neo Soul ']` with the trailing
+space visible inside the quotes. That's the intended route to trap 2 and the one hint
+worth giving a group that's stuck.
 
-The brief used to tell groups outright that two ways of counting reach *disagree on this
-dataset*, which turned a discovery into an instruction. It now says only that there is
-more than one way to count and asks for the check. **Expect fewer groups to catch it** —
-possibly none. That is the intended trade: the ones who check have actually learned
-something, and for everyone else it becomes the sharpest five minutes of the debrief. Have
-the `01R0Xdwje645C6xFCnMRvm` example ready — same track, same playlist, twice, under
-`classic rock` and `hard rock`.
+### One thing was made harder on purpose
 
-Question 3 also asks groups to say what a better grouping than the supplied families would
-have been. The taxonomy is invented, they can tell, and inviting the criticism is better
-than hoping nobody notices.
+The brief used to say outright that two ways of counting reach disagree on this dataset,
+which turns a discovery into an instruction. Now it only says there's more than one way to
+count and asks for the check. Expect fewer groups to catch it, possibly none. That's the
+trade: whoever checks has actually learned something, and for everyone else it's the
+sharpest five minutes of the debrief. Have this example ready:
+`01R0Xdwje645C6xFCnMRvm`, same track, same playlist, listed twice, once under
+`classic rock` and once under `hard rock`.
 
-## Feedback, not marks
+Question 3 also asks what a better grouping than our invented families would be. Students
+can tell it's invented, so asking for the criticism beats hoping nobody brings it up.
 
-The assignment is not graded, and the brief says so on the first line. What replaces the
-rubric is the "what we will be looking at" list in the brief and the videos themselves.
+## Feedback instead of marks
 
-- **The videos are the session material.** Watch them before the next session and pick two
-  or three to talk about — ideally one group that found the duplicate key by prediction
-  and one that found it by the row count looking wrong afterwards. Both are wins; they are
-  different wins.
-- **Feedback lands on the decision, not the number.** A group that chose a different grain,
-  said so, and carried it consistently did better work than one that reproduced our table
-  by accident. Say that out loud, because ungraded work makes students look for the
-  "right" answer to compare against.
-- **The video is where generated code becomes visible.** No marks to withhold, so the
-  lever is the conversation: ask the group to explain a line on screen. That is also the
-  honest framing to give them — the exam is where explaining your own code counts.
-- **Chase missing videos rather than notebooks.** A notebook with no video is the failure
-  mode that costs the next session its material.
+It isn't graded, and the brief says so in the first table. What replaces a rubric is the
+"what we'll notice" list in the brief, plus the videos.
+
+Watch the videos before the next session and pick two or three to discuss. Ideally one
+group that predicted the duplicate key and one that found it afterwards because the row
+count looked wrong. Both are wins, just different ones.
+
+Aim feedback at the decision, not the number. A group that chose a different grain, said
+so, and stayed consistent did better work than one that reproduced our table by accident.
+Say this out loud, because ungraded work sends students hunting for a right answer to
+compare themselves against.
+
+The video is where generated code becomes visible. There are no marks to withhold, so the
+lever is just conversation: ask someone to explain a line on screen. That's also the
+honest framing to give them, since the exam is where explaining your own code starts
+counting.
+
+Chase missing videos harder than missing notebooks. A notebook with no video is the
+failure mode that costs the next session its material.
 
 ## Effort
 
-The window is about 40 hours of group work including the recording, but **the brief does
-not state an hours figure and should not**: quoting one invites groups to pad to it, and
-none of the three questions is long to code. The time goes into the decisions.
+The window is roughly 40 hours of group work including the recording. The brief doesn't
+say so and shouldn't: quote an hours figure and groups pad to it. None of the three
+questions is much code.
 
-If groups report spending far more than the window, the usual cause is Question 2 — they
-treat the broken merge as an obstacle to the assignment rather than as the assignment. Say
-so in class if you hear it twice.
+If groups report spending far more than that, it's usually Question 2, because they're
+treating the broken merge as something blocking the assignment rather than as the
+assignment. Say so in class if you hear it twice.
 
-Question 3 previously carried a fourth part, a self-chosen question. It was cut to keep
-the problem set at three: it added scope without exercising anything the other two do not
-already cover.
+Question 3 used to carry a fourth part, a question of the group's own choosing. Cut, to
+keep it at three. It added scope without exercising anything the other two don't.
 
-## Before handing out
+## Before you hand it out
 
-- [ ] Confirm the deadline: the brief says **Friday 18 September 2026, 23:59**
-- [ ] Confirm the hand-in channel and how they submit the video link
-- [ ] Confirm group size — the video asks every member to present one decision, which
-      works for 3–5 and needs adjusting outside that range
-- [ ] Decide whether the starter notebook is handed out or only linked
-- [ ] Decide where the videos go, and tell groups — you need to be able to watch them all
-      before the next session
+- [ ] Confirm the deadline. The brief says Friday 18 September 2026, 23:59
+- [ ] Confirm the hand-in channel, and how the videos get to you
+- [ ] Confirm group size. The video asks everyone to present one decision, which works for
+      3 to 5 and needs rethinking outside that
+- [ ] Decide whether the starter notebook goes out or just gets linked

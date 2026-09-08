@@ -1,116 +1,110 @@
-# Group assignment · From a table to a defensible answer
+# Group assignment: travelling tracks
 
-**Module 1 · Session 02 follow-up · Master's in Business Data Science**
+**Module 1 · after session 02**
 
 | | |
 |---|---|
-| **Work in** | Your assigned group |
-| **Hand in** | One `.ipynb` notebook + one video (link in the notebook's first cell) |
+| **Work in** | Your group |
+| **Hand in** | A notebook and a video |
 | **Deadline** | Friday 18 September 2026, 23:59 |
 | **Graded** | No |
 
-## Why this assignment exists
+## What this is
 
-In the session we practised a specific discipline: say what one row is, check the data before trusting it, protect a join, and report a number together with what it cannot support.
+Last session we kept asking the same four things: what is one row, what's missing, is this join about to do something stupid, and what can this number honestly support. Asking them about a notebook that's already been debugged for you is easy. Asking them about a question nobody has answered yet is the actual skill.
 
-**This is not graded.** It exists because the discipline only becomes yours once you have used it on a question nobody has answered for you first. There are three questions; none of them is long to code. What takes the time is the decisions inside them.
+So, three questions. None of them is much code. The time goes into deciding things and being able to say why.
 
-Your videos are what we discuss in the next session, so make them the ones you would want to watch.
+We watch the videos before the next session and talk about them there, so make one you'd be willing to sit through.
 
 ## The setting
 
-Some tracks sit on a single playlist. Others travel: the same track turns up on several. A curation team wants to know whether travelling tracks are recognisably different.
+Some tracks live on one playlist. Others get around: same track, five different playlists. A curation team wants to know whether the ones that get around are recognisably different.
 
-You have two files. The starter notebook loads them for you; these are the direct links if you want to read them into your own notebook, or open them in a browser first.
+Two files. Both read straight from the URL, so there's nothing to download.
 
-- **`spotify_songs.csv`** — the same 2020 snapshot as Notebook 2.<br>
-  `https://raw.githubusercontent.com/aaubs/ds-master/codex/m1-pandas-2026/data/M1_2026/spotify_songs.csv`
-- **`subgenre_families.csv`** — a subgenre → family grouping, **constructed for this assignment**. It is not an official Spotify taxonomy and carries no authority. Treat it as you would any lookup table handed to you by another team: check its keys before you trust the join. It was not checked for you.<br>
-  `https://raw.githubusercontent.com/aaubs/ds-master/codex/m1-pandas-2026/data/M1_2026/subgenre_families.csv`
+**`spotify_songs.csv`** · the 2020 snapshot from Notebook 2
+`https://raw.githubusercontent.com/aaubs/ds-master/codex/m1-pandas-2026/data/M1_2026/spotify_songs.csv`
 
-Both are read straight from the URL by `pd.read_csv`, so nothing needs downloading:
+**`subgenre_families.csv`** · sorts the 24 subgenres into six families
+`https://raw.githubusercontent.com/aaubs/ds-master/codex/m1-pandas-2026/data/M1_2026/subgenre_families.csv`
+
+We made that second one up for this assignment. It isn't a Spotify taxonomy, it carries no authority, and nobody checked it before handing it to you. Treat it like any lookup table that turns up from another team.
 
 ```python
 songs_raw = pd.read_csv("https://raw.githubusercontent.com/aaubs/ds-master/codex/m1-pandas-2026/data/M1_2026/spotify_songs.csv")
 families_raw = pd.read_csv("https://raw.githubusercontent.com/aaubs/ds-master/codex/m1-pandas-2026/data/M1_2026/subgenre_families.csv")
 ```
 
-Do not attach copies of the CSVs to your submission — load them from the URL or from `data/M1_2026/` so the notebook runs on someone else's machine.
+## Question 1 · What is one row, and how far does each track get?
 
----
+Say what one row of the raw file is, and show the output that convinced you rather than just the sentence. Then build the table your answer will sit on, and say what one of *its* rows is.
 
-## Question 1 · What is one row, and how far does each track travel?
+Now count how many playlists each track appears on. There's more than one way to count that, and they don't all count the same thing. Tell us which one you used and show the check that convinced you it counts playlists and not something else.
 
-State what one row of the raw file represents, and support it with output rather than assertion. Then build the working table your answer will rest on, and say what one of *its* rows is and why that fits the question.
+One more thing before you move on. Look at what's missing in the columns you're actually going to use, and at what the release dates really record. Pull out a release year you're willing to defend, because Question 3 wants one. If a column is a mess and you never touch it, leave it alone and say so. Cleaning things you don't need is just a way of looking busy.
 
-For every track, compute how many playlists it appears on. There is more than one way to count this, and they do not all count the same thing. Report which one you used, and show the check that convinced you it counts what you think it counts.
+## Question 2 · Bolt on the family label
 
-Before you go on, audit the fields your answer depends on: what is missing, and what precision the release dates actually carry. Derive a release year you can defend — Question 3 needs it — and be explicit about what you would be inventing if you parsed every date to a full day. Where the right decision is to leave something alone, say so; a field you never use needs no repair.
+Merge the lookup onto your table.
 
-## Question 2 · Attach the family label
+Write down the row count you expect before you run it. Then merge with `validate=` and `indicator=`, and find out whether you were right.
 
-Merge the family lookup onto your working table.
+If the merge doesn't do what you predicted: congratulations, you've found the real question. Work out what's wrong with the keys, decide what to do about each thing you find, and write down what each decision costs you. Say how many rows end up with no family label and what happened to them.
 
-Predict the row count before you merge and write the prediction down. Merge with `validate=` and `indicator=`. Compare.
+## Question 3 · Do the tracks that get around look different?
 
-If the merge does not behave as you predicted, **that is the question, not an obstacle to it.** Diagnose what is wrong with the keys, decide what to do about each problem you find, and record what each decision costs you. Report how many rows end up with no family label and what you did with them.
+Compare travelling tracks against one-playlist tracks, on at least two audio features and on `track_popularity`. Counts next to every mean, every time.
 
-## Question 3 · Do travelling tracks differ?
+We haven't defined "travelling" for you. Drawing that line is part of the job, and so is showing what happens when you move it. Three cut-offs, minimum. Then check whether the pattern survives inside each family, and say which families are too thin to carry the comparison. The families are a grouping we invented, so if you can think of a better one, tell us what it would be.
 
-Compare travelling tracks with tracks that appear on one playlist, on at least two audio features and on `track_popularity`. Report counts next to every mean.
+Before you write up: check whether your two groups differ in release year, and say what that does to the popularity result. `track_popularity` is a single number, measured once, in 2020.
 
-"Travelling" is not defined for you. Choosing the cut-off is part of the work — and so is showing what happens at three or more cut-offs. Then ask whether whatever you found holds inside every family, and be explicit about which families are too small to carry the comparison. The families are a grouping someone made up; say what a better grouping would have been if you can think of one.
-
-Before you write it up, check whether your two groups differ in **release year**, and say what that does to your reading of the popularity result. `track_popularity` is one number, measured once, in 2020.
-
-Finish with one chart that supports your claim, reshaping the data as needed, and 250–400 words: what you found, what it rests on, and at least two things this data cannot tell the curation team.
-
----
+Finish with one chart that carries your claim, reshaping as needed, and 250 to 400 words. What you found, what it's resting on, and two things this data can't tell the curation team.
 
 ## The video
 
-Once the notebook is done, record your group presenting it. A screen recording of the notebook with your voices over it is enough — no slides, no editing, no production.
+Once the notebook is done, record your group talking through it. A screen recording with your voices over it is plenty. No slides, no editing, no intro music.
 
-- 8 minutes, maximum 10.
-- **Everyone in the group speaks.** The simplest split is one decision each: what you chose, what you rejected, and why.
+- Eight minutes. Ten at the absolute outside.
+- Everyone talks. Easiest split is one decision each: what you picked, what you didn't, and why.
 - Have your own code on screen while you talk about it.
-- Do not read the notebook out top to bottom. We have the notebook. Tell us what you decided and where you were unsure.
+- Don't read the notebook out loud. We have the notebook. Tell us what you decided and where you weren't sure.
 
-A rough single take with a real disagreement in it is worth more than a polished one that skips the interesting part.
+One take with a real argument in it beats a polished one where everybody agrees.
 
-## Submission checklist
+## Handing in
 
-- [ ] One `.ipynb`, named `M1_assignment_<group>.ipynb`
-- [ ] First cell: group number, member names, and the video link
-- [ ] **Restart & Run All produces the notebook you are submitting**, from a fresh kernel, with no manual steps
-- [ ] Data loaded from `data/M1_2026/` or the URLs above — do not attach copies of the CSVs
-- [ ] All three questions present, in order
-- [ ] A short decision log: one line per question saying what you decided and what it cost you
-- [ ] Video is reachable by someone who is not in your group
+- [ ] The notebook, named `M1_assignment_<group>.ipynb`, with group number and names in the first cell
+- [ ] The video, alongside it
+- [ ] **Restart & Run All** produces the notebook you're handing in, from a clean kernel, no manual steps
+- [ ] Data read from `data/M1_2026/` or the URLs above, no CSV copies attached
+- [ ] Three questions, in order
+- [ ] A decision log: one line per question, what you decided and what it cost
 
-## What we will be looking at
+## What we'll notice
 
-No marks, but we do read these, and this is what we will pick up on in feedback and in class:
+No marks, but we do read these, and this is what we'll pick up on in class:
 
-- Whether the row meaning is **stated and supported by output**, not asserted.
-- Whether the reach computation was **checked** rather than assumed.
-- Whether the audit decisions are deliberate — including the decisions to leave something alone — and whether the release year rests on what the dates actually record.
-- On the merge: a **prediction written down first**, validation, a diagnosis of what the keys actually do, and each decision stated with its cost.
-- **Counts next to means**, sensitivity actually shown, small groups flagged rather than quietly averaged.
-- Language that does not slide into cause and effect.
-- Whether **Restart & Run All** works.
+- Whether the row meaning is shown or just asserted.
+- Whether you checked how you counted playlists or trusted the first thing that ran.
+- Whether the audit decisions were decided, including the ones where you decided to do nothing.
+- A row count predicted before the merge, not explained after it.
+- Counts beside means. Sensitivity actually shown. Thin groups flagged instead of quietly averaged.
+- Language that stays on the right side of cause and effect.
+- Whether Restart & Run All works.
 
-We are not looking at chart styling, notebook length, how many pandas methods you used, or whether your answer matches ours. A well-defended "the difference is too small to act on" is a better answer than an overclaimed effect.
+We're not looking at chart styling, notebook length, how many pandas methods you got in, or whether your answer matches ours. "The difference is too small to act on" is a good answer if you can defend it, and a better one than a confident effect that isn't there.
 
-## Tools and honesty
+## Tools
 
-Use whatever tools help you, AI assistants included. Two conditions, and they are the whole policy:
+Use whatever helps, AI included. Two conditions:
 
-1. Put a short note at the end of your notebook saying where you used AI assistance and for what.
-2. Be able to explain every line you submit. You are about to present it on video, which is the practical version of that condition.
+1. A note at the end saying which tools you used and what for.
+2. You can explain any line you hand in. You're about to present it on video, so this one mostly enforces itself.
 
-Code you cannot explain is not your answer, whatever produced it — and it is the code that will fail you in the exam, where nothing is generated for you.
+The exam won't have a chat window in it.
 
-## If you get stuck
+## Stuck?
 
-The two session notebooks contain every technique these questions need. Notebook 2's join section is the closest model for Question 2. Bring questions to the next session — but bring the output you already looked at, not only the error message.
+Everything these questions need is in the two session notebooks, and Notebook 2's join section is the closest thing to Question 2. Bring questions to the next session. Bring the output you already looked at too, not just the error message.

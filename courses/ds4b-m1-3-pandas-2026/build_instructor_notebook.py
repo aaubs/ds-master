@@ -48,35 +48,34 @@ def solution(book, anchor):
 
 # ---------------------------------------------------------------------------
 
-md(f'''
+md('''
 # Instructor solutions: session 02
 
-**Master's in Business Data Science · Module 1 · 9 September 2026 · Roman Jurowetzki**
+**Module 1 · 9 September 2026 · Roman Jurowetzki**
 
-Every exercise from both student notebooks, with the model solution, what students
-actually hand in, and what to say when they are stuck. The numbers quoted are from the
-frozen class snapshot, so you can check a student's screen without re-running anything.
+Every exercise from both student notebooks, with the solution, what students actually hand
+in, and something to say when they are stuck. The numbers come from the frozen snapshot, so
+you can check someone's screen without rerunning anything.
 
-Solution code here is copied verbatim from the student notebooks — if you change a
-solution there, rebuild this file with `courses/ds4b-m1-3-pandas-2026/build_instructor_notebook.py`
-rather than editing it by hand.
+The solution code here is copied straight out of the student notebooks. If you change a
+solution there, rebuild this file with
+`courses/ds4b-m1-3-pandas-2026/build_instructor_notebook.py` instead of editing it by hand.
 
-**This file is for you, not for Moodle.** Timing, run of show, scaffolding moves and the
-version/Colab notes live in [instructor-guide.md](../courses/ds4b-m1-3-pandas-2026/instructor-guide.md);
-this notebook is the runnable half.
+This one is for you, not for Moodle. Timing, run of show, scaffolding and the Colab notes
+live in [instructor-guide.md](../courses/ds4b-m1-3-pandas-2026/instructor-guide.md). This
+is the half that runs.
 
-## How to run it
+## Running it
 
-1. Run the helper cell below once.
-2. Run the **Part 1 setup** cell, then anything in Part 1.
-3. Run the **Part 2 setup** cell before anything in Part 2.
+1. Run the helper cell below, once.
+2. Run the Part 1 setup cell, then anything in Part 1.
+3. Run the Part 2 setup cell before anything in Part 2.
 
-Both setup cells replay the matching student notebook end to end with its output
-suppressed, so every object the solutions need is in scope and identical to what
-students will have on screen.
+Both setup cells replay the matching student notebook with its output suppressed, so
+everything the solutions need is in scope and identical to what students have on screen.
 
-⚠️ **Part 2's setup rebinds `df` to the Spotify data.** If you jump back to a Part 1
-solution afterwards, re-run the Part 1 setup cell first.
+Watch out: Part 2's setup rebinds `df` to the Spotify data. If you jump back to a Part 1
+solution afterwards, rerun the Part 1 setup first.
 ''')
 
 code('''
@@ -123,25 +122,22 @@ md("## Part 1 · From control flow to pandas")
 code(f'run_student_notebook("{NB1}")\nprint("Catalog shape:", df.shape)')
 
 md('''
-### Practice 1 · Collect the free-course titles (loop + `if`)
+### Practice 1 · Collect the free-course titles (loop and `if`)
 
 > Write a loop that collects the titles of free courses into `free_titles`.
 
-**Expected result:** `['Python Basics Lab', 'Security Lab']`, in that order. The
-untouched proxy loop above it prints 3,550.
-
-**What students actually hand in**
+Answer: `['Python Basics Lab', 'Security Lab']`, in that order. The proxy loop above it
+prints 3,550 if untouched.
 
 | What you will see | What went wrong | Say this |
 |---|---|---|
-| A list of dictionaries | They appended `course`, not `course["course_title"]` | "Print one element. Is that a title or a whole record?" |
-| `[]` | `course["price"] == "0"` — comparing a number to text | "What type is `price`? Try `type(course['price'])`." |
-| One title only | `free_titles = []` was written inside the loop | "Where does the empty list have to exist before the loop starts?" |
+| A list of dictionaries | They appended `course`, not `course["course_title"]` | "Print one element. Is that a title, or a whole record?" |
+| `[]` | `course["price"] == "0"`, comparing a number to text | "What type is `price`? Try `type(course['price'])`." |
+| One title only | `free_titles = []` ended up inside the loop | "Where does the empty list need to exist before the loop starts?" |
 | `AttributeError: 'NoneType'` | They kept the starter's `= None` and called `.append` | "`None` is not a list yet." |
 
-**Why this exercise exists:** this loop is the mental model for the boolean mask in
-section 2 and the `.loc` filter in section 3. Keep it on the board — you will point back
-at it twice.
+Keep this loop on the board. You will point back at it twice: once for the boolean mask in
+section 2, once for the `.loc` filter in section 3.
 ''')
 
 solution(NB1, "free_titles = []")
@@ -151,15 +147,15 @@ md('''
 
 > Use `&` to find Web Development courses that are popular.
 
-**Expected result:** `[ True False  True False False]`
+Answer: `[ True False  True False False]`
 
-**The one error worth staging.** `&` binds *tighter* than `==` in Python, so leaving the
-parentheses out does not produce a wrong answer — it raises. Run the next cell live: it
-is faster than explaining precedence in the abstract.
+Worth staging live: `&` binds tighter than `==`, so dropping the parentheses does not give a
+wrong answer, it raises. Running the next cell beats explaining operator precedence in the
+abstract.
 
-Students who write `and` instead of `&` get a different error ("truth value of an array
-is ambiguous"). Both errors say the same thing: `and` asks one yes/no question, `&` asks
-the question once per element.
+Students who write `and` instead of `&` get a different error, about the truth value of an
+array being ambiguous. Both errors mean the same thing. `and` asks one yes-or-no question,
+`&` asks it once per element.
 ''')
 
 solution(NB1, "web_and_popular = (subjects ==")
@@ -182,17 +178,19 @@ md('''
 
 > Find courses that are paid and have at least 100,000 subscribers, then show three columns with `.loc`.
 
-**Expected result: 2 rows.** Warn them — a two-row answer looks like a bug to a student
-who expected a table. It is the correct answer for this historical file.
+Answer: 2 rows. Warn them, because two rows looks like a bug to someone expecting a table.
+It is correct for this file.
 
-**What to watch for**
+Things to watch:
 
-- `df["is_paid"] == True` — works, but the column is already `True`/`False`. Ask what
-  the comparison adds. (The hint in the student notebook now says this.)
-- `df[df["is_paid"]][["course_title", ...]]` — also works, and is the habit that produces
-  `SettingWithCopyWarning` the moment they try to assign. Steer to `.loc[mask, columns]`
-  now, while it costs nothing.
-- `and` instead of `&` again. Second sighting; let a student explain it this time.
+`df["is_paid"] == True` works, but the column is already True/False. Ask what the comparison
+adds. The hint in the student notebook now says this.
+
+`df[df["is_paid"]][["course_title", ...]]` also works, and it is the habit that produces
+`SettingWithCopyWarning` the first time they try to assign. Steer to `.loc[mask, columns]`
+now, while it costs nothing.
+
+`and` instead of `&`, again. Second sighting, so let a student explain it this time.
 ''')
 
 solution(NB1, 'paid_and_popular = df["is_paid"]')
@@ -202,21 +200,24 @@ md('''
 
 > Which subject has the highest average subscribers among `Beginner Level` courses?
 
-**Expected result:** Web Development, ≈7,864 mean subscribers, ahead of Business Finance
-(≈2,331), Musical Instruments (≈1,627) and Graphic Design (≈1,310).
+Answer: Web Development, about 7,864 mean subscribers, ahead of Business Finance (2,331),
+Musical Instruments (1,627) and Graphic Design (1,310).
 
-**What to watch for**
+Things to watch:
 
-- **No filter.** They group the whole catalog and get the section-4 numbers instead. Ask
-  what `Beginner Level` rows the answer is based on.
-- **`.sum()` instead of `.mean()`.** The question says average. This is the whole point of
-  section 4's warning, so make them say why the totals mislead — the demo cell below
-  shows the ranking actually changing.
-- **`level` spelled from memory.** `"Beginner"` returns an empty frame. `df["level"].unique()`
-  is the rescue: the four values are `Intermediate Level`, `All Levels`, `Beginner Level`,
-  `Expert Level`.
-- **Reporting `.max()`** — that is the number, not the subject. `.index[0]` after sorting,
-  or `.idxmax()`, gives the label.
+No filter, so they group the whole catalog and get the section 4 numbers instead. Ask which
+rows the answer is based on.
+
+`.sum()` instead of `.mean()`. The question said average. This is what section 4's warning
+was for, so make them say why the totals mislead. The demo cell below shows the ranking
+moving.
+
+`level` spelled from memory. `"Beginner"` returns an empty frame. `df["level"].unique()` is
+the rescue: the four values are `Intermediate Level`, `All Levels`, `Beginner Level`,
+`Expert Level`.
+
+Reporting `.max()`, which is the number rather than the subject. `.index[0]` after sorting,
+or `.idxmax()`, gives the label.
 ''')
 
 solution(NB1, 'beginner = df.loc[df["level"] == "Beginner Level"]')
@@ -236,20 +237,19 @@ display(comparison.sort_values("average_subscribers", ascending=False))
 ''')
 
 md('''
-Business Finance is second on totals and third on averages, because it carries 968
-courses to Graphic Design's 447. That is the sentence to get out of a student's mouth
-before the break: *a bigger total can just mean a bigger catalog.*
+Business Finance is second on totals and third on averages, because it carries 968 courses
+to Graphic Design's 447. Get that sentence out of a student before the break: a bigger total
+can just mean a bigger catalog.
 
 ### Optional extension · Price bands with `pd.cut`
 
-Only if the room is ahead of schedule. `pd.cut` is the same `price_tier` ladder from
-section 1.2 written as one call, which is a satisfying callback.
+Only if the room is ahead. `pd.cut` is the `price_tier` ladder from section 1.2 as one call,
+which makes a satisfying callback.
 
-Two things students trip on: bin edges are **closed on the right**, so free courses need
-a lower edge below zero (`-1`) to fall inside the first band; and the edges must
-increase, so `bins=[0, 0, 100, inf]` raises. If someone asks about conditions that are
-not ranges — say, price *and* subject — that is `np.select`, and it is fine to name it
-without teaching it today.
+Two things trip people up. Bin edges are closed on the right, so free courses need a lower
+edge below zero (`-1`) to land in the first band. And the edges have to increase, so
+`bins=[0, 0, 100, inf]` raises. If someone asks about conditions that are not ranges, price
+and subject say, that is `np.select`, and naming it without teaching it today is fine.
 ''')
 
 solution(NB1, 'df["price_tier"] = pd.cut(')
@@ -259,8 +259,8 @@ solution(NB1, 'df["price_tier"] = pd.cut(')
 md('''
 ## Part 2 · Pandas deep dive
 
-Run the setup cell below before any Part 2 solution. It takes a few seconds — it replays
-the whole student notebook, including its charts, with output suppressed.
+Run the setup cell before any Part 2 solution. It takes a few seconds, since it replays the
+whole student notebook, charts included, with the output suppressed.
 ''')
 
 code(f'''run_student_notebook("{NB2}")
@@ -271,21 +271,21 @@ print("Joined rows:", len(joined))''')
 md('''
 ### Exercise 1 · What is actually missing? (4 min)
 
-**Expected result:** `title` and `artist` have **5 missing each**; `energy` and
-`danceability` have **none**.
+Answer: `title` and `artist` have 5 missing each. `energy` and `danceability` have none.
 
-**The decision, not the count, is the exercise.** The follow-up question — *would you
-drop every row with a missing field?* — is the one that matters. No: the rows with an
-unknown artist still carry observed audio features, and the comparison is about energy by
-genre. Dropping them would discard usable measurements to tidy a column nobody is
-analysing.
+The decision matters more than the count. The follow-up question, would you drop every row
+with a missing field, is the real one. No: the rows with an unknown artist still carry
+observed audio features, and the comparison is about energy by genre. Dropping them throws
+away usable measurements to tidy a column nobody is analysing.
 
-**What to watch for**
+Things to watch:
 
-- The `.dropna()` reflex, applied to the whole frame before looking at anything.
-- `df.isna().sum().sum()` — one grand total, which answers nothing.
-- Treating `"Unknown artist"` as a finding. It is a display label; it recovers no identity.
-  If a student groups by `artist_display` later, that is where this bites.
+The `.dropna()` reflex, applied to the whole frame before looking at anything.
+
+`df.isna().sum().sum()`, one grand total, which answers nothing.
+
+Treating `"Unknown artist"` as a finding. It is a display label and recovers no identity. If
+a student later groups by `artist_display`, that is where it bites.
 ''')
 
 solution(NB2, "# Solution 1:")
@@ -293,23 +293,24 @@ solution(NB2, "# Solution 1:")
 md('''
 ### Exercise 2 · Check a join (6 min)
 
-**Expected result:** 32,510 rows before and 32,510 after, every row `both`.
+Answer: 32,510 rows before, 32,510 after, every row `both`.
 
-**Make them write the prediction down before running it.** The prediction is the exercise;
-the merge is just the check. A student who cannot predict the row count does not yet know
-what their table's rows are.
+Make them write the prediction down before running it. The prediction is the exercise, the
+merge is just the check. A student who cannot predict the row count does not yet know what
+their rows are.
 
-**What to watch for**
+Things to watch:
 
-- **Merging the other way round** (`tracks.merge(membership, ...)`). It runs, and it
-  silently changes what a row means — now one row per membership *of a track*, with the
-  track table on the left. Ask: "what is one row now?"
-- **`how="inner"`.** Also runs, also 32,510 rows here, and would silently drop
-  unmatched memberships on any less tidy snapshot. The left join states the intent.
-- **Dropping `validate=`** because it "didn't do anything". It did: it asserted the
-  assumption. Answer the "what if the right side had two rows for one track" question
-  concretely — one membership becomes two output rows, and every count and mean built on
-  it is inflated. The duplicate-rows meme in the student notebook is there for this moment.
+Merging the other way round, `tracks.merge(membership, ...)`. It runs, and it quietly
+changes what a row means. Ask what one row is now.
+
+`how="inner"`. Also runs, also gives 32,510 rows here, and would silently drop unmatched
+memberships on any less tidy snapshot. The left join states the intent.
+
+Dropping `validate=` because it "did not do anything". It did: it asserted the assumption.
+Answer the two-rows-on-the-right question concretely. One membership becomes two output
+rows, and every count and mean built on it is inflated. The duplicate-rows meme in the
+student notebook exists for this moment.
 ''')
 
 solution(NB2, "# Solution 2:")
@@ -317,24 +318,24 @@ solution(NB2, "# Solution 2:")
 md('''
 ### Exercise 3 · Conditional grouping (8 min)
 
-**Expected result at `energy >= 0.8`:** edm 3,433 · rock 2,232 · pop 1,774 · latin 1,586 ·
-rap 1,146 · r&b 717.
+At `energy >= 0.8`: edm 3,433, rock 2,232, pop 1,774, latin 1,586, rap 1,146, r&b 717.
 
-**At `0.7`:** edm 4,659 · **pop 3,115 · rock 3,032** · latin 2,935 · rap 2,394 · r&b 1,591.
+At `0.7`: edm 4,659, **pop 3,115, rock 3,032**, latin 2,935, rap 2,394, r&b 1,591.
 
-**The threshold change reorders the table.** Rock is behind pop at 0.7 and ahead of it at
-0.8; across the demo cell below it climbs from 5th place at 0.6 to 2nd at 0.8, while edm
-never moves and r&b never moves. This is the best thirty seconds in the notebook — run it
-live. A "working definition" is not a neutral choice, and the ranking it produces is a
-property of the cutoff as much as of the music.
+Moving the threshold reorders the table. Rock is behind pop at 0.7 and ahead of it at 0.8,
+and across the demo cell below it climbs from 5th at 0.6 to 2nd at 0.8 while edm and r&b
+never move. Best thirty seconds in the notebook, so run it live. A working definition is not
+a neutral choice, and the ranking it produces belongs as much to the cutoff as to the music.
 
-**What to watch for**
+Things to watch:
 
-- **Filtering after grouping** rather than before, or filtering `df` instead of `joined`.
-- **Reading counts as popularity.** edm leads partly because edm has more associations
-  overall. Push them to the share: `count / association_count` from `summary`.
-- **Causal language** — "edm makes people energetic". These are playlist placements
-  labelled by playlist genre, in one 2020 snapshot.
+Filtering after grouping rather than before, or filtering `df` instead of `joined`.
+
+Reading counts as popularity. edm leads partly because edm has more associations to start
+with. Push them to the share, `count / association_count` from `summary`.
+
+Causal language, "edm makes people energetic". These are playlist placements labelled by
+playlist genre, in one 2020 snapshot.
 ''')
 
 solution(NB2, "# Solution 3, step 1")
@@ -352,26 +353,28 @@ display(pd.DataFrame(ranks).sort_values(">= 0.8"))
 md('''
 ### Exercise 4 · Reshape and interpret (7 min)
 
-**Expected result:** one row of `genre_feature_long` is **one genre–measure mean** — for
-example, the mean danceability of pop associations.
+Answer: one row of `genre_feature_long` is one genre-measure mean, say the mean danceability
+of pop associations.
 
-By mean danceability: rap 0.718 · latin 0.714 · r&b 0.670 · edm 0.655 · pop 0.639 ·
-rock 0.520. By mean energy: edm 0.801 · rock 0.733 · latin 0.711 · pop 0.701 · rap 0.651 ·
-r&b 0.591. **Rock is second on energy and last on danceability** — a useful reminder that
-the two indices are different constructs, not two ways of saying "lively".
+By mean danceability: rap 0.718, latin 0.714, r&b 0.670, edm 0.655, pop 0.639, rock 0.520.
+By mean energy: edm 0.801, rock 0.733, latin 0.711, pop 0.701, rap 0.651, r&b 0.591. Rock is
+second on energy and last on danceability, a useful reminder that these are different
+constructs and not two ways of saying "lively".
 
-**What to watch for**
+Things to watch:
 
-- **Melting the count columns too**, producing rows where `measure` is
-  `association_count`. Technically long, semantically nonsense: means and counts are not
-  the same kind of quantity.
-- **"Long format lost information."** Nothing was lost; the same numbers are addressed by
-  `(genre, measure)` instead of by column name. `pivot_table` goes back.
-- **Comparing across measures.** A 0.1 difference in energy is not a 0.1 difference in
-  danceability. Both are bounded 0–1, which is why they share an axis — that is a display
-  convenience, not a claim of equivalence.
-- **A caption with no limitation.** The exercise asks for one result *and* one snapshot
-  limitation. Accept nothing without both.
+Melting the count columns too, producing rows where `measure` is `association_count`.
+Technically long, semantically nonsense. Means and counts are not the same kind of quantity.
+
+"Long format lost information." Nothing was lost. The same numbers are addressed by
+`(genre, measure)` instead of by column name, and `pivot_table` goes back.
+
+Comparing across measures. A 0.1 difference in energy is not a 0.1 difference in
+danceability. Both are bounded 0 to 1, which is why they share an axis, and that is a display
+convenience rather than a claim of equivalence.
+
+A caption with no limitation in it. The exercise asks for one result and one snapshot
+limitation. Accept nothing without both.
 ''')
 
 solution(NB2, "# Solution 4, step 1")
@@ -381,16 +384,16 @@ solution(NB2, "# Solution 4, step 3")
 md('''
 ### Optional extension · Sampling and correlation (after class)
 
-Not a learning gate, and not worth displacing the merge or reshape segment. If a student
-asks in class, the worked version is below.
+Not a learning gate, and not worth displacing the merge or the reshape. If someone asks in
+class, the worked version is below.
 
-The correlations are small and their **signs differ by genre** — about -0.15 in edm, rock
-and rap, +0.12 to +0.16 in latin and r&b, and -0.03 in pop. That is the teaching point:
-there is no single "energy–danceability relationship" here to report.
+The correlations are small and their signs differ by genre: about -0.15 in edm, rock and
+rap, +0.12 to +0.16 in latin and r&b, -0.03 in pop. So there is no single
+energy-danceability relationship here to report.
 
-A 2,000-row sample leaves roughly 330 rows per genre and moves the estimates by up to
-~0.11 — edm's weak negative association all but disappears — even though the signs happen
-to survive. Magnitudes from a few hundred rows are not something to quote.
+A 2,000-row sample leaves roughly 330 rows per genre and shifts the estimates by up to 0.11.
+edm's weak negative association all but disappears, even though the signs happen to survive.
+Magnitudes off a few hundred rows are not something to quote.
 ''')
 
 code('''
@@ -409,34 +412,33 @@ display(comparison.round(3))
 ''')
 
 md('''
-## Appendix cells in the student notebook
+## The appendix cells in the student notebook
 
 The student notebook ends with two appendix cells: the regular-expression version of the
-date-precision check, and the grouped-`nunique` version of the track-consistency check.
-Both finish by asserting they reach the same conclusion as the short versions in the main
-path.
+date-precision check, and the grouped-`nunique` version of the track-consistency check. Both
+finish by asserting they reach the same conclusion as the short versions in the main path.
 
-They are labelled *for later, not for today*. If a student runs ahead and asks, the honest
-framing is: the short version is exact **because the class snapshot is frozen and clean**;
-the appendix version is what you write when you do not control the file. Do not teach
-regular expressions today.
+They are labelled as later material. If someone runs ahead and asks, the honest framing is
+that the short version is exact because the class snapshot is frozen and clean, and the
+appendix version is what you write when you do not control the file. Do not teach regular
+expressions today.
 
 ## Exit-ticket answers you are listening for
 
-**1. List vs `ndarray` vs `DataFrame`.** A list holds any objects and needs a loop to
-compute; an `ndarray` holds one dtype in a shape and computes on every element at once;
-a `DataFrame` adds labelled columns of possibly different dtypes plus an index, so rows
-and columns can be selected by name. Accept anything that names *loop → vectorised →
-labelled*; a student who only says "a DataFrame is a table" has not got it yet.
+**List vs `ndarray` vs `DataFrame`.** A list holds any objects and needs a loop to compute.
+An `ndarray` holds one dtype in a shape and computes on everything at once. A `DataFrame`
+adds labelled columns of possibly different dtypes plus an index, so rows and columns can be
+picked by name. Accept anything that names loop, then vectorised, then labelled. A student
+who only says "a DataFrame is a table" has not got it yet.
 
-**2. One limitation.** Any of: a row is a track–playlist–genre association, so a popular
+**One limitation.** Any of these: a row is a track-playlist-genre association, so a popular
 song counts more than once; the left join assumes `track_id` is unique in the track table
-and validation is what enforces it; `2018` is a real release date at year precision, and
+and validation is what enforces that; `2018` is a real release date at year precision and
 parsing it to 1 January invents a day; `price_times_enrollments_proxy` is a constructed
-proxy, not observed revenue; the Spotify data is a 2020 snapshot and says nothing about
-today.
+proxy and not observed revenue; the Spotify data is a 2020 snapshot and says nothing about
+now.
 
-Weak answer to push on: "the data might be biased." Ask *which* row, *which* assumption.
+Weak answer worth pushing on: "the data might be biased." Which row? Which assumption?
 ''')
 
 # ---------------------------------------------------------------------------

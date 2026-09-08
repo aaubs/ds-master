@@ -81,16 +81,16 @@ Colab executes code in a virtual machine that may be reset or deleted after inac
 
 The follow-up assignment is [assignment.md](assignment.md), with a starter notebook at
 [M1_assignment_2026_starter.ipynb](../../notebooks/M1_assignment_2026_starter.ipynb).
-Three questions — state the grain and measure reach, attach a supplied subgenre-family
-lookup, then compare travelling tracks with the rest — answered as one notebook, after
-which the group records an 8-minute video presenting what they did. It is **not graded**;
-the videos are the material for the following session.
+Three questions: state the grain and count how far each track travels, attach a supplied
+subgenre-family lookup, then compare travelling tracks against the rest. Groups hand in one
+notebook and an eight-minute video of themselves talking through it. Not graded, and the
+videos are what the following session runs on.
 
-[assignment-instructor-notes.md](assignment-instructor-notes.md) — **not for students** —
-documents the three key problems planted in the lookup table, the reach computation that
-two reasonable methods disagree on, the expected numbers at each cut-off, and what to
-expect in submissions. Read it before handing the assignment out; it also lists the four
-things to confirm first, starting with the deadline.
+[assignment-instructor-notes.md](assignment-instructor-notes.md) is for you and not for
+students. It covers the three key problems planted in the lookup table, the reach
+computation two reasonable methods disagree on, the numbers at each cut-off, and what
+tends to come back. Read it before handing anything out. It ends with the four things to
+confirm first, starting with the deadline.
 
 ## Exit ticket (5 minutes)
 
