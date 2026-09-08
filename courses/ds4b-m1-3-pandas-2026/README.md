@@ -6,8 +6,9 @@ This update preserves the class repository's `notebooks/`, `data/`, `media/`, an
 
 ## Group assignment
 
-[assignment.md](assignment.md) is the student brief; [assignment-instructor-notes.md](assignment-instructor-notes.md)
-is the marking companion and is not for hand-out. The starter notebook is
+[assignment.md](assignment.md) is the student brief for the ungraded group assignment;
+[assignment-instructor-notes.md](assignment-instructor-notes.md) is the companion for
+running it and is not for hand-out. The starter notebook is
 [M1_assignment_2026_starter.ipynb](../../notebooks/M1_assignment_2026_starter.ipynb) and the
 supplied lookup table is `data/M1_2026/subgenre_families.csv`, which is constructed for the
 assignment rather than downloaded.

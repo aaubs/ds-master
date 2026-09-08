@@ -43,7 +43,8 @@ notebook says is unnecessary on clean data.
 
 **The duplicate has no single right answer**, which is the point. Dropping `pop_craft`,
 dropping `club_electronic`, or keeping both and reporting `dance pop` twice are all
-defensible — the mark is for stating the choice and its cost, not for matching us. What
+defensible — what matters is that the choice and its cost are stated, not that they
+match ours. What
 is *not* defensible is `drop_duplicates()` with no comment, which silently keeps
 whichever row sorted first.
 
@@ -95,8 +96,8 @@ Three things to listen for:
    available limitation and the strongest signal of a group that understood the session.
 3. **The energy comparison reverses at ≥ 5** — travelling tracks become *less* energetic,
    on 94 tracks. A group that picked ≥ 5 and stopped will report the opposite headline
-   from a group that picked ≥ 2. Both are "right"; the mark is for showing the sensitivity
-   rather than for the cut-off chosen.
+   from a group that picked ≥ 2. Both are "right"; what matters is that they showed the
+   sensitivity, not which cut-off they chose.
 
 Within family: several families are small once you split by travelling, and `latin_rhythm` loses
 `tropical` entirely to the unmatched keys — a group that handled Question 2 honestly will see
@@ -104,8 +105,8 @@ its family counts drop and should say so.
 
 ## What you will actually receive
 
-- **A confident 0.7-versus-0.65 headline** with no counts and no sensitivity. Weight-20
-  section, mark it there.
+- **A confident 0.7-versus-0.65 headline** with no counts and no sensitivity. The most
+  common submission you will get, and the one most worth showing the class.
 - **`drop_duplicates()` on the lookup with no comment.** Ask in the video which of the two
   `dance pop` rows survived and why.
 - **`.dropna()` early**, dropping the unmatched rows before anyone counts them. The count
@@ -116,15 +117,24 @@ its family counts drop and should say so.
 - **A notebook that does not restart-and-run**, usually because the lookup fix was applied
   in a cell that was later edited. This is why the checklist item exists.
 
-## Marking mechanics
+## Feedback, not marks
 
-The rubric is in the student brief; the weights are 25/30/20/15/10 across the three questions plus reproducibility. Two notes:
+The assignment is not graded, and the brief says so on the first line. What replaces the
+rubric is the "what we will be looking at" list in the brief and the videos themselves.
 
-- **Mark the video when it disagrees with the notebook.** Stated in the brief. It is the
-  only practical check on generated code, and it is why every member presents a decision
-  rather than a section.
-- **Do not reward matching our numbers.** A group that chose a different grain, said so,
-  and carried it consistently should out-score one that reproduced our table by accident.
+- **The videos are the session material.** Watch them before the next session and pick two
+  or three to talk about — ideally one group that found the duplicate key by prediction
+  and one that found it by the row count looking wrong afterwards. Both are wins; they are
+  different wins.
+- **Feedback lands on the decision, not the number.** A group that chose a different grain,
+  said so, and carried it consistently did better work than one that reproduced our table
+  by accident. Say that out loud, because ungraded work makes students look for the
+  "right" answer to compare against.
+- **The video is where generated code becomes visible.** No marks to withhold, so the
+  lever is the conversation: ask the group to explain a line on screen. That is also the
+  honest framing to give them — the exam is where explaining your own code counts.
+- **Chase missing videos rather than notebooks.** A notebook with no video is the failure
+  mode that costs the next session its material.
 
 ## Effort
 
@@ -147,3 +157,5 @@ already cover.
 - [ ] Confirm group size — the video asks every member to present one decision, which
       works for 3–5 and needs adjusting outside that range
 - [ ] Decide whether the starter notebook is handed out or only linked
+- [ ] Decide where the videos go, and tell groups — you need to be able to watch them all
+      before the next session
