@@ -1,0 +1,207 @@
+Session two walkthrough. Data handling with pandas and NumPy. Roughly thirty minutes.
+
+This is orientation, not training. You know pandas. What follows is what the session is doing, where the teaching moments actually are, what to say that is not written in the notebooks, and the argument to have ready when a student asks why any of this matters when a language model can write all of it.
+
+
+Part one. What the session is, in one minute.
+
+Two notebooks. The first takes eighty minutes and walks a single question about an online course catalog through three representations: Python records with a loop, a NumPy array with a mask, and a pandas DataFrame with labels. The second takes a hundred and ten minutes on a 2020 Spotify playlist snapshot, and it is where the real content sits. Missingness. Dates with genuine varying precision. Splitting one table into two tables with different grains. A join that has to be protected. Grouped summaries, one reshape, one chart, and an honest paragraph about what the number cannot support.
+
+The spine is: list, to array, to DataFrame, to combine and reshape, to interpretation.
+
+There is a third notebook, the instructor solutions file, which has every exercise with the answer, the wrong answers to expect, and the numbers from the frozen snapshot, so you can check a student's screen without rerunning anything. And there is a group assignment that goes out afterwards, ungraded, with a video.
+
+
+Part two. Why teach this at all, now.
+
+Take this seriously, because your students are taking it seriously. If you wave it away with something about fundamentals, they will correctly conclude you have not thought about it.
+
+Start by conceding the true part, out loud, early. Nobody in that room, including you, will ever again type the argument order of melt from memory. The syntax layer is genuinely solved. If the class thinks you are pretending otherwise, you lose them for the rest of the day. So say it plainly. You will use a model to write this code, that is fine, and it is not what we are here for.
+
+Then make the actual argument, which has four parts.
+
+First. A wrong merge does not raise an error.
+
+This is the whole thing, and it is worth saying slowly. When you join two tables and the key is not unique on the right side, pandas does not complain. It hands you a bigger table. The means are still plausible. The chart still renders. Nothing is red. Every downstream number is now wrong, and there is no signal anywhere in the system that says so.
+
+A language model writing that merge has the same problem you do. It cannot see that your lookup table has a duplicate key, because that is a fact about your data, not a fact about pandas. The model knows the library perfectly and knows your file not at all. Even the agentic tools that actually run the code only catch what raises. Silent wrongness stays silent.
+
+The only thing that catches it is a person who wrote down the expected row count before running the merge, and then looked. That habit costs about ninety seconds and it cannot be delegated, because it consists of knowing what you expected.
+
+Second. Someone has to decide what one row means.
+
+That decision does not come from the file. It comes from the question you are asking and the claim you intend to make. In the Spotify data, one row is a track on a playlist, with genre and subgenre attached. Whether your analysis should treat that as one observation, or deduplicate to one row per track, or one row per track and playlist pair, depends entirely on what you are about to assert.
+
+A model will happily answer at whatever grain you hand it. It has no view about what your claim requires, because it does not know what claim you intend to make until you have made it. Grain is a modelling decision dressed up as a data cleaning step, and it is the most consequential decision in the whole session. There is no version of the future where that gets automated away, because it is the part where a human decides what they are willing to say in public.
+
+Third. Generation got cheap. Being wrong did not.
+
+The cost of producing a plausible analysis has collapsed. The cost of a wrong number reaching a decision has not moved at all. When one side of that ratio drops to nearly zero, the scarce skill is not production. It is verification. The person who can look at a summary table and say, hold on, why did the row count change, is worth more now than five years ago, not less.
+
+And verification is not a separate skill they can pick up later. It is made of exactly the things this session teaches. Knowing what a row is. Knowing what a mask selects. Knowing what a join can do to your row count. Knowing that a count belongs next to every mean.
+
+Fourth. They will spend their careers reading code they did not write.
+
+More of it than ever, and increasingly written by a model. You cannot review what you cannot read. Every hour spent here on reading fluency pays back later as the ability to look at generated code and say, that merge has no validation, or, that group by is running on the wrong frame.
+
+If you want one sentence for the room, use this one. We are not teaching you to type pandas. We are teaching you to be the person who notices.
+
+Be ready for the obvious comeback, because a good student will make it. They will say, fine, but I will just ask the model to check the row count too. I will tell it to validate the merge.
+
+The answer is that you have to know to ask. Every one of these checks is invisible until someone knows it exists. The model will do it beautifully once you say the words validate many to one, and it will not volunteer them, because nothing in the request signalled that the keys might be dirty. Prompting is not free of expertise. It is expertise, expressed in a different place. What you are learning today is the list of things worth asking for.
+
+There is a second half to that answer, which is about what happens when the tool is right most of the time. A tool that fails often teaches you to check it. A tool that is right ninety-five times out of a hundred teaches you to stop checking, which is exactly when the remaining five get expensive. That is not a new problem. It is the same one aviation had with autopilots, and the answer there was not to remove the autopilot. It was to train the pilot to stay in the loop, deliberately, using habits that feel unnecessary right up until the moment they are not.
+
+Predicting a row count before you merge is one of those habits. It feels unnecessary. That is the point.
+
+There is a fifth argument, about the exam, where nothing is generated for them. It works on some rooms and sounds like a threat in others. Read the room. In the assignment brief it appears once, as a single dry line, and once is enough.
+
+
+A note on the clock, before the content.
+
+The session runs twelve thirty to sixteen fifteen with two breaks, and the shape matters more than the content if you are running late.
+
+Ten minutes to open. State the question, show the two-notebook path, run the setup cell, get the version numbers on screen before anyone's environment surprises you.
+
+Twelve forty to fourteen hundred, notebook one. Twenty minutes on Python flow, twenty on NumPy, twenty-five on pandas inspection and selection, fifteen on the group by practice.
+
+Break at fourteen hundred.
+
+Fourteen ten to fifteen oh five, the first half of notebook two. Orientation, the audit, the small join example, the two tables.
+
+Break at fifteen oh five, which lands deliberately in the middle of the join section. Finish the join checkpoint after it, not before.
+
+Fifteen fifteen to sixteen ten, the second half. Grouped summaries, reshape, the chart, the interpretation.
+
+Five minutes at the end for the exit ticket.
+
+If you are running late, and you will be, here is the triage order. The optional extensions go first, both of them, without discussion. Then let pairs attempt two of the four notebook two exercises in class and finish the rest at home. What you do not cut, under any circumstances, is the join section, the reshape demonstration, or the final interpretation. Those three are the session. Everything else is scaffolding for them.
+
+The thing that most often eats the clock is notebook one running long because it feels easy and the room is chatty. Watch the wall at thirteen thirty. If NumPy is not finished by then, compress the pandas inspection part, because they can read describe and info on their own time. They cannot invent the join discipline on their own time.
+
+Part three. Notebook one, and what to add.
+
+Eighty minutes. Python control flow, then NumPy, then the pandas entry.
+
+The content is not difficult, and the risk is that you go too fast because it feels remedial. Do not. The whole point of the first hour is to install one image that the rest of the day refers back to. A loop that makes a decision per record becomes a mask that makes the same decision for all records at once. Everything after that is a variation on it.
+
+Three places to add something.
+
+The first practice writes a loop that collects free course titles. When they finish, do not just move on. Put the loop on the board and leave it there. You are going to point at it twice more. Once when the boolean mask arrives in section two, and once when the dot loc filter arrives in section three. Same decision, three costumes.
+
+The NumPy practice combines two conditions with an ampersand. There is a demonstration cell in the solutions notebook that runs the two classic mistakes deliberately and prints the errors they raise. Run it. The ampersand binds tighter than the equality operator, so leaving out the parentheses does not produce a wrong answer, it raises. That is much faster to show than to explain, and it sticks because they watched it break.
+
+The grouped summary at the end is where the first interpretation moment lives. There is a demo in the solutions notebook that ranks subjects by total subscribers, then by average subscribers. The ordering changes. Business Finance is second by total and third by average, because it carries nine hundred and sixty-eight courses against Graphic Design's four hundred and forty-seven. Get that sentence out of a student before the first break. A bigger total can just mean a bigger catalog. It is the base rate lesson, and it comes back in notebook two, and again in the assignment.
+
+
+Part four. Notebook two, and where the session actually happens.
+
+A hundred and ten minutes, five sections, with a break in the middle of the join section.
+
+Section one is orientation and grain. The dataset has thirty-two thousand eight hundred and thirty-three rows and twenty-eight thousand three hundred and fifty-six distinct tracks. The gap between those two numbers is the entire reason this dataset was chosen. Do not resolve it for them. Ask what one row is, let someone say a song, then show the count of distinct track identifiers and let the room sit with it for a moment.
+
+Section two is the audit. Missing values first, which is unremarkable. Title and artist have five missing each, energy and danceability have none. The teaching is in the decision, not the count. Ask whether they would drop every row with a missing field. The answer is no, and the reason is worth drawing out. The rows with an unknown artist still carry perfectly good audio measurements, and the analysis is about energy by genre. Dropping them discards usable data to tidy a column nobody is analysing.
+
+Then release dates, which is the best small idea in the notebook. Some dates are a full day. Some are a year and a month. Some are just a year. Those are not malformed. They are honest records at different precision. Parse everything to a timestamp and the year-only ones become the first of January, and now you have invented a day that nobody ever observed.
+
+Say the general version of that out loud, because it is much bigger than dates. A parser that fills in what it does not know is producing confident output about something it never saw. That is a description of a data cleaning step. It is also a description of a failure mode they will meet in far more expensive systems.
+
+Section three is joins, and it takes thirty minutes because it deserves thirty minutes.
+
+The notebook builds a tiny two-table example first, three rows against two rows, so the many-to-one relationship is visible before it happens at scale. Then it splits the real data into a memberships table and a tracks table, checks whether repeated tracks agree with each other, and joins with validation and an indicator turned on.
+
+There is a meme in the notebook after the join check. An analyst whose desk fills up with duplicate records, captioned, the business did not grow, the keys were not unique. Use it. It costs thirty seconds and it turns the row-count discipline into a joke people repeat rather than a rule they forget.
+
+The move to insist on, every single time, is the prediction. Before the merge runs. How many rows will this produce, and why. Not afterwards. The prediction is the exercise, the merge is only the marking scheme. A student who cannot predict the row count does not yet know what their rows are, and discovering that is more useful than the join itself.
+
+Section four is grouped summaries, and it carries the sharpest thirty seconds in the session. The exercise asks which genre has the most high-energy tracks, where high energy means at or above zero point eight. Then it asks them to lower the threshold to zero point seven and compare.
+
+The ranking changes. Rock sits behind pop at zero point seven and ahead of it at zero point eight. There is a demo cell in the solutions notebook that sweeps four thresholds and shows rock climbing from fifth place to second, while EDM and R and B never move at all.
+
+Run it live, then say the thing. A working definition is not a neutral choice. The ranking you just produced belongs as much to the cutoff you picked as it does to the music. That generalises to every threshold anyone in the room will ever pick, on any project, for the rest of their career.
+
+Section five is reshape, one chart, and interpretation. The only detail worth policing is the chart's axis labels, which carry the group sizes. Insist that every mean appears with the count it rests on. If they take one formatting habit out of this session, that is the one worth having.
+
+
+Two more things to surface during notebook two, both about language rather than code.
+
+The first is the proxy. In notebook one there is a variable called price times enrollments proxy, and it is named that deliberately and awkwardly. It is not revenue. Nobody observed a single transaction. It is a listed price multiplied by a subscriber count, and if you let students call it revenue for even one slide, they will write it in a report six months from now. Make somebody say out loud what would have to be true for it to be revenue. Every course sold at list price, every subscriber a paying one, no refunds, no bundles.
+
+The second is that both datasets are historical. The Spotify snapshot is from 2020 and the course catalog has no reliable collection date at all. Nothing in this session supports a claim about music now, or about the online course market now. That is not a disclaimer to mumble. It is the same discipline as the grain question, applied to time instead of rows.
+
+One practical note on the solutions notebook. It replays each student notebook quietly in its own setup cell, so every object is in scope and identical to what the room has on screen. That means you can jump straight to any exercise and run it live without rebuilding anything. The one catch is that the part two setup rebinds the data frame variable to the Spotify data, so if you jump back to a part one solution afterwards, rerun the part one setup first.
+
+Part five. What we deliberately simplified, and what to say when they notice.
+
+The notebooks were rewritten to be plainer than they were. Three places where the obvious professional version was replaced by something a beginner can read at a glance.
+
+Release date precision uses the string length rather than three regular expressions, because the three shapes are four, seven and ten characters long.
+
+The track consistency check uses drop duplicates and a row count comparison rather than a grouped N-unique matrix.
+
+The price banding in notebook one uses pandas cut with named bins, rather than NumPy select.
+
+Two of these keep their stricter versions in an appendix at the end of notebook two, clearly labelled as later material, and each one finishes by asserting that it reaches the same conclusion as the short version in the main path.
+
+So when a sharp student says, but you would really use a regular expression for that, the answer is ready and honest. Yes, on data you do not control. The short version is exact here because the class snapshot is frozen and clean, and I checked that. The strict version is at the bottom of the notebook and it agrees with this one. We are not teaching regular expressions today.
+
+That answer does something useful beyond the immediate question. It models the actual professional judgment, which is not always reach for the robust tool. It is know which assumptions your shortcut rests on, and check them.
+
+
+Part six. The assignment.
+
+It goes out after the session, due the following Friday. It is not graded. Groups produce a notebook and a video of themselves talking through it, and those videos are the material for the next session.
+
+The design principle is one sentence. A check only teaches you something if something fails it. In class, every check passes. The join is clean, the keys are unique, there are no conflicts anywhere. That is comfortable and slightly useless. So the assignment breaks things on purpose.
+
+The question is whether tracks that appear on many playlists differ from tracks that appear on only one. Three tasks. Work out the grain and count how far each track travels. Attach a supplied lookup table that sorts subgenres into families. Then compare the two groups.
+
+The lookup table is where the teaching is. We wrote it for the assignment, and it contains three real key problems. One subgenre appears twice with conflicting families, so validation raises, and an unvalidated merge silently adds one thousand two hundred and ninety-eight rows. One subgenre is written in title case with a trailing space, so it looks present and does not match. One subgenre is missing entirely, which has no fix at all, only a decision.
+
+And the file has twenty-four rows while the data has twenty-four subgenres, so a group that checks only the row count concludes it is fine.
+
+Two more things are planted. The obvious way to count playlists per track disagrees with the correct way for five hundred and eleven tracks, because some tracks sit on the same playlist under two different labels. And the headline comparison reverses depending on where they draw the line for travelling. At a cutoff of two, travelling tracks look slightly more energetic. At a cutoff of five, they look less energetic, on ninety-four tracks.
+
+The real finding is somewhere nobody asked them to look. The audio features barely move at all. Popularity moves enormously, from thirty-seven to sixty. And the direction of that is genuinely ambiguous. Curators add popular tracks to playlists, and being on many playlists makes tracks popular. That is the best limitation available anywhere in this data, and a group that finds it has understood the session.
+
+There is one more trap in there that we only found by working the assignment through cold, and it is the best one. To compare inside families, you need one family per track. But sixteen hundred and fourteen tracks belong to more than one family, because a track sitting on playlists of different subgenres lands in different families. Group naively and you double count them.
+
+The double count is not evenly spread, and that is what makes it worth teaching. Fifty-two percent of travelling tracks are in more than one family, against zero point six percent of the rest. A track that travels is far more likely to cross families, because crossing families is close to what travelling means. So the naive comparison inflates the travelling side of every single family, structurally, not by bad luck.
+
+Almost nobody will catch it. It is your best follow-up question for a group whose work is otherwise clean, and it is the grain lesson arriving a third time, one level up. Work out what one row is before you group.
+
+When you hand it out, three things to say.
+
+Say it is not graded, and say why in the same breath, because ungraded work invites the question. It exists because this discipline only becomes theirs once they have used it on a question nobody has answered for them first.
+
+Say the videos get watched and discussed. That is the accountability, and it is real.
+
+And say the thing about tools directly. Use whatever helps, models included, on two conditions. Note what you used. And be able to explain any line you hand in. They are about to present it on video, so the second condition mostly enforces itself. That is a far better position than a ban you cannot police, and they will respect it more.
+
+
+Part seven. What comes back, and what to do with it.
+
+Expect a confident headline with no counts and no sensitivity analysis. This will be the most common submission, and it is the most useful one to walk through in class.
+
+Expect a bare drop duplicates on the lookup table with no comment. In the video, ask which of the two conflicting rows survived, and why.
+
+Expect an early drop-N-A that throws away the unmatched rows before anyone counts them. The count of what got discarded was the deliverable. The tidy frame was not.
+
+Expect causal drift. Travelling makes tracks more popular. Push back on it.
+
+When you watch the videos, pick two or three for the next session. Ideally one group that predicted the duplicate key, and one that found it afterwards because the row count looked wrong. Both are wins, just different ones, and showing both is more honest than only showing the group that did it elegantly.
+
+One more thing, because ungraded work sends students hunting for a right answer to compare themselves against. Say out loud that matching our numbers was never the point. A group that chose a different grain, said so, and stayed consistent did better work than a group that reproduced our table by accident.
+
+
+Part eight. The one thing to leave them with.
+
+At the end of the session there is an exit ticket with two questions. The second one asks for one limitation of the analysis, and those answers tell you almost everything about whether the day worked.
+
+The weak answer is, the data might be biased. If you hear it, ask which row, and which assumption. A student who can say, one row is a track on a playlist, so a song on five playlists counts five times, and that inflates whatever genre those playlists belong to, has the whole session in one sentence.
+
+That sentence is the deliverable. Not the syntax, which they will look up. Not the library, which will change. The ability to say precisely what a number rests on, and precisely what it cannot support, and to have checked rather than assumed.
+
+That is the part no model does for them, because it is not a question about code. It is a question about what they are willing to claim.
+
+End of walkthrough.

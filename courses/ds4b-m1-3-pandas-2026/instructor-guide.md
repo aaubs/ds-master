@@ -6,6 +6,14 @@
 **Format:** [Notebook 1](../../notebooks/M1_01_control_flow_to_pandas.ipynb) and [Notebook 2](../../notebooks/M1_02_pandas_deep_dive.ipynb), with filenames preserved, plus the supplied sibling `data/` and `media/` structure.<br>
 **Companion:** [Instructor solutions notebook](../../notebooks/M1_instructor_solutions_2026.ipynb) — every exercise with the model solution, the wrong answers to expect, expected numbers from the frozen snapshot, and three live diagnostic cells. This guide holds the timing and teaching intent; that notebook is the runnable half. Rebuild it with `build_instructor_notebook.py` after changing any student solution.
 
+## Spoken walkthrough
+
+[session-walkthrough-tts.txt](session-walkthrough-tts.txt) is a thirty-minute narration of
+this guide for listening to on the way in: what the session is doing, where the teaching
+moments are, the clock and what to cut when you are late, and the argument to have ready
+when a student asks why this matters when a model can write the code. Plain text with no
+markup, so it can go straight into any text-to-speech tool.
+
 ## Teaching intent
 
 The session is a guided bridge from Python objects to array programming and then to tabular analysis. Keep the historical Udemy → Spotify sequence. It gives students a familiar cumulative narrative and preserves the existing data/media references; changing the dataset merely for novelty would spend scarce class time on context and file-path repair.
