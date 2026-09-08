@@ -32,9 +32,9 @@ You have two files, in `data/M1_2026/`, loading exactly as in the session notebo
 
 State what one row of the raw file represents, and support it with output rather than assertion. Then build the working table your answer will rest on, and say what one of *its* rows is and why that fits the question.
 
-For every track, compute how many playlists it appears on. **Two reasonable-looking ways to compute this disagree on this dataset.** Find out whether yours is one of them, report which number you are using, and show the check that settled it.
+For every track, compute how many playlists it appears on. There is more than one way to count this, and they do not all count the same thing. Report which one you used, and show the check that convinced you it counts what you think it counts.
 
-Before you go on, audit what is missing in the fields your answer actually depends on, and say what precision the release dates really carry. Decide what to do about each — including where the decision is to do nothing. A field you never use needs no repair; say so rather than repairing it.
+Before you go on, audit the fields your answer depends on: what is missing, and what precision the release dates actually carry. Derive a release year you can defend — Question 3 needs it — and be explicit about what you would be inventing if you parsed every date to a full day. Where the right decision is to leave something alone, say so; a field you never use needs no repair.
 
 ## Question 2 · Attach the family label
 
@@ -48,7 +48,9 @@ If the merge does not behave as you predicted, **that is the question, not an ob
 
 Compare travelling tracks with tracks that appear on one playlist, on at least two audio features and on `track_popularity`. Report counts next to every mean.
 
-"Travelling" is not defined for you. Choosing the cut-off is part of the work — and so is showing what happens at three or more cut-offs. Then ask whether whatever you found holds inside every family, and be explicit about which families are too small to carry the comparison.
+"Travelling" is not defined for you. Choosing the cut-off is part of the work — and so is showing what happens at three or more cut-offs. Then ask whether whatever you found holds inside every family, and be explicit about which families are too small to carry the comparison. The families are a grouping someone made up; say what a better grouping would have been if you can think of one.
+
+Before you write it up, check whether your two groups differ in **release year**, and say what that does to your reading of the popularity result. `track_popularity` is one number, measured once, in 2020.
 
 Finish with one chart that supports your claim, reshaping the data as needed, and 250–400 words: what you found, what it rests on, and at least two things this data cannot tell the curation team.
 
@@ -81,7 +83,7 @@ No marks, but we do read these, and this is what we will pick up on in feedback 
 
 - Whether the row meaning is **stated and supported by output**, not asserted.
 - Whether the reach computation was **checked** rather than assumed.
-- Whether the audit decisions are deliberate — including the decisions to leave something alone.
+- Whether the audit decisions are deliberate — including the decisions to leave something alone — and whether the release year rests on what the dates actually record.
 - On the merge: a **prediction written down first**, validation, a diagnosis of what the keys actually do, and each decision stated with its cost.
 - **Counts next to means**, sensitivity actually shown, small groups flagged rather than quietly averaged.
 - Language that does not slide into cause and effect.

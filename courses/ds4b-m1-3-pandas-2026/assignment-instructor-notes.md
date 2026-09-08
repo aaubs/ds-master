@@ -135,6 +135,41 @@ the family carrying the most rows.
 `latin_rhythm` also loses `tropical` entirely to the unmatched keys, so its counts drop — a
 group that handled Question 2 honestly will see that and should say so.
 
+### Release year, and why the audit is no longer decorative
+
+Question 1's date audit used to produce a column nothing downstream touched. Question 3
+now asks whether the two groups differ in release year, so the audit has to be right.
+
+Precision is not confounded — 94.1% of tracks carry a full day string in **both** groups —
+so a year derived from the first four characters is safe to use, which is the audit's
+honest conclusion rather than an assumption.
+
+The comparison itself returns a **null, and that is the good answer**:
+
+| | mean release year | median | tracks |
+|---|---:|---:|---:|
+| Not travelling | 2011.2 | 2016 | 25,538 |
+| Travelling (≥ 2) | 2010.0 | 2016 | 2,818 |
+
+The groups are the same age. So recency does **not** explain the +22 popularity gap, and a
+group that checks this has *strengthened* its own result by ruling out the obvious
+confound. That is the move worth praising in class: a check that comes back negative is
+still a check.
+
+A curious group that bins the years finds something better, and non-obvious:
+
+| Era | tracks | mean popularity | share travelling |
+|---|---:|---:|---:|
+| pre-1990 | 2,166 | 42.9 | **16.0%** |
+| 1990s | 2,153 | 37.5 | 9.3% |
+| 2000s | 4,135 | 32.0 | 6.6% |
+| 2010–14 | 4,977 | 31.9 | 8.0% |
+| 2015–19 | 14,925 | 43.6 | 10.7% |
+
+Popularity is U-shaped, not increasing, and **old catalogue tracks travel most**. The
+intuitive story — newer means more popular means more playlists — is simply wrong here.
+Worth putting on screen if a group finds it.
+
 ## What you will actually receive
 
 - **A confident 0.7-versus-0.65 headline** with no counts and no sensitivity. The most
@@ -164,6 +199,20 @@ Two mechanics worth knowing before you help anyone:
 - `set(lookup["subgenre"]) - set(df["subgenre"])` prints `['Neo Soul ']`, trailing space
   visible inside the quotes. That is the intended discovery route for flaw 2, and the one
   hint worth giving a stuck group.
+
+### One deliberate change after the cold solve
+
+The brief used to tell groups outright that two ways of counting reach *disagree on this
+dataset*, which turned a discovery into an instruction. It now says only that there is
+more than one way to count and asks for the check. **Expect fewer groups to catch it** —
+possibly none. That is the intended trade: the ones who check have actually learned
+something, and for everyone else it becomes the sharpest five minutes of the debrief. Have
+the `01R0Xdwje645C6xFCnMRvm` example ready — same track, same playlist, twice, under
+`classic rock` and `hard rock`.
+
+Question 3 also asks groups to say what a better grouping than the supplied families would
+have been. The taxonomy is invented, they can tell, and inviting the criticism is better
+than hoping nobody notices.
 
 ## Feedback, not marks
 
