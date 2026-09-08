@@ -77,6 +77,20 @@ Avoid chained assignment, `dtype == "object"` as a text test, direct `None`/`np.
 
 Colab executes code in a virtual machine that may be reset or deleted after inactivity. Keep data loading in a rerunnable setup cell, save notebooks, and use a standard CPU runtime for this class.
 
+## Group assignment
+
+The follow-up assignment is [assignment.md](assignment.md), with a starter notebook at
+[M1_assignment_2026_starter.ipynb](../../notebooks/M1_assignment_2026_starter.ipynb).
+Groups answer whether tracks that appear on more playlists differ from tracks that appear
+on one, using a supplied subgenre-family lookup, and submit a notebook plus an 8-minute
+video in which every member presents one decision.
+
+[assignment-instructor-notes.md](assignment-instructor-notes.md) — **not for students** —
+documents the three key problems planted in the lookup table, the reach computation that
+two reasonable methods disagree on, the expected numbers at each cut-off, and what to
+expect in submissions. Read it before handing the assignment out; it also lists the four
+things to confirm first, starting with the deadline.
+
 ## Exit ticket (5 minutes)
 
 Ask students to answer these two prompts in two or three sentences:

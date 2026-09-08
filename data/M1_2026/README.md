@@ -18,6 +18,20 @@ Measured on this file:
 
 The genre summary weights each retained track–playlist–genre association once. A track can contribute more than once and to more than one genre; these are not independent samples of all music. Energy and danceability are different 0–1 indices, not measurements of the same physical quantity. Album release dates, snapshot popularity scores, and playlist labels do not support conclusions about contemporary hit songs or the causal effect of genre.
 
+## Subgenre families (constructed)
+
+`subgenre_families.csv` maps the 24 `playlist_subgenre` values to six broader families. It
+was **written for the group assignment**, not downloaded. It is not an official Spotify
+taxonomy, carries no authority as a description of music, and should not be used for
+anything except the assignment's join.
+
+The families deliberately cut across `playlist_genre`, so the label cannot be recovered
+without joining. The file is handed to students unchecked, exactly as a lookup table from
+another team would be: the assignment asks them to validate its keys before trusting the
+merge. Instructors: see `courses/ds4b-m1-3-pandas-2026/assignment-instructor-notes.md`.
+
+24 rows, two columns, `subgenre` and `family`. Hash and size in `manifest.json`.
+
 ## Udemy catalog
 
 Notebook 1 retains the existing class file [`../udemy_courses_info.csv`](../udemy_courses_info.csv), taken from the class repository at the commit recorded in `manifest.json`. No source values were edited. The supplied file has 2,959 rows, 11 columns and unique `course_id` values. Its numeric metadata contains missing entries; `info()`/`describe()` expose these for discussion.

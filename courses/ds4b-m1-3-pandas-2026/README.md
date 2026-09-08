@@ -4,6 +4,14 @@
 
 This update preserves the class repository's `notebooks/`, `data/`, `media/`, and `courses/` structure and the two original notebook filenames. The course-catalog and Spotify examples remain useful; the revision improves the learning sequence and interpretation rather than replacing data for novelty.
 
+## Group assignment
+
+[assignment.md](assignment.md) is the student brief; [assignment-instructor-notes.md](assignment-instructor-notes.md)
+is the marking companion and is not for hand-out. The starter notebook is
+[M1_assignment_2026_starter.ipynb](../../notebooks/M1_assignment_2026_starter.ipynb) and the
+supplied lookup table is `data/M1_2026/subgenre_families.csv`, which is constructed for the
+assignment rather than downloaded.
+
 ## Open the updated notebooks
 
 - [Part 1 in Colab](https://colab.research.google.com/github/aaubs/ds-master/blob/codex/m1-pandas-2026/notebooks/M1_01_control_flow_to_pandas.ipynb) — 80 minutes: Python records, actual NumPy array work, pandas labels/masks, assignment, and grouped summaries.
