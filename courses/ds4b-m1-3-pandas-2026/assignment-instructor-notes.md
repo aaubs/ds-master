@@ -49,7 +49,7 @@ whichever row sorted first.
 
 ## Planted flaw 2 — measuring reach
 
-Task 3 asks for the number of playlists each track appears on. The two computations that
+Question 1 asks for the number of playlists each track appears on. The two computations that
 disagree:
 
 ```python
@@ -74,7 +74,7 @@ A group that keeps `subgenre` in the grain has 32,833 membership rows; genre onl
 32,510. Both are defensible if stated. Neither is defensible if the row count is never
 mentioned.
 
-## Expected answer to Parts A and B
+## Expected answer to Question 3
 
 Reach distribution: 25,538 tracks on 1 playlist, 2,113 on 2, 481 on 3, 130 on 4, 51 on 5,
 34 on 6, 7 on 7, 2 on 8.
@@ -98,8 +98,8 @@ Three things to listen for:
    from a group that picked ≥ 2. Both are "right"; the mark is for showing the sensitivity
    rather than for the cut-off chosen.
 
-Part B: several families are small once you split by travelling, and `latin_rhythm` loses
-`tropical` entirely to the unmatched keys — a group that handled task 4 honestly will see
+Within family: several families are small once you split by travelling, and `latin_rhythm` loses
+`tropical` entirely to the unmatched keys — a group that handled Question 2 honestly will see
 its family counts drop and should say so.
 
 ## What you will actually receive
@@ -118,7 +118,7 @@ its family counts drop and should say so.
 
 ## Marking mechanics
 
-The rubric is in the student brief; the weights are 20/25/20/10/15/10. Two notes:
+The rubric is in the student brief; the weights are 25/30/20/15/10 across the three questions plus reproducibility. Two notes:
 
 - **Mark the video when it disagrees with the notebook.** Stated in the brief. It is the
   only practical check on generated code, and it is why every member presents a decision
@@ -126,12 +126,19 @@ The rubric is in the student brief; the weights are 20/25/20/10/15/10. Two notes
 - **Do not reward matching our numbers.** A group that chose a different grain, said so,
   and carried it consistently should out-score one that reproduced our table by accident.
 
-## Effort budget
+## Effort
 
-The brief's per-task hours total about 33, leaving room for integration and rehearsal
-inside 40. If groups report spending far more, the usual cause is task 4 — they treat the
-broken merge as an obstacle rather than as the assignment. Say so in class on the day
-after hand-out if you hear it twice.
+The window is about 40 hours of group work including the recording, but **the brief does
+not state an hours figure and should not**: quoting one invites groups to pad to it, and
+none of the three questions is long to code. The time goes into the decisions.
+
+If groups report spending far more than the window, the usual cause is Question 2 — they
+treat the broken merge as an obstacle to the assignment rather than as the assignment. Say
+so in class if you hear it twice.
+
+Question 3 previously carried a fourth part, a self-chosen question. It was cut to keep
+the problem set at three: it added scope without exercising anything the other two do not
+already cover.
 
 ## Before handing out
 

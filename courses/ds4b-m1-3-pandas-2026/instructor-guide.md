@@ -81,9 +81,9 @@ Colab executes code in a virtual machine that may be reset or deleted after inac
 
 The follow-up assignment is [assignment.md](assignment.md), with a starter notebook at
 [M1_assignment_2026_starter.ipynb](../../notebooks/M1_assignment_2026_starter.ipynb).
-Groups answer whether tracks that appear on more playlists differ from tracks that appear
-on one, using a supplied subgenre-family lookup, and submit a notebook plus an 8-minute
-video in which every member presents one decision.
+Three questions — state the grain and measure reach, attach a supplied subgenre-family
+lookup, then compare travelling tracks with the rest — answered as one notebook plus an
+8-minute video in which every member presents one decision.
 
 [assignment-instructor-notes.md](assignment-instructor-notes.md) — **not for students** —
 documents the three key problems planted in the lookup table, the reach computation that
