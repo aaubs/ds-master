@@ -2,6 +2,12 @@
 
 These are historical teaching data, not new measurements of the 2026 market.
 
+Direct links, usable straight from `pd.read_csv`:
+
+- [`spotify_songs.csv`](https://raw.githubusercontent.com/aaubs/ds-master/codex/m1-pandas-2026/data/M1_2026/spotify_songs.csv)
+- [`subgenre_families.csv`](https://raw.githubusercontent.com/aaubs/ds-master/codex/m1-pandas-2026/data/M1_2026/subgenre_families.csv) — constructed for the group assignment
+- [`udemy_courses_info.csv`](https://raw.githubusercontent.com/aaubs/ds-master/codex/m1-pandas-2026/data/udemy_courses_info.csv)
+
 ## Spotify snapshot
 
 `spotify_songs.csv` is an unchanged copy downloaded on 6 September 2026 from [TidyTuesday, 21 January 2020](https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-01-21). The [upstream data dictionary and attribution](https://github.com/rfordatascience/tidytuesday/blob/main/data/2020/2020-01-21/readme.md) credit Spotify data collected using `spotifyr`, with the example collection discussed by Kaylin Pavlik. [Direct upstream CSV](https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-01-21/spotify_songs.csv).

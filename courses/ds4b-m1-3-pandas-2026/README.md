@@ -13,6 +13,12 @@ running it and is not for hand-out. The starter notebook is
 supplied lookup table is `data/M1_2026/subgenre_families.csv`, which is constructed for the
 assignment rather than downloaded.
 
+Direct data links, used by every notebook and by the assignment:
+
+- [`spotify_songs.csv`](https://raw.githubusercontent.com/aaubs/ds-master/codex/m1-pandas-2026/data/M1_2026/spotify_songs.csv)
+- [`subgenre_families.csv`](https://raw.githubusercontent.com/aaubs/ds-master/codex/m1-pandas-2026/data/M1_2026/subgenre_families.csv)
+- [`udemy_courses_info.csv`](https://raw.githubusercontent.com/aaubs/ds-master/codex/m1-pandas-2026/data/udemy_courses_info.csv)
+
 ## Open the updated notebooks
 
 - [Part 1 in Colab](https://colab.research.google.com/github/aaubs/ds-master/blob/codex/m1-pandas-2026/notebooks/M1_01_control_flow_to_pandas.ipynb) — 80 minutes: Python records, actual NumPy array work, pandas labels/masks, assignment, and grouped summaries.

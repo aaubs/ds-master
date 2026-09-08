@@ -21,10 +21,21 @@ Your videos are what we discuss in the next session, so make them the ones you w
 
 Some tracks sit on a single playlist. Others travel: the same track turns up on several. A curation team wants to know whether travelling tracks are recognisably different.
 
-You have two files, in `data/M1_2026/`, loading exactly as in the session notebooks:
+You have two files. The starter notebook loads them for you; these are the direct links if you want to read them into your own notebook, or open them in a browser first.
 
-- `spotify_songs.csv` — the same 2020 snapshot as Notebook 2.
-- `subgenre_families.csv` — a subgenre → family grouping, **constructed for this assignment**. It is not an official Spotify taxonomy and carries no authority. Treat it as you would any lookup table handed to you by another team: check its keys before you trust the join. It was not checked for you.
+- **`spotify_songs.csv`** — the same 2020 snapshot as Notebook 2.<br>
+  `https://raw.githubusercontent.com/aaubs/ds-master/codex/m1-pandas-2026/data/M1_2026/spotify_songs.csv`
+- **`subgenre_families.csv`** — a subgenre → family grouping, **constructed for this assignment**. It is not an official Spotify taxonomy and carries no authority. Treat it as you would any lookup table handed to you by another team: check its keys before you trust the join. It was not checked for you.<br>
+  `https://raw.githubusercontent.com/aaubs/ds-master/codex/m1-pandas-2026/data/M1_2026/subgenre_families.csv`
+
+Both are read straight from the URL by `pd.read_csv`, so nothing needs downloading:
+
+```python
+songs_raw = pd.read_csv("https://raw.githubusercontent.com/aaubs/ds-master/codex/m1-pandas-2026/data/M1_2026/spotify_songs.csv")
+families_raw = pd.read_csv("https://raw.githubusercontent.com/aaubs/ds-master/codex/m1-pandas-2026/data/M1_2026/subgenre_families.csv")
+```
+
+Do not attach copies of the CSVs to your submission — load them from the URL or from `data/M1_2026/` so the notebook runs on someone else's machine.
 
 ---
 
@@ -72,7 +83,7 @@ A rough single take with a real disagreement in it is worth more than a polished
 - [ ] One `.ipynb`, named `M1_assignment_<group>.ipynb`
 - [ ] First cell: group number, member names, and the video link
 - [ ] **Restart & Run All produces the notebook you are submitting**, from a fresh kernel, with no manual steps
-- [ ] Data loaded by the supplied path/URL cell — do not attach copies of the CSVs
+- [ ] Data loaded from `data/M1_2026/` or the URLs above — do not attach copies of the CSVs
 - [ ] All three questions present, in order
 - [ ] A short decision log: one line per question saying what you decided and what it cost you
 - [ ] Video is reachable by someone who is not in your group
