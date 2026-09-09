@@ -71,11 +71,15 @@ is worth naming out loud as the thing this session is arguing against.
 How're You Doin'?" by DREAMS COME TRUE. Let the room notice it rather than announcing it. The
 point is that nobody suspected that row. Two unrelated sanity checks found it.
 
-**Valence has no middle.** The four-panel histogram in part 1 section 1 puts the mean on each
-distribution as a vertical line. Valence is nearly flat across its range and tempo has a spike
-at 120 with a second bump near 100, because produced music is written to conventional tempos.
-In both, the mean is a real number and a poor summary. Ask what the mean of the tempo column
-is describing before moving on.
+**Four columns, four situations.** The histogram panel in part 1 question 3 draws the mean on
+each distribution in orange. Danceability is a single hump and its mean is fine. Energy is
+skewed so the mean sits below the bulk. Valence covers the whole range with a broad plateau, so
+0.51 describes nobody in particular. Tempo has two clusters, near 95 and near 125, because
+produced music sticks to conventional tempos, and the mean lands on the taller one while the
+smaller disappears.
+
+Ask what the mean of the tempo column is describing before moving on. It is the fastest way to
+make the point that one number per column is a choice, not a summary.
 
 **Two tests, one verdict.** Part 2 sections 2 and 3 are the centre of the session. edm against
 rock: difference 0.068, p about 2e-91. pop against latin: difference 0.0095, p 0.0025. Both
