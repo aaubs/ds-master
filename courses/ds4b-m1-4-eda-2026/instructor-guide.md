@@ -82,11 +82,11 @@ Ask what the mean of the tempo column is describing before moving on. It is the 
 make the point that one number per column is a choice, not a summary.
 
 **Two tests, one verdict.** Part 2 sections 2 and 3 are the centre of the session. edm against
-rock: difference 0.068, p about 2e-91. pop against latin: difference 0.0095, p 0.0025. Both
+rock: difference 0.070, p about 9e-97. latin against pop: difference 0.007, p 0.02. Both
 significant. Run them back to back and let the room sit with it before introducing effect
 size, which separates them cleanly at d = 0.41 against d = 0.04.
 
-**The sample-size demo.** Section 5 reruns the pop-latin test on 30 rows a side, 200 times.
+**The sample-size demo.** Section 5 reruns the latin-pop test on 30 rows a side, 200 times.
 Median p is about 0.55 and it clears 5 percent in exactly 5 percent of runs, which is what
 chance alone gives you. The difference in the data never changed. Only the row count
 did. This is the cell that makes the lesson stick, so give it time.

@@ -27,7 +27,7 @@ module notebooks in a fresh kernel.
 Session 02 taught the checks that keep a table honest. This session asks what the table looks
 like, and then what counts as a difference. The second half turns on two comparisons that both
 come back significant: edm against rock on energy, where the effect size is 0.41 and the
-difference is real, and pop against latin, where the gap is seven thousandths of a bounded
+difference is real, and latin against pop, where the gap is seven thousandths of a bounded
 index and the effect size is 0.04. No test can separate those two.
 
 The track IDs in this file are real Spotify IDs, so both notebooks link to the songs and the
