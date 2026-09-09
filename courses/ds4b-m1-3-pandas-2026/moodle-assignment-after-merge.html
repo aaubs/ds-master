@@ -6,13 +6,27 @@
     <div style="flex: 1 1 140px; box-sizing: border-box; padding: 0.875rem 1rem; background: #ffffff;"><span style="display: block; margin-bottom: 0.25rem; font-family: Arial, sans-serif; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #54616e;">Graded</span><strong style="font-family: Arial, sans-serif; font-size: 0.95rem; color: #211a52;">No</strong></div>
   </div>
   <h3 style="margin: 0 0 0.5rem; font-size: 1.75rem; line-height: 1.08; color: #211a52;">Group assignment: travelling tracks</h3>
-  <p style="margin: 0 0 1.25rem; max-width: 66ch;">Some tracks live on one playlist. Others get around: same track, five different playlists. A curation team wants to know whether the ones that get around are recognisably different. Three questions, answered as one notebook, plus a short video of your group talking through what you decided.</p>
+  <p style="margin: 0 0 1.25rem; max-width: 66ch;">Some tracks live on one playlist. Others travel: the same track turns up on five different playlists. A curation team wants to know whether the ones that travel are recognisably different. Three questions, answered as one notebook, plus a short video of your group talking through what you decided.</p>
+  <div style="margin: 0 0 1.25rem; padding: 1rem 1.25rem; background: #f1f2f3; border: 1px solid #d3d6d9;">
+    <p style="display: block; margin-bottom: 0.25rem; font-family: Arial, sans-serif; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #54616e;">What counts as travelling</p>
+    <p style="margin: 0 0 0.5rem;">A travelling track is one that appears on more than a certain number of playlists. <strong>We have not fixed that number for you.</strong> Two playlists? Three? Five?</p>
+    <p style="margin: 0;">Choosing where to draw that line is part of the assignment, and so is showing what happens to your answer when you move it. There is no number we are waiting for you to guess.</p>
+  </div>
   <h4 style="margin: 1.5rem 0 0.5rem; font-size: 1.2rem; color: #211a52;">The three questions</h4>
   <ul style="margin: 0 0 1.25rem; padding-left: 1.25rem;">
-    <li><strong>What is one row, and how far does each track get?</strong> State the grain, count how many playlists each track appears on, and show the check that convinced you it counts what you think.</li>
-    <li><strong>Bolt on the family label.</strong> Predict the row count, merge with <code>validate=</code> and <code>indicator=</code>, and deal with whatever the lookup table throws at you.</li>
-    <li><strong>Do the tracks that get around look different?</strong> Compare the two groups with counts next to every mean, move the cut-off, check inside each family, one chart, and a short write-up.</li>
+    <li><strong>What is one row, and how far does each track travel?</strong> Say what one row of the raw file is, and what one row of the table you build is. Then count how many playlists each track appears on. There is more than one way to count that, so show the check that convinced you yours counts playlists.</li>
+    <li><strong>Add the family label.</strong> The second file sorts the 24 subgenres into six broader families, so that you can ask whether a pattern holds inside each one. Merge it onto your table: write down the row count you expect first, merge with <code>validate=</code> and <code>indicator=</code>, and deal with whatever the lookup throws at you.</li>
+    <li><strong>Do the travelling tracks look different?</strong> Compare them against the tracks that appear on one playlist only, on at least two audio features and on <code>track_popularity</code>, with counts next to every mean. Show what three or more cut-offs do to the answer. Check whether the pattern holds inside each family. One chart, and 250 to 400 words on what you found and what it cannot tell anyone.</li>
   </ul>
+  <div style="margin: 0 0 1.25rem; padding: 1rem 1.25rem; background: #f1f2f3; border: 1px solid #d3d6d9;">
+    <p style="display: block; margin-bottom: 0.25rem; font-family: Arial, sans-serif; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #54616e;">The data</p>
+    <p style="margin: 0 0 0.5rem;">Two files. The template reads both straight from a URL, so there is nothing to download and nothing to attach to your submission.</p>
+    <ul style="margin: 0 0 0.5rem; padding-left: 1.25rem;">
+      <li><strong><a href="https://raw.githubusercontent.com/aaubs/ds-master/main/data/M1_2026/spotify_songs.csv" target="_blank" rel="noopener noreferrer" style="color: #211a52; text-decoration: underline; text-underline-offset: 0.15em;">spotify_songs.csv</a></strong> &mdash; the same 2020 Spotify snapshot as session 02.</li>
+      <li><strong><a href="https://raw.githubusercontent.com/aaubs/ds-master/main/data/M1_2026/subgenre_families.csv" target="_blank" rel="noopener noreferrer" style="color: #211a52; text-decoration: underline; text-underline-offset: 0.15em;">subgenre_families.csv</a></strong> &mdash; 24 subgenres mapped to 6 families. We wrote this one for the assignment. It is not an official Spotify taxonomy, it carries no authority, and nobody checked it before handing it to you.</li>
+    </ul>
+    <p style="margin: 0; color: #54616e;">Treat the second file the way you would treat any lookup table that arrives from another team: check its keys before you trust the join.</p>
+  </div>
   <div style="margin: 0 0 1.25rem; padding: 1rem 1.25rem; background: #f1f2f3; border: 1px solid #d3d6d9;">
     <p style="display: block; margin-bottom: 0.25rem; font-family: Arial, sans-serif; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #54616e;">Start here</p>
     <p style="margin: 0 0 0.75rem;">The template has the data loading, the three headings, an answer block under each question and a decision log ready to fill in. Save a copy to your own Drive first.</p>
@@ -24,7 +38,7 @@
     <li>One notebook, named <code>M1_assignment_&lt;group&gt;.ipynb</code>, with group number and names in the first cell.</li>
     <li>One video, 8 minutes and at most 10, where everyone in the group speaks. Screen recording with your voices over it is fine. No slides, no editing.</li>
     <li><strong>Restart &amp; Run All</strong> has to produce the notebook you hand in, from a clean kernel.</li>
-    <li>Data read from the URLs in the brief. Do not attach copies of the CSV files.</li>
+    <li>Data read from the URLs above, or from the template&rsquo;s loading cell. Do not attach copies of the CSV files.</li>
     <li>A decision log: one line per question, what you decided and what it cost.</li>
   </ul>
   <h4 style="margin: 1.5rem 0 0.5rem; font-size: 1.2rem; color: #211a52;">What we will notice</h4>

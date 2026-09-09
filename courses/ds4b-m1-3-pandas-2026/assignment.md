@@ -26,7 +26,7 @@ Two files. Both read straight from the URL, so there's nothing to download.
 **`spotify_songs.csv`** · the 2020 snapshot from Notebook 2
 `https://raw.githubusercontent.com/aaubs/ds-master/codex/m1-pandas-2026/data/M1_2026/spotify_songs.csv`
 
-**`subgenre_families.csv`** · sorts the 24 subgenres into six families
+**`subgenre_families.csv`** · sorts the 24 subgenres into six broader families, so you can ask whether a pattern holds inside each one
 `https://raw.githubusercontent.com/aaubs/ds-master/codex/m1-pandas-2026/data/M1_2026/subgenre_families.csv`
 
 We made that second one up for this assignment. It isn't a Spotify taxonomy, it carries no authority, and nobody checked it before handing it to you. Treat it like any lookup table that turns up from another team.
@@ -54,9 +54,11 @@ If the merge doesn't do what you predicted: congratulations, you've found the re
 
 ## Question 3 · Do the tracks that get around look different?
 
-Compare travelling tracks against one-playlist tracks, on at least two audio features and on `track_popularity`. Counts next to every mean, every time.
+A travelling track is one that appears on more than a certain number of playlists. **We haven't fixed that number for you.** Two playlists? Three? Five? Choosing where the line goes is part of the job, and there is no number we are quietly waiting for you to guess.
 
-We haven't defined "travelling" for you. Drawing that line is part of the job, and so is showing what happens when you move it. Three cut-offs, minimum. Then check whether the pattern survives inside each family, and say which families are too thin to carry the comparison. The families are a grouping we invented, so if you can think of a better one, tell us what it would be.
+Compare travelling tracks against tracks that appear on one playlist only, on at least two audio features and on `track_popularity`. Counts next to every mean, every time.
+
+Show what happens when you move the line. Three cut-offs, minimum. Then check whether the pattern survives inside each family, and say which families are too thin to carry the comparison. The families are a grouping we invented, so if you can think of a better one, tell us what it would be.
 
 Before you write up: check whether your two groups differ in release year, and say what that does to the popularity result. `track_popularity` is a single number, measured once, in 2020.
 
