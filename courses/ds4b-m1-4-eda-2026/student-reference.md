@@ -90,7 +90,7 @@ after.
 
 - pandas, [Exploratory data analysis tutorial](https://pandas.pydata.org/docs/getting_started/intro_tutorials/index.html) for the mechanics of describing and summarising.
 - SciPy, [statistical functions reference](https://docs.scipy.org/doc/scipy/reference/stats.html). The docstrings for `ttest_ind`, `f_oneway` and `chi2_contingency` are short and say exactly what each one assumes.
-- matplotlib, [pyplot tutorial](https://matplotlib.org/stable/tutorials/pyplot.html) if the plotting calls feel opaque.
+- seaborn, [the tutorial](https://seaborn.pydata.org/tutorial.html). Every chart in session 03 is one seaborn call plus, occasionally, a matplotlib line on top.
 - DataCamp practice for this session is listed in the [module practice guide](../ds4b-m1-3-pandas-2026/datacamp-practice.md).
 
 If you want one longer read on why the significance half of this session is the way it is,

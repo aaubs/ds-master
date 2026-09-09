@@ -2,7 +2,7 @@
 
 All six module notebooks passed nbformat validation and executed top to bottom in separate fresh Python kernels in each environment below. Session 02 contributes 33 code cells in Part 1 and 48 in Part 2, including the supplied solution cells; exercise placeholders remain intentionally unfilled. Session 03 adds 18 and 19 code cells. The instructor notebook adds 19, which replay both session 02 notebooks and then re-run every solution, and the assignment template adds 15. Delivered files have no saved outputs or execution counts.
 
-The session 03 notebooks need `scipy` in addition to pandas, NumPy and Matplotlib. It is pre-installed in Colab and was installed into both validation environments.
+The session 03 notebooks need `scipy` and `seaborn` in addition to pandas, NumPy and Matplotlib. Both are pre-installed in Colab and were installed into both validation environments.
 
 | Environment | Python | pandas | NumPy | Result |
 |---|---|---|---|---|
@@ -22,7 +22,7 @@ Every notebook reads its data straight from the repository's raw URLs, which is 
 
 ## Reproduce the execution
 
-Install `pandas`, `numpy`, `matplotlib`, `nbformat`, `nbclient`, and `ipykernel` in the environment to be tested. Run:
+Install `pandas`, `numpy`, `matplotlib`, `seaborn`, `scipy`, `nbformat`, `nbclient`, and `ipykernel` in the environment to be tested. Run:
 
 ```sh
 python courses/ds4b-m1-3-pandas-2026/validate_notebooks.py /absolute/path/to/review-output

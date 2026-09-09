@@ -42,11 +42,11 @@ drill for the part of the assignment that people find hardest.
 | [Exploratory Data Analysis in Python](https://www.datacamp.com/courses/exploratory-data-analysis-in-python) | Validating and summarising data, data quality problems, relationships between variables. Closest match to session 03 part 1. | Start here |
 | [Introduction to Statistics in Python](https://www.datacamp.com/courses/introduction-to-statistics-in-python) | Summary statistics, distributions, correlation, the vocabulary the tests assume. | If the stats words are unfamiliar |
 | [Hypothesis Testing in Python](https://www.datacamp.com/courses/hypothesis-testing-in-python) | t-tests, ANOVA, chi-square, and the assumptions behind them. Session 03 part 2, in much more detail. | After the session, not before |
-| [Introduction to Data Visualization with Seaborn](https://www.datacamp.com/courses/introduction-to-data-visualization-with-seaborn) | A friendlier plotting library than raw matplotlib for exploratory charts. | Optional |
+| [Introduction to Data Visualization with Seaborn](https://www.datacamp.com/courses/introduction-to-data-visualization-with-seaborn) | The plotting library the session 03 notebooks use. One call per chart, sensible defaults. | Worth doing alongside |
 
-We use pandas plotting and matplotlib in class rather than seaborn, so that you are learning
-one library at a time. Seaborn is worth picking up afterwards and most exploratory work in
-industry uses it.
+Session 03 plots with seaborn, which sits on top of matplotlib and needs about one line per
+chart. You will still meet raw matplotlib for the small adjustments seaborn does not cover,
+such as drawing a vertical line at a mean.
 
 ## One warning about the hypothesis testing course
 
