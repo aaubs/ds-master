@@ -150,7 +150,7 @@ That answer does something useful beyond the immediate question. It models the a
 
 Part six. The assignment.
 
-It goes out after the session, due the following Friday. It is not graded. Groups produce a notebook and a video of themselves talking through it, and those videos are the material for the next session.
+It goes out at the end of the session and is due that Friday, two days later. It is not graded. Groups produce a notebook and a video of themselves talking through it, and those videos are the material for the next session.
 
 The design principle is one sentence. A check only teaches you something if something fails it. In class, every check passes. The join is clean, the keys are unique, there are no conflicts anywhere. That is comfortable and slightly useless. So the assignment breaks things on purpose.
 

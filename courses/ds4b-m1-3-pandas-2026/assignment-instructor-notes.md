@@ -241,22 +241,45 @@ counting.
 Chase missing videos harder than missing notebooks. A notebook with no video is the
 failure mode that costs the next session its material.
 
-## Effort
+## Effort, and the two-day window
 
-The window is roughly 40 hours of group work including the recording. The brief doesn't
-say so and shouldn't: quote an hours figure and groups pad to it. None of the three
-questions is much code.
+The assignment is due the Friday of the same week, two days after the session. That is a
+much tighter window than the three questions were originally sized for, so go in with your
+eyes open.
 
-If groups report spending far more than that, it's usually Question 2, because they're
-treating the broken merge as something blocking the assignment rather than as the
-assignment. Say so in class if you hear it twice.
+The code is genuinely small. A group that knows what it is doing can finish the analysis in
+an evening. What does not compress is the deciding, and the deciding is the whole point, so
+the risk is that groups skip it and hand in three plausible tables. Expect more of the
+failure modes listed above than you would over a longer window.
 
-Question 3 used to carry a fourth part, a question of the group's own choosing. Cut, to
-keep it at three. It added scope without exercising anything the other two don't.
+Two things help, and neither costs you anything:
+
+- Say at hand-out that the code is short and the thinking is not, and that a group which
+  spends its time arguing about the grain and the cut-off has done the assignment correctly
+  even if the notebook is thin.
+- Say that the video can be rough. Groups lose hours to production values they were never
+  asked for, and the brief already says no slides and no editing.
+
+**If you want to trim it**, cut in this order, and say so at hand-out rather than later:
+
+1. The release-year check at the end of Question 3. It is a good idea and it is the newest
+   addition, so it is the cheapest thing to lose.
+2. The per-family breakdown in Question 3. This costs more, because it is what Question 2's
+   join was for, so only cut it if you also accept that the join becomes an exercise in its
+   own right rather than a step towards something.
+3. The write-up down from 250 to 400 words to a short paragraph.
+
+Do not cut the cut-off sensitivity, and do not cut the prediction before the merge. Those
+two are the assignment.
+
+The brief does not state an hours figure and should not. Quote one and groups pad to it.
+
+Question 3 used to carry a fourth part, a question of the group's own choosing. Cut, to keep
+it at three. It added scope without exercising anything the other two do not.
 
 ## Before you hand it out
 
-- [ ] Confirm the deadline. The brief says Friday 18 September 2026, 23:59
+- [ ] Confirm the deadline. The brief says Friday 11 September 2026, 23:59, two days after the session
 - [ ] Confirm the hand-in channel, and how the videos get to you
 - [ ] Confirm group size. The video asks everyone to present one decision, which works for
       3 to 5 and needs rethinking outside that

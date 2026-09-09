@@ -6,7 +6,7 @@
 |---|---|
 | **Work in** | Your group |
 | **Hand in** | A notebook and a video |
-| **Deadline** | Friday 18 September 2026, 23:59 |
+| **Deadline** | Friday 11 September 2026, 23:59 |
 | **Graded** | No |
 
 ## What this is

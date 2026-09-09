@@ -8,9 +8,13 @@ Nothing else can be finalised until these are settled, and all three appear in t
 
 | Decision | Currently says | Where it appears |
 |---|---|---|
-| Deadline | Friday 18 September 2026, 23:59 | `assignment.md`, `moodle-assignment.html`, Moodle activity settings |
+| Deadline | Friday 11 September 2026, 23:59, two days after the session | `assignment.md`, `moodle-assignment.html`, Moodle activity settings |
 | How videos reach you | not specified | Say it in the Moodle activity description |
 | Group size | assumes 3 to 5 | the video asks everyone to present one decision |
+
+The two-day window is tight for three questions. It is workable, because the code is small,
+but see the effort section of [assignment-instructor-notes.md](assignment-instructor-notes.md)
+for what to say at hand-out and what to cut first if you would rather shorten it.
 
 On the video: the simplest option is a second file upload slot in the same Moodle assignment,
 with a note that a shared link is fine if the file is too large. It has to be watchable by you
