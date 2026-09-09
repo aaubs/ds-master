@@ -24,17 +24,23 @@ module notebooks in a fresh kernel.
 
 ## The design in one paragraph
 
-Session 02 taught the checks that keep a table honest. This session asks what the table looks
-like, and then what counts as a difference. The second half turns on two comparisons that both
-come back significant: edm against rock on energy, where the effect size is 0.41 and the
-difference is real, and latin against pop, where the gap is seven thousandths of a bounded
-index and the effect size is 0.04. No test can separate those two.
+Session 02 taught the checks that keep a table honest. This session hands students a brief with
+a wrong answer built in: someone upstairs wants to know which musical qualities make a track
+popular. Part 1 answers it in one line of `.corr()` — no audio measurement clears 0.14 — and
+part 2 spends its time on what that does and does not license you to say. All ten audio columns
+together account for 6 percent of the variation in popularity, genre for 4, and the strongest
+signal in the file (playlist placements, d = 1.62) is the outcome in disguise. The deliverable
+is a memo saying so, which most students have never been shown how to write.
 
-The track IDs in this file are real Spotify IDs, so both notebooks link to the songs and the
-instructor guide lists five worth playing. The highest-energy track in the dataset is a
-rainforest recording, which is funnier than any example anyone could invent and does most of
-the work of explaining what an audio feature actually measures.
+The statistical machinery is unchanged: t-test, effect size, sample-size demonstration, ANOVA
+with eta squared, chi-square with Cramer's V. It is attached to decisions rather than to trivia.
 
-The guide also carries a break quiz on Spotify's 2025 global top ten, which exists to make one
-point: eight of those artists appear in our 2020 file, and the two missing are the two a Danish
+Two traps are planted in the data rather than in the prose. Nine percent of the popularity
+column is a spike at exactly zero that may or may not be a measurement, and dropping it moves
+every genre mean by 3 to 4.7 points. And the file's most extreme "songs" are field recordings
+of rainfall and crickets, sitting on a latin playlist, inside any average anybody quotes.
+
+The track IDs are real Spotify IDs, so both notebooks link to the songs and the instructor guide
+lists five worth playing. Part 2 also carries a break quiz on Spotify's 2025 global top ten:
+eight of those artists appear in our 2020 file, and the two missing are the two a Danish
 classroom never guesses.

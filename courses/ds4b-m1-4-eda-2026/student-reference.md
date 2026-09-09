@@ -42,8 +42,8 @@ The conventional labels are 0.2 small, 0.5 medium, 0.8 large. They are conventio
 Their main use is showing you how far below them most real results sit.
 
 Eta squared is the share of variation in the numeric column that sits between groups rather
-than within them. In our data, genre explains about 14 percent of the variation in energy,
-which means about 86 percent of it is variation between tracks inside the same genre.
+than within them. In our data, genre explains about 4 percent of the variation in popularity,
+which means 96 percent of it is variation between tracks inside the same genre.
 
 Cramer's V rescales chi-square to run from 0 to 1. Anything around 0.1 is weak. A weak overall
 V can still hide one category that is genuinely different, so look at the table of shares as
@@ -57,8 +57,8 @@ Three things, in this order:
 2. how many observations it rests on;
 3. the p value, last, as the smallest of the three claims.
 
-Good: "Mean energy is 0.80 for edm and 0.73 for rock, across 6,043 and 4,951 rows, a gap of
-0.07 and d = 0.41 (p < 0.001)."
+Good: "Tracks of 2:30 to 3:00 average 42.6 popularity against 31.2 for tracks over five
+minutes, across 3,858 and 2,973 tracks, a gap of 11 points and d = 0.50 (p < 0.001)."
 
 Not good: "The difference was significant (p < 0.001)."
 
@@ -80,8 +80,16 @@ answer different questions.
 40,000 tells you more about sample size than about the world. Print the counts.
 
 **Treating a correlation as a finding.** Energy and loudness correlate at 0.68, and that is
-close to a tautology. Energy and danceability correlate at -0.08, and that is the interesting
-one, because the English words suggest otherwise.
+close to a tautology. Say which of your correlations are findings and which are definitions.
+
+**Assuming the arrow points the way you want.** Playlist placements predict popularity at
+d = 1.62, the largest effect in the file, and it is useless: tracks get added to playlists
+because they are already popular. No test reports direction. Ask what would have to be true for
+your causal story to hold before you write it down.
+
+**Treating "no relationship" as a failed analysis.** No audio measurement in this file predicts
+popularity above 0.14. That is a result. Report it with the same confidence you would report a
+strong one.
 
 **Chained cleaning without a note.** If you drop rows, print how many you dropped, before and
 after.

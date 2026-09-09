@@ -7,7 +7,7 @@
     <div style="flex: 1 1 140px; box-sizing: border-box; padding: 0.875rem 1rem; background: #ffffff;"><span style="display: block; margin-bottom: 0.25rem; font-family: Arial, sans-serif; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #54616e;">Lecturer</span><strong style="font-family: Arial, sans-serif; font-size: 0.95rem; color: #211a52;">Roman</strong></div>
   </div>
   <h3 style="margin: 0 0 0.5rem; font-size: 1.75rem; line-height: 1.08; color: #211a52;">Exploratory Analysis: Distributions, Odd Rows and Real Differences</h3>
-  <p style="margin: 0 0 1.25rem; max-width: 66ch;">The most energetic track in our Spotify file is a recording of rain falling on leaves, and the least energetic is crickets. Both have been sitting in the data since session 02. This week we look at what is actually in the columns: what shape they are, which rows cannot be right, and which differences between groups are big enough to act on. The second half introduces t-tests, ANOVA and chi-square, and then spends most of its time on why, on a table this size, a significant result is the cheapest thing you can produce.</p>
+  <p style="margin: 0 0 1.25rem; max-width: 66ch;">Both notebooks work on one brief: someone upstairs wants to know which musical qualities make a track popular, so the label can commission more of them. The answer turns out to be none of them, and getting to a well-supported no is most of what we do this week. Along the way: what a mean hides, rows that cannot be right, t-tests, ANOVA, chi-square, effect size, and why the strongest relationship in the file is one nobody can act on.</p>
   <div style="margin: 0 0 1.25rem; padding: 1rem 1.25rem; background: #f1f2f3; border: 1px solid #d3d6d9;">
     <p style="display: block; margin-bottom: 0.25rem; font-family: Arial, sans-serif; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #54616e;">Continues from session 02</p>
     <p style="margin: 0;">Same Spotify file, same row meaning. No joins this week: every audio measurement is already on every row, so the setup is two lines. There is deliberately less code than last session and more time to talk about what the output means. The track IDs are real Spotify IDs, so the notebooks link straight to the songs and we will play a few of them.</p>
@@ -19,18 +19,20 @@
     <li>Report a correlation with a picture next to it, and say which numbers are findings.</li>
     <li>Run a t-test, a one-way ANOVA and a chi-square test, and interpret each one correctly.</li>
     <li>Separate a significant difference from one that is large enough to matter, using effect size.</li>
+    <li>Ask which way the arrow points before reporting a relationship, and spot the ones that run backwards.</li>
+    <li>Write up a result that says no, with the same confidence as one that says yes.</li>
     <li>Report a comparison as size, counts and p value, in that order.</li>
   </ul>
   <h4 style="margin: 1.5rem 0 0.5rem; font-size: 1.2rem; color: #211a52;">Before class</h4>
   <p style="margin: 0 0 1.25rem; max-width: 66ch;">Have your session 02 notebooks to hand, or at least remember what one row of the joined table means. No preparation beyond that. A standard Colab CPU runtime is enough, and everything the notebooks import is already installed there.</p>
   <h4 style="margin: 1.5rem 0 0.5rem; font-size: 1.2rem; color: #211a52;">Notebooks</h4>
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; margin: 0 0 1.25rem;">
-    <div style="padding: 1rem 1.25rem; background: #ffffff; border: 1px solid #d3d6d9;"><h5 style="margin: 0 0 0.5rem; font-size: 1rem; color: #211a52;">Part 1 &middot; Exploring one table</h5>
-      <p style="margin: 0 0 0.875rem;">Distributions and what a mean hides, rows that cannot be right, base rates, and relationships between columns. Built on last week&rsquo;s table.</p>
+    <div style="padding: 1rem 1.25rem; background: #ffffff; border: 1px solid #d3d6d9;"><h5 style="margin: 0 0 0.5rem; font-size: 1rem; color: #211a52;">Part 1 &middot; What is actually in this file</h5>
+      <p style="margin: 0 0 0.875rem;">Five questions to ask any table. What a mean hides, rows that cannot be right, a spike in the popularity column that may not be data, and the one line of code that answers the brief.</p>
       <a href="https://colab.research.google.com/github/aaubs/ds-master/blob/codex/m1-pandas-2026/notebooks/M1_03_exploring_distributions.ipynb" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 0.5rem 0.875rem; background: #211a52; color: #ffffff; text-decoration: none; font-family: Arial, sans-serif; font-size: 0.9rem; font-weight: 700;">Open Part 1 in Colab</a>
       <p style="margin: 0.75rem 0 0; font-size: 0.85rem;"><a href="https://raw.githubusercontent.com/aaubs/ds-master/codex/m1-pandas-2026/notebooks/M1_03_exploring_distributions.ipynb" style="color: #211a52; text-decoration: underline; text-underline-offset: 0.15em;">Download .ipynb</a> <span style="color: #54616e;">(right-click &rarr; Save Link As)</span></p></div>
-    <div style="padding: 1rem 1.25rem; background: #ffffff; border: 1px solid #d3d6d9;"><h5 style="margin: 0 0 0.5rem; font-size: 1rem; color: #211a52;">Part 2 &middot; Comparing groups</h5>
-      <p style="margin: 0 0 0.875rem;">t-tests, ANOVA and chi-square on the same data, then effect size and why sample size did most of the work. Ends with a rule for reporting a comparison.</p>
+    <div style="padding: 1rem 1.25rem; background: #ffffff; border: 1px solid #d3d6d9;"><h5 style="margin: 0 0 0.5rem; font-size: 1rem; color: #211a52;">Part 2 &middot; Is the difference real, and is it big?</h5>
+      <p style="margin: 0 0 0.875rem;">Four questions to answer before you run anything, then t-tests, ANOVA and chi-square against your guesses. Includes the debrief of assignment question 3. Ends with the memo you would actually send.</p>
       <a href="https://colab.research.google.com/github/aaubs/ds-master/blob/codex/m1-pandas-2026/notebooks/M1_04_comparing_groups.ipynb" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 0.5rem 0.875rem; background: #211a52; color: #ffffff; text-decoration: none; font-family: Arial, sans-serif; font-size: 0.9rem; font-weight: 700;">Open Part 2 in Colab</a>
       <p style="margin: 0.75rem 0 0; font-size: 0.85rem;"><a href="https://raw.githubusercontent.com/aaubs/ds-master/codex/m1-pandas-2026/notebooks/M1_04_comparing_groups.ipynb" style="color: #211a52; text-decoration: underline; text-underline-offset: 0.15em;">Download .ipynb</a> <span style="color: #54616e;">(right-click &rarr; Save Link As)</span></p></div>
   </div>
@@ -49,9 +51,9 @@
   <div style="margin: 0 0 1.25rem; padding: 1rem 1.25rem; background: #f1f2f3; border: 1px solid #d3d6d9;">
     <p style="display: block; margin-bottom: 0.25rem; font-family: Arial, sans-serif; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #54616e;">Reading and reference</p>
     <p style="margin: 0 0 0.5rem;"><a href="https://github.com/aaubs/ds-master/blob/codex/m1-pandas-2026/courses/ds4b-m1-4-eda-2026/student-reference.md" target="_blank" rel="noopener noreferrer" style="color: #211a52; text-decoration: underline; text-underline-offset: 0.15em;">Student reference: what each test answers, and how to report it</a></p>
-    <p style="margin: 0;">If you want one idea to take away, take this one: a p value tells you whether a difference exists given your sample size, and says nothing about whether it is big enough to care about.</p>
+    <p style="margin: 0;">If you want one idea to take away, take this one: a p value tells you whether a difference exists given your sample size. It says nothing about whether it is big enough to care about, and nothing about which way the arrow points.</p>
   </div>
   <h4 style="margin: 1.5rem 0 0.5rem; font-size: 1.2rem; color: #211a52;">In class</h4>
-  <p style="margin: 0 0 1.25rem; max-width: 66ch;">Short demonstrations, then prediction and paired practice, as in session 02. The second half is built around one comparison that is real and one that is not, both of which the tests call significant. Two short breaks are included.</p>
+  <p style="margin: 0 0 1.25rem; max-width: 66ch;">Short demonstrations, then prediction and paired practice, as in session 02. Part 2 opens by asking you to write down four answers before any code runs, and scores them at the end. Two short breaks are included, one of them a music quiz.</p>
   <p style="margin: 0 0 1.25rem; max-width: 66ch; color: #54616e;">The Spotify snapshot is from 2020. Everything in these notebooks describes that sample, not music, listeners or charts today.</p>
 </div>

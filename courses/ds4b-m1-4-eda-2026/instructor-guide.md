@@ -6,106 +6,159 @@
 
 ## Teaching intent
 
-Session 02 ended with a table nobody had looked at. This session looks at it, and then asks
-what counts as a difference.
+Session 02 ended with a table nobody had looked at. This session looks at it, under a brief
+that has a wrong answer built into it.
 
-The arc is: distributions, then odd rows, then relationships, then group comparison, then the
-thing the whole day is for, which is that on a table this size a significant result costs
-nothing and an effect size is the finding. Students arrive believing p values are the point.
-They should leave believing p values are the smallest claim in the sentence.
+**The brief, given in the first cell of part 1:** someone upstairs wants to know which musical
+qualities make a track popular, so the label can commission more of them. Both notebooks answer
+that question, and the answer is no. No audio measurement correlates with popularity above
+0.14. All ten of them together account for 6 percent of the variation. Genre adds 4.
 
-Continuity is deliberate, and it is a sentence rather than a pipeline. There are no joins in
-this session: the raw file already carries every audio measurement on every row, so the setup
-is two lines. Say out loud that this is last week's file and last week's row meaning, and that
-nothing new has appeared, then move on. The merge machinery belongs to session 02 and has done
-its job.
+That is the spine. Everything else in the two notebooks is the work you have to do before you
+are allowed to say it, and the reason to say it out loud is that "we looked and it is not
+there" is a real deliverable that students are never taught to produce.
+
+Three secondary lessons hang off it, and each has a cell:
+
+- The strongest signal in the file, playlist placements at d = 1.62, runs the wrong way. Tracks
+  get added to playlists because they are popular. It is the outcome wearing a hat.
+- Nine percent of the popularity column is a spike at exactly zero, which may be "nobody
+  listens" or may be "no figure available". Keeping or dropping it moves every genre mean by 3
+  to 4.7 points.
+- On 28,000 rows, significance is close to free. A 1.75-point gap on a 0-100 index clears
+  p = 0.0008.
+
+Students arrive believing p values are the point. They should leave believing p values are the
+smallest claim in the sentence, and that the direction of the arrow is not in the output at all.
+
+Continuity with session 02 is a sentence rather than a pipeline. There are no joins here: the
+raw file already carries every audio measurement on every row, so the setup is two lines. Say
+out loud that this is last week's file and last week's row meaning, then move on.
 
 ## Run of show
 
-Deliberately less material than session 02. Two notebooks, 23 code cells between them, and no
-joins anywhere. The file already carries every audio measurement on every row, so the session
-opens with two lines rather than a pipeline. The time freed up is for talking.
+Two notebooks, 31 code cells between them, no joins anywhere. The time freed up is for talking.
 
 | Time | Segment |
 |---|---|
-| 12:30-12:45 | Open. What one row is, and why there are two frames rather than one. |
-| 12:45-14:00 | Part 1. Four ideas: what describe hides, rows that cannot be right, group sizes, correlation. |
+| 12:30-12:45 | Open. The brief. What one row is, and why there are two frames rather than one. |
+| 12:45-14:00 | Part 1. The zero spike, what describe hides, impossible rows, group sizes, and the correlation table that answers the brief. |
 | 14:00-14:10 | Break. |
-| 14:10-15:05 | Part 2 through effect size. This is the core. |
-| 15:05-15:15 | Break. |
-| 15:15-16:10 | Sample size, ANOVA, chi-square, how to report a comparison. |
+| 14:10-15:05 | Part 2 to the end of track length. Placements, the reverse-causation trap, effect size. This is the core. |
+| 15:05-15:15 | Break, and the ten-names quiz (it is a cell in part 2). |
+| 15:15-16:10 | How much anything explains, the zeros chi-square, multiple testing, how to report a comparison, the memo. |
 | 16:10-16:15 | Exit ticket. |
 
-There is room in this plan. Use it on the histogram panel and on the two t-tests, which are
-the two places students change their minds about something. If you finish early, do the
-practice tasks together rather than adding material.
+Use the slack on the two-panel scatter in part 1 and on the placements trap in part 2, which
+are the two places students change their minds about something.
 
-If you are behind, cut the chi-square section. Do not cut the sample-size demonstration.
+If you are behind, cut the chi-square section. Do not cut the placements trap or the
+sample-size demonstration.
 
 ## What came back from the 2025 notebook
 
-Last year's version had better scaffolding than substance: a strong five-question EDA
-checklist and a clean test-chooser table, wrapped around synthetic data and a p-value rule it
-contradicted later in its own text. Three things were worth keeping and are now in these
-notebooks.
+Last year's version had better scaffolding than substance: a strong five-question EDA checklist
+and a clean test-chooser table, wrapped around synthetic data and a p-value rule it contradicted
+later in its own text. Three things were worth keeping and are now in these notebooks.
 
-The **five questions** open part 1 as a table, and the notebook then follows them in order.
-Point at it and say it works on any table, not just this one. It is the most portable thing in
-the session.
+The **five questions** open part 1 as a table, and the notebook follows them in order. Point at
+it and say it works on any table. It is the most portable thing in the session.
 
-The **which-test table** opens part 2, before any test appears, so choosing between them stops
+The **which-test table** sits in part 2 before any test appears, so choosing between them stops
 being mysterious before the interesting problem arrives.
 
-The **multiple-testing warning** sits just before the reporting rule. It is more relevant now
-than it was last year, which is the framing to use: running twenty tests used to take an
-afternoon, and an agent will run fifty in one call and hand back the three that cleared 0.05.
+The **multiple-testing warning** sits just before the reporting rule. Framing: running twenty
+tests used to take an afternoon, and an agent will run fifty in one call and hand back the three
+that cleared 0.05.
 
 What did not come back: the synthetic data generator, and the `if p < 0.05: print("REAL")`
-pattern that appeared three times. If a student has seen last year's notebook, that second one
-is worth naming out loud as the thing this session is arguing against.
+pattern that appeared three times. If a student has seen last year's notebook, name that second
+one out loud as the thing this session argues against.
 
 ## The moments
 
-**The same row, caught twice.** Part 1 section 2 finds a four-second track from the minimum of
-`duration_ms`, then finds a track with a tempo of exactly zero. It is the same record: "Hi,
-How're You Doin'?" by DREAMS COME TRUE. Let the room notice it rather than announcing it. The
-point is that nobody suspected that row. Two unrelated sanity checks found it.
+**The zero spike.** Part 1, question 2. The popularity histogram has one bar nearly five times
+its neighbour, sitting at zero, and almost nothing at 1, 2 or 3. Ask what would produce that
+shape. Somebody will say "nobody listens to them"; ask them what a track with no figure at all
+would look like in this column. There is no way to tell from the file, and that is the answer.
+2,620 tracks, 9.2 percent.
 
-**Four columns, four situations.** The histogram panel in part 1 question 3 draws the mean on
-each distribution in orange. Danceability is a single hump and its mean is fine. Energy is
-skewed so the mean sits below the bulk. Valence covers the whole range with a broad plateau, so
-0.51 describes nobody in particular. Tempo has two clusters, near 95 and near 125, because
-produced music sticks to conventional tempos, and the mean lands on the taller one while the
-smaller disappears.
+**The same row, caught twice.** Part 1 finds a four-second track from the minimum of
+`duration_ms`, then a track with a tempo of exactly zero. Same record: "Hi, How're You Doin'?"
+by DREAMS COME TRUE, which is also the least danceable and the saddest thing in the file. Let
+the room notice rather than announcing it. Nobody suspected that row; two unrelated sanity
+checks found it.
 
-Ask what the mean of the tempo column is describing before moving on. It is the fastest way to
-make the point that one number per column is a choice, not a summary.
+**Four columns, four situations.** The histogram panel draws the mean on each distribution in
+orange. Danceability is a single hump and its mean is fine. Energy is skewed so the mean sits
+below the bulk. Valence is a broad plateau, so 0.51 describes nobody. Tempo has two clusters,
+near 95 and near 125, and the mean lands on the taller one while the smaller disappears.
 
-**Two tests, one verdict.** Part 2 sections 2 and 3 are the centre of the session. edm against
-rock: difference 0.070, p about 9e-97. latin against pop: difference 0.007, p 0.02. Both
-significant. Run them back to back and let the room sit with it before introducing effect
-size, which separates them cleanly at d = 0.41 against d = 0.04.
+Ask what the mean of the tempo column is describing before moving on.
 
-**The sample-size demo.** Section 5 reruns the latin-pop test on 30 rows a side, 200 times.
-Median p is about 0.55 and it clears 5 percent in exactly 5 percent of runs, which is what
-chance alone gives you. The difference in the data never changed. Only the row count
-did. This is the cell that makes the lesson stick, so give it time.
+**The answer to the brief, in one line.** Part 1, question 5. The correlation table between ten
+audio measurements and popularity, sorted by absolute size. The top of it is duration at -0.14.
+This is the moment the session turns, and it is worth pausing on how cheap it was: one line, no
+model, and the project is now a different project.
 
-**Eta squared.** Genre explains about 14 percent of the variation in energy, which means 86
-percent of the variation is within genres. That single sentence is a better summary of the
-dataset than any p value in the notebook, and it is the sort of thing a curation team can act
-on.
+**What 0.68 and -0.10 look like.** The two-panel scatter immediately after. Left panel, energy
+against loudness, is a real relationship and still a wide cloud. Right panel, popularity against
+energy, has no shape at all. Students who have only met correlations as numbers systematically
+overestimate what -0.10 looks like. Show this before they ever fit anything.
+
+The line of dots along the bottom of the right panel is the zero spike turning up again in a
+chart drawn for another reason. Point at it.
+
+**The placements trap.** Part 2, question 1, and the best twenty minutes of the day. It is also
+the debrief of their own assignment: question 3 asked whether travelling tracks look different
+and was handed in on the 11th, five days before this session. Open by asking what they found,
+then run the cell. Groups that picked different cut-offs will have different numbers, which is
+the point. Mean
+popularity by number of playlists: 37, 52, 67, 73, 85. A 34-point gap, d = 1.62, p = 10^-254.
+The largest effect anyone will find in this file.
+
+Then ask what the team should do about it. Somebody will say "get on more playlists". Ask how a
+track gets onto a playlist. Editors add tracks that are already doing well, and being added
+pushes them further, so the arrow runs both ways and this table cannot separate them. The
+notebook's phrasing is that recommending it is telling them to make the thermometer read higher
+by holding a match to it.
+
+The general lesson, and it is worth writing on the board: **the biggest effect in a dataset is
+very often the outcome in disguise.**
+
+**Track length, the one usable finding.** 2:30-3:00 averages 42.6 against 31.2 for over five
+minutes. Eleven points, d = 0.50, and the bars slope one way across the whole range. A quarter
+of the placements effect, and the only one of the two anybody can act on. That asymmetry is the
+normal shape of applied work.
+
+**Significance is free.** rock against latin on popularity: 1.75 points on a 0-100 index,
+d = 0.07, p = 0.0008. Then the sample-size demo reruns it on 30 rows a side, 200 times, and it
+clears 0.05 in about 5 percent of runs. The difference never changed. Only the row count did.
+Give this cell time.
+
+**Six percent.** ANOVA gives genre eta squared 0.043; the regression preview gives all ten audio
+columns R squared 0.058. Ninety-four percent of what makes a track popular is not in this file:
+marketing, timing, an editor's decision, a soundtrack, a video. One honest sentence beats any
+model fitted to these columns, and that sentence is the deliverable.
+
+**The zeros, chi-square, and what it costs.** edm carries 13.3 percent zeros against pop's 6.1,
+p = 10^-37, so the zeros are not spread evenly. Then the comparison table: dropping them lifts
+every genre, edm most at +4.7. The ranking survives here. It did not have to, and you only know
+because both were run. This is where the part 1 judgement call gets a number attached.
+
+**The memo.** The last markdown cell in part 2 is one paragraph a student could actually send
+upstairs. Read it aloud. Most of them have never seen what a negative result looks like when it
+is written up confidently rather than apologetically.
 
 ## What to say about tests and language models
 
-Same argument as session 02, one level up. Ask a model to test whether two genres differ and
-you get a correct t-test, a correct p value, and a verdict. What you do not get is the
-question of whether anybody should care, because that was not in the request and is not in the
-output. The pop-latin comparison is the demonstration: everything about it is correct and the
-conclusion is worthless.
+Same argument as session 02, one level up. Ask a model whether track length affects popularity
+and you get a correct t-test, a correct p value and a verdict. What you do not get is whether
+anybody should care, or which way the arrow points. The placements result is the demonstration:
+everything about it is correct and acting on it would be nonsense.
 
-If a student says they would just ask for the effect size too, that is the right answer, and
-the point stands. You have to know the words. Prompting is expertise expressed somewhere else.
+If a student says they would just ask for the effect size too, that is the right answer, and the
+point stands. You have to know the words. Prompting is expertise expressed somewhere else.
 
 ## The music, which is the point of using this data at all
 
@@ -130,7 +183,7 @@ excitement. It is loudness, density and noisiness, and a downpour scores maximum
 records at once: shortest, least danceable, saddest.
 `https://open.spotify.com/track/51w6nRCU68klqNfYaaVP2j`
 
-**"Low Rider"** by War is valence 1.00, the happiest thing in the dataset, and here the model
+**"Low Rider"** by War is valence 0.99, the happiest thing in the dataset, and here the model
 is obviously right. Worth playing straight after the rainforest so the room sees that the
 measures are not simply broken.
 `https://open.spotify.com/track/7kigmgx2tJJsZHKaa2QC0w`
@@ -142,63 +195,65 @@ rather than of a playlist, this settles it.
 
 ## The break quiz
 
-Run this at 15:05, as the second break rather than before it. Groups of three or four, five
-minutes, and it does real work.
+It is now a cell in part 2, straight after the sample-size demo, at the point where the
+afternoon needs a break. Section heading "Break: ten names".
+
+Run it at about 15:05. Groups of three or four, five minutes, no phones.
 
 **The question.** Write down Spotify's ten most-streamed artists worldwide in 2025, in any
 order. A point per correct name.
 
-**The answer**, from Spotify Wrapped 2025: 1 Bad Bunny, 2 Taylor Swift, 3 The Weeknd, 4 Drake,
-5 Billie Eilish, 6 Kendrick Lamar, 7 Bruno Mars, 8 Ariana Grande, 9 Arijit Singh, 10 Fuerza
-Regida.
+**The answer**, from Spotify Wrapped 2025: Bad Bunny, Taylor Swift, The Weeknd, Drake, Billie
+Eilish, Kendrick Lamar, Bruno Mars, Ariana Grande, Arijit Singh, Fuerza Regida. (Worth
+re-checking before class in case the ranking has been restated anywhere.)
 
-Reveal one through eight first. Most groups will have five or six of them. Then reveal nine and
-ten and wait.
+Collect the group answers before you run the cell, because the list is in the cell source.
+Most groups get five or six. Almost nobody gets the last two.
 
 **Arijit Singh** is a Hindi playback singer and the first Indian artist in the global top ten.
-**Fuerza Regida** is a regional Mexican band from San Bernardino. A Danish classroom writes ten
-Anglo-American pop acts and gets both of these wrong, every time.
+**Fuerza Regida** is a regional Mexican band from San Bernardino.
 
-**The bridge back**, and the reason this is not just a game. Our dataset has six genres: edm,
-latin, pop, r&b, rock. Nothing in it could have told you about Arijit Singh, because nothing in
-it is from that world. When we wrote "genre" all afternoon, we meant six categories somebody at
-Spotify drew for one market in 2020.
+**The bridge back.** The cell prints how many rows each of the ten has in our file. Eight of
+them are there, some heavily: Drake 104 rows, The Weeknd 76, Bad Bunny 61, Ariana Grande 55.
+Arijit Singh has zero. Fuerza Regida has zero.
 
-That is the honest limitation on every number in both notebooks, and the room will believe it
-now in a way they would not have at 12:40.
+The two the room could not name are the two the dataset does not contain. Both blind spots
+have the same cause, which is that both were built from the same slice of the market. Say that
+out loud and then leave it alone; it lands better without elaboration.
 
-Then check the dataset in front of them, which lands harder than anything you can say:
-
-    a = songs["artist"].astype("string").str.lower()
-    for name in ["Bad Bunny", "Taylor Swift", "Arijit Singh", "Fuerza Regida"]:
-        print(name, int(a.str.contains(name.lower(), na=False).sum()), "rows")
-
-Eight of the 2025 global top ten have songs in our 2020 file. Bad Bunny has 61 rows, Drake 104,
-The Weeknd 76, Ariana Grande 55. Arijit Singh has zero. Fuerza Regida has zero.
-
-The two the room could not name are the two the dataset does not contain. Your students'
-intuition about who the world listens to and this dataset's coverage have the same blind spot,
-and it is the same blind spot, because both were built from the same slice of the market.
+That is the honest limitation on every number in both notebooks, and at 15:05 the room will
+believe it in a way it would not have at 12:40.
 
 ## Known traps to surface
 
 - **Two frames, not one.** `songs` counts a track once per playlist; `tracks` counts it once.
   Most confusion in this session traces back to someone using the wrong one. Ask which
   question each answers rather than which is correct.
-- **The 0.05 threshold is a convention.** Nothing in the data changes at 0.049. The pop-latin
-  test lands at p = 0.02, comfortably inside a threshold nobody chose on principle.
+- **The 0.05 threshold is a convention.** Nothing in the data changes at 0.049. The
+  rock-latin test lands at p = 0.0008 on a gap of 1.75 points, comfortably inside a threshold
+  nobody chose on principle.
+- **A correlation of zero is a result.** The hardest thing for students here is believing that
+  "no audio feature predicts popularity" is an answer rather than a failure. Say early that a
+  well-supported no is worth more than a badly-supported yes, and that the memo at the end of
+  part 2 is what one looks like written down.
 - **Skew is not error.** In the practice task, `speechiness` has a long tail of tracks that are
   mostly talking. Those are real records. Students who have just learned about broken rows tend
   to want to delete anything unusual.
 - **Correlation is not causation, and often not much else either.** Energy against loudness at
   0.68 is near tautological. Say which correlations are findings and which are definitions.
+- **Direction is never in the output.** `ttest_ind` does not know which variable came first.
+  The placements result is significant, enormous, and backwards, and nothing in scipy will tell
+  you so.
 
 ## Exit ticket
 
 Two questions, three sentences each:
 
 1. You ran a test, and p is less than 0.001. What do you still not know?
-2. Name one column in this dataset whose mean is a bad summary, and say why.
+2. The strongest predictor of popularity in this file is playlist placements. Why can the team
+   not use it?
 
-Good answers to the first name the size of the difference, the number of rows, and whether it
-matters practically. Good answers to the second name valence or tempo and describe the shape.
+Good answers to the first name the size of the difference, the number of rows, whether it
+matters practically, and which way the arrow points. Good answers to the second say that tracks
+get added to playlists because they are already popular, so the relationship runs backwards
+from the one the recommendation would assume.
