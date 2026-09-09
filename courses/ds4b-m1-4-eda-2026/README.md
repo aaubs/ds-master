@@ -25,8 +25,16 @@ module notebooks in a fresh kernel.
 ## The design in one paragraph
 
 Session 02 taught the checks that keep a table honest. This session asks what the table looks
-like, and then what counts as a difference. The second half is built around two comparisons
-that both come back significant: edm against rock on energy, where the effect size is about
-0.4 and the difference is real, and pop against latin, where the gap is one hundredth of a
-bounded index and the effect size is 0.06. The p value cannot tell them apart. That is the
-session.
+like, and then what counts as a difference. The second half turns on two comparisons that both
+come back significant: edm against rock on energy, where the effect size is 0.41 and the
+difference is real, and pop against latin, where the gap is seven thousandths of a bounded
+index and the effect size is 0.04. No test can separate those two.
+
+The track IDs in this file are real Spotify IDs, so both notebooks link to the songs and the
+instructor guide lists five worth playing. The highest-energy track in the dataset is a
+rainforest recording, which is funnier than any example anyone could invent and does most of
+the work of explaining what an audio feature actually measures.
+
+The guide also carries a break quiz on Spotify's 2025 global top ten, which exists to make one
+point: eight of those artists appear in our 2020 file, and the two missing are the two a Danish
+classroom never guesses.

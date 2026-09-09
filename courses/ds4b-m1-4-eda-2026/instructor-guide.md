@@ -103,6 +103,79 @@ conclusion is worthless.
 If a student says they would just ask for the effect size too, that is the right answer, and
 the point stands. You have to know the words. Prompting is expertise expressed somewhere else.
 
+## The music, which is the point of using this data at all
+
+The dataset carries real Spotify track IDs, so `https://open.spotify.com/track/<id>` opens the
+song. Both notebooks have a `listen()` helper that renders the links as a clickable column.
+Have Spotify open on the projector.
+
+Five worth playing, in the order they come up:
+
+**"Rain Forest and Tropical Beach Sound"**, by Nature Sounds Nature Music, is the highest-energy
+track in the file at 1.00.
+`https://open.spotify.com/track/5CwOUooch74h0XarhDfAQK`
+
+**"Relaxing Crickets And Waterfall"** is the lowest.
+`https://open.spotify.com/track/5iAB4tlYseBES4MKqgY4KG`
+
+Play four seconds of the rainforest, then ask the room what "energy" measures. Somebody will
+have written "edm is the most energetic genre" in session 02 and meant something about
+excitement. It is loudness, density and noisiness, and a downpour scores maximum on all three.
+
+**"Hi, How're You Doin'?"** is four seconds long with a tempo of zero, and it holds three
+records at once: shortest, least danceable, saddest.
+`https://open.spotify.com/track/51w6nRCU68klqNfYaaVP2j`
+
+**"Low Rider"** by War is valence 1.00, the happiest thing in the dataset, and here the model
+is obviously right. Worth playing straight after the rainforest so the room sees that the
+measures are not simply broken.
+`https://open.spotify.com/track/7kigmgx2tJJsZHKaa2QC0w`
+
+**"bad guy"** by Billie Eilish appears under five different genres: edm, latin, pop, r&b and
+rock. 265 tracks sit in three or more. If anyone still thinks genre is a property of a song
+rather than of a playlist, this settles it.
+`https://open.spotify.com/track/2Fxmhks0bxGSBdJ92vM42m`
+
+## The break quiz
+
+Run this at 15:05, as the second break rather than before it. Groups of three or four, five
+minutes, and it does real work.
+
+**The question.** Write down Spotify's ten most-streamed artists worldwide in 2025, in any
+order. A point per correct name.
+
+**The answer**, from Spotify Wrapped 2025: 1 Bad Bunny, 2 Taylor Swift, 3 The Weeknd, 4 Drake,
+5 Billie Eilish, 6 Kendrick Lamar, 7 Bruno Mars, 8 Ariana Grande, 9 Arijit Singh, 10 Fuerza
+Regida.
+
+Reveal one through eight first. Most groups will have five or six of them. Then reveal nine and
+ten and wait.
+
+**Arijit Singh** is a Hindi playback singer and the first Indian artist in the global top ten.
+**Fuerza Regida** is a regional Mexican band from San Bernardino. A Danish classroom writes ten
+Anglo-American pop acts and gets both of these wrong, every time.
+
+**The bridge back**, and the reason this is not just a game. Our dataset has six genres: edm,
+latin, pop, r&b, rock. Nothing in it could have told you about Arijit Singh, because nothing in
+it is from that world. When we wrote "genre" all afternoon, we meant six categories somebody at
+Spotify drew for one market in 2020.
+
+That is the honest limitation on every number in both notebooks, and the room will believe it
+now in a way they would not have at 12:40.
+
+Then check the dataset in front of them, which lands harder than anything you can say:
+
+    a = songs["artist"].astype("string").str.lower()
+    for name in ["Bad Bunny", "Taylor Swift", "Arijit Singh", "Fuerza Regida"]:
+        print(name, int(a.str.contains(name.lower(), na=False).sum()), "rows")
+
+Eight of the 2025 global top ten have songs in our 2020 file. Bad Bunny has 61 rows, Drake 104,
+The Weeknd 76, Ariana Grande 55. Arijit Singh has zero. Fuerza Regida has zero.
+
+The two the room could not name are the two the dataset does not contain. Your students'
+intuition about who the world listens to and this dataset's coverage have the same blind spot,
+and it is the same blind spot, because both were built from the same slice of the market.
+
 ## Known traps to surface
 
 - **Two frames, not one.** `songs` counts a track once per playlist; `tracks` counts it once.
