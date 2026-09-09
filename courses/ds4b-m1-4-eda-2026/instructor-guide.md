@@ -42,6 +42,28 @@ practice tasks together rather than adding material.
 
 If you are behind, cut the chi-square section. Do not cut the sample-size demonstration.
 
+## What came back from the 2025 notebook
+
+Last year's version had better scaffolding than substance: a strong five-question EDA
+checklist and a clean test-chooser table, wrapped around synthetic data and a p-value rule it
+contradicted later in its own text. Three things were worth keeping and are now in these
+notebooks.
+
+The **five questions** open part 1 as a table, and the notebook then follows them in order.
+Point at it and say it works on any table, not just this one. It is the most portable thing in
+the session.
+
+The **which-test table** opens part 2, before any test appears, so choosing between them stops
+being mysterious before the interesting problem arrives.
+
+The **multiple-testing warning** sits just before the reporting rule. It is more relevant now
+than it was last year, which is the framing to use: running twenty tests used to take an
+afternoon, and an agent will run fifty in one call and hand back the three that cleared 0.05.
+
+What did not come back: the synthetic data generator, and the `if p < 0.05: print("REAL")`
+pattern that appeared three times. If a student has seen last year's notebook, that second one
+is worth naming out loud as the thing this session is arguing against.
+
 ## The moments
 
 **The same row, caught twice.** Part 1 section 2 finds a four-second track from the minimum of
