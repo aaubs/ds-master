@@ -9,7 +9,7 @@ The session 03 notebooks need `scipy` in addition to pandas, NumPy and Matplotli
 | Current package environment | 3.12.9 | 3.0.5 | 2.5.3 | All six notebooks passed; no cell errors or stderr |
 | Compatibility environment | 3.12.9 | 2.2.3 | 2.0.2 | All six notebooks passed; no cell errors; one first-use Matplotlib font-cache notice |
 
-The executions used the actual repository CSVs through the documented local-file paths. They did not replace the datasets or modify notebook cells for execution. The optional sampling starter remains commented in the student notebook, as delivered; the instructor notebook carries the worked version.
+Every notebook reads its data straight from the repository's raw URLs, which is what students run, so the executions used the same bytes they will. They did not replace the datasets or modify notebook cells for execution. The optional sampling starter remains commented in the student notebook, as delivered; the instructor notebook carries the worked version.
 
 ## Content and output checks
 

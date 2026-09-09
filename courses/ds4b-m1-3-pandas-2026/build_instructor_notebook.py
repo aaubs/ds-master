@@ -81,7 +81,6 @@ solution afterwards, rerun the Part 1 setup first.
 code('''
 # Run once. Replays a student notebook quietly so its objects exist here too.
 import json
-from pathlib import Path
 from urllib.request import urlopen
 
 import matplotlib.pyplot as plt
@@ -92,20 +91,8 @@ RAW_NOTEBOOKS = "https://raw.githubusercontent.com/aaubs/ds-master/codex/m1-pand
 
 def run_student_notebook(filename):
     """Execute every code cell of a student notebook in this kernel, silently."""
-    candidates = [Path(filename),
-                  Path("notebooks") / filename,
-                  Path("..") / "notebooks" / filename,
-                  Path("ds-master/notebooks") / filename]
-    source = None
-    for path in candidates:
-        if path.exists():
-            source = path.read_text()
-            print(f"Replaying {path}")
-            break
-    if source is None:
-        url = f"{RAW_NOTEBOOKS}/{filename}"
-        source = urlopen(url).read().decode()
-        print(f"Replaying {url}")
+    source = urlopen(f"{RAW_NOTEBOOKS}/{filename}").read().decode()
+    print(f"Replaying {filename}")
 
     with capture_output():
         for cell in json.loads(source)["cells"]:

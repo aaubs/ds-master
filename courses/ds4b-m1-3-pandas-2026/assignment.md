@@ -80,7 +80,7 @@ One take with a real argument in it beats a polished one where everybody agrees.
 - [ ] The notebook, named `M1_assignment_<group>.ipynb`, with group number and names in the first cell
 - [ ] The video, alongside it
 - [ ] **Restart & Run All** produces the notebook you're handing in, from a clean kernel, no manual steps
-- [ ] Data read from `data/M1_2026/` or the URLs above, no CSV copies attached
+- [ ] Data read from the URLs above, no CSV copies attached
 - [ ] Three questions, in order
 - [ ] A decision log: one line per question, what you decided and what it cost
 
