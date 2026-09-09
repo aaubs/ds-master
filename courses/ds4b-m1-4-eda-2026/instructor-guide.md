@@ -14,33 +14,42 @@ thing the whole day is for, which is that on a table this size a significant res
 nothing and an effect size is the finding. Students arrive believing p values are the point.
 They should leave believing p values are the smallest claim in the sentence.
 
-Continuity is deliberate and worth pointing at explicitly. Both notebooks rebuild last week's
-table in one cell, marked as a recap with nothing new in it. Say out loud that this is the
-same 32,510 associations, so nobody thinks a new dataset has appeared.
+Continuity is deliberate, and it is a sentence rather than a pipeline. There are no joins in
+this session: the raw file already carries every audio measurement on every row, so the setup
+is two lines. Say out loud that this is last week's file and last week's row meaning, and that
+nothing new has appeared, then move on. The merge machinery belongs to session 02 and has done
+its job.
 
 ## Run of show
 
+Deliberately less material than session 02. Two notebooks, 23 code cells between them, and no
+joins anywhere. The file already carries every audio measurement on every row, so the session
+opens with two lines rather than a pipeline. The time freed up is for talking.
+
 | Time | Segment |
 |---|---|
-| 12:30-12:40 | Open. Show that the recap cell reproduces last week's numbers exactly. |
-| 12:40-14:00 | Part 1: distributions, odd rows, base rates, relationships. |
+| 12:30-12:45 | Open. What one row is, and why there are two frames rather than one. |
+| 12:45-14:00 | Part 1. Four ideas: what describe hides, rows that cannot be right, group sizes, correlation. |
 | 14:00-14:10 | Break. |
-| 14:10-15:05 | Part 2 through effect size, which is the core. |
+| 14:10-15:05 | Part 2 through effect size. This is the core. |
 | 15:05-15:15 | Break. |
-| 15:15-16:10 | Sample-size demo, ANOVA, chi-square, how to report it. |
+| 15:15-16:10 | Sample size, ANOVA, chi-square, how to report a comparison. |
 | 16:10-16:15 | Exit ticket. |
 
-If you are behind, cut the chi-square section and the second practice task. Do not cut the
-sample-size demonstration in part 2 section 5, which is the load-bearing cell of the day.
+There is room in this plan. Use it on the histogram panel and on the two t-tests, which are
+the two places students change their minds about something. If you finish early, do the
+practice tasks together rather than adding material.
+
+If you are behind, cut the chi-square section. Do not cut the sample-size demonstration.
 
 ## The moments
 
-**The same row, caught twice.** Part 1 section 3 finds a four-second track from the minimum of
+**The same row, caught twice.** Part 1 section 2 finds a four-second track from the minimum of
 `duration_ms`, then finds a track with a tempo of exactly zero. It is the same record: "Hi,
 How're You Doin'?" by DREAMS COME TRUE. Let the room notice it rather than announcing it. The
 point is that nobody suspected that row. Two unrelated sanity checks found it.
 
-**Valence has no middle.** The four-panel histogram in part 1 section 2 puts the mean on each
+**Valence has no middle.** The four-panel histogram in part 1 section 1 puts the mean on each
 distribution as a vertical line. Valence is nearly flat across its range and tempo has a spike
 at 120 with a second bump near 100, because produced music is written to conventional tempos.
 In both, the mean is a real number and a poor summary. Ask what the mean of the tempo column
@@ -49,11 +58,11 @@ is describing before moving on.
 **Two tests, one verdict.** Part 2 sections 2 and 3 are the centre of the session. edm against
 rock: difference 0.068, p about 2e-91. pop against latin: difference 0.0095, p 0.0025. Both
 significant. Run them back to back and let the room sit with it before introducing effect
-size, which separates them cleanly at d = 0.40 against d = 0.06.
+size, which separates them cleanly at d = 0.41 against d = 0.04.
 
 **The sample-size demo.** Section 5 reruns the pop-latin test on 30 rows a side, 200 times.
-Median p is about 0.45 and it clears 5 percent in roughly 6 percent of runs, which is what you
-would expect from chance alone. The difference in the data never changed. Only the row count
+Median p is about 0.55 and it clears 5 percent in exactly 5 percent of runs, which is what
+chance alone gives you. The difference in the data never changed. Only the row count
 did. This is the cell that makes the lesson stick, so give it time.
 
 **Eta squared.** Genre explains about 14 percent of the variation in energy, which means 86
@@ -74,17 +83,16 @@ the point stands. You have to know the words. Prompting is expertise expressed s
 
 ## Known traps to surface
 
-- **Association grain versus track grain.** The mean of `energy` differs slightly between
-  `joined` and `tracks` because popular tracks are counted many times in the first. Part 1
-  section 1 shows both. Make somebody say which one answers which question.
-- **The 0.05 threshold is a convention.** Nothing in the data changes at 0.049. If you have
-  time, say where the number came from and that the ASA has spent a decade asking people to
-  stop treating it as a verdict.
-- **Multiple comparisons.** Part 2 runs fifteen pairwise tests in one cell. Nobody corrects for
-  it, and on this data it does not matter because the effect sizes carry the conclusions. Worth
-  one sentence so nobody is surprised when it comes up in a later course.
-- **Correlation is not causation, and also not much else.** Energy against loudness at 0.68 is
-  near tautological. Say which correlations are findings and which are definitions.
+- **Two frames, not one.** `songs` counts a track once per playlist; `tracks` counts it once.
+  Most confusion in this session traces back to someone using the wrong one. Ask which
+  question each answers rather than which is correct.
+- **The 0.05 threshold is a convention.** Nothing in the data changes at 0.049. The pop-latin
+  test lands at p = 0.02, comfortably inside a threshold nobody chose on principle.
+- **Skew is not error.** In the practice task, `speechiness` has a long tail of tracks that are
+  mostly talking. Those are real records. Students who have just learned about broken rows tend
+  to want to delete anything unusual.
+- **Correlation is not causation, and often not much else either.** Energy against loudness at
+  0.68 is near tautological. Say which correlations are findings and which are definitions.
 
 ## Exit ticket
 

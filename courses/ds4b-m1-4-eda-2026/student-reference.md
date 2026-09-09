@@ -57,8 +57,8 @@ Three things, in this order:
 2. how many observations it rests on;
 3. the p value, last, as the smallest of the three claims.
 
-Good: "Mean energy is 0.80 for edm and 0.73 for rock, across 5,899 and 4,866 associations, a
-gap of 0.068, d = 0.40 (p < 0.001)."
+Good: "Mean energy is 0.80 for edm and 0.73 for rock, across 6,043 and 4,951 rows, a gap of
+0.07 and d = 0.41 (p < 0.001)."
 
 Not good: "The difference was significant (p < 0.001)."
 
@@ -71,6 +71,10 @@ humps, the mean sits in the valley between them, where no row is.
 
 **Plotting 28,000 points.** You get a block of ink. Sample with a fixed `random_state` and say
 in the caption that you did.
+
+**Using the wrong frame.** `songs` has a row per track-on-a-playlist, so popular songs are
+counted several times. `tracks` has one row per song. Neither is correct in general; they
+answer different questions.
 
 **Comparing groups of very different sizes.** A difference between a group of 40 and a group of
 40,000 tells you more about sample size than about the world. Print the counts.
