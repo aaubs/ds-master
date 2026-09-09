@@ -162,11 +162,27 @@ point stands. You have to know the words. Prompting is expertise expressed somew
 
 ## The music, which is the point of using this data at all
 
-The dataset carries real Spotify track IDs, so `https://open.spotify.com/track/<id>` opens the
-song. Both notebooks have a `listen()` helper that renders the links as a clickable column.
-Have Spotify open on the projector.
+The dataset carries real Spotify track IDs. Both notebooks have two helpers: `listen()` renders
+a clickable link column, and `play()` embeds a Spotify player straight into the output, so a
+track plays from the notebook without leaving it. The player needs a browser and is a 30-second
+preview unless you are signed in; if it does not render, the links always work.
 
-Five worth playing, in the order they come up:
+Three of these are already `play()` cells in the notebooks. The rest are yours to open.
+
+**"Hotline Bling"** by Drake, which this file scores at popularity 0, is the best thirty seconds
+of the day. Part 1 finds the zero spike, lists who is in it (Drake, Taylor Swift, four Eminem
+records), and plays this. Ask the room whether it looks like a song nobody streams. Then the
+next line: 1,746 of the 2,620 zeros are by artists who have scored tracks elsewhere in the same
+file. The zeros are absence wearing the same clothes as a real value, and the room worked it out
+by recognising a song rather than by being told.
+
+**"Dance Monkey"** by Tones and I plays immediately after it, as the only track in the file
+scoring 100. Nothing to say about it; the contrast does the work.
+
+**"Closer"** by The Chainsmokers sits on ten playlists, more than anything else in the file, and
+opens the placements section in part 2.
+
+Five more worth having ready, in the order they come up:
 
 **"Rain Forest and Tropical Beach Sound"**, by Nature Sounds Nature Music, is the highest-energy
 track in the file at 1.00.
