@@ -1,0 +1,56 @@
+<div style="font-family: Barlow, Arial, sans-serif; line-height: 1.55; color: #211a52;">
+  <div style="display: flex; flex-wrap: wrap; gap: 1px; margin: 0 0 1.5rem; background: #d3d6d9; border: 1px solid #d3d6d9;">
+    <div style="flex: 1 1 140px; box-sizing: border-box; padding: 0.875rem 1rem; background: #ffffff;"><span style="display: block; margin-bottom: 0.25rem; font-family: Arial, sans-serif; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #54616e;">Session</span><strong style="font-family: Arial, sans-serif; font-size: 0.95rem; color: #211a52;">03</strong></div>
+    <div style="flex: 1 1 140px; box-sizing: border-box; padding: 0.875rem 1rem; background: #ffffff;"><span style="display: block; margin-bottom: 0.25rem; font-family: Arial, sans-serif; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #54616e;">Date</span><strong style="font-family: Arial, sans-serif; font-size: 0.95rem; color: #211a52;">Wed 16 Sep 2026</strong></div>
+    <div style="flex: 1 1 140px; box-sizing: border-box; padding: 0.875rem 1rem; background: #ffffff;"><span style="display: block; margin-bottom: 0.25rem; font-family: Arial, sans-serif; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #54616e;">Time</span><strong style="font-family: Arial, sans-serif; font-size: 0.95rem; color: #211a52;">12:30&ndash;16:15</strong></div>
+    <div style="flex: 1 1 140px; box-sizing: border-box; padding: 0.875rem 1rem; background: #ffffff;"><span style="display: block; margin-bottom: 0.25rem; font-family: Arial, sans-serif; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #54616e;">Room</span><strong style="font-family: Arial, sans-serif; font-size: 0.95rem; color: #211a52;">Fib15-2.234</strong></div>
+    <div style="flex: 1 1 140px; box-sizing: border-box; padding: 0.875rem 1rem; background: #ffffff;"><span style="display: block; margin-bottom: 0.25rem; font-family: Arial, sans-serif; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #54616e;">Lecturer</span><strong style="font-family: Arial, sans-serif; font-size: 0.95rem; color: #211a52;">Roman</strong></div>
+  </div>
+  <h3 style="margin: 0 0 0.5rem; font-size: 1.75rem; line-height: 1.08; color: #211a52;">Exploratory Analysis: Distributions, Odd Rows and Real Differences</h3>
+  <p style="margin: 0 0 1.25rem; max-width: 66ch;">Last week we built a table and protected a join. This week we look at it. What shape are these columns, which rows cannot be right, and which of the differences between groups are large enough to act on? The second half introduces t-tests, ANOVA and chi-square, and then spends most of its time on why, on a table this size, a significant result is the cheapest thing you can produce.</p>
+  <div style="margin: 0 0 1.25rem; padding: 1rem 1.25rem; background: #f1f2f3; border: 1px solid #d3d6d9;">
+    <p style="display: block; margin-bottom: 0.25rem; font-family: Arial, sans-serif; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #54616e;">Continues from session 02</p>
+    <p style="margin: 0;">Both notebooks rebuild the table you made last week in a single cell and carry on from there. Same Spotify snapshot, same row meaning, same association count. If session 02 made sense, nothing here starts from scratch.</p>
+  </div>
+  <h4 style="margin: 1.5rem 0 0.5rem; font-size: 1.2rem; color: #211a52;">By the end of the session</h4>
+  <ul style="margin: 0 0 1.25rem; padding-left: 1.25rem;">
+    <li>Read a distribution and say what a mean is hiding.</li>
+    <li>Find rows that cannot be right, and decide what to do about them out loud.</li>
+    <li>Report a correlation with a picture next to it, and say which numbers are findings.</li>
+    <li>Run a t-test, a one-way ANOVA and a chi-square test, and interpret each one correctly.</li>
+    <li>Separate a significant difference from one that is large enough to matter, using effect size.</li>
+    <li>Report a comparison as size, counts and p value, in that order.</li>
+  </ul>
+  <h4 style="margin: 1.5rem 0 0.5rem; font-size: 1.2rem; color: #211a52;">Before class</h4>
+  <p style="margin: 0 0 1.25rem; max-width: 66ch;">Have your session 02 notebooks to hand, or at least remember what one row of the joined table means. No preparation beyond that. A standard Colab CPU runtime is enough, and everything the notebooks import is already installed there.</p>
+  <h4 style="margin: 1.5rem 0 0.5rem; font-size: 1.2rem; color: #211a52;">Notebooks</h4>
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; margin: 0 0 1.25rem;">
+    <div style="padding: 1rem 1.25rem; background: #ffffff; border: 1px solid #d3d6d9;"><h5 style="margin: 0 0 0.5rem; font-size: 1rem; color: #211a52;">Part 1 &middot; Exploring one table</h5>
+      <p style="margin: 0 0 0.875rem;">Distributions and what a mean hides, rows that cannot be right, base rates, and relationships between columns. Built on last week&rsquo;s table.</p>
+      <a href="https://colab.research.google.com/github/aaubs/ds-master/blob/main/notebooks/M1_03_exploring_distributions.ipynb" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 0.5rem 0.875rem; background: #211a52; color: #ffffff; text-decoration: none; font-family: Arial, sans-serif; font-size: 0.9rem; font-weight: 700;">Open Part 1 in Colab</a>
+      <p style="margin: 0.75rem 0 0; font-size: 0.85rem;"><a href="https://raw.githubusercontent.com/aaubs/ds-master/main/notebooks/M1_03_exploring_distributions.ipynb" style="color: #211a52; text-decoration: underline; text-underline-offset: 0.15em;">Download .ipynb</a> <span style="color: #54616e;">(right-click &rarr; Save Link As)</span></p></div>
+    <div style="padding: 1rem 1.25rem; background: #ffffff; border: 1px solid #d3d6d9;"><h5 style="margin: 0 0 0.5rem; font-size: 1rem; color: #211a52;">Part 2 &middot; Comparing groups</h5>
+      <p style="margin: 0 0 0.875rem;">t-tests, ANOVA and chi-square on the same data, then effect size and why sample size did most of the work. Ends with a rule for reporting a comparison.</p>
+      <a href="https://colab.research.google.com/github/aaubs/ds-master/blob/main/notebooks/M1_04_comparing_groups.ipynb" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 0.5rem 0.875rem; background: #211a52; color: #ffffff; text-decoration: none; font-family: Arial, sans-serif; font-size: 0.9rem; font-weight: 700;">Open Part 2 in Colab</a>
+      <p style="margin: 0.75rem 0 0; font-size: 0.85rem;"><a href="https://raw.githubusercontent.com/aaubs/ds-master/main/notebooks/M1_04_comparing_groups.ipynb" style="color: #211a52; text-decoration: underline; text-underline-offset: 0.15em;">Download .ipynb</a> <span style="color: #54616e;">(right-click &rarr; Save Link As)</span></p></div>
+  </div>
+  <p style="margin: 0 0 1.25rem; max-width: 66ch; color: #54616e;">Both notebooks include practice tasks and worked solutions. Try the tasks before opening the solutions.</p>
+  <div style="margin: 0 0 1.25rem; padding: 1rem 1.25rem; background: #f1f2f3; border: 1px solid #d3d6d9;">
+    <p style="display: block; margin-bottom: 0.25rem; font-family: Arial, sans-serif; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #54616e;">DataCamp practice</p>
+    <p style="margin: 0 0 0.5rem;">The class has DataCamp access. <a href="https://github.com/aaubs/ds-master/blob/main/courses/ds4b-m1-3-pandas-2026/datacamp-practice.md" target="_blank" rel="noopener noreferrer" style="color: #211a52; text-decoration: underline; text-underline-offset: 0.15em;">Full guide, with what each course is for</a>.</p>
+    <ul style="margin: 0 0 0.5rem; padding-left: 1.25rem;">
+      <li><a href="https://www.datacamp.com/courses/exploratory-data-analysis-in-python" target="_blank" rel="noopener noreferrer" style="color: #211a52; text-decoration: underline; text-underline-offset: 0.15em;">Exploratory Data Analysis in Python</a> &mdash; validating and summarising data, quality problems, relationships. Closest match to Part 1.</li>
+      <li><a href="https://www.datacamp.com/courses/introduction-to-statistics-in-python" target="_blank" rel="noopener noreferrer" style="color: #211a52; text-decoration: underline; text-underline-offset: 0.15em;">Introduction to Statistics in Python</a> &mdash; distributions, correlation, and the vocabulary the tests assume.</li>
+      <li><a href="https://www.datacamp.com/courses/hypothesis-testing-in-python" target="_blank" rel="noopener noreferrer" style="color: #211a52; text-decoration: underline; text-underline-offset: 0.15em;">Hypothesis Testing in Python</a> &mdash; t-tests, ANOVA and chi-square in much more detail. Best done after the session.</li>
+    </ul>
+    <p style="margin: 0; color: #54616e;">Optional and not assessed. The hypothesis testing course teaches the mechanics well and spends little time on the thing Part 2 is about, which is that on thirty thousand rows almost everything is significant.</p>
+  </div>
+  <div style="margin: 0 0 1.25rem; padding: 1rem 1.25rem; background: #f1f2f3; border: 1px solid #d3d6d9;">
+    <p style="display: block; margin-bottom: 0.25rem; font-family: Arial, sans-serif; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #54616e;">Reading and reference</p>
+    <p style="margin: 0 0 0.5rem;"><a href="https://github.com/aaubs/ds-master/blob/main/courses/ds4b-m1-4-eda-2026/student-reference.md" target="_blank" rel="noopener noreferrer" style="color: #211a52; text-decoration: underline; text-underline-offset: 0.15em;">Student reference: what each test answers, and how to report it</a></p>
+    <p style="margin: 0;">If you want one idea to take away, take this one: a p value tells you whether a difference exists given your sample size, and says nothing about whether it is big enough to care about.</p>
+  </div>
+  <h4 style="margin: 1.5rem 0 0.5rem; font-size: 1.2rem; color: #211a52;">In class</h4>
+  <p style="margin: 0 0 1.25rem; max-width: 66ch;">Short demonstrations, then prediction and paired practice, as in session 02. The second half is built around one comparison that is real and one that is not, both of which the tests call significant. Two short breaks are included.</p>
+  <p style="margin: 0 0 1.25rem; max-width: 66ch; color: #54616e;">The Spotify snapshot is from 2020. Everything in these notebooks describes that sample, not music, listeners or charts today.</p>
+</div>

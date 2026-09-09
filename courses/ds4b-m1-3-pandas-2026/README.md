@@ -4,6 +4,11 @@
 
 This update preserves the class repository's `notebooks/`, `data/`, `media/`, and `courses/` structure and the two original notebook filenames. The course-catalog and Spotify examples remain useful; the revision improves the learning sequence and interpretation rather than replacing data for novelty.
 
+## DataCamp
+
+[datacamp-practice.md](datacamp-practice.md) lists which DataCamp courses are worth doing for
+sessions 02 and 03, in what order, and what they do not cover. Linked from both Moodle pages.
+
 ## Group assignment
 
 [assignment.md](assignment.md) is the student brief for the ungraded group assignment.
