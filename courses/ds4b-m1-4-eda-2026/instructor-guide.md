@@ -211,34 +211,32 @@ rather than of a playlist, this settles it.
 
 ## The break quiz
 
-It is now a cell in part 2, straight after the sample-size demo, at the point where the
-afternoon needs a break. Section heading "Break: ten names".
+Three rounds, on its own page so nothing on screen gives an answer away:
 
-Run it at about 15:05. Groups of three or four, five minutes, no phones.
+**[What the File Knows](https://claude.ai/code/artifact/315cf590-a544-4f90-9f1e-91aeb72d6d20)** &mdash; open it on the projector. Each round has a Reveal
+button; the answers stay hidden until you press it. Also in the repo as
+[break-quiz.html](break-quiz.html) if you would rather open it locally.
 
-**The question.** Write down Spotify's ten most-streamed artists worldwide in 2025, in any
-order. A point per correct name.
+Run it at about 15:05. Groups of three, five minutes a round, a point per correct answer. The
+tracks open in Spotify in a new tab, so have Spotify signed in on the teaching machine.
 
-**The answer**, from Spotify Wrapped 2025: Bad Bunny, Taylor Swift, The Weeknd, Drake, Billie
-Eilish, Kendrick Lamar, Bruno Mars, Ariana Grande, Arijit Singh, Fuerza Regida. (Worth
-re-checking before class in case the ranking has been restated anywhere.)
+**Round 1, the top ten.** Spotify's ten most-streamed artists worldwide in 2025. Most groups
+land eight. The reveal table puts each artist next to how many rows they have in our 2020 file:
+Drake 104, The Weeknd 76, Bad Bunny 61, and then Arijit Singh 0, Fuerza Regida 0. The two the
+room could not name are the two the file does not contain. Play "Tum Hi Ho" and let it sit.
+(Re-check the 2025 ranking before class in case it has been restated anywhere.)
 
-Collect the group answers before you run the cell, because the list is in the cell source.
-Most groups get five or six. Almost nobody gets the last two.
+**Round 2, guess the score.** Play "Hotline Bling", "Dance Monkey" and "Closer", and have each
+group write down a popularity score out of 100 for each. Nobody guesses Hotline Bling, which
+this file scores **zero**. That is the round that earns the zero-spike section in part 1: the
+column stores absence in the same shape as a real measurement, 2,620 times.
 
-**Arijit Singh** is a Hindi playback singer and the first Indian artist in the global top ten.
-**Fuerza Regida** is a regional Mexican band from San Bernardino.
+**Round 3, which is the most energetic?** "Firestarter" at 0.946, "Raw Power" at 0.998, and the
+rainforest at 1.000. Rooms pick The Prodigy. 1,601 tracks beat it. Energy is loudness, density
+and noisiness, and a downpour maxes all three.
 
-**The bridge back.** The cell prints how many rows each of the ten has in our file. Eight of
-them are there, some heavily: Drake 104 rows, The Weeknd 76, Bad Bunny 61, Ariana Grande 55.
-Arijit Singh has zero. Fuerza Regida has zero.
-
-The two the room could not name are the two the dataset does not contain. Both blind spots
-have the same cause, which is that both were built from the same slice of the market. Say that
-out loud and then leave it alone; it lands better without elaboration.
-
-That is the honest limitation on every number in both notebooks, and at 15:05 the room will
-believe it in a way it would not have at 12:40.
+The three rounds are three different failures: coverage, encoding, and a measurement whose name
+oversells it. None of them shows up in a p value, and all three change what you may write down.
 
 ## Known traps to surface
 
