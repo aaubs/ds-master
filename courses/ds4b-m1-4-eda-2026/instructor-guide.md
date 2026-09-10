@@ -211,38 +211,36 @@ rather than of a playlist, this settles it.
 
 ## The break quiz
 
-**[Don't Go Over](https://claude.ai/code/artifact/315cf590-a544-4f90-9f1e-91aeb72d6d20)**: open it on the projector at the 15:05 break. It is also in
-the repo as [break-quiz.html](break-quiz.html). Each round has a Reveal button, and the tracks
-open in Spotify in a new tab, so have Spotify signed in on the teaching machine.
+**[Aim for Ten](https://claude.ai/code/artifact/315cf590-a544-4f90-9f1e-91aeb72d6d20)**: open it on the projector at the 15:05 break. It is also in the repo
+as [break-quiz.html](break-quiz.html). The arrow keys move between rounds, a number key turns
+that rank's card (0 turns #10), and A turns them all. The explanation and the songs appear once
+all ten cards in a round are turned. Songs open in Spotify in a new tab, so have Spotify signed
+in on the teaching machine.
 
-One rule for all three rounds: get as close as you can without going over. Groups of three,
-one answer per round, written down before you reveal. Up to 10 points a round.
+Every round is a top ten. Each group writes down one entry per round and scores its rank: #10
+is worth 10 points, #1 is worth 1, and anything off the list scores 0. The obvious answer is
+usually #1 and worth one point. Turn the cards from #1 upwards, so the jackpot comes last.
 
-**Round 1, the tenth name.** Spotify's most-streamed artists worldwide in 2025. Each group
-writes one artist and scores that artist's rank: #10 scores 10, #1 scores 1, anyone outside the
-top ten scores 0. Bad Bunny is a safe single point. Fuerza Regida at #10 is the jackpot almost
-nobody names. Straight after, the "Who is not in this file" cell in part 2 shows that #9 and
-#10 have zero rows in our data. (Re-check the ranking before class in case it has been
-restated.)
+**Round 1, Spotify's most-streamed artists of 2025.** Bad Bunny is #1. The jackpot is Fuerza
+Regida (#10) and Arijit Singh (#9), the two nobody in a Danish classroom names. The notebook's
+next cell shows both have zero rows in our file. (Re-check the ranking before class.)
 
-**Round 2, the silent album.** Vulfpeck's *Sleepify* (2014): ten tracks of silence, with fans
-asked to loop it while they slept. It made about $20,000 ($19,655 paid out) from roughly 5.5
-million plays in seven weeks before Spotify pulled it. Each track ran 31 or 32 seconds, because
-a play counts as a stream after 30. Closest without going over takes the 10 points. Play
-"Dean Town" afterwards.
+**Round 2, the richest musicians** (Forbes: 2026 for #1–6, 2025 estimates for #7–10). Jay-Z
+$2.8bn, Taylor Swift $2.0bn, Bruce Springsteen $1.2bn, then Rihanna, Beyoncé and Dr. Dre, tied
+at $1.0bn and ranked by who got there first (give 5 points for any of the three if you prefer).
+Then Madonna $850m, Selena Gomez $700m, Celine Dion $570m, Barbra Streisand $510m. Bloomberg puts
+Gomez at $1.3bn, so expect an argument. Play "My Heart Will Go On".
 
-**Round 3, the shortest hit.** The shortest song ever to chart on the Billboard Hot 100, in
-seconds. The answer is 34: Jack Black's "Steve's Lava Chicken" from *A Minecraft Movie*, on the
-chart dated 3 May 2025. It beat Kid Cudi's "Beautiful Trip" (37 seconds) and "PPAP" (45). Play
-the whole thing, which takes less time than explaining it.
+**Round 3, most weeks on the Billboard Hot 100** (Christmas songs excluded). "Lose Control" by
+Teddy Swims holds the record at 112 weeks, having passed "Heat Waves" (91) in May 2025. #10 is
+Billie Eilish's "WILDFLOWER" at 72. "Levitating" and "A Bar Song" are tied on 77, ranked by who
+got there first. Play "WILDFLOWER".
 
-**Tiebreaker.** Spotify streams of "Blinding Lights", closest either way: about 5.58 billion as
-of September 2026, the most-streamed song in Spotify's history. It is also in our file, at
-popularity 98.
+Rounds 2 and 3 are as of September 2026. Forbes revises its figures every spring.
 
-Sources: [Sleepify](https://en.wikipedia.org/wiki/Sleepify),
-[Variety on the Hot 100 record](https://variety.com/2025/film/news/jack-black-minecraft-movie-steves-lava-chicken-hot-100-1236382177/),
-[most-streamed songs on Spotify](https://en.wikipedia.org/wiki/List_of_most-streamed_songs_on_Spotify).
+Sources: [Forbes celebrity billionaires 2026](https://www.forbes.com/sites/idonnkanga/2026/03/10/the-worlds-celebrity-billionaires-2026/),
+[music artists by net worth](https://en.wikipedia.org/wiki/List_of_music_artists_by_net_worth),
+[Hot 100 milestones](https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_chart_achievements_and_milestones).
 
 ## Known traps to surface
 

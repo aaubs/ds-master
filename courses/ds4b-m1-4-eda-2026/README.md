@@ -41,5 +41,5 @@ every genre mean by 3 to 4.7 points. And the file's most extreme "songs" are fie
 of rainfall and crickets, sitting on a latin playlist, inside any average anybody quotes.
 
 The track IDs are real Spotify IDs, so both notebooks play the songs inline. The break quiz is
-its own page, [break-quiz.html](break-quiz.html): three rounds, one rule, get as close as you
-can without going over.
+its own page, [break-quiz.html](break-quiz.html): three top-ten rounds. Each group names one
+entry and scores its rank, so #10 is the jackpot and anything off the list scores nothing.
