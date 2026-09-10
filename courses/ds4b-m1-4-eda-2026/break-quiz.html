@@ -1,4 +1,4 @@
-<title>What the File Knows</title>
+<title>Don't Go Over</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,400..800&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&family=Space+Mono:wght@400;700&display=swap">
@@ -30,11 +30,7 @@
     -webkit-font-smoothing: antialiased;
   }
 
-  .sheet {
-    max-width: 60rem;
-    margin: 0 auto;
-    padding: 3.5rem 1.5rem 5rem;
-  }
+  .sheet { max-width: 60rem; margin: 0 auto; padding: 3.5rem 1.5rem 5rem; }
 
   /* ---------- masthead ---------- */
   .masthead { border-bottom: 2px solid var(--amber-dp); padding-bottom: 1.75rem; }
@@ -51,30 +47,26 @@
   h1 {
     font-family: var(--display);
     font-variation-settings: "wdth" 118, "wght" 800;
-    font-size: clamp(2.6rem, 8vw, 4.6rem);
-    line-height: 0.95;
+    font-size: clamp(2.8rem, 9vw, 5.2rem);
+    line-height: 0.92;
     letter-spacing: -0.02em;
     text-wrap: balance;
     margin: 0 0 1rem;
   }
 
-  .standfirst {
-    font-size: 1.15rem;
-    color: var(--ink-dim);
-    max-width: 44ch;
-    margin: 0;
-  }
+  .standfirst { font-size: 1.2rem; color: var(--ink-dim); max-width: 42ch; margin: 0; }
+  .standfirst strong { color: var(--ink); font-weight: 600; }
 
-  /* ---------- rules of play ---------- */
   .rules {
     display: flex;
     flex-wrap: wrap;
-    gap: 0 2.5rem;
+    gap: 0.25rem 2.5rem;
     padding: 1.25rem 0 0;
     font-family: var(--data);
     font-size: 0.78rem;
     color: var(--ink-dim);
   }
+  .rules p { margin: 0; }
   .rules b { color: var(--ink); font-weight: 700; }
 
   /* ---------- rounds ---------- */
@@ -89,7 +81,7 @@
     display: flex;
     align-items: baseline;
     gap: 0.9rem;
-    margin-bottom: 1rem;
+    margin: 0 0 1rem;
   }
   .round-no span { color: var(--ink-dim); letter-spacing: 0.08em; }
 
@@ -101,21 +93,21 @@
     letter-spacing: -0.01em;
     text-wrap: balance;
     margin: 0 0 0.85rem;
-    max-width: 26ch;
+    max-width: 28ch;
   }
 
   .task { max-width: 58ch; margin: 0 0 1.75rem; color: var(--ink-dim); }
   .task strong { color: var(--ink); font-weight: 600; }
 
-  /* ---------- players ---------- */
-  .tracks { display: grid; gap: 0.6rem; margin-bottom: 1.75rem; }
+  /* ---------- tracks (link out: the viewer blocks embedded players) ---------- */
+  .tracks { display: grid; gap: 0.6rem; margin: 1.5rem 0 0; }
 
   a.track {
     display: grid;
     grid-template-columns: auto 1fr auto;
     align-items: center;
     gap: 1rem;
-    background: var(--panel);
+    background: var(--panel-up);
     border: 1px solid var(--rule);
     border-radius: 3px;
     padding: 0.85rem 1rem;
@@ -123,7 +115,7 @@
     color: inherit;
     transition: border-color 120ms ease, background 120ms ease;
   }
-  a.track:hover { background: var(--panel-up); border-color: var(--amber-dp); }
+  a.track:hover { background: #342b21; border-color: var(--amber-dp); }
   a.track:focus-visible { outline: 3px solid var(--amber); outline-offset: 2px; }
 
   .cue {
@@ -136,19 +128,8 @@
     font-size: 0.8rem;
     padding-left: 0.15rem;
   }
-
-  .slot {
-    font-family: var(--data);
-    font-size: 0.72rem;
-    font-weight: 700;
-    letter-spacing: 0.14em;
-    color: var(--amber);
-    display: block;
-    margin-bottom: 0.1rem;
-  }
   .name { font-weight: 600; display: block; line-height: 1.3; }
   .by { color: var(--ink-dim); font-size: 0.9rem; }
-
   .goto {
     font-family: var(--data);
     font-size: 0.68rem;
@@ -193,20 +174,27 @@
   .answer > :last-child { margin-bottom: 0; }
   .answer p { max-width: 62ch; }
 
-  h3 {
-    font-family: var(--display);
-    font-variation-settings: "wdth" 100, "wght" 700;
-    font-size: 0.95rem;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
-    color: var(--amber);
-    margin: 1.75rem 0 0.75rem;
+  /* one big number, with its caption beside it */
+  .figure {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.4rem 1.25rem;
+    margin: 0 0 1rem;
   }
+  .score {
+    font-family: var(--display);
+    font-variation-settings: "wdth" 112, "wght" 800;
+    font-size: clamp(3rem, 9vw, 4.6rem);
+    line-height: 1;
+    color: var(--amber);
+    font-variant-numeric: tabular-nums;
+  }
+  .figure .unit { font-family: var(--data); font-size: 0.82rem; color: var(--ink-dim); }
 
-  /* ---------- the top-ten table ---------- */
+  /* ---------- round 1 table ---------- */
   .scroller { overflow-x: auto; }
-
-  table { border-collapse: collapse; width: 100%; min-width: 22rem; font-family: var(--data); font-size: 0.82rem; }
+  table { border-collapse: collapse; width: 100%; min-width: 20rem; font-family: var(--data); font-size: 0.85rem; }
   th {
     text-align: left;
     font-size: 0.68rem;
@@ -217,34 +205,29 @@
     padding: 0 0.75rem 0.5rem 0;
     border-bottom: 1px solid var(--rule);
   }
-  td { padding: 0.4rem 0.75rem 0.4rem 0; border-bottom: 1px solid var(--rule); }
+  td { padding: 0.45rem 0.75rem 0.45rem 0; border-bottom: 1px solid var(--rule); }
+  td:first-child, th:first-child { width: 4rem; }
   td:last-child, th:last-child { text-align: right; padding-right: 0; font-variant-numeric: tabular-nums; }
-  tr.absent td { color: var(--amber); }
-  tr.absent td:last-child { font-weight: 700; }
+  tr.jackpot td { color: var(--amber); }
+  tr.jackpot td:last-child { font-weight: 700; }
+  tr.outside td { color: var(--ink-dim); font-style: italic; }
 
-  .score {
-    font-family: var(--display);
-    font-variation-settings: "wdth" 112, "wght" 800;
-    font-size: 2.6rem;
-    line-height: 1;
-    color: var(--amber);
-    font-variant-numeric: tabular-nums;
+  /* ---------- sources ---------- */
+  .sources {
+    border-top: 2px solid var(--amber-dp);
+    margin-top: 4rem;
+    padding-top: 1.25rem;
+    font-size: 0.85rem;
+    color: var(--ink-dim);
   }
-
-  .verdicts { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr)); margin: 0 0 1.5rem; }
-  .verdict { background: var(--panel-up); border-radius: 3px; padding: 1rem 1.1rem; }
-  .verdict p { margin: 0.35rem 0 0; font-size: 0.9rem; color: var(--ink-dim); }
-  .verdict .who { font-family: var(--data); font-size: 0.75rem; color: var(--ink); }
-
-  /* ---------- closing ---------- */
-  .close { border-top: 2px solid var(--amber-dp); margin-top: 4rem; padding-top: 2rem; }
-  .close p { max-width: 62ch; }
-  .close p:first-of-type { font-size: 1.1rem; color: var(--ink); }
+  .sources p { max-width: 70ch; margin: 0 0 0.5rem; }
+  .sources a { color: var(--ink-dim); }
+  .sources a:hover { color: var(--amber); }
 
   em { color: var(--ink); font-style: italic; }
 
   @media (prefers-reduced-motion: reduce) {
-    * { transition: none !important; animation: none !important; }
+    * { transition: none !important; }
   }
 </style>
 
@@ -252,53 +235,55 @@
 
   <header class="masthead">
     <p class="kicker">Module 1 · Session 03 · The 15:05 break</p>
-    <h1>What the File Knows</h1>
-    <p class="standfirst">Three rounds of music, against a Spotify dataset from 2020 that is about to disagree with you.</p>
+    <h1>Don't Go Over</h1>
+    <p class="standfirst">Three rounds of music trivia and one rule for all of them: <strong>get as close as you can without going over.</strong></p>
     <div class="rules">
-      <p><b>Groups of three.</b> Pens down for the players.</p>
-      <p><b>Five minutes</b> a round.</p>
-      <p><b>A point</b> per correct answer.</p>
+      <p><b>Groups of three.</b></p>
+      <p><b>One answer</b> per round, on paper, before the reveal.</p>
+      <p><b>Up to 10 points</b> a round.</p>
     </div>
   </header>
 
   <!-- ================= ROUND 1 ================= -->
   <section class="round">
-    <p class="round-no">Round 1 <span>Ten names, no phones</span></p>
-    <h2>Who did the world actually stream in 2025?</h2>
-    <p class="task">Write down Spotify's <strong>ten most-streamed artists worldwide in 2025</strong>. Any order. You get a point for each one you land, and you will get eight of them quite easily.</p>
+    <p class="round-no">Round 1 <span>The tenth name</span></p>
+    <h2>Name one of Spotify's ten most-streamed artists of 2025.</h2>
+    <p class="task">Worldwide, whole year. Each group writes down <strong>one artist</strong> and scores that artist's rank: <strong>#10 is worth 10 points, #1 is worth 1.</strong> Anyone outside the top ten, #11 included, is worth nothing. Take the safe point, or aim for ten.</p>
 
     <button class="reveal" type="button" data-reveals="a1">Reveal round 1</button>
 
     <div class="answer" id="a1" hidden>
       <div class="scroller">
         <table>
-          <thead>
-            <tr><th>2025 rank</th><th>Artist</th><th>Rows in our 2020 file</th></tr>
-          </thead>
+          <thead><tr><th>Rank</th><th>Artist</th><th>Points</th></tr></thead>
           <tbody>
-            <tr><td>1</td><td>Bad Bunny</td><td>61</td></tr>
-            <tr><td>2</td><td>Taylor Swift</td><td>27</td></tr>
-            <tr><td>3</td><td>The Weeknd</td><td>76</td></tr>
-            <tr><td>4</td><td>Drake</td><td>104</td></tr>
-            <tr><td>5</td><td>Billie Eilish</td><td>43</td></tr>
-            <tr><td>6</td><td>Kendrick Lamar</td><td>33</td></tr>
-            <tr><td>7</td><td>Bruno Mars</td><td>30</td></tr>
-            <tr><td>8</td><td>Ariana Grande</td><td>55</td></tr>
-            <tr class="absent"><td>9</td><td>Arijit Singh</td><td>0</td></tr>
-            <tr class="absent"><td>10</td><td>Fuerza Regida</td><td>0</td></tr>
+            <tr class="jackpot"><td>10</td><td>Fuerza Regida</td><td>10</td></tr>
+            <tr class="jackpot"><td>9</td><td>Arijit Singh</td><td>9</td></tr>
+            <tr><td>8</td><td>Ariana Grande</td><td>8</td></tr>
+            <tr><td>7</td><td>Bruno Mars</td><td>7</td></tr>
+            <tr><td>6</td><td>Kendrick Lamar</td><td>6</td></tr>
+            <tr><td>5</td><td>Billie Eilish</td><td>5</td></tr>
+            <tr><td>4</td><td>Drake</td><td>4</td></tr>
+            <tr><td>3</td><td>The Weeknd</td><td>3</td></tr>
+            <tr><td>2</td><td>Taylor Swift</td><td>2</td></tr>
+            <tr><td>1</td><td>Bad Bunny</td><td>1</td></tr>
+            <tr class="outside"><td>11+</td><td>Everyone else</td><td>0</td></tr>
           </tbody>
         </table>
       </div>
 
-      <h3>The two you missed</h3>
-      <p><strong>Arijit Singh</strong> is a Hindi playback singer and the first Indian artist in the global top ten. <strong>Fuerza Regida</strong> is a regional Mexican band from San Bernardino. Between them they are streamed by a substantial fraction of the planet.</p>
-      <p>They also have <em>zero rows</em> in the file we have been analysing all afternoon. The two artists this room could not name are the two the dataset does not contain, and both gaps have the same cause.</p>
+      <p>The jackpot sits with two acts almost nobody in a Danish classroom writes down. <strong>Fuerza Regida</strong> is a regional Mexican band from San Bernardino. <strong>Arijit Singh</strong> is a Hindi playback singer and the first Indian artist ever in Spotify's global top ten.</p>
+      <p>Back in the notebook, the next cell checks how many rows each of these ten has in our 2020 file.</p>
 
-      <h3>Listen to what the file is missing</h3>
       <div class="tracks">
+        <a class="track" href="https://open.spotify.com/track/1PREzVLuDT6PSE9sej4wnV" target="_blank" rel="noopener">
+          <span class="cue" aria-hidden="true">&#9654;</span>
+          <span><span class="name">COQUETA</span><span class="by">Fuerza Regida, Grupo Frontera &middot; #10</span></span>
+          <span class="goto">Play on Spotify</span>
+        </a>
         <a class="track" href="https://open.spotify.com/track/56zZ48jdyY2oDXHVnwg5Di" target="_blank" rel="noopener">
           <span class="cue" aria-hidden="true">&#9654;</span>
-          <span><span class="name">Tum Hi Ho</span><span class="by">Arijit Singh &middot; not in our file</span></span>
+          <span><span class="name">Tum Hi Ho</span><span class="by">Arijit Singh &middot; #9</span></span>
           <span class="goto">Play on Spotify</span>
         </a>
       </div>
@@ -307,84 +292,76 @@
 
   <!-- ================= ROUND 2 ================= -->
   <section class="round">
-    <p class="round-no">Round 2 <span>Guess the score</span></p>
-    <h2>How popular does the data think these are?</h2>
-    <p class="task">Every track in our file carries a <strong>popularity score from 0 to 100</strong>. Play all three &mdash; each one opens in Spotify &mdash; then write down your guess for each. Closest group takes the round.</p>
-
-    <div class="tracks">
-      <a class="track" href="https://open.spotify.com/track/76P07ei8drjrenqtvDbefy" target="_blank" rel="noopener">
-        <span class="cue" aria-hidden="true">&#9654;</span>
-        <span><span class="slot">A</span><span class="name">Hotline Bling</span><span class="by">Drake</span></span>
-        <span class="goto">Play on Spotify</span>
-      </a>
-      <a class="track" href="https://open.spotify.com/track/2XU0oxnq2qxCpomAAuJY8K" target="_blank" rel="noopener">
-        <span class="cue" aria-hidden="true">&#9654;</span>
-        <span><span class="slot">B</span><span class="name">Dance Monkey</span><span class="by">Tones and I</span></span>
-        <span class="goto">Play on Spotify</span>
-      </a>
-      <a class="track" href="https://open.spotify.com/track/7BKLCZ1jbUBVqRi2FVlTVw" target="_blank" rel="noopener">
-        <span class="cue" aria-hidden="true">&#9654;</span>
-        <span><span class="slot">C</span><span class="name">Closer</span><span class="by">The Chainsmokers</span></span>
-        <span class="goto">Play on Spotify</span>
-      </a>
-    </div>
+    <p class="round-no">Round 2 <span>The silent album</span></p>
+    <h2>How much money did an album of pure silence make on Spotify?</h2>
+    <p class="task">In 2014 the band Vulfpeck uploaded <em>Sleepify</em>: ten tracks of nothing at all. They asked fans to play it on loop while they slept. How much did it earn before Spotify took it down? <strong>In US dollars. Closest without going over takes the 10 points.</strong></p>
 
     <button class="reveal" type="button" data-reveals="a2">Reveal round 2</button>
 
     <div class="answer" id="a2" hidden>
-      <div class="verdicts">
-        <div class="verdict"><p class="score">0</p><p class="who">A · Hotline Bling</p><p>Not a typo.</p></div>
-        <div class="verdict"><p class="score">100</p><p class="who">B · Dance Monkey</p><p>The only 100 in the file.</p></div>
-        <div class="verdict"><p class="score">85</p><p class="who">C · Closer</p><p>On ten playlists, more than anything else.</p></div>
+      <div class="figure"><span class="score">$20,000</span><span class="unit">about &middot; $19,655 paid out</span></div>
+      <p>Around 5.5 million plays in seven weeks. Every track was 31 or 32 seconds long, because Spotify only counts a play as a stream after <strong>30 seconds</strong>. The band spent the money on a free six-city tour.</p>
+      <p>Spotify first called it clever, then pulled it for breaking its content rules. Here is what they sound like when they are not silent.</p>
+
+      <div class="tracks">
+        <a class="track" href="https://open.spotify.com/track/1dyUxu73YVV4661xsoib5b" target="_blank" rel="noopener">
+          <span class="cue" aria-hidden="true">&#9654;</span>
+          <span><span class="name">Dean Town</span><span class="by">Vulfpeck</span></span>
+          <span class="goto">Play on Spotify</span>
+        </a>
       </div>
-      <p>Nobody guesses A. <em>Hotline Bling</em> has 1.7 billion streams and this file scores it zero, alongside Taylor Swift's "22" and four Eminem records.</p>
-      <p>So a zero in that column does not mean nobody listened. It means Spotify had no figure for that track when the snapshot was cut, and the column stores absence in exactly the same shape as a real measurement. That is 2,620 tracks, nine percent of the catalogue, sitting inside every average we have quoted today.</p>
     </div>
   </section>
 
   <!-- ================= ROUND 3 ================= -->
   <section class="round">
-    <p class="round-no">Round 3 <span>One of these is the record holder</span></p>
-    <h2>Which of these three is the most energetic track in the dataset?</h2>
-    <p class="task">Spotify scores every track for <strong>energy</strong>, from 0 to 1. One of these three holds the highest energy score in our entire file. Pick it, and write one sentence on what you think energy is measuring.</p>
-
-    <div class="tracks">
-      <a class="track" href="https://open.spotify.com/track/1GTPxha6U7x9ElVxkQw3OK" target="_blank" rel="noopener">
-        <span class="cue" aria-hidden="true">&#9654;</span>
-        <span><span class="slot">A</span><span class="name">Firestarter</span><span class="by">The Prodigy</span></span>
-        <span class="goto">Play on Spotify</span>
-      </a>
-      <a class="track" href="https://open.spotify.com/track/3BnVqaDfgKyI4CFCfozors" target="_blank" rel="noopener">
-        <span class="cue" aria-hidden="true">&#9654;</span>
-        <span><span class="slot">B</span><span class="name">Raw Power &mdash; Iggy Pop Mix</span><span class="by">The Stooges</span></span>
-        <span class="goto">Play on Spotify</span>
-      </a>
-      <a class="track" href="https://open.spotify.com/track/5CwOUooch74h0XarhDfAQK" target="_blank" rel="noopener">
-        <span class="cue" aria-hidden="true">&#9654;</span>
-        <span><span class="slot">C</span><span class="name">Rain Forest and Tropical Beach Sound</span><span class="by">Nature Sounds Nature Music</span></span>
-        <span class="goto">Play on Spotify</span>
-      </a>
-    </div>
+    <p class="round-no">Round 3 <span>The shortest hit</span></p>
+    <h2>How long is the shortest song ever to chart on the Billboard Hot 100?</h2>
+    <p class="task">The main American singles chart, since 1958. <strong>In seconds. Closest without going over takes the 10 points.</strong></p>
 
     <button class="reveal" type="button" data-reveals="a3">Reveal round 3</button>
 
     <div class="answer" id="a3" hidden>
-      <div class="verdicts">
-        <div class="verdict"><p class="score">0.946</p><p class="who">A · Firestarter</p><p>1,601 tracks beat it.</p></div>
-        <div class="verdict"><p class="score">0.998</p><p class="who">B · Raw Power</p><p>Also the loudest record in the file.</p></div>
-        <div class="verdict"><p class="score">1.000</p><p class="who">C · Rain Forest</p><p>The maximum. Nothing scores higher.</p></div>
+      <div class="figure"><span class="score">34</span><span class="unit">seconds</span></div>
+      <p>Jack Black, "Steve's Lava Chicken", from <em>A Minecraft Movie</em>. It entered the Hot 100 at #78 on the chart dated 3 May 2025, and took the record from Kid Cudi's "Beautiful Trip" (37 seconds, 2020), which had taken it from "PPAP" (45 seconds, 2016).</p>
+      <p>Play the whole thing. It takes less time than explaining it.</p>
+
+      <div class="tracks">
+        <a class="track" href="https://open.spotify.com/track/2n5sAzeWh5LqnV9cGBjgGr" target="_blank" rel="noopener">
+          <span class="cue" aria-hidden="true">&#9654;</span>
+          <span><span class="name">Steve's Lava Chicken</span><span class="by">Jack Black &middot; 0:34</span></span>
+          <span class="goto">Play on Spotify</span>
+        </a>
       </div>
-      <p>The most energetic track in a dataset of 28,356 songs is a recording of rain falling on leaves. The <em>least</em> energetic is crickets near a waterfall, and the most instrumental is waves and wind. All three sit on a latin playlist, inside any average anybody quotes.</p>
-      <p>Energy is a signal-processing measure of loudness, density and noisiness. It was never a claim about excitement, and a downpour scores maximum on all three. Write "edm is the most energetic genre" and you have said something about how the recordings were mastered.</p>
     </div>
   </section>
 
-  <!-- ================= CLOSE ================= -->
-  <section class="close">
-    <p>Three rounds, three different ways of being wrong about the same file.</p>
-    <p>Round 1: the data does not cover the world you think it covers. Round 2: a column can store "we don't know" and "zero" in the same slot and never tell you which is which. Round 3: a measurement is whatever its definition says, not whatever its name suggests.</p>
-    <p>None of those show up in a p value. All three change what you are allowed to write down, which is the whole argument of this session.</p>
+  <!-- ================= TIEBREAKER ================= -->
+  <section class="round">
+    <p class="round-no">Tiebreaker <span>Closest either way</span></p>
+    <h2>How many times has "Blinding Lights" been streamed on Spotify?</h2>
+    <p class="task">The Weeknd, 2019. Only if two groups are level. <strong>Closest wins, over or under.</strong></p>
+
+    <button class="reveal" type="button" data-reveals="a4">Reveal tiebreaker</button>
+
+    <div class="answer" id="a4" hidden>
+      <div class="figure"><span class="score">5.58 billion</span><span class="unit">September 2026</span></div>
+      <p>The most-streamed song in Spotify's history, and the first to pass five billion. It is also in the file we have been working with all afternoon, at popularity 98.</p>
+
+      <div class="tracks">
+        <a class="track" href="https://open.spotify.com/track/0sf12qNH5qcw8qpgymFOqD" target="_blank" rel="noopener">
+          <span class="cue" aria-hidden="true">&#9654;</span>
+          <span><span class="name">Blinding Lights</span><span class="by">The Weeknd</span></span>
+          <span class="goto">Play on Spotify</span>
+        </a>
+      </div>
+    </div>
   </section>
+
+  <footer class="sources">
+    <p>Figures as checked in September 2026. Stream counts keep moving; chart records get broken.</p>
+    <p>Sources: Spotify Wrapped 2025 &middot; <a href="https://en.wikipedia.org/wiki/Sleepify" target="_blank" rel="noopener">Sleepify</a> &middot; <a href="https://variety.com/2025/film/news/jack-black-minecraft-movie-steves-lava-chicken-hot-100-1236382177/" target="_blank" rel="noopener">Variety on the Hot 100 record</a> &middot; <a href="https://en.wikipedia.org/wiki/List_of_most-streamed_songs_on_Spotify" target="_blank" rel="noopener">most-streamed songs on Spotify</a></p>
+  </footer>
 
 </div>
 

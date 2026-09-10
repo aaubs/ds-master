@@ -40,7 +40,6 @@ column is a spike at exactly zero that may or may not be a measurement, and drop
 every genre mean by 3 to 4.7 points. And the file's most extreme "songs" are field recordings
 of rainfall and crickets, sitting on a latin playlist, inside any average anybody quotes.
 
-The track IDs are real Spotify IDs, so both notebooks link to the songs and the instructor guide
-lists five worth playing. Part 2 also carries a break quiz on Spotify's 2025 global top ten:
-eight of those artists appear in our 2020 file, and the two missing are the two a Danish
-classroom never guesses.
+The track IDs are real Spotify IDs, so both notebooks play the songs inline. The break quiz is
+its own page, [break-quiz.html](break-quiz.html): three rounds, one rule, get as close as you
+can without going over.

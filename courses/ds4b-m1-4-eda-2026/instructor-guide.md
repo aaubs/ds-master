@@ -211,32 +211,38 @@ rather than of a playlist, this settles it.
 
 ## The break quiz
 
-Three rounds, on its own page so nothing on screen gives an answer away:
+**[Don't Go Over](https://claude.ai/code/artifact/315cf590-a544-4f90-9f1e-91aeb72d6d20)**: open it on the projector at the 15:05 break. It is also in
+the repo as [break-quiz.html](break-quiz.html). Each round has a Reveal button, and the tracks
+open in Spotify in a new tab, so have Spotify signed in on the teaching machine.
 
-**[What the File Knows](https://claude.ai/code/artifact/315cf590-a544-4f90-9f1e-91aeb72d6d20)** &mdash; open it on the projector. Each round has a Reveal
-button; the answers stay hidden until you press it. Also in the repo as
-[break-quiz.html](break-quiz.html) if you would rather open it locally.
+One rule for all three rounds: get as close as you can without going over. Groups of three,
+one answer per round, written down before you reveal. Up to 10 points a round.
 
-Run it at about 15:05. Groups of three, five minutes a round, a point per correct answer. The
-tracks open in Spotify in a new tab, so have Spotify signed in on the teaching machine.
+**Round 1, the tenth name.** Spotify's most-streamed artists worldwide in 2025. Each group
+writes one artist and scores that artist's rank: #10 scores 10, #1 scores 1, anyone outside the
+top ten scores 0. Bad Bunny is a safe single point. Fuerza Regida at #10 is the jackpot almost
+nobody names. Straight after, the "Who is not in this file" cell in part 2 shows that #9 and
+#10 have zero rows in our data. (Re-check the ranking before class in case it has been
+restated.)
 
-**Round 1, the top ten.** Spotify's ten most-streamed artists worldwide in 2025. Most groups
-land eight. The reveal table puts each artist next to how many rows they have in our 2020 file:
-Drake 104, The Weeknd 76, Bad Bunny 61, and then Arijit Singh 0, Fuerza Regida 0. The two the
-room could not name are the two the file does not contain. Play "Tum Hi Ho" and let it sit.
-(Re-check the 2025 ranking before class in case it has been restated anywhere.)
+**Round 2, the silent album.** Vulfpeck's *Sleepify* (2014): ten tracks of silence, with fans
+asked to loop it while they slept. It made about $20,000 ($19,655 paid out) from roughly 5.5
+million plays in seven weeks before Spotify pulled it. Each track ran 31 or 32 seconds, because
+a play counts as a stream after 30. Closest without going over takes the 10 points. Play
+"Dean Town" afterwards.
 
-**Round 2, guess the score.** Play "Hotline Bling", "Dance Monkey" and "Closer", and have each
-group write down a popularity score out of 100 for each. Nobody guesses Hotline Bling, which
-this file scores **zero**. That is the round that earns the zero-spike section in part 1: the
-column stores absence in the same shape as a real measurement, 2,620 times.
+**Round 3, the shortest hit.** The shortest song ever to chart on the Billboard Hot 100, in
+seconds. The answer is 34: Jack Black's "Steve's Lava Chicken" from *A Minecraft Movie*, on the
+chart dated 3 May 2025. It beat Kid Cudi's "Beautiful Trip" (37 seconds) and "PPAP" (45). Play
+the whole thing, which takes less time than explaining it.
 
-**Round 3, which is the most energetic?** "Firestarter" at 0.946, "Raw Power" at 0.998, and the
-rainforest at 1.000. Rooms pick The Prodigy. 1,601 tracks beat it. Energy is loudness, density
-and noisiness, and a downpour maxes all three.
+**Tiebreaker.** Spotify streams of "Blinding Lights", closest either way: about 5.58 billion as
+of September 2026, the most-streamed song in Spotify's history. It is also in our file, at
+popularity 98.
 
-The three rounds are three different failures: coverage, encoding, and a measurement whose name
-oversells it. None of them shows up in a p value, and all three change what you may write down.
+Sources: [Sleepify](https://en.wikipedia.org/wiki/Sleepify),
+[Variety on the Hot 100 record](https://variety.com/2025/film/news/jack-black-minecraft-movie-steves-lava-chicken-hot-100-1236382177/),
+[most-streamed songs on Spotify](https://en.wikipedia.org/wiki/List_of_most-streamed_songs_on_Spotify).
 
 ## Known traps to surface
 
