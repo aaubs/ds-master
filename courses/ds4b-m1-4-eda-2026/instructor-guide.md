@@ -231,16 +231,19 @@ at $1.0bn and ranked by who got there first (give 5 points for any of the three 
 Then Madonna $850m, Selena Gomez $700m, Celine Dion $570m, Barbra Streisand $510m. Bloomberg puts
 Gomez at $1.3bn, so expect an argument. Play "My Heart Will Go On".
 
-**Round 3, most weeks on the Billboard Hot 100** (Christmas songs excluded). "Lose Control" by
-Teddy Swims holds the record at 112 weeks, having passed "Heat Waves" (91) in May 2025. #10 is
-Billie Eilish's "WILDFLOWER" at 72. "Levitating" and "A Bar Song" are tied on 77, ranked by who
-got there first. Play "WILDFLOWER".
+**Round 3, the ten biggest music markets** (IFPI Global Music Report 2026: recorded-music
+revenue by country in 2025). In order: USA, Japan, UK, China, Germany, France, South Korea,
+Brazil, Canada, Mexico. China passed Germany for #4 on 20.1% growth, Mexico climbed two places
+to #10, and Australia fell to #13. The USA alone accounts for 38.7% of the world's $31.7bn. The
+reveal plays one track from each country in the jackpot zone: Brazil (#8), Canada (#9), Mexico
+(#10).
 
-Rounds 2 and 3 are as of September 2026. Forbes revises its figures every spring.
+Round 2 is as of September 2026, and Forbes revises its figures every spring. Round 3 comes from
+IFPI's March 2026 report, which is next updated in March 2027.
 
 Sources: [Forbes celebrity billionaires 2026](https://www.forbes.com/sites/idonnkanga/2026/03/10/the-worlds-celebrity-billionaires-2026/),
 [music artists by net worth](https://en.wikipedia.org/wiki/List_of_music_artists_by_net_worth),
-[Hot 100 milestones](https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_chart_achievements_and_milestones).
+[IFPI Global Music Report 2026](https://www.ifpi.org/global-music-report-2026-global-recorded-music-revenues-grow-6-4-as-record-companies-drive-innovation/).
 
 ## Known traps to surface
 
