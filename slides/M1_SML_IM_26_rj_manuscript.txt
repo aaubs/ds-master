@@ -1,0 +1,355 @@
+Introduction to Supervised Machine Learning. Session nine. Speaker manuscript.
+
+This is the talk track for the session nine deck, written to be listened to. It follows the slides in order, and each part starts with the slide title, so you can keep your place. The numbers are real. They come from the nomad cities table that the students used with Hamid and Milad, with a single eighty twenty split and a fixed random seed, after fixing one broken value, which comes up on the leakage slide. The companion notebook reproduces every one of them.
+
+Part one. Where we are.
+
+Slide: What you did last week.
+
+Good morning. Let's start with what you already know, because today is less of a new topic than it looks.
+
+For the last three sessions you worked with one table: seven hundred and eighty cities from Nomad List, with twenty-one numeric columns. What a coworking desk costs, internet speed, safety, freedom scores, nightlife, and so on.
+
+In session six, Hamid asked you which few directions explain most of the variation in that table. That was PCA, and then UMAP and t-SNE to make a picture of it. In session seven you asked which cities belong together, with k-means, and which cities are the extremes, the pure types, with archetypal analysis. And in session eight you asked which cities are most like this one. That was similarity search, the engine behind a recommender.
+
+Here is the thing to notice. Every one of those methods looked only at the columns. Only at X. At no point did anyone tell the algorithm what the right answer was. There was no right answer to tell it.
+
+Slide: How did you judge those results?
+
+So how did you decide whether the results were any good? Think about it for a second.
+
+You asked whether the first component was interpretable. Whether the four city types made sense, whether you could give them names. Whether the recommended cities were plausible, whether you would actually want to go there. Those are all judgements. Useful ones, but judgements. There was no answer key.
+
+Today we add an answer key.
+
+Slide: Hide one column.
+
+Here is the setup. A new city shows up on Nomad List. People have already rated its internet speed, its safety, its freedom score, its nightlife. But nobody has reported yet what it costs to live there.
+
+So we take one column, cost nomad, the monthly cost of living for a remote worker in US dollars, and we treat it differently from the others. It becomes the thing we want to predict. We call it y. Everything else stays what it was: the features, X.
+
+That is the whole move. Same table. One column promoted to being the target.
+
+Slide: Same table, two questions.
+
+Put the two side by side.
+
+Unsupervised learning takes X only and asks: what structure is in here? The output is components, clusters, neighbours. You judge it by interpretability and usefulness, and there is no single right answer.
+
+Supervised learning takes X and y, and asks: given X, what is y? The output is a prediction for a new row. And you judge it by its error on rows the model has not seen. There is a right answer, and we can check against it.
+
+That last point is the one that changes everything else today. Once you can check against a right answer, you can measure how wrong you are. And once you can measure that, you can compare models, tune them, and catch them cheating.
+
+Slide: You already built a supervised model.
+
+Now a small surprise. You have already built a supervised model. You just didn't call it that.
+
+Take Aalborg. Hide the cost columns and run the similarity search from session eight: find the five cities most like Aalborg on everything else. You get Dunedin in New Zealand, Aarhus, Moncton in Canada, Reykjavik, and Brampton in Canada. A fairly convincing list of mid-sized, safe, well-governed northern places, plus Dunedin.
+
+Now look up what each of them costs. Dunedin two thousand seven hundred and fifty-one dollars a month. Aarhus four thousand three hundred and seventy-four. Moncton three thousand two hundred and thirty-eight. Reykjavik four thousand three hundred and seven. Brampton two thousand two hundred and forty-seven. Average them: three thousand three hundred and eighty-three dollars.
+
+That average is a prediction. Averaging the neighbours' y is called k-nearest-neighbours regression. You were one line of code away from it on Thursday.
+
+Aalborg's actual value in the data is four thousand two hundred and twenty. So we are off by about eight hundred and forty dollars. Is that good or bad? We genuinely cannot say yet. We need something to compare it to. Hold that thought, we come back to it in a few slides.
+
+Slide: Clusters are not labels.
+
+A second connection, and a warning with it.
+
+Run k-means with four clusters on all the columns, the way you did in session seven. Then check, for each cluster, what share of its cities cost more than three thousand dollars a month. Cluster zero: six percent. Cluster one: fifty-one percent. Cluster two: ten percent. Cluster three: sixty-two percent.
+
+So the clusters clearly picked up something related to cost. Rich, stable countries end up together. But they were never asked about cost, and they don't answer it cleanly. Cluster one is a coin flip: half its cities are expensive and half are not.
+
+The lesson: if cost is what you care about, ask about cost. Unsupervised structure is not an answer to a supervised question. Giving the algorithm the target is exactly what supervision means.
+
+Slide: What carries over from UML.
+
+Most of what you learned carries straight over.
+
+Scaling works exactly as before. The standard scaler you used before PCA matters just as much for k-nearest neighbours and for regularised models, because those are built on distances and penalties.
+
+Distance and similarity carry over: k-nearest neighbours is literally the session eight search.
+
+Components can become features. The PCA scores you computed can be inputs to a supervised model.
+
+And the scikit-learn pattern is the same: fit, transform, and now predict.
+
+What is actually new today is three things: a target, a loss function, and a test set. If you leave with those three, you have the core of supervised learning.
+
+Part two. The vocabulary.
+
+Slide: Types of machine learning.
+
+Quickly, the map. Unsupervised learning, unlabelled data, find structure: that was sessions six to eight. Supervised learning, labelled data, predict outcomes: today. Self-supervised learning, where the labels are made from the data itself. This is how large language models are pre-trained: hide the next word and predict it. And reinforcement learning, which learns from rewards while interacting with an environment.
+
+Notice that self-supervised learning is really a trick for turning unlabelled data into a supervised problem. That's the same move as hiding one column in our table.
+
+Slide: The different types of learning.
+
+This diagram shows the same map as flows. Labelled data goes into supervised training, which loops through evaluation, updating the model, and produces predictions. Unlabelled data goes either to pattern discovery, the clusters you know, or to self-supervised feature learning, which produces learned representations. I won't read the boxes. The one loop to look at is the supervised one, between training and evaluation. That loop only exists because there is an answer to evaluate against.
+
+Slide: Regression or classification?
+
+The type of y decides what kind of problem you have. If y is a number, like monthly cost in dollars, it's regression. If y is a category, for example whether a city is expensive, above three thousand dollars, or not, it's classification.
+
+Same features, same workflow. What changes is the loss function and the metrics. We will do both today on the same table.
+
+Slide: Key concepts.
+
+Six words to own. Training data: the rows where we know y. Features and labels: X and y. The model: a family of functions we choose from. The loss: how wrong a prediction is, as one number. Evaluation: the loss or a metric, computed on rows the model has not seen. And generalisation, which I'll put like this: doing well on the next city, not the last one.
+
+Slide: Mathematical representation.
+
+The same thing in notation. The features are a vector, x one to x p: internet speed, safety, freedom score. The target is y, the monthly cost. The model is a function f of X with parameters theta. For linear regression, that's w zero plus w one times x one, and so on up to w p times x p. The parameters are what gets learned. Here, the weights.
+
+We look for theta such that y is approximately f of X and theta. Note the important part at the bottom of the slide: for cities the model has not seen. Fitting means choosing theta. And approximately needs a definition. That definition is the loss.
+
+Slide: Loss functions.
+
+Two losses cover most of what you will do.
+
+For regression, mean squared error. Take each prediction, subtract the truth, square it, and average. Squaring does two things. It makes every error positive, and it punishes big misses much more than small ones. A city predicted two thousand dollars off counts a hundred times more than one predicted two hundred off, because ten squared is a hundred.
+
+For classification, cross-entropy. The true label is a one for the right class and zero for the others, so the sum only picks up one term: minus the log of the probability the model gave to the right class. If the model said zero point nine for the right class, the loss is small. If it said zero point zero one, confident and wrong, the loss is about four point six. Cross-entropy hates confident mistakes.
+
+Slide: Loss functions in code, part one.
+
+In code, mean squared error is one line: the mean of y minus y hat, squared. On these ten toy numbers it comes out at zero point zero six six.
+
+In practice we usually report the square root of that, RMSE, or the mean absolute error, MAE. Both are in the units of y. Squared dollars mean nothing to a manager. Dollars do.
+
+Slide: Loss functions in code, part two.
+
+Cross-entropy in code. Five rows, three classes, the true labels one-hot encoded, and predicted probabilities that sum to one per row. We clip the probabilities so we never take the log of zero, multiply, sum across classes, and average across rows. The result is about zero point three nine. You can check it in your head: the right-class probabilities are zero point eight, zero point seven, zero point seven, zero point six and zero point six. Take minus the log of each and average.
+
+Part three. Evaluation and generalisation.
+
+Slide: First, a baseline.
+
+Back to Aalborg and the eight hundred and forty dollar miss.
+
+Before we fit any real model, we need the dumbest reasonable prediction. For regression that is the average. Predict the average cost for every city, whatever its features. On the held-out cities, that baseline is off by nine hundred and three dollars on average.
+
+Every model today has to beat nine hundred and three, or it is worthless. And for Aalborg itself: the average city costs about two thousand three hundred and thirty, so the baseline would have been off by almost nineteen hundred. The neighbours, at eight hundred and forty, did a lot better. One city proves nothing, of course. But it's a good habit to always ask: compared to what?
+
+Slide: Train-test split.
+
+So how do we measure error honestly? We split the data. Train on eighty percent, and keep twenty percent back that the model never sees while it is being fitted. The score on those held-back rows is our estimate of how the model will do on the next city that shows up.
+
+Slide: Why the split matters.
+
+This is the slide I most want you to remember. Predicting cost from the non-cost columns, mean absolute error in dollars, on the training rows and on the test rows.
+
+Baseline: nine hundred and three on test.
+
+One nearest neighbour: fourteen dollars on training. Almost perfect. Seven hundred and thirty-four on test.
+
+A decision tree with no depth limit: seven dollars on training. Seven hundred and sixteen on test.
+
+Linear regression: six hundred and thirty-one training, six hundred and ninety-seven test.
+
+A decision tree limited to depth three: five hundred and seventy-two training, six hundred and twenty-three test.
+
+A random forest: one hundred and ninety-nine training, five hundred and fifty-five test. The best of the lot.
+
+Look at the unlimited tree and the one nearest neighbour. Near-perfect on training, and among the worst on test. They didn't learn the pattern. They memorised the training cities. A near-perfect training score tells you nothing, and sometimes it is a warning sign.
+
+Also notice the ranking changes completely between the two columns. If you had picked a model by its training score, you would have picked the worst one.
+
+Slide: Cross-validation.
+
+One split is one roll of the dice. Maybe the twenty percent you held back happened to be easy cities. Cross-validation fixes that. Split the data into k folds, say five. Train on four, test on the fifth, then rotate until every fold has been the test set once. You get five scores instead of one: an average and a spread.
+
+A common misunderstanding, and I've seen it in exam answers: cross-validation does not reduce overfitting. It gives you a more stable estimate of performance. It is a better thermometer, not a cure. It becomes useful against overfitting when you use it to choose model settings, and we'll get to that at the end.
+
+In scikit-learn it is one call, cross val score, with scoring set to negative mean absolute error. The negative is there because scikit-learn always maximises, so errors get flipped. Flip it back when you report it.
+
+Slide: Cross-validation, the picture.
+
+This is the usual picture. Each row is one round, and the highlighted block is the fold being tested. Every row of data is tested exactly once.
+
+Slide: Bias-variance tradeoff.
+
+Now we can name what we saw in the table.
+
+Bias is the error from a model that is too simple to capture the pattern. That's underfitting. The depth-three tree is an example: it can only ask three questions, so it can't be very precise.
+
+Variance is the error from a model so flexible that it fits the noise. That's overfitting. The unlimited tree and the one nearest neighbour.
+
+And the irreducible error is noise that no model can explain. Two cities with identical scores on every column can still cost different amounts.
+
+The goal is the level of complexity where the test error is lowest. Not the training error. The test error.
+
+Slide: Bias-variance, the picture.
+
+The classic picture. As complexity goes up, bias falls and variance rises. Total error is the sum, a U shape, and we want the bottom of the U.
+
+Slide: Mathematical representation of bias-variance.
+
+For those who like the formula: the expected squared error at a point breaks into variance, plus bias squared, plus the irreducible noise.
+
+The intuition I find most useful is a thought experiment. Imagine you could draw many different training sets and fit the model on each one. Then look at the predictions for Aalborg. Variance is how much those predictions jump around from one training set to the next. Bias is how far their average sits from the true value. A one nearest neighbour model jumps all over the place: low bias, high variance. Predicting the mean never moves: zero variance, huge bias.
+
+Slide: Regularization.
+
+One tool against variance is regularisation. We add a penalty to the loss for large coefficients. The model then has to justify every big weight with a real improvement in fit. We trade a little bias for a lot less variance.
+
+Lasso, the L one penalty, pushes some coefficients to exactly zero, so it selects features as a side effect. Ridge, the L two penalty, shrinks all coefficients but keeps every feature. Elastic net mixes the two.
+
+In the elastic net penalty, lambda sets the overall strength, and alpha sets the mix, where alpha equal to one is pure lasso and alpha equal to zero is pure ridge. A warning about names, because it confuses everyone: in scikit-learn, lambda is called alpha, and the mix is called l one ratio. So the scikit-learn alpha is not the textbook alpha. Check the docs when you read someone else's code.
+
+Slide: Leakage.
+
+Now a trap that is not in most textbooks, but causes a lot of real failures.
+
+If I use all the columns, linear regression reaches an R squared of zero point seven four on the test set. That looks great. If I drop four columns, it falls to zero point three seven. The four columns are cost expat, cost coworking, coffee in cafe and cost beer.
+
+So ask the business question. Our scenario was a city where nobody has reported the cost of living yet. In that situation, will you have the price of a coworking desk? Probably not. The same people who would report one would report the other.
+
+The rule: a feature is only legitimate if it exists at the moment the prediction is made. If it doesn't, you have leakage. Leakage makes a model look excellent in the notebook and fail the day it is used. That is why every number on the earlier table was computed without those four columns.
+
+And a small bonus for the EDA fans from session three. Coffee in cafe and cost beer are identical in all seven hundred and eighty rows. Every city has a coffee that costs exactly the same as a beer. It's a scraping artefact. And one more: Samara, in Russia, has a racism score of one point eight times ten to the twenty-eight, on a scale from zero to one. I only found it because cross-validation blew up. One fold of the linear regression had an error of ten to the twenty-eight dollars, because Samara was in that fold. It's fixed before any number on these slides, and the notebook shows the discovery. Looking at your data still matters once the models get fancy, and a wildly bad cross-validation fold is often a data problem, not a model problem.
+
+Part four. Classification.
+
+Slide: Is this city expensive?
+
+Now let's make it a classification problem. y is one if the city costs more than three thousand dollars a month, and zero otherwise. Twenty-eight percent of cities are expensive.
+
+We fit a logistic regression on the non-cost columns and test on one hundred and fifty-six held-out cities.
+
+Accuracy: zero point seven six. Seventy-six percent right. Sounds decent.
+
+Now the baseline. A model that says "not expensive" for every single city gets zero point seven two. Our model beats doing nothing by four percentage points.
+
+That is the trap with accuracy. When the classes are unbalanced, it hides almost everything. You need to look inside.
+
+Slide: The confusion matrix.
+
+Inside means the confusion matrix. At the default threshold of zero point five: one hundred and three cheap cities correctly called cheap. Ten cheap cities wrongly called expensive. Twenty-eight expensive cities wrongly called cheap. And fifteen expensive cities correctly found.
+
+Precision asks: when the model says expensive, how often is it right? Fifteen out of twenty-five, zero point six.
+
+Recall asks: of all the expensive cities, how many did it find? Fifteen out of forty-three, zero point three five. It misses almost two thirds of the expensive cities.
+
+Seventy-six percent accuracy, and the model is mostly blind to the class we care about.
+
+Slide: Moving the threshold.
+
+But the model doesn't really output yes or no. It outputs a probability. The zero point five cut-off is a choice we make, not a law of nature.
+
+Lower the threshold to zero point three. Precision drops a little, to zero point five two. Recall jumps from zero point three five to zero point seven seven. Accuracy barely moves, from zero point seven six to zero point seven four. Same model, completely different behaviour.
+
+ROC AUC summarises how well the probabilities rank expensive cities above cheap ones, across all possible thresholds. Here it is zero point eight three. The model ranks quite well. It was the default threshold that was hurting it.
+
+Which threshold is right? That depends on what each kind of mistake costs. If you are a relocation company promising clients a budget, missing an expensive city is costly. If you are flagging cities for a manual price check, false alarms cost analyst time. That is exactly where Wednesday starts: cost-based thresholds.
+
+Part five. Popular model classes.
+
+Slide: Linear models.
+
+A quick tour of the model families.
+
+Linear regression: y is a weighted sum of the features plus noise. Logistic regression: the same weighted sum, passed through the sigmoid so it becomes a probability between zero and one. And the regularised versions, ridge, lasso and elastic net.
+
+They are fast and stable, and you can read every coefficient directly. The weakness is that they miss interactions and curves, unless you build those in by hand as features.
+
+Slide: Neighbour models.
+
+K-nearest neighbours, which you now know: predict from the k most similar training rows. For regression, average their y. For classification, take a majority vote. There is no real training beyond storing the data.
+
+K is the complexity knob, pointing the other way from what you might expect. Small k means high variance: one nearest neighbour memorises, as we saw. Large k means high bias: with k equal to all the cities, you are back to predicting the mean. And because it is built on distances, it needs scaling, just like session eight.
+
+Slide: Tree-based models.
+
+Decision trees split the data again and again on one feature at a time. At each step they choose the split that most reduces impurity. For classification that's Gini or entropy, for regression squared error.
+
+Random forests grow many deep trees, each on a bootstrap sample of the rows, and each considering random subsets of features at every split. Then they average. Each deep tree overfits in its own way, and averaging cancels much of that variance. That is why the forest topped our table.
+
+Gradient boosting, for example XGBoost, adds shallow trees one after another, each one trained to fix the errors of the trees before it. That is Wednesday.
+
+Slide: Decision trees.
+
+This is a real tree, depth two, fitted on all seven hundred and eighty cities to predict expensive or not. The first question it asks is: is the fragile states index at or below thirty-four point eight? In other words, is this a very stable country?
+
+If yes, it asks about press freedom. Where the press freedom index is at or below nine point five, meaning a very free press, eighty-four percent of the thirty-seven cities are expensive. Otherwise it's a coin flip: fifty-one percent of two hundred and fifty cities.
+
+If the country is less stable, the tree splits on fragility again. Between thirty-four point eight and sixty-six point two, twenty-five percent are expensive. Above sixty-six point two, only five percent of three hundred and thirty-two cities.
+
+Two things to point out. First, look how readable this is. You could explain it to anyone. Second, look where the trees split. Institutional stability and a free press separate expensive from cheap. That tells you about the data and the model, not about what makes a city expensive. We come back to that in two slides.
+
+Slide: Neural networks.
+
+Neural networks, very briefly, because module four goes deep. Multi-layer perceptrons stack weighted sums with non-linear activations. Recurrent networks and LSTMs handle sequences. Transformers use attention over long contexts. They power language models and increasingly work on tables, images and time series. Graph neural networks handle data shaped as networks.
+
+One practical point to take away. On tabular business data like ours, a well-tuned tree ensemble is usually the stronger baseline. Don't reach for a neural network just because it sounds more advanced.
+
+Part six. Interpretation.
+
+Slide: What drives the prediction?
+
+Three ways to ask what the model is doing.
+
+Coefficients, in a linear model: the change in y for a one-unit change in x, holding the other features fixed. Standardise the features first if you want to compare coefficients with each other.
+
+Feature importance, in trees: how much each feature reduced the loss across all the splits it was used in.
+
+SHAP values: for one single prediction, how much each feature pushed it up or down from the average prediction. That's the one to use when someone asks why the model said Aalborg costs what it costs.
+
+And the most important line on this slide: all three describe the model, not the world. The fragile states index predicts cost. It doesn't cause it. Wealthy, stable countries are both expensive and not fragile. The module's learning objectives explicitly include the difference between prediction-focused data science and the causality-seeking approach of traditional statistics. Expect to be asked about it at the exam.
+
+Part seven. Practical considerations.
+
+Slide: Feature engineering.
+
+Some practicalities. Create useful features: ratios, dates split into parts, group averages. Handle missing data, and decide how you fill it using the training data only. Scale anything built on distances or penalties. And encode categorical variables, for example region, with one-hot encoding.
+
+A small correction for anyone copying old code, including my old slides: the one-hot encoder's argument is now called sparse output, not sparse. And set handle unknown to ignore, so a region the model never saw in training doesn't crash the prediction.
+
+Slide: Pipelines.
+
+This connects to leakage again. If you scale the full table before splitting, the scaler has already seen the test rows. Their means and standard deviations have leaked into training. It's a small leak, but it's a leak.
+
+The fix is a pipeline: make pipeline, with the standard scaler and then the model. When you call fit on the training rows, the scaler learns only from those rows. When you call predict on the test rows, it only applies what it learned. Preprocessing belongs inside the pipeline.
+
+Slide: Model selection and tuning.
+
+Last piece. Hyperparameters are the settings you choose rather than learn: k in nearest neighbours, the depth of a tree, the regularisation strength lambda.
+
+Choose them with cross-validation on the training set only, and touch the test set once, at the very end. If you keep checking the test set while tuning, you are fitting to it, and it stops being an honest estimate.
+
+Grid search does this systematically. Here we try k equal to one, three, five, ten and twenty inside the pipeline, with five-fold cross-validation, scored by mean absolute error. After fitting, best params tells you the winner. On the nomad data it picks k equal to ten. This is where cross-validation actually helps against overfitting: it chooses the complexity for you, based on held-out performance.
+
+Part eight. Hands-on.
+
+Slide: Notebooks.
+
+Two notebooks for today. Part one reproduces every number you've seen on these slides, on the nomad cities, and ends with four exercises and worked solutions. It also shows how the Samara value was found. Part two applies the same workflow to twenty-three thousand Copenhagen Airbnb listings from June this year. That's where the real mess is: prices stored as text, columns that were full last year and are empty now, pipelines, XGBoost, tuning with Optuna, and SHAP. One thing to watch for in part two: Ridge regression keeps up with the tree ensembles. When that happens, the limit is usually the features, not the algorithm. Save a copy to your Drive before you start.
+
+Part nine. Conclusion.
+
+Slide: Key takeaways.
+
+To wrap up.
+
+Unsupervised learning asks what structure is in X. Supervised learning asks what y is, given X.
+
+The difference is the answer key, and the answer key is what lets you measure error.
+
+Always beat a baseline, always measure on unseen data, and always ask whether a feature would exist at prediction time.
+
+Balance bias and variance. Regularisation and ensembles are your main tools.
+
+Pick metrics that fit the decision. Accuracy is rarely enough.
+
+And interpretation describes the model, not causation.
+
+Slide: Coming up.
+
+On Wednesday we go further: gradient boosting, temporal splits that stop leakage over time, calibration, thresholds chosen from real business costs, and putting a trained model behind an API. On Thursday we embed these models in automated workflows, with small evaluation harnesses that check the workflow does what the business needs.
+
+Slide: Further directions in machine learning.
+
+And if you want to read ahead: AutoML, explainable AI, few-shot and zero-shot learning with foundation models, federated learning, and AI ethics and fairness. Each of these is a field of its own, and each is built on the ideas from today: a target, a loss, and an honest test.
+
+Now, let's open the notebook.

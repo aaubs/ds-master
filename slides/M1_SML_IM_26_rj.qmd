@@ -1,0 +1,637 @@
+---
+title: "Introduction to Supervised Machine Learning"
+subtitle: "From finding structure to predicting answers"
+author: "Roman Jurowetzki · Session 09 · 28 September 2026"
+format:
+  revealjs:
+    theme: night
+    transition: slide
+    slide-number: true
+    auto-animate: true
+    mermaid-format: svg
+    parallax-background-image: 'https://raw.githubusercontent.com/aaubs/ds-master/main/media/M1_slides_SML_background.jpg'
+    parallax-background-size: '4200px 2800px'
+    parallax-background-horizontal: 100
+    parallax-background-vertical: 100
+---
+
+# Where we are
+
+## What you did last week {.smaller}
+
+780 nomad cities, 21 numeric columns: cost, internet, safety, freedom, nightlife …
+
+| Session | Question you asked of the table | Tool |
+|---|---|---|
+| 06 | Which few directions explain most of the variation? | PCA, UMAP / t-SNE |
+| 07 | Which cities belong together? Which are the extremes? | K-means, Archetypal Analysis |
+| 08 | Which cities are most like this one? | Similarity search |
+
+Every one of these looked **only at the features** $X$. Nobody told the algorithm what the right answer was.
+
+::: {.notes}
+Recap sessions 6 to 8 on the nomad cities. The point to land: all of it used X alone.
+:::
+
+## How did you judge those results?
+
+- Is the first component *interpretable*?
+- Do the four city types make *sense*?
+- Are the recommended cities *plausible*?
+
+There was no answer key. You judged by usefulness and judgement.
+
+. . .
+
+**Today: add an answer key.**
+
+## Hide one column
+
+A new city shows up on Nomad List. We know its internet speed, safety, freedom score, nightlife …
+
+. . .
+
+… but nobody has reported what it **costs** to live there yet.
+
+. . .
+
+The column `cost_nomad` is now the thing we want to **predict**: $y$.
+
+Everything else stays the features: $X$.
+
+## Same table, two questions {.smaller}
+
+:::: {.columns}
+::: {.column width="50%"}
+#### Unsupervised
+
+- Input: $X$ only
+- "What structure is in here?"
+- Output: components, clusters, neighbours
+- Judged by: interpretability, usefulness
+- No single right answer
+:::
+::: {.column width="50%"}
+#### Supervised
+
+- Input: $X$ **and** $y$
+- "Given $X$, what is $y$?"
+- Output: a prediction for a new row
+- Judged by: error on rows the model has **not seen**
+- There is a right answer, and we can check against it
+:::
+::::
+
+## You already built a supervised model {.smaller}
+
+Session 08, similarity search: find the 5 cities most like Aalborg (cost columns hidden).
+
+| Neighbour | Cost / month (USD) |
+|---|---:|
+| Dunedin (NZ) | 2,751 |
+| Aarhus (DK) | 4,374 |
+| Moncton (CA) | 3,238 |
+| Reykjavik (IS) | 4,307 |
+| Brampton (CA) | 2,247 |
+| **Average** | **3,383** |
+
+. . .
+
+Aalborg's actual value: **4,220**. Average the neighbours' $y$ and you have **k-nearest-neighbours regression**.
+
+::: {.notes}
+The only new step is averaging the neighbours' y. That is the whole of kNN regression. Off by about 840 dollars. Is that good or bad? We cannot say until we have a baseline — hold that thought.
+:::
+
+## Clusters are not labels
+
+K-means with k = 4 on all the columns. Share of cities costing more than 3,000 USD / month in each cluster:
+
+| Cluster | 0 | 1 | 2 | 3 |
+|---|---:|---:|---:|---:|
+| Share expensive | 6% | 51% | 10% | 62% |
+
+The clusters found structure that is *related* to cost. They were never asked about cost.
+
+. . .
+
+If cost is what you care about, **ask about cost**. That is what supervision does.
+
+## What carries over from UML
+
+- **Scaling**: `StandardScaler` works exactly as before, and matters for kNN and regularised models
+- **Distance and similarity**: kNN is the similarity search from session 08
+- **Components as features**: PCA scores can be inputs to a supervised model
+- **The fit / transform API**: `fit`, `predict`, `transform`, the same scikit-learn pattern
+
+What is new: a target, a loss function, and a test set.
+
+# Supervised learning: the vocabulary
+
+## Types of Machine Learning
+
+1. **Unsupervised**: unlabelled data, find structure *(sessions 06–08)*
+2. **Supervised**: labelled data, predict outcomes *(today)*
+3. **Self-supervised**: create labels from the data itself *(how LLMs are pre-trained)*
+4. **Reinforcement**: learn through reward from interacting with an environment
+
+## The Different Types of Learning
+
+```{mermaid}
+%%| fig-width: 8
+flowchart TD
+    A("🧠 Supervised Learning")
+    B("🔍 Unsupervised Learning")
+    C("🤖 Self-Supervised Learning")
+    D("🏷️ Labeled Data")
+    E("📊 Unlabeled Data")
+    F("⚙️ Model Training")
+    G("✅ Evaluation")
+    H("🧩 Pattern Discovery")
+    I("🧬 Feature Learning")
+    J("🎯 Predictions")
+    K("📊 Clusters/Patterns")
+    L("🧠 Learned Representations")
+
+    D ==> A ==> F
+    E ==> B ==> H
+    E ==> C ==> I
+    F ==> G ==> |"Update Model"| F
+    H ==> K
+    I ==> L ==> |"Self-Supervision"| I
+    F ==> J
+
+    style A fill:#e6f3ff,stroke:#0066cc,stroke-width:2px
+    style B fill:#ffe6e6,stroke:#cc0000,stroke-width:2px
+    style C fill:#e6ffe6,stroke:#006600,stroke-width:2px
+    style D fill:#f0f0f0,stroke:#333333,stroke-width:2px
+    style E fill:#f0f0f0,stroke:#333333,stroke-width:2px
+    style F fill:#fff0e6,stroke:#ff6600,stroke-width:2px
+    style G fill:#fff0e6,stroke:#ff6600,stroke-width:2px
+    style H fill:#fff0e6,stroke:#ff6600,stroke-width:2px
+    style I fill:#fff0e6,stroke:#ff6600,stroke-width:2px
+    style J fill:#fff0e6,stroke:#0066cc,stroke-width:2px,stroke-dasharray:5 5
+    style K fill:#fff0e6,stroke:#0066cc,stroke-width:2px,stroke-dasharray:5 5
+    style L fill:#fff0e6,stroke:#0066cc,stroke-width:2px,stroke-dasharray:5 5
+```
+
+## Regression or classification?
+
+The type of $y$ decides it.
+
+| $y$ is … | Task | Nomad example |
+|---|---|---|
+| a number | **Regression** | Monthly cost in USD |
+| a category | **Classification** | Expensive city (> 3,000 USD) or not |
+
+Same features, same workflow. Different loss and different metrics.
+
+## Key Concepts
+
+1. 🏋️‍♂️ **Training data**: rows where we know $y$
+2. 🏷️ **Features and labels**: $X$ and $y$
+3. 🧠 **Model**: a family of functions to choose from
+4. 📉 **Loss**: how wrong a prediction is, as one number
+5. 📊 **Evaluation**: loss or metric on rows the model has not seen
+6. 🌐 **Generalisation**: doing well on the next city, not the last one
+
+## Mathematical Representation {.smaller}
+
+- **Features**: $X = (x_1, x_2, \dots, x_p)$, e.g. internet speed, safety, freedom score
+- **Target**: $y$, e.g. monthly cost
+- **Model**: $f(X; \theta)$, e.g. $f(X) = w_0 + w_1 x_1 + \dots + w_p x_p$
+- **Parameters**: $\theta$, the values learned in training (here the weights $w$)
+
+We look for $\theta$ such that
+
+$$y \approx f(X; \theta)$$
+
+for cities the model has **not** seen.
+
+::: {.notes}
+Fitting means choosing theta. "Close" needs a definition: that is the loss.
+:::
+
+## Loss Functions {.smaller}
+
+:::: {.columns}
+::: {.column width="50%"}
+
+#### Mean Squared Error (Regression)
+
+$$MSE = \frac{1}{n}\sum_{i=1}^{n}(y_i - \hat{y}_i)^2$$
+
+The average squared distance between prediction and truth. Squaring punishes big misses much more than small ones. A city predicted 2,000 USD off costs 100× more than one predicted 200 off.
+
+:::
+::: {.column width="50%"}
+
+#### Cross-Entropy (Classification)
+
+$$H(p,q) = -\sum_{k}p_k\log q_k$$
+
+Compares the true label $p$ (1 for the right class, 0 otherwise) with the predicted probabilities $q$. It only looks at the probability given to the right class, and punishes *confident* wrong answers hardest: $-\log(0.01) \approx 4.6$.
+
+:::
+::::
+
+## Loss Functions in Code I {.smaller}
+
+#### Mean Squared Error
+
+```python
+import numpy as np
+
+y     = np.array([3.5, 2.1, 4.0, 5.5, 6.1, 7.3, 3.9, 4.4, 5.0, 6.7])
+y_hat = np.array([3.8, 2.0, 4.2, 5.0, 6.0, 7.5, 3.5, 4.2, 5.1, 6.8])
+
+mse = np.mean((y - y_hat) ** 2)   # 0.066
+```
+
+$$MSE = \frac{1}{n}\sum_{i=1}^{n}(y_i - \hat{y}_i)^2$$
+
+In practice we often report **RMSE** $= \sqrt{MSE}$ or **MAE**, because they are in the units of $y$ (USD, not USD²).
+
+## Loss Functions in Code II {.scrollable}
+
+#### Cross-Entropy
+
+```python
+import numpy as np
+
+# True labels, one-hot, 3 classes
+p = np.array([[1, 0, 0],
+              [0, 1, 0],
+              [0, 0, 1],
+              [1, 0, 0],
+              [0, 1, 0]])
+
+# Predicted probabilities (each row sums to 1)
+q = np.array([[0.8, 0.1, 0.1],
+              [0.2, 0.7, 0.1],
+              [0.1, 0.2, 0.7],
+              [0.6, 0.3, 0.1],
+              [0.2, 0.6, 0.2]])
+
+q = np.clip(q, 1e-12, 1 - 1e-12)          # avoid log(0)
+ce = -np.mean(np.sum(p * np.log(q), axis=1))  # 0.39
+```
+
+$$H(p,q) = -\sum_{k}p_k\log q_k$$
+
+# Evaluation and Generalisation
+
+## First, a baseline
+
+Before any model: predict the **average cost** for every city.
+
+Mean absolute error on held-out cities: **903 USD**.
+
+. . .
+
+Any model has to beat that to be worth anything. For Aalborg, the average (about 2,330) is off by almost 1,900. The neighbours were off by about 840.
+
+## Train-Test Split {.smaller}
+
+- Split the data: train on 80%, hold back 20%
+- The model never sees the test rows during fitting
+- The test score estimates how it will do on the next city
+
+```{mermaid}
+flowchart LR
+    A[("🗄️ Dataset")]
+    B["📊 Training Set<br>80%"]
+    C["🧪 Test Set<br>20%"]
+    D["🤖 Train the Model"]
+    E["📈 Evaluate on Test Set<br>MAE, RMSE, Precision, Recall"]
+    F["🎯 Assess Generalisation<br>Performance on unseen data"]
+
+    A --> B
+    A --> C
+    B --> D
+    D --> E
+    C --> E
+    E --> F
+
+    classDef cool fill:#8EC5FC,stroke:#4A6FA5,stroke-width:2px,rx:10,ry:10;
+    classDef warm fill:#FBC2EB,stroke:#A66E98,stroke-width:2px,rx:10,ry:10;
+    classDef neutral fill:#E0EAFC,stroke:#8B9FBF,stroke-width:2px,rx:10,ry:10;
+
+    class A,D cool;
+    class B,C warm;
+    class E,F neutral;
+```
+
+## Why the split matters {.smaller}
+
+Predicting `cost_nomad` from the non-cost columns. Mean absolute error in USD.
+
+| Model | Train MAE | Test MAE |
+|---|---:|---:|
+| Baseline (predict the mean) | — | 903 |
+| 1-nearest neighbour | 14 | 734 |
+| Decision tree, no depth limit | 7 | 716 |
+| Linear regression | 631 | 697 |
+| Decision tree, depth 3 | 572 | 623 |
+| Random forest | 199 | 555 |
+
+. . .
+
+A near-perfect training score tells you nothing. The unlimited tree **memorised** the training cities.
+
+::: {.notes}
+Numbers from a single 80/20 split, random_state 42. Four cost-related columns removed (see the leakage slide). Samara's broken racism value replaced with the median.
+:::
+
+## Cross-Validation
+
+- Split into $k$ folds; train on $k-1$, test on the one left out; rotate
+- Gives $k$ scores instead of one: an average and a spread
+- A more **stable estimate** of performance. It does not by itself reduce overfitting.
+
+```python
+from sklearn.model_selection import cross_val_score
+scores = cross_val_score(model, X, y, cv=5,
+                         scoring="neg_mean_absolute_error")
+print(-scores.mean(), scores.std())
+```
+
+## Cross-Validation
+
+![](https://miro.medium.com/v2/resize:fit:1400/1*8b8imVnHUNYtpAhlFvle-g.png)
+
+## Bias-Variance Tradeoff
+
+- **Bias**: error from a model too simple to capture the pattern (underfitting). *Depth-3 tree.*
+- **Variance**: error from a model so flexible it fits the noise (overfitting). *Unlimited tree, 1-NN.*
+- **Irreducible error**: noise no model can explain
+
+**Goal:** the complexity where *test* error is lowest.
+
+## Bias-Variance Tradeoff
+
+![](https://scott.fortmann-roe.com/docs/docs/BiasVariance/biasvariance.png)
+
+## Mathematical Representation of Bias-Variance
+
+For a given point $x$, the expected prediction error is:
+
+$$E[(y - \hat{f}(x))^2] = \text{Var}(\hat{f}(x)) + [\text{Bias}(\hat{f}(x))]^2 + \text{Var}(\epsilon)$$
+
+- $\text{Var}(\hat{f}(x))$: how much the prediction would change with a different training sample
+- $[\text{Bias}(\hat{f}(x))]^2$: how far the average prediction is from the truth
+- $\text{Var}(\epsilon)$: the irreducible error
+
+::: {.notes}
+Imagine drawing many training sets and fitting the model each time. Variance: how much the predictions for Aalborg jump around. Bias: how far their average sits from the true value.
+:::
+
+## Regularization: Preventing Overfitting {.scrollable}
+
+- **Overfitting**: the model fits the training rows too closely and does worse on new ones
+- **Regularization**: add a penalty on large coefficients, trading a little bias for less variance
+
+### Common Regularization Methods
+
+- **Lasso (L1)**: pushes some coefficients to exactly **zero**, so it also selects features
+- **Ridge (L2)**: shrinks all coefficients, keeps all features
+- **Elastic Net**: a mix of both
+
+### Elastic Net penalty
+
+$$\lambda \sum_{j=1}^{p} \left[ \alpha |\beta_j| + \tfrac{1-\alpha}{2} \beta_j^2 \right]$$
+
+- $\lambda$: overall strength (`alpha` in scikit-learn)
+- $\alpha$: mix between L1 and L2 (`l1_ratio` in scikit-learn); $\alpha = 1$ is Lasso, $\alpha = 0$ is Ridge
+
+## Leakage: what will you know at prediction time? {.smaller}
+
+With all columns, linear regression reaches test $R^2 = 0.74$. Without four of them, $0.37$.
+
+The four: `cost_expat`, `cost_coworking`, `coffee_in_cafe`, `cost_beer`.
+
+. . .
+
+- If nobody has reported the cost of living yet, will you have the price of a coworking desk?
+- A feature is only legitimate if it exists **when the prediction is made**
+- Leakage makes models look excellent in the notebook and fail in use
+
+. . .
+
+*Also:* `coffee_in_cafe` and `cost_beer` are identical in all 780 rows, and Samara has a `racism` score of $1.8 \times 10^{28}$ on a 0–1 scale. EDA from session 03 still applies.
+
+# Classification
+
+## Is this city expensive?
+
+$y = 1$ if `cost_nomad` > 3,000 USD, else $0$. **28%** of cities are expensive.
+
+Logistic regression on the non-cost columns, 156 test cities:
+
+. . .
+
+Accuracy: **0.76**
+
+. . .
+
+A model that says "not expensive" for every city: **0.72**
+
+. . .
+
+Accuracy hides almost everything when classes are unbalanced.
+
+## The Confusion Matrix {.smaller}
+
+Threshold 0.5:
+
+|  | Predicted cheap | Predicted expensive |
+|---|---:|---:|
+| **Actually cheap** | 103 | 10 |
+| **Actually expensive** | 28 | 15 |
+
+- **Precision** = 15 / (15 + 10) = **0.60**: when it says expensive, how often is it right?
+- **Recall** = 15 / (15 + 28) = **0.35**: of the expensive cities, how many did it find?
+
+## Moving the threshold {.smaller}
+
+The model outputs a **probability**. The 0.5 cut-off is a choice, not a law.
+
+| Threshold | Precision | Recall | Accuracy |
+|---:|---:|---:|---:|
+| 0.5 | 0.60 | 0.35 | 0.76 |
+| 0.3 | 0.52 | 0.77 | 0.74 |
+
+Same model. Accuracy barely moves; recall more than doubles.
+
+**ROC-AUC = 0.83**: how well the probabilities *rank* expensive above cheap, across all thresholds.
+
+. . .
+
+Which threshold is right depends on what a miss costs. *Session 10: cost-based thresholds.*
+
+# Popular Model Classes
+
+## Linear Models
+
+1. **Linear regression**
+   $$y = \beta_0 + \beta_1x_1 + \beta_2x_2 + \dots + \beta_px_p + \epsilon$$
+
+2. **Logistic regression** (binary classification)
+   $$P(y=1 \mid X) = \frac{1}{1 + e^{-(\beta_0 + \beta_1x_1 + \dots + \beta_px_p)}}$$
+
+3. **Regularised versions**: Ridge, Lasso, Elastic Net
+
+Fast, stable, and each coefficient can be read directly. They miss interactions and curves unless you build them in.
+
+## Neighbour Models
+
+**k-nearest neighbours**: predict from the $k$ most similar training rows.
+
+- Regression: average their $y$. Classification: majority vote.
+- No training beyond storing the data
+- Small $k$ gives high variance (1-NN memorises); large $k$ gives high bias
+- Needs scaling, because it is built on distances (as in session 08)
+
+## Tree-based Models
+
+1. **Decision trees**
+   - Recursive binary splits on one feature at a time
+   - Split quality: Gini impurity, entropy (classification); squared error (regression)
+
+2. **Random forests**
+   - Many deep trees on bootstrap samples and random feature subsets, averaged
+   - Averaging cancels much of the variance
+
+3. **Gradient boosting** (e.g. XGBoost)
+   - Shallow trees added one after another, each fixing the errors of the last
+   - *Session 10*
+
+## Decision Trees
+
+```{mermaid}
+%%| fig-width: 8
+graph TD
+    A["Fragile states index ≤ 34.8?"] -->|Yes| B["Press freedom index ≤ 9.5?"]
+    A -->|No| C["Fragile states index ≤ 66.2?"]
+    B -->|Yes| D["84% expensive<br>(37 cities)"]
+    B -->|No| E["51% expensive<br>(250 cities)"]
+    C -->|Yes| F["25% expensive<br>(161 cities)"]
+    C -->|No| G["5% expensive<br>(332 cities)"]
+
+    style A fill:#FFDDC1,stroke:#FFB3B3,stroke-width:2px;
+    style B fill:#FFD9E8,stroke:#FFB3B3,stroke-width:2px;
+    style C fill:#FFD9E8,stroke:#FFB3B3,stroke-width:2px;
+    style D fill:#C7F9CC,stroke:#B2F2BB,stroke-width:2px;
+    style E fill:#FFF3C4,stroke:#E6C94C,stroke-width:2px;
+    style F fill:#C7CEEA,stroke:#A3B3FF,stroke-width:2px;
+    style G fill:#C7CEEA,stroke:#A3B3FF,stroke-width:2px;
+```
+
+*A real depth-2 tree on all 780 cities. A lower press freedom index means a freer press.*
+
+## Neural Networks {.smaller}
+
+1. **Multi-layer perceptron**: layers of weighted sums and non-linear activations (ReLU, sigmoid)
+2. **Recurrent networks, LSTMs**: sequences
+3. **Transformers**: attention over long contexts; language models, and increasingly tables, images and time series
+4. **Graph neural networks**: data shaped as networks
+
+On tabular business data like ours, tree ensembles are usually the stronger baseline. *Module 4 goes deep on these.*
+
+# Interpretation
+
+## What drives the prediction? {.smaller}
+
+- **Coefficients** (linear models): the change in $y$ per unit of $x$, holding the other features fixed. Standardise first to compare them.
+- **Feature importance** (trees): how much each feature reduced the loss across all splits
+- **SHAP values**: for *one* prediction, how much each feature pushed it up or down from the average
+
+. . .
+
+All three describe **the model**, not the world. A feature that predicts cost does not *cause* cost.
+
+*Prediction versus causation is one of the module's learning objectives, and a likely exam question.*
+
+# Practical Considerations
+
+## Feature Engineering {.scrollable}
+
+- **Creating relevant features**: ratios, dates split into parts, group averages
+- **Handling missing data**: fill or drop, and decide it on the training data only
+- **Scaling**: for anything built on distances or penalties (kNN, SVM, regularised models)
+- **Categorical variables**: one-hot encoding, e.g. `region`
+
+```python
+from sklearn.preprocessing import OneHotEncoder
+
+encoder = OneHotEncoder(sparse_output=False, handle_unknown="ignore")
+X_region = encoder.fit_transform(df[["region"]])
+```
+
+## Pipelines: preprocessing belongs inside
+
+```python
+from sklearn.pipeline import make_pipeline
+from sklearn.preprocessing import StandardScaler
+from sklearn.neighbors import KNeighborsRegressor
+
+model = make_pipeline(StandardScaler(), KNeighborsRegressor(n_neighbors=5))
+model.fit(X_train, y_train)
+model.predict(X_test)
+```
+
+The scaler learns its means and standard deviations from the **training** rows only. Scaling the full table first leaks the test set into training.
+
+## Model Selection and Tuning
+
+- **Hyperparameters**: settings you choose, not learned: $k$ in kNN, tree depth, $\lambda$
+- Choose them with cross-validation on the training set; touch the test set once, at the end
+- Grid search or random search
+
+```python
+from sklearn.model_selection import GridSearchCV
+
+param_grid = {"kneighborsregressor__n_neighbors": [1, 3, 5, 10, 20]}
+search = GridSearchCV(model, param_grid, cv=5,
+                      scoring="neg_mean_absolute_error")
+search.fit(X_train, y_train)
+search.best_params_
+```
+
+# Hands-on
+
+## Notebooks {.smaller}
+
+**Part 1 · From finding structure to predicting answers**
+Every number on these slides, on the nomad cities. Exercises with solutions.
+[Open in Colab](https://colab.research.google.com/github/aaubs/ds-master/blob/main/notebooks/M1_09_1_from_uml_to_sml.ipynb)
+
+**Part 2 · Predicting Airbnb prices in Copenhagen**
+The same workflow on 23,000 messy listings (June 2026): cleaning, pipelines, XGBoost, Optuna, SHAP.
+[Open in Colab](https://colab.research.google.com/github/aaubs/ds-master/blob/main/notebooks/M1_09_2_airbnb_price_prediction.ipynb)
+
+*File → Save a copy in Drive before you start, so your work is kept.*
+
+# Conclusion
+
+## Key Takeaways
+
+- Unsupervised learning asks what structure is in $X$. Supervised learning asks what $y$ is, given $X$.
+- The difference is the answer key, and that is what lets you measure error
+- Beat a baseline, measure on unseen data, and check for leakage
+- Balance bias and variance; regularisation and ensembles help
+- Pick metrics for the decision: accuracy is rarely enough
+- Interpretation describes the model, not causation
+
+## Coming up
+
+- **Session 10**: gradient boosting, temporal splits, calibration, cost-based thresholds, deploying a model behind an API
+- **Session 11**: embedding models in automated workflows, with evaluation harnesses
+
+## Further directions in ML
+
+- AutoML
+- Explainable AI (XAI)
+- Few-shot and zero-shot learning with foundation models
+- Federated learning
+- AI ethics and fairness
