@@ -1,0 +1,141 @@
+Session nine. Notebook walkthrough, part one. From finding structure to predicting answers.
+
+This is your guide for running part one live. It follows the notebook section by section. For each section it says what to run, what to point at in the output, and where to stop and ask the room to predict. The whole notebook runs in under a minute on a standard Colab runtime, so you never have to wait on it. Budget about forty-five minutes with discussion, and leave twenty for the exercises.
+
+Opening and the brief.
+
+Read the brief out loud. A relocation agency, new cities with ratings but no cost report yet. Everything that follows answers that brief, so come back to it whenever someone asks why a step matters. Run the setup cell and the load cell. Seven hundred and eighty rows, twenty-five columns. Tell them it's the same file Hamid used, and point at cost nomad in the head output.
+
+Section zero. One look before we trust it.
+
+Before you run the describe cell, ask the room: most columns are scores between zero and one, so what should the maximum of each column be? Then run it. Let them find the racism row themselves. The maximum is about one point eight times ten to the twenty-eight. Run the next cell and Samara appears.
+
+Say the cleaning decision out loud, the way we did in session three. One city, one column, replaced with the median. Deleting the city would also be defensible. The tiny negative minimums are floating-point dust and can stay. Then the coffee and beer line prints True. Get a laugh out of it, and promise it will matter in section six.
+
+Section one. What you did last week.
+
+Keep this quick, three cells. PCA with two components explains about half the variance, forty-one percent in the first. K-means gives four clusters. The one point to make: nothing here used a target. Don't spend more than three minutes on it.
+
+Section two. Hide one column.
+
+This is the pivot of the whole session, so slow down. Cost nomad becomes y. Sixteen features stay as X. Mention that four other price columns are set aside, and ask them to hold the question of why until section six. Some will guess already. That's good.
+
+Section three. You already built a supervised model.
+
+Run the nearest-neighbours cell. Before you show the costs, ask them to guess Aalborg's monthly cost from the five neighbours: Dunedin, Aarhus, Moncton, Reykjavik and Brampton. Then run the next cell. The average is three thousand three hundred and eighty-three. Aalborg's actual value is four thousand two hundred and twenty.
+
+Then run the k-neighbours regressor cell and point at the output: exactly the same number. This is the moment the bridge lands. Session eight's search plus an average is a supervised model. The regressor is trained on every city except Aalborg. If someone asks why, it's the first hint of the train-test idea.
+
+Clusters are not labels.
+
+Run the crosstab. Point at the column for expensive. Two clusters are almost all cheap. One is sixty-two percent expensive, and one is fifty-one percent, a coin flip. Ask: the clusters were built on all the columns, including cost, so why don't they answer the question? Because they were never asked it.
+
+Section four. A baseline and an honest test.
+
+Two habits. Run the split and the dummy regressor. Nine hundred and three dollars. Write that number on the board and leave it there for the rest of the session. Every model gets compared to it. Then come back to Aalborg: guessing the average would have been off by almost nineteen hundred, so the neighbours did much better on that one city.
+
+Section five. Learning versus memorising.
+
+This is the most important output in the notebook. Before running the table, ask them to predict which of the five models will do best on the training rows, and which on the test rows. Then run it.
+
+One nearest neighbour: fourteen dollars on training, seven hundred and thirty-four on test. Unlimited tree: seven on training, seven hundred and sixteen on test. Linear regression six hundred and ninety-seven on test, depth-three tree six hundred and twenty-three, random forest five hundred and fifty-five. Ask them to rank the models by the training column, then by the test column. The ranking flips. Anyone who picked a model by its training score picked the worst one.
+
+Then run the k curve. Point at the left end, where training error is near zero and test error is high. That's variance. Then the right end, where both climb towards the baseline. That's bias. The lowest test error is somewhere around k equal to twenty. Say that the curve is jumpy because there are only a hundred and fifty-six test cities. That sets up cross-validation.
+
+Cross-validation.
+
+Run the fold scores. The forest averages about five hundred and fifty, linear about six hundred and fifty, with similar spread. Repeat the point from the slides: cross-validation is a better thermometer, not a cure.
+
+Then the Samara cell, which is the fun one. Same linear regression on the raw file. One fold shows an error of about ten to the twenty-eight dollars, and the other four look normal. Ask them what could possibly cause that, and let them connect it to section zero. The rule to leave them with: when one fold is wildly worse than the rest, suspect the data before the model.
+
+Section six. Leakage.
+
+Run the R squared cell. Zero point seven four with the other prices, zero point three seven without. Ask the brief question: for a city where nobody has reported the cost of living, will the agency know what a coworking desk costs? This is where the coffee and beer promise pays off. They're identical, so they're one piece of leakage counted twice.
+
+Section seven. Classification.
+
+Run the first cell. Twenty-eight percent of cities are expensive. Logistic regression gets zero point seven six accuracy. Before you reveal the next line, ask the room what a model that never says expensive would score. Let them work it out: seventy-two percent. The model is four points better than doing nothing.
+
+Run the confusion matrix. Point at the bottom-left cell: twenty-eight expensive cities called cheap. Recall is zero point three five. Say it in business terms: the agency would miss almost two thirds of the expensive cities.
+
+Then the threshold sweep plot. Point at the three lines. Recall falls as the threshold rises, precision mostly climbs, and accuracy barely moves. The table underneath shows zero point three against zero point five. Recall more than doubles. AUC is zero point eight three. Close with: the right threshold depends on what a miss costs, and that's exercise four and session ten.
+
+Section eight. What is the model doing?
+
+Run the tree plot. Read the root split aloud: fragile states index at or below thirty-four point eight. Then press freedom. Warn them that a lower press freedom index means a freer press, because students always read it backwards.
+
+Then the two bar charts. Both give the fragile states index the biggest role. Now the good question: point at life score on the linear chart. Its coefficient is strongly negative, and the printed correlation underneath is plus zero point three seven. Ask them how both can be true. Give it a minute. The answer is holding the others fixed. Life score overlaps with freedom, peace and stability, so once those are in the model, what's left of it points the other way. Freedom score does the same. Then say it plainly: this describes the model, not the world. Mention that prediction versus causation is on the exam.
+
+Section nine. Pipelines and tuning.
+
+Run the grid search. Best k is ten, cross-validated error six hundred and seven, test error six hundred and forty-five. Ask why the test error is worse. The chosen k looked best on these particular folds, so its score was slightly optimistic. Then the PCA cell. Ten components do slightly better than the raw features. Be honest that this is luck. The first component happens to be a wealth and stability axis, and PCA never looked at y.
+
+Wrap-up and exercises.
+
+Read the "where that leaves the brief" section aloud as the summary, then set the exercises. Suggest they start with exercise one on their own city, because it's quick and personal. Copenhagen is a good surprise: actual four thousand eight hundred and fifty, neighbours about three thousand. Exercise four is the stretch goal and a preview of session ten. Its solution picks a threshold of zero point two and cuts the agency's cost from fifteen thousand to seven thousand dollars on the test set.
+
+Session nine. Notebook walkthrough, part two. Predicting Airbnb prices in Copenhagen.
+
+Part two is slower to run. The download is eleven megabytes, and the Optuna and SHAP cells take a few minutes on Colab. Start "run all" at the break so the outputs are there when you begin. Budget about forty minutes. The message of the whole notebook: most of the work happens before the first model, and the features set the ceiling.
+
+Setup and data.
+
+The first cell installs Optuna, which Colab doesn't have. Mention it so nobody panics at the pip output. The data is the Inside Airbnb snapshot from the thirtieth of June twenty twenty-six. Twenty-three thousand listings, ninety columns.
+
+Initial data quality.
+
+Scroll the info output and the missing-value heatmap. Say out loud that several columns are entirely empty this year, including license, instant bookable and most of the host columns. Several of them had values last year. That becomes a point in a moment.
+
+Cleaning the price.
+
+Price is text with a dollar sign, although the currency is Danish kroner. Point at the before and after histograms. The raw prices go up to almost forty-three thousand a night. After capping at the ninety-ninth percentile, everything above about six thousand three hundred and seventy is set to that value. Point at the spike at the right edge of the cleaned histogram. That spike comes back in the SHAP section.
+
+The markdown also admits that the cap is computed before the split. If a sharp student raises leakage here, praise them. It's in the text on purpose.
+
+Bathrooms, booleans and the empty column.
+
+The bathroom parser is a nice small regex example, so show the half-bath case. Then the boolean cell prints instant bookable values present: zero. This is the real-world lesson. Last year's version of this notebook used that column. This year it's empty, and the old code silently produced a table with zero rows. Data sources change format without telling you.
+
+Distance and dates.
+
+Distance to Rådhuspladsen with geopy. The folium map is commented out to keep the notebook light. Uncomment it live if the room has energy, it's a nice moment.
+
+Selecting features and dropping rows.
+
+Point at the two printed numbers: thirteen thousand eight hundred and sixty rows with a price, and only nine thousand eight hundred and fifty-eight complete on every feature. Dropping every incomplete row would throw away almost thirty percent. So we keep them and let the pipeline impute, from the training rows only. It's the same lesson as the scaler in part one.
+
+Mention the grouped-data warning in the markdown. One host can have many listings, and a proper split would keep each host on one side. We don't do it here, but it's a good exam question.
+
+Pipelines.
+
+Walk through the column transformer: numeric gets a median imputer and scaler, categorical a constant imputer and one-hot encoding with handle unknown set to ignore, and the boolean passes through. Connect it to part one: same idea, more branches.
+
+The models.
+
+Baseline RMSE is about a thousand and sixteen kroner. Then Ridge, random forest and XGBoost all land around seven hundred and thirty, within about ten kroner of each other. The exact order changes with library versions, so don't promise a winner before you run it.
+
+Ask the room why a linear model keeps up with two tree ensembles. The answer to push for: the limit is the features, not the algorithm. The photos, the view, the amenities and the season aren't in the columns, and no learner can find them.
+
+Tuning with Optuna.
+
+Twenty trials, seeded so everyone gets the same result. It moves validation error from about seven hundred and forty to seven hundred and twenty-one. Worthwhile, but small. Use the discussion question in the markdown about why we tune on validation and not on test. The answer is behind a click, so let them try first.
+
+Final evaluation.
+
+On the untouched test set: RMSE about seven hundred and sixty, MAPE twenty-seven percent, R squared zero point four five. Point out that the test error is worse than the best validation error, the same optimism as the grid search in part one. Mention that last year's R squared was zero point six seven on the twenty twenty-five data. Different year, different market, same code.
+
+Residuals.
+
+The spread widens as predicted price rises. Point at the fan of large positive residuals between one thousand and two thousand five hundred predicted. Those are listings priced far above what their rooms and location suggest. That's information the model doesn't have.
+
+SHAP.
+
+The summary plot. Bedrooms and accommodates at the top, then Indre By, then distance to the centre. Explain the colours: red is a high feature value, and position is the push on the price. Point at distance: red dots, meaning far away, sit on the left, meaning lower prices. That reads naturally. Mention the Ø quirk too: Østerbro shows up as sterbro, Amager Øst as Amager st.
+
+Then the single listing. Its actual price is six thousand three hundred and sixty-eight, which is exactly the cap, so its real price may be higher still. The model says about three thousand one hundred and twenty. Run the text table under the force plot. From an average of about nineteen hundred and thirty, four bedrooms and six guests each add over five hundred, two bathrooms about two hundred and twenty, and being five kilometres out and not in Indre By pulls it down. Nothing in the features explains the rest. Ask: is it the listing, or is it the model?
+
+Business recommendations and the group exercise.
+
+Read the four insights. Stop on the fourth: these are associations, not levers. Then set the group exercise. Point out the Nørrebro note in exercise three. The data spells it without the Ø, and an unknown category is silently ignored. Remind them that the flipped exercise, the same analysis for another city, is where they practise all of this on their own.
+
+That's the walkthrough. If something breaks live, the likeliest causes are a slow download or the Optuna install. Restart the runtime and run all again.
