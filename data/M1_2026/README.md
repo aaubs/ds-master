@@ -2,6 +2,12 @@
 
 These are historical teaching data, not new measurements of the 2026 market.
 
+Direct links, usable straight from `pd.read_csv`:
+
+- [`spotify_songs.csv`](https://raw.githubusercontent.com/aaubs/ds-master/codex/m1-pandas-2026/data/M1_2026/spotify_songs.csv)
+- [`subgenre_families.csv`](https://raw.githubusercontent.com/aaubs/ds-master/codex/m1-pandas-2026/data/M1_2026/subgenre_families.csv) — constructed for the group assignment
+- [`udemy_courses_info.csv`](https://raw.githubusercontent.com/aaubs/ds-master/codex/m1-pandas-2026/data/udemy_courses_info.csv)
+
 ## Spotify snapshot
 
 `spotify_songs.csv` is an unchanged copy downloaded on 6 September 2026 from [TidyTuesday, 21 January 2020](https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-01-21). The [upstream data dictionary and attribution](https://github.com/rfordatascience/tidytuesday/blob/main/data/2020/2020-01-21/readme.md) credit Spotify data collected using `spotifyr`, with the example collection discussed by Kaylin Pavlik. [Direct upstream CSV](https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-01-21/spotify_songs.csv).
@@ -17,6 +23,20 @@ Measured on this file:
 - Release-date precision: 30,947 day strings, 1,855 year strings, 31 month strings. Reduced precision is not the same thing as a malformed date.
 
 The genre summary weights each retained track–playlist–genre association once. A track can contribute more than once and to more than one genre; these are not independent samples of all music. Energy and danceability are different 0–1 indices, not measurements of the same physical quantity. Album release dates, snapshot popularity scores, and playlist labels do not support conclusions about contemporary hit songs or the causal effect of genre.
+
+## Subgenre families (constructed)
+
+`subgenre_families.csv` maps the 24 `playlist_subgenre` values to six broader families. It
+was **written for the group assignment**, not downloaded. It is not an official Spotify
+taxonomy, carries no authority as a description of music, and should not be used for
+anything except the assignment's join.
+
+The families deliberately cut across `playlist_genre`, so the label cannot be recovered
+without joining. The file is handed to students unchecked, exactly as a lookup table from
+another team would be: the assignment asks them to validate its keys before trusting the
+merge. Instructors: see `courses/ds4b-m1-3-pandas-2026/assignment-instructor-notes.md`.
+
+24 rows, two columns, `subgenre` and `family`. Hash and size in `manifest.json`.
 
 ## Udemy catalog
 

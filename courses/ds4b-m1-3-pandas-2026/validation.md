@@ -1,13 +1,15 @@
-# Validation · 6 September 2026
+# Validation · 9 September 2026
 
-Both student notebooks passed nbformat validation and executed top to bottom in separate fresh Python kernels in each environment below. The 28 code cells in Part 1 and 24 code cells in Part 2 include the supplied solution cells; exercise placeholders remain intentionally unfilled. Student files have no saved outputs or execution counts.
+All six module notebooks passed nbformat validation and executed top to bottom in separate fresh Python kernels in each environment below. Session 02 contributes 33 code cells in Part 1 and 48 in Part 2, including the supplied solution cells; exercise placeholders remain intentionally unfilled. Session 03 adds 18 and 19 code cells. The instructor notebook adds 19, which replay both session 02 notebooks and then re-run every solution, and the assignment template adds 15. Delivered files have no saved outputs or execution counts.
+
+The session 03 notebooks need `scipy` and `seaborn` in addition to pandas, NumPy and Matplotlib. Both are pre-installed in Colab and were installed into both validation environments.
 
 | Environment | Python | pandas | NumPy | Result |
 |---|---|---|---|---|
-| Current package environment | 3.12.9 | 3.0.5 | 2.5.3 | Both notebooks passed; no cell errors or stderr |
-| Compatibility environment | 3.12.9 | 2.2.3 | 2.0.2 | Both notebooks passed; no cell errors; one first-use Matplotlib font-cache notice |
+| Current package environment | 3.12.9 | 3.0.5 | 2.5.3 | All six notebooks passed; no cell errors or stderr |
+| Compatibility environment | 3.12.9 | 2.2.3 | 2.0.2 | All six notebooks passed; no cell errors; one first-use Matplotlib font-cache notice |
 
-The executions used the actual repository CSVs through the documented local-file paths. They did not replace the datasets or modify notebook cells for execution. The optional sampling starter remains commented, as delivered, and is not a completed solution.
+Every notebook reads its data straight from the repository's raw URLs, which is what students run, so the executions used the same bytes they will. They did not replace the datasets or modify notebook cells for execution. The optional sampling starter remains commented in the student notebook, as delivered; the instructor notebook carries the worked version.
 
 ## Content and output checks
 
@@ -20,7 +22,7 @@ The executions used the actual repository CSVs through the documented local-file
 
 ## Reproduce the execution
 
-Install `pandas`, `numpy`, `matplotlib`, `nbformat`, `nbclient`, and `ipykernel` in the environment to be tested. Run:
+Install `pandas`, `numpy`, `matplotlib`, `seaborn`, `scipy`, `nbformat`, `nbclient`, and `ipykernel` in the environment to be tested. Run:
 
 ```sh
 python courses/ds4b-m1-3-pandas-2026/validate_notebooks.py /absolute/path/to/review-output

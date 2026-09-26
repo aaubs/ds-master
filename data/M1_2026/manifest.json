@@ -11,6 +11,12 @@
       "path": "data/M1_2026/spotify_songs.csv",
       "sha256": "9902920cfe4940f0914ebb6716801a42f7f19ac88fbd6693eaae7e2822b16845",
       "bytes": 7971379
+    },
+    {
+      "path": "data/M1_2026/subgenre_families.csv",
+      "sha256": "9902c5a34449ca87b99121d3c86a780e8d7cf544d950ff969067fd58323ce22d",
+      "bytes": 642,
+      "note": "Constructed for the group assignment; not an upstream file."
     }
   ]
 }

@@ -4,6 +4,26 @@
 
 This update preserves the class repository's `notebooks/`, `data/`, `media/`, and `courses/` structure and the two original notebook filenames. The course-catalog and Spotify examples remain useful; the revision improves the learning sequence and interpretation rather than replacing data for novelty.
 
+## DataCamp
+
+[datacamp-practice.md](datacamp-practice.md) lists which DataCamp courses are worth doing for
+sessions 02 and 03, in what order, and what they do not cover. Linked from both Moodle pages.
+
+## Group assignment
+
+[assignment.md](assignment.md) is the student brief for the ungraded group assignment.
+[assignment-instructor-notes.md](assignment-instructor-notes.md) is the companion for
+running it, and is not for hand-out. The starter notebook is
+[M1_assignment_2026_starter.ipynb](../../notebooks/M1_assignment_2026_starter.ipynb). The
+lookup table it joins, `data/M1_2026/subgenre_families.csv`, was written for the assignment
+rather than downloaded.
+
+Direct data links, used by every notebook and by the assignment:
+
+- [`spotify_songs.csv`](https://raw.githubusercontent.com/aaubs/ds-master/codex/m1-pandas-2026/data/M1_2026/spotify_songs.csv)
+- [`subgenre_families.csv`](https://raw.githubusercontent.com/aaubs/ds-master/codex/m1-pandas-2026/data/M1_2026/subgenre_families.csv)
+- [`udemy_courses_info.csv`](https://raw.githubusercontent.com/aaubs/ds-master/codex/m1-pandas-2026/data/udemy_courses_info.csv)
+
 ## Open the updated notebooks
 
 - [Part 1 in Colab](https://colab.research.google.com/github/aaubs/ds-master/blob/codex/m1-pandas-2026/notebooks/M1_01_control_flow_to_pandas.ipynb) — 80 minutes: Python records, actual NumPy array work, pandas labels/masks, assignment, and grouped summaries.

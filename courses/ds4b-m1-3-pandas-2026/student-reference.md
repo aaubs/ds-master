@@ -76,3 +76,7 @@ long = joined.melt(
 Before a `merge`, aggregation, or reshape, write down the grain: “one row per ___.” Check the key columns and row counts before and after the operation. A track can occur in several playlists, so a row in the Spotify data is not automatically a unique track. Likewise, `price_times_enrollments_proxy` is a practice proxy, not observed sales.
 
 The Colab notebook state is not a permanent computer. Run cells in order, keep the data-loading cell rerunnable, and save your notebook. If a package version changes, restart the runtime and run all cells from the top.
+
+## DataCamp
+
+The class has DataCamp access. [Which courses are worth your time](datacamp-practice.md), in what order, and what they will not give you.

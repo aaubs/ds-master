@@ -3,7 +3,16 @@
 **Session:** 9 September 2026, 12:30–16:15 (Fib15-2.234)<br>
 **Instructor:** Roman Jurowetzki<br>
 **Audience:** MSc Business Data Science students with Python basics<br>
-**Format:** [Notebook 1](../../notebooks/M1_01_control_flow_to_pandas.ipynb) and [Notebook 2](../../notebooks/M1_02_pandas_deep_dive.ipynb), with filenames preserved, plus the supplied sibling `data/` and `media/` structure.
+**Format:** [Notebook 1](../../notebooks/M1_01_control_flow_to_pandas.ipynb) and [Notebook 2](../../notebooks/M1_02_pandas_deep_dive.ipynb), with filenames preserved, plus the supplied sibling `data/` and `media/` structure.<br>
+**Companion:** [Instructor solutions notebook](../../notebooks/M1_instructor_solutions_2026.ipynb) — every exercise with the model solution, the wrong answers to expect, expected numbers from the frozen snapshot, and three live diagnostic cells. This guide holds the timing and teaching intent; that notebook is the runnable half. Rebuild it with `build_instructor_notebook.py` after changing any student solution.
+
+## Spoken walkthrough
+
+[session-walkthrough-tts.txt](session-walkthrough-tts.txt) is a thirty-minute narration of
+this guide for listening to on the way in: what the session is doing, where the teaching
+moments are, the clock and what to cut when you are late, and the argument to have ready
+when a student asks why this matters when a model can write the code. Plain text with no
+markup, so it can go straight into any text-to-speech tool.
 
 ## Teaching intent
 
@@ -29,7 +38,7 @@ Students should leave able to state the row grain, produce a reproducible summar
 
 Notebook 1 allocates 20 minutes to Python flow, 20 to NumPy, 25 to pandas inspection/selection, and 15 to groupby practice. Notebook 2 allocates 15 minutes to orientation, 15 to the audit, 30 to joins, 25 to grouping, and 25 to reshaping and interpretation. Exercise attempts are included in these times. The second break falls near the end of the join section; finish its checkpoint after the break.
 
-Treat robustness checks and the date-pattern code as supplied support code: explain the decision and output without teaching regular expressions or asking students to reproduce every line. If students need more practice, let pairs attempt two of the four Notebook 2 exercises in class and complete the others after class. Keep the joins, reshape demonstration, and final interpretation. The optional sampling extension is for after class.
+Treat the robustness and date-precision checks as supplied support code: explain the decision and the output rather than every line. The main path now derives date precision from the text length and checks track consistency with `drop_duplicates`, so no regular expressions appear before the appendix; the stricter regex and grouped-`nunique` versions sit at the end of Notebook 2, labelled as later material, and each asserts that it agrees with the short version. If students need more practice, let pairs attempt two of the four Notebook 2 exercises in class and complete the others after class. Keep the joins, reshape demonstration, and final interpretation. The optional sampling extension is for after class.
 
 ## Scaffolding moves
 
@@ -75,6 +84,21 @@ Use patterns that behave across both lines:
 Avoid chained assignment, `dtype == "object"` as a text test, direct `None`/`np.nan` comparisons, and examples that depend on the exact display of a string dtype. Avoid package installation mid-class. If a controlled install is required, install before imports, verify once, restart the runtime, and run all cells.
 
 Colab executes code in a virtual machine that may be reset or deleted after inactivity. Keep data loading in a rerunnable setup cell, save notebooks, and use a standard CPU runtime for this class.
+
+## Group assignment
+
+The follow-up assignment is [assignment.md](assignment.md), with a starter notebook at
+[M1_assignment_2026_starter.ipynb](../../notebooks/M1_assignment_2026_starter.ipynb).
+Three questions: state the grain and count how far each track travels, attach a supplied
+subgenre-family lookup, then compare travelling tracks against the rest. Groups hand in one
+notebook and an eight-minute video of themselves talking through it. Not graded, and the
+videos are what the following session runs on.
+
+[assignment-instructor-notes.md](assignment-instructor-notes.md) is for you and not for
+students. It covers the three key problems planted in the lookup table, the reach
+computation two reasonable methods disagree on, the numbers at each cut-off, and what
+tends to come back. Read it before handing anything out. It ends with the four things to
+confirm first, starting with the deadline.
 
 ## Exit ticket (5 minutes)
 
