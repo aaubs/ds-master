@@ -1,0 +1,226 @@
+{
+ "name": "Ask the model shelf",
+ "nodes": [
+  {
+   "name": "Booking form",
+   "type": "n8n-nodes-base.formTrigger",
+   "typeVersion": 2.2,
+   "position": [
+    0,
+    0
+   ],
+   "parameters": {
+    "formTitle": "Will this booking be cancelled?",
+    "formDescription": "The model on the shelf gives the probability.",
+    "formFields": {
+     "values": [
+      {
+       "fieldLabel": "lead_time",
+       "fieldType": "number",
+       "requiredField": true
+      },
+      {
+       "fieldLabel": "adr",
+       "fieldType": "number",
+       "requiredField": true
+      },
+      {
+       "fieldLabel": "total_nights",
+       "fieldType": "number",
+       "requiredField": true
+      },
+      {
+       "fieldLabel": "total_guests",
+       "fieldType": "number",
+       "requiredField": true
+      },
+      {
+       "fieldLabel": "previous_cancellations",
+       "fieldType": "number",
+       "requiredField": true
+      },
+      {
+       "fieldLabel": "hotel",
+       "fieldType": "dropdown",
+       "requiredField": true,
+       "fieldOptions": {
+        "values": [
+         {
+          "option": "City Hotel"
+         },
+         {
+          "option": "Resort Hotel"
+         }
+        ]
+       }
+      },
+      {
+       "fieldLabel": "market_segment",
+       "fieldType": "dropdown",
+       "requiredField": true,
+       "fieldOptions": {
+        "values": [
+         {
+          "option": "Online TA"
+         },
+         {
+          "option": "Offline TA/TO"
+         },
+         {
+          "option": "Direct"
+         },
+         {
+          "option": "Groups"
+         },
+         {
+          "option": "Corporate"
+         }
+        ]
+       }
+      },
+      {
+       "fieldLabel": "deposit_type",
+       "fieldType": "dropdown",
+       "requiredField": true,
+       "fieldOptions": {
+        "values": [
+         {
+          "option": "No Deposit"
+         },
+         {
+          "option": "Non Refund"
+         },
+         {
+          "option": "Refundable"
+         }
+        ]
+       }
+      },
+      {
+       "fieldLabel": "customer_type",
+       "fieldType": "dropdown",
+       "requiredField": true,
+       "fieldOptions": {
+        "values": [
+         {
+          "option": "Transient"
+         },
+         {
+          "option": "Transient-Party"
+         },
+         {
+          "option": "Contract"
+         },
+         {
+          "option": "Group"
+         }
+        ]
+       }
+      }
+     ]
+    }
+   },
+   "id": "Ask the -0"
+  },
+  {
+   "name": "Ask the model shelf",
+   "type": "n8n-nodes-base.httpRequest",
+   "typeVersion": 4.2,
+   "position": [
+    260,
+    0
+   ],
+   "parameters": {
+    "method": "POST",
+    "url": "https://models.automate.business.aau.dk/m/demo-hotel-forest/predict",
+    "sendBody": true,
+    "specifyBody": "json",
+    "jsonBody": "={{ JSON.stringify({ rows: [ { lead_time: $json.lead_time, adr: $json.adr, total_nights: $json.total_nights, total_guests: $json.total_guests, previous_cancellations: $json.previous_cancellations, hotel: $json.hotel, market_segment: $json.market_segment, deposit_type: $json.deposit_type, customer_type: $json.customer_type } ] }) }}",
+    "options": {}
+   },
+   "id": "Ask the -1"
+  },
+  {
+   "name": "Write the answer",
+   "type": "n8n-nodes-base.set",
+   "typeVersion": 3.4,
+   "position": [
+    520,
+    0
+   ],
+   "parameters": {
+    "assignments": {
+     "assignments": [
+      {
+       "id": "t",
+       "name": "title",
+       "type": "string",
+       "value": "={{ Math.round($json.predictions[0].probability * 100) }} % chance of a cancellation"
+      },
+      {
+       "id": "m",
+       "name": "message",
+       "type": "string",
+       "value": "={{ $json.predictions[0].probability > 0.5 ? 'High risk: call the guest to confirm.' : 'Low risk: nothing to do.' }}"
+      }
+     ]
+    },
+    "options": {}
+   },
+   "id": "Ask the -2"
+  },
+  {
+   "name": "Show the answer",
+   "type": "n8n-nodes-base.form",
+   "typeVersion": 1,
+   "position": [
+    780,
+    0
+   ],
+   "parameters": {
+    "operation": "completion",
+    "completionTitle": "={{ $json.title }}",
+    "completionMessage": "={{ $json.message }}"
+   },
+   "id": "Ask the -3"
+  }
+ ],
+ "connections": {
+  "Booking form": {
+   "main": [
+    [
+     {
+      "node": "Ask the model shelf",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  },
+  "Ask the model shelf": {
+   "main": [
+    [
+     {
+      "node": "Write the answer",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  },
+  "Write the answer": {
+   "main": [
+    [
+     {
+      "node": "Show the answer",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  }
+ },
+ "settings": {
+  "executionOrder": "v1"
+ }
+}
